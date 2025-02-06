@@ -1,0 +1,163 @@
+.footer {
+	position: relative;
+	flex: 0 0 auto;
+	min-width: 375px;
+	background-color: var(--gray2-color);
+	color: var(--white-color);
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__column {
+		flex: 1;
+	}
+	&__title {
+		font-weight: 600;
+		color: var(--text-secondary);
+	}
+	&__list {
+		& a {
+			color: var(--white-color);
+		}
+	}
+	&-contacts {
+		&,
+		&__tel {
+			display: flex;
+			flex-direction: column;
+		}
+		&__tel {
+			gap: 4px;
+		}
+		&__number {
+			color: var(--white-color);
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 20px;
+		}
+	}
+	&-bottom {
+		border-top: 1px solid rgba(128, 129, 133, 0.1);
+		background-color: rgba(7, 7, 7, 0.16);
+
+		&__content {
+			display: flex;
+			flex-direction: column;
+			gap: 32px;
+		}
+		&__list {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+
+			& li {
+				color: var(--text4-color);
+				font-size: 13px;
+				line-height: 20px;
+			}
+			& a {
+				color: var(--text6-color);
+			}
+		}
+	}
+	&__rights-info {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+	&__rights {
+		color: var(--text-caption);
+	}
+	&__consent {
+		color: var(--text-secondary);
+		font-size: 12px;
+		line-height: 16px;
+	}
+}
+@media (min-width: 992px) {
+	.footer {
+		&-main,
+		&-bottom {
+			padding-top: 48px;
+			padding-bottom: 48px;
+		}
+		&__row {
+			gap: 20px;
+		}
+		&__title {
+			&:not(:last-child) {
+				margin-bottom: 28px;
+			}
+		}
+		&__list {
+			& li:not(:last-child) {
+				margin-bottom: 16px;
+			}
+		}
+		&-contacts {
+			gap: 24px;
+		}
+		&-bottom {
+			& .footer__title {
+				&:not(:last-child) {
+					margin-bottom: 16px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.footer {
+		&-main,
+		&-bottom {
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
+		&__row {
+			gap: 32px;
+		}
+		&__title {
+			&:not(:last-child) {
+				margin-bottom: 16px;
+			}
+		}
+		&__list {
+			& li:not(:last-child) {
+				margin-bottom: 12px;
+			}
+		}
+		&-contacts {
+			gap: 20px;
+		}
+		&-bottom {
+			&__list {
+				gap: 20px;
+			}
+		}
+
+		.payment-supports {
+			gap: 24px;
+		}
+	}
+}
+@media (max-width: 575.98px) {
+	.footer {
+		&-main {
+			& .footer__column {
+				min-width: 100%;
+				width: 100%;
+			}
+		}
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.footer {
+		&-main {
+			& .footer__column {
+				min-width: calc((100vw - 64px) / 2);
+				width: calc((100vw - 64px) / 2);
+			}
+		}
+	}
+}
