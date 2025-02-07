@@ -1,18 +1,21 @@
 // базовые подключения
-@import "fonts";
-@import "vars";
-@import "./helpers/grid-bootstrap";
-@import "settings";
+@use "vars";
+@use "fonts";
+@use "./vendors/normalize";
+@use "./helpers/ui";
+@use "../../node_modules/@fancyapps/ui/dist/fancybox";
+@use "../../node_modules/swiper/swiper-bundle";
+@use "settings";
 
 // подключения компонентов страницы
-@import "./components/header";
-@import "./components/footer";
+@use "./components/header";
+@use "./components/footer";
 
 .main {
 	position: relative;
 	flex: 1;
 	min-width: 375px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 @media (max-width: 1379.98px) {

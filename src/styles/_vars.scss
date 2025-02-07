@@ -2,7 +2,7 @@
 	// base
 	--font-family-inter: "Inter", sans-serif;
 	--content-width: 1280px;
-	--container-offset: 80px;
+	--container-offset: 12px;
 	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
 	// colors
@@ -32,19 +32,4 @@
 
 	// transition
 	--transition: 0.2s ease-out;
-}
-@media (min-width: 1440px) {
-	:root {
-		--container-offset: 80px;
-	}
-}
-@media (max-width: 991.98px) {
-	:root {
-		--container-offset: 16px;
-	}
-}
-@media (min-width: 992px) and (max-width: 1439.98px) {
-	:root {
-		--container-offset: 50px;
-	}
 }

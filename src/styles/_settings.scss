@@ -5,6 +5,8 @@
 	box-sizing: border-box;
 }
 html {
+	box-sizing: border-box;
+	-ms-overflow-style: scrollbar;
 	scroll-behavior: smooth;
 }
 html,
@@ -34,6 +36,25 @@ body {
 	.card-product-page {
 		padding-bottom: 130px;
 	}
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+	width: 100%;
+	padding-right: var(--container-offset);
+	padding-left: var(--container-offset);
+	margin-right: auto;
+	margin-left: auto;
+}
+.container-fluid {
+	max-width: 1920px;
+}
+.container {
+	max-width: var(--container-width);
 }
 
 .flex {

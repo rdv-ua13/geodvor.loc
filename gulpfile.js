@@ -285,7 +285,7 @@ const toProd = (done) => {
     done();
 };
 
-exports.default = series(clean, cacheBuild, phpBuild,  cssBuild, includedJsBuild, mainJsBuild, resources, imagesDev, /*webpImages,*/ svgSprites, watchFiles);
+exports.default = series(clean, cacheBuild, phpBuild, cssBuild, includedJsBuild, mainJsBuild, resources, imagesDev, /*webpImages,*/ svgSprites, watchFiles);
 
 exports.svg = series(clean, cacheBuild, phpBuild, svgPreparation, watchFiles);
 
