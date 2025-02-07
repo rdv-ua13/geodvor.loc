@@ -23,7 +23,7 @@ const concat = require("gulp-concat"); // модуль для конкатена
 const webp = require("gulp-webp"); // модуль для преобразования изображений в webp
 
 // Прокси проекта
-const rootDir = "geodvor";
+const rootDir = "geodvor.loc";
 
 // Пути к файлам
 const path = {
