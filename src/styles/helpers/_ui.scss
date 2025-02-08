@@ -30,7 +30,7 @@
 		border-radius: 16px 2px;
 
 		&.light {
-			border: 1px solid var(--gray3-color);
+			border: 1px solid #A1A6A3;
 		}
 	}
 }
@@ -75,7 +75,7 @@
 }
 .tooltip-ui-iconset {
 	min-width: 320px;
-	border: 1px solid var(--gray3-color);
+	border: 1px solid #A1A6A3;
 	border-radius: 8px;
 }
 .tooltip-ui-iconset .tooltip .icon {
@@ -85,5 +85,6 @@
 	height: 24px;
 }
 .tooltip-ui-iconset .tooltip:hover .icon {
-	fill: var(--red-color);
+	fill: #9CC013;
+	stroke: #9CC013;
 }
