@@ -99,6 +99,7 @@ const includedJsBuild = () => {
             "node_modules/flatpickr/dist/flatpickr.min.js",
             "node_modules/flatpickr/dist/l10n/ru.js",
             "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/readmore-js/readmore.js",
             "node_modules/select2/dist/js/select2.js",
             "node_modules/swiper/swiper-bundle.js",
@@ -121,6 +122,7 @@ const libsJsBuild = () => {
             "node_modules/flatpickr/dist/flatpickr.min.js",
             "node_modules/flatpickr/dist/l10n/ru.js",
             "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/readmore-js/readmore.js",
             "node_modules/select2/dist/js/select2.js",
             "node_modules/swiper/swiper-bundle.js",
@@ -285,7 +287,7 @@ const toProd = (done) => {
     done();
 };
 
-exports.default = series(clean, cacheBuild, phpBuild,  cssBuild, includedJsBuild, mainJsBuild, resources, imagesDev, /*webpImages,*/ svgSprites, watchFiles);
+exports.default = series(clean, cacheBuild, phpBuild, cssBuild, includedJsBuild, mainJsBuild, resources, imagesDev, /*webpImages,*/ svgSprites, watchFiles);
 
 exports.svg = series(clean, cacheBuild, phpBuild, svgPreparation, watchFiles);
 

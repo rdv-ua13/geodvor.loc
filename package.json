@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^4.0.31",
+    "@popperjs/core": "^2.11.6",
     "accordion-js": "^3.3.4",
     "flatpickr": "^4.6.13",
     "jquery": "^3.6.0",
