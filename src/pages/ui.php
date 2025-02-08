@@ -122,69 +122,533 @@
                     </div>
                 </div>
                 <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="#basket">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#basket"></use>
-                            </svg>
-                            <!--end ui content-->
-                        </span>
+                    <span class="tooltip" data-tippy-content="#arrow-down">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#arrow-down"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#arrow-left">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#arrow-left"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#arrow-right">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#arrow-right"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#arrow-up">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#arrow-up"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#box">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#box"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#calendar">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#calendar"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#call-calling">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#call-calling"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="#catalog">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#catalog"></use>
-                            </svg>
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#catalog"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
+                    </span>
+                    <span class="tooltip" data-tippy-content="#category">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#category"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#checkbox-rec">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#checkbox-rec"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#chevron-down">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-down"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#chevron-down">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-down"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="#chevron-right">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
-                    <span class="tooltip" data-tippy-content="#compare">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#compare"></use>
-                            </svg>
+                    </span>
+                    <span class="tooltip" data-tippy-content="#chevron-up">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-up"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
-                    <span class="tooltip" data-tippy-content="#favorite">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#favorite"></use>
-                            </svg>
+                    </span>
+                    <span class="tooltip" data-tippy-content="#clock">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#clock"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
+                    </span>
+                    <span class="tooltip" data-tippy-content="#company">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#company"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#copy">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#copy"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#cross">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#cross"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#delivery">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#delivery"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#eye-off">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#eye-off"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#eye-on">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#eye-on"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#file">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#file"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#filled-chevron-down">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#filled-chevron-down"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#filled-heart">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#filled-heart"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="#filter">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#filter"></use>
-                            </svg>
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#filter"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
-                    <span class="tooltip" data-tippy-content="#home">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#home"></use>
-                            </svg>
+                    </span>
+                    <span class="tooltip" data-tippy-content="#heart">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#heart"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
+                    </span>
+                    <span class="tooltip" data-tippy-content="#history">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#history"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#info">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#info"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#location">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#location"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#logout">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#logout"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#map">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#map"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="#minus">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#minus"></use>
-                            </svg>
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#minus"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
+                    </span>
                     <span class="tooltip" data-tippy-content="#plus">
-                            <!--start ui content-->
-                            <svg class="icon icon-md icon-fill">
-                                <use href="img/sprite.svg#plus"></use>
-                            </svg>
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#plus"></use>
+                        </svg>
                         <!--end ui content-->
-                        </span>
+                    </span>
+                    <span class="tooltip" data-tippy-content="#print">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#print"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#profile">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#profile"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#profile-2">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#profile-2"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#receipt">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#receipt"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#refresh">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#refresh"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#search">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#search"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#shop">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#shop"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#shopping-cart">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#shopping-cart"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#sms">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#sms"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#sms-notification">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#sms-notification"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#splash">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#splash"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#timer">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#timer"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#trash">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#trash"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#user-square">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#user-square"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+
+                    <span class="tooltip" data-tippy-content="#menu-box-2">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-box-2"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-checkbox-rec">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-checkbox-rec"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-comment-plus">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-comment-plus"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-comment-slash">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-comment-slash"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-credit-card">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-credit-card"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-emotion-sad">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-emotion-sad"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-file-slash">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-file-slash"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-heart-slash">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-heart-slash"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-layers">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-layers"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-lock-2-opened">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-lock-2-opened"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-newspaper">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-newspaper"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-refresh-ccw">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-refresh-ccw"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-repeat">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-repeat"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-shopping-cart-2">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-shopping-cart-2"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-star-slash">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-star-slash"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-truck-2">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-truck-2"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-wallet">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#menu-wallet"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+
+                    <span class="tooltip" data-tippy-content="#soc-ok">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-ok"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-ok-bg">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-ok-bg"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-tg">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-tg"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-tg-bg">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-tg-bg"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-vk">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-vk"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-vk-bg">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-vk-bg"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-ya">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-ya"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-ya-bg">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-ya-bg"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-yt">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-yt"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#soc-yt-bg">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#soc-yt-bg"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                 </div>
             </div>
         </div>

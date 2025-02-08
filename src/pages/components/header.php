@@ -9,28 +9,43 @@
 
     <title>TITLE</title>
 
-    <link rel="preload" href="fonts/Inter-Light.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Inter-Regular.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Inter-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Inter-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Regular.eot" as="font" type="font/eot" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Medium.eot" as="font" type="font/eot" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Medium.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Semibold.eot" as="font" type="font/eot" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Semibold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Semibold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Bold.eot" as="font" type="font/eot" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Bold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Manrope-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Manrope-ExtraBold.eot" as="font" type="font/eot" crossorigin>
+    <link rel="preload" href="fonts/Manrope-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Manrope-ExtraBold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Manrope-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
 
-    <link rel="stylesheet" href="css/vendors.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
     <?/* Подключение библиотек (отдельно)*/?>
-    <script defer src="js/jquery.js"></script>    <!-- jquery -->
-    <script defer src="js/jquery.maskedinput.js"></script>    <!-- maskedinput -->
-    <script defer src="js/jquery.validate.js"></script>    <!-- validate -->
-    <script defer src="js/messages_ru.js"></script>    <!-- validate -->
-    <script defer src="js/popper.js"></script>    <!-- popper -->
-    <script defer src="js/swiper-bundle.js"></script>    <!-- swiper -->
-    <script defer src="js/tippy-bundle.umd.js"></script>    <!-- tippy -->
-    <script defer src="js/fancybox.umd.js"></script>    <!-- fancybox -->
-    <script defer src="js/select2.js"></script>    <!-- select2 -->
-    <script defer src="js/readmore.js"></script>    <!-- readmore -->
-    <script defer src="js/flatpickr.min.js"></script>    <!-- flatpickr -->
-    <script defer src="js/ru.js"></script>    <!-- flatpickr -->
-    <script defer src="js/nouislider.js"></script>    <!-- nouislider -->
+    <script defer src="js/jquery.js"></script>                  <!-- jquery -->
+    <script defer src="js/jquery.maskedinput.js"></script>      <!-- maskedinput -->
+    <script defer src="js/jquery.validate.js"></script>         <!-- validate -->
+    <script defer src="js/messages_ru.js"></script>             <!-- validate -->
+    <script defer src="js/fancybox.umd.js"></script>            <!-- fancybox -->
+    <script defer src="js/flatpickr.min.js"></script>           <!-- flatpickr -->
+    <script defer src="js/ru.js"></script>                      <!-- flatpickr -->
+    <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
+    <script defer src="js/popper.js"></script>                  <!-- popper -->
+    <script defer src="js/readmore.js"></script>                <!-- readmore -->
+    <script defer src="js/select2.js"></script>                 <!-- select2 -->
+    <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
+    <script defer src="js/tippy-bundle.umd.js"></script>        <!-- tippy -->
 
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>

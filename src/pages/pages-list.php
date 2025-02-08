@@ -82,10 +82,11 @@
 
     <div>
         <ul>
-            <li class="block-ready">Блок готов</li>
+            <?/*<li class="block-ready">Блок готов</li>*/?>
             <li><a href="index.php" target="_blank" class="ready">Главная</a></li>
             <br>
 
+            <?/*
             <li class="block-ready">Блок готов</li>
             <li><a href="card-product.php" target="_blank" class="ready">Карточка товара</a></li>
             <br>
@@ -123,7 +124,7 @@
             <li><a href="cp-news.php" target="_blank" class="ready">Контентные страницы - Новости</a></li>
             <li><a href="cp-news-details.php" target="_blank" class="ready">Контентные страницы - Одна новость</a></li>
             <li><a href="cp-articles.php" target="_blank" class="ready">Контентные страницы - Статьи</a></li>
-            <li><a href="cp-articles-details.php" target="_blank" class="ready">Контентные страницы - Одна статья</a></li>
+            <li><a href="cp-articles-details.php" target="_blank" class="ready">Контентные страницы - Одна статья</a></li>*/?>
             <br>
 
             <li><a href="ui.php" target="_blank">ui</a></li>
