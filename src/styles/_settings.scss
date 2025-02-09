@@ -5336,16 +5336,16 @@ input.disabled {
 	&-box {
 		border-radius: 4px;
 		box-shadow: 0 4px 6px rgba(213, 213, 214, 0.5);
-		background: var(--gray2-color);
+		background: var(--gray50-color);
 		font-size: 12px;
 
 		.tippy-arrow {
-			color: var(--gray2-color);
+			color: var(--gray50-color);
 		}
 
 		&[data-theme='light'] {
 			background: var(--white-color);
-			color: var(--gray2-color);
+			color: var(--gray50-color);
 
 			.tippy-arrow {
 				color: var(--white-color);
