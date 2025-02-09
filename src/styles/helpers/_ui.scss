@@ -7,6 +7,7 @@
 
 .ui {
 	padding-top: 16px;
+	padding-bottom: 32px;
 	background: #fff5ee;
 }
 .ui-flex {
@@ -39,10 +40,10 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	gap: 32px;
-	padding: 16px;
+	gap: 20px;
+	padding: 12px;
 	border: 1px dashed #9747FF;
-	border-radius: 16px;
+	border-radius: 8px;
 }
 
 

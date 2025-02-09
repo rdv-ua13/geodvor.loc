@@ -53,13 +53,13 @@
     <script defer src="js/main.js"></script>
 </head>
 
-<? if (strpos($_SERVER["REQUEST_URI"], "card-product.php")) : ?>
+<?if(strpos($_SERVER["REQUEST_URI"], "card-product.php")):?>
 <body class="card-product-page">
-<? else : ?>
+<?else:?>
 <body>
-<? endif; ?>
+<?endif;?>
     <header class="header fixed-block
-    <? if (strpos($_SERVER["REQUEST_URI"], "ordering.php") || strpos($_SERVER["REQUEST_URI"], "order-confirm.php")) : ?>header--order<? endif; ?>
+    <?if(strpos($_SERVER["REQUEST_URI"], "ordering.php") || strpos($_SERVER["REQUEST_URI"], "order-confirm.php")):?>header--order<?endif;?>
     ">
         <div class="header-top">
             <div class="container header-container">
@@ -139,16 +139,24 @@
         <div class="header-nav">
             <div class="container header-container header-nav-container">
                 <div class="header-logo">
-                    <a class="logo" href="javascript:;">
+					<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
+                        <span class="logo">
+                    <?else:?>
+                        <a class="logo" href="javascript:;">
+                    <?endif;?>
                         <img
-                            loading="lazy"
-                            class="image"
-                            src="img/logo.svg"
-                            width="158"
-                            height="44"
-                            alt="Амперкин - выбор профессионалов"
+                                loading="lazy"
+                                class="image"
+                                src="img/logo.svg"
+                                width="130"
+                                height="35"
+                                alt="ГЕОДВОР"
                         >
-                    </a>
+					<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
+                        </span>
+                    <?else:?>
+                        </a>
+                    <?endif;?>
                 </div>
 
                 <div class="header-back">
@@ -623,7 +631,7 @@
 
                 <div class="header-contacts">
                     <div class="header-contacts__tel">
-                        <a class="header-contacts__number" href="tel:+74951183770">+7 (495) 118-37-70</a>
+                        <a class="header-contacts__number" href="tel:+79811558247">+7 981 155-82-47</a>
                         <a class="link-dashed link-gray header-contacts__call" href="javascript:;">заказать звонок</a>
                     </div>
                 </div>
@@ -714,7 +722,7 @@
                             data-overlay
                     >
                         <svg class="icon">
-                            <use href="img/sprite.svg#burger"></use>
+                            <use href="img/sprite.svg#menu"></use>
                         </svg>
                     </button>
                 </div>
@@ -785,7 +793,7 @@
             </div>
 
             <div class="mobile-menu__item mobile-menu-contacts">
-                <a class="mobile-menu-contacts__number" href="tel:+74951183770">+7 (495) 118-37-70</a>
+                <a class="mobile-menu-contacts__number" href="tel:+79811558247">+7 981 155-82-47</a>
                 <a class="link-dashed link-gray mobile-menu-contacts__call" href="javascript:;">заказать звонок</a>
             </div>
         </div>
