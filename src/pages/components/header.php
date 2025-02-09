@@ -149,7 +149,7 @@
                                 class="image"
                                 src="img/logo.svg"
                                 width="130"
-                                height="35"
+                                height="36"
                                 alt="ГЕОДВОР"
                         >
 					<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
