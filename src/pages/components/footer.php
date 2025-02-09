@@ -73,12 +73,12 @@
                         <div class="footer-contacts">
                             <div>
                                 <div class="footer-contacts__tel">
-                                    <a class="footer-contacts__number" href="tel:+74951183770">+7 (495) 118-37-70</a>
+                                    <a class="footer-contacts__number" href="tel:+71111111111">+7 (111) 111-11-11</a>
                                     <a class="link-dashed link-gray" href="javascript:;">заказать звонок</a>
                                 </div>
                             </div>
                             <div>
-                                <a class="link" href="mailto:info@amperkin.ru"><span>info@amperkin.ru</span></a>
+                                <a class="link" href="mailto:info@geodvor.ru"><span>info@geodvor.ru</span></a>
                             </div>
                             <div class="social">
                                 <div class="social__title">Мы в социальных сетях</div>
