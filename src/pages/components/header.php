@@ -66,13 +66,9 @@
                 <div class="header-top-nav">
                     <ul class="list-reset header-top-nav__list">
                         <li><a class="header-top__link" href="javascript:;">Доставка</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Оплата</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Гарантия</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Программа лояльности</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Акции</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Статьи</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Распродажа</a></li>
+                        <li><a class="header-top__link" href="javascript:;">Оптовым покупателям</a></li>
                         <li><a class="header-top__link" href="javascript:;">Контакты</a></li>
+                        <li><a class="header-top__link" href="javascript:;">🏡  Услуги</a></li>
                     </ul>
                 </div>
                 <div class="header-top-city">
@@ -82,12 +78,12 @@
                             data-fancybox
                             data-src="#modal-city"
                     >
-                        <svg class="icon icon-sm">
+                        <svg class="icon icon-fill icon-sm">
                             <use href="img/sprite.svg#pin"></use>
                         </svg>
                         <span class="header-top-city__spoiler-text">
                             <span>Москва</span>
-                            <svg class="icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-down"></use>
                             </svg>
                         </span>
@@ -112,7 +108,7 @@
                         <div class="header-top-profile__bonus">
                             <div class="header-top-profile__bonus-value">
                                 <span>2746,99</span>
-                                <svg class="icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#fill-bonus"></use>
                                 </svg>
                             </div>
@@ -120,18 +116,15 @@
                         </div>
                     </div>
                     <div class="header-top-profile__pointer">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#chevron-down"></use>
                         </svg>
                     </div>
                 </div>*/?>
 				<?/* not logged */?>
                 <div class="header-top-profile not-logged">
-                    <button class="btn-reset btn btn-mini btn-light" data-fancybox data-src="#modal-auth">
-                        <span class="btn__text">Войти</span>
-                    </button>
-                    <button class="btn-reset btn btn-mini btn-primary" data-fancybox data-src="#modal-reg">
-                        <span class="btn__text">Регистрация</span>
+                    <button class="btn-reset btn btn-light" data-fancybox data-src="#modal-auth">
+                        <span class="text-content">Войти</span>
                     </button>
                 </div>
             </div>
@@ -159,33 +152,48 @@
                     <?endif;?>
                 </div>
 
-                <div class="header-back">
-                    <a class="header-back-link" href="javascript:;">
-                        <svg class="icon icon-xs">
-                            <use href="img/sprite.svg#chevron-left"></use>
+                <div class="header-catalog-spoiler">
+                    <button
+                            class="btn-reset btn menu-catalog-spoiler"
+                            aria-label="Открыть меню"
+                            aria-expanded="false"
+                            data-catalog-spoiler
+                            data-overlay-transparent
+                    >
+                        <svg class="icon icon-fill menu-catalog-spoiler__icon">
+                            <use href="img/sprite.svg#menu"></use>
                         </svg>
-                        <span>Вернуться в корзину</span>
-                    </a>
+                        <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
+                            <use href="img/sprite.svg#cross"></use>
+                        </svg>
+                        <span class="text-content">Каталог</span>
+                    </button>
                 </div>
 
                 <div class="header-search">
                     <form id="" class="form" method="" action="javascript:;">
-                        <div class="input-search-wrapper">
+                        <div class="input-wrapper input-wrapper-split input-wrapper-search has-icon-l">
                             <input
-                                    class="input-reset input-search"
+                                    class="input-reset input"
                                     type="search"
-                                    name="Поиск"
-                                    placeholder="Розетка, ST9431B (артикул) или номер заказа..."
+                                    name=""
+                                    placeholder="Найти товар или услугу"
                                     autocomplete="off"
                                     onclick="$(this).closest('.header-search').find('.header-search-results').toggleClass('active');"
+                                    readonly
                             >
-                            <button class="btn-reset btn btn-link input-delete-btn">
-                                <svg class="icon btn__icon icon-xs">
+                            <label class="input-icon input-icon-l">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#search"></use>
+                                </svg>
+                            </label>
+                            <button class="btn-reset btn btn-secondary input-delete-btn">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#cross"></use>
                                 </svg>
                             </button>
-                            <button class="btn-reset btn btn-mini btn-primary input-search-btn" type="submit">
-                                <span class="btn__text">Найти</span>
+                            <button class="btn-reset btn input-search-btn" type="submit">
+                                <span class="text-content">Найти</span>
                             </button>
                         </div>
                     </form>
@@ -195,83 +203,93 @@
                                 <div class="search-results__header-top">
                                     <div class="search-results__title h4">Поиск</div>
                                     <div class="search-results__close">
-                                        <svg class="icon icon-md">
+                                        <svg class="icon icon-fill icon-md">
                                             <use href="img/sprite.svg#cross"></use>
                                         </svg>
                                     </div>
                                 </div>
                                 <div class="search-results__search">
                                     <div class="search-results__search-item">
-                                        <div class="input-search-wrapper">
-                                            <input
-                                                    class="input-reset input-search"
-                                                    type="search"
-                                                    name=""
-                                                    value=""
-                                                    placeholder="Розетка, ST9431B (артикул) или номер заказа..."
-                                            >
-                                            <button class="btn-reset btn btn-link input-delete-btn">
-                                                <svg class="icon btn__icon icon-xs">
-                                                    <use href="img/sprite.svg#cross"></use>
-                                                </svg>
-                                            </button>
-                                        </div>
+                                        <form id="" class="form" method="" action="javascript:;">
+                                            <div class="input-wrapper input-wrapper-split input-wrapper-search has-icon-l">
+                                                <input
+                                                        class="input-reset input"
+                                                        type="search"
+                                                        name=""
+                                                        placeholder="Найти товар или услугу"
+                                                        autocomplete="off"
+                                                >
+                                                <label class="input-icon input-icon-l">
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#search"></use>
+                                                    </svg>
+                                                </label>
+                                                <button class="btn-reset btn btn-secondary input-delete-btn">
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#cross"></use>
+                                                    </svg>
+                                                </button>
+                                                <button class="btn-reset btn input-search-btn" type="submit">
+                                                    <span class="text-content">Найти</span>
+                                                </button>
+                                            </div>
+                                        </form>
                                     </div>
-                                    <div class="search-results__search-item">
+									<?/*<div class="search-results__search-item">
                                         <div class="mobile-search-results-hint">
                                             <div class="swiper">
                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide">
-                                                        <button class="btn-reset btn btn-mini btn-b-light">
-                                                            <span class="btn__text">Москва</span>
+                                                        <button class="btn-reset btn">
+                                                            <span class="text-content">Москва</span>
                                                         </button>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <button class="btn-reset btn btn-mini btn-b-light">
-                                                            <span class="btn__text">Санкт-петербург</span>
+                                                        <button class="btn-reset btn">
+                                                            <span class="text-content">Санкт-петербург</span>
                                                         </button>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <button class="btn-reset btn btn-mini btn-b-light">
-                                                            <span class="btn__text">Казань</span>
+                                                        <button class="btn-reset btn">
+                                                            <span class="text-content">Казань</span>
                                                         </button>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <button class="btn-reset btn btn-mini btn-b-light">
-                                                            <span class="btn__text">Воронеж</span>
+                                                        <button class="btn-reset btn">
+                                                            <span class="text-content">Воронеж</span>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>*/?>
                                 </div>
                             </div>
-                            <div class="search-results__sidebar">
+							<?/*<div class="search-results__sidebar">
                                 <div class="search-results__sidebar-item search-results__match search-results__match--history">
                                     <div class="search-results__sidebar-title">История поиска</div>
                                     <div class="search-results__match-item" data-removable>
-                                        <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                            <svg class="icon btn__icon">
+                                        <a class="btn-reset btn search-results__link" href="javascript:;">
+                                            <svg class="icon icon-fill">
                                                 <use href="img/sprite.svg#history"></use>
                                             </svg>
-                                            <span class="btn__text">выключатель двойной</span>
+                                            <span class="text-content">выключатель двойной</span>
                                         </a>
                                         <div class="search-results__link-delete" data-delete-trigger>
-                                            <svg class="icon icon-sm">
+                                            <svg class="icon icon-fill icon-sm">
                                                 <use href="img/sprite.svg#cross"></use>
                                             </svg>
                                         </div>
                                     </div>
                                     <div class="search-results__match-item" data-removable>
-                                        <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                            <svg class="icon btn__icon">
+                                        <a class="btn-reset btn search-results__link" href="javascript:;">
+                                            <svg class="icon icon-fill">
                                                 <use href="img/sprite.svg#history"></use>
                                             </svg>
-                                            <span class="btn__text">автоматический выключатель</span>
+                                            <span class="text-content">автоматический выключатель</span>
                                         </a>
                                         <div class="search-results__link-delete" data-delete-trigger>
-                                            <svg class="icon icon-sm">
+                                            <svg class="icon icon-fill icon-sm">
                                                 <use href="img/sprite.svg#cross"></use>
                                             </svg>
                                         </div>
@@ -280,38 +298,38 @@
 
                                 <div class="search-results__sidebar-item search-results__categories">
                                     <div class="search-results__sidebar-title">Искать в категории:</div>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">Розетки и выключаетели</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">Розетки и выключаетели</span>
                                     </a>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">Розетки двухпостовые</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">Розетки двухпостовые</span>
                                     </a>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">Рамки для розеток</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">Рамки для розеток</span>
                                     </a>
                                 </div>
                                 <div class="search-results__sidebar-item search-results__brands">
                                     <div class="search-results__sidebar-title">Бренды:</div>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">ABB</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">ABB</span>
                                     </a>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">DEKraft</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">DEKraft</span>
                                     </a>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">Legrand</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">Legrand</span>
                                     </a>
                                 </div>
                                 <div class="search-results__sidebar-item search-results__series">
                                     <div class="search-results__sidebar-title">Серии:</div>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">BA-101</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">BA-101</span>
                                     </a>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">Valena Classic</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">Valena Classic</span>
                                     </a>
-                                    <a class="btn-reset btn btn-link search-results__link" href="javascript:;">
-                                        <span class="btn__text">Averes</span>
+                                    <a class="btn-reset btn search-results__link" href="javascript:;">
+                                        <span class="text-content">Averes</span>
                                     </a>
                                 </div>
                             </div>
@@ -347,22 +365,22 @@
                                                 <div class="search-results-product__cart cart-buy">
                                                     <div class="cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
                                                         <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-mini btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                 </div>
                                             </div>
@@ -397,22 +415,22 @@
                                                 <div class="search-results-product__cart cart-buy">
                                                     <div class="cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
                                                         <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-mini btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                 </div>
                                             </div>
@@ -447,22 +465,22 @@
                                                 <div class="search-results-product__cart cart-buy">
                                                     <div class="cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
                                                         <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-mini btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                 </div>
                                             </div>
@@ -497,22 +515,22 @@
                                                 <div class="search-results-product__cart cart-buy">
                                                     <div class="cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
                                                         <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-mini btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                 </div>
                                             </div>
@@ -547,22 +565,22 @@
                                                 <div class="search-results-product__cart cart-buy">
                                                     <div class="cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
                                                         <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-mini btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                 </div>
                                             </div>
@@ -597,22 +615,22 @@
                                                 <div class="search-results-product__cart cart-buy">
                                                     <div class="cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
                                                         <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-mini btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                 </div>
                                             </div>
@@ -624,15 +642,15 @@
                                     <div class="search-results__suggest-found">Найдено товаров: 178</div>
                                     <a class="btn-reset btn btn-light search-results__suggest-more" href="javascript:;">Показать все найденные товары</a>
                                 </div>
-                            </div>
+                            </div>*/?>
                         </div>
                     </div>
                 </div>
 
                 <div class="header-contacts">
                     <div class="header-contacts__tel">
-                        <a class="header-contacts__number" href="tel:+79811558247">+7 981 155-82-47</a>
-                        <a class="link-dashed link-gray header-contacts__call" href="javascript:;">заказать звонок</a>
+                        <a class="link fz-subheading-sm header-contacts__number" href="tel:+79811558247">+7 981 155-82-47</a>
+                        <a class="link-brand header-contacts__cta" href="javascript:;">Заявка на расчет</a>
                     </div>
                 </div>
 
@@ -641,7 +659,7 @@
                         <li>
                             <button class="btn-reset header-profile__btn">
                                 <span class="header-profile__btn-view">
-                                    <svg class="icon">
+                                    <svg class="icon icon-fill">
                                         <use href="img/sprite.svg#bookmarks"></use>
                                     </svg>
                                     <span class="header-profile__btn-count">12</span>
@@ -652,7 +670,7 @@
                         <li>
                             <button class="btn-reset header-profile__btn">
                                 <span class="header-profile__btn-view">
-                                    <svg class="icon">
+                                    <svg class="icon icon-fill">
                                         <use href="img/sprite.svg#inbox-filled"></use>
                                     </svg>
                                     <span class="header-profile__btn-count">7</span>
@@ -663,7 +681,7 @@
                         <li>
                             <button class="btn-reset header-profile__btn">
                                 <span class="header-profile__btn-view">
-                                    <svg class="icon">
+                                    <svg class="icon icon-fill">
                                         <use href="img/sprite.svg#barchart"></use>
                                     </svg>
                                 </span>
@@ -673,7 +691,7 @@
                         <li>
                             <button class="btn-reset header-profile__btn header-profile__btn-cart">
                                 <span class="header-profile__btn-view">
-                                    <svg class="icon">
+                                    <svg class="icon icon-fill">
                                         <use href="img/sprite.svg#shopping-cart-2"></use>
                                     </svg>
                                     <span class="header-profile__btn-count">3</span>
@@ -685,31 +703,19 @@
                 </div>
 
                 <div class="header-catalog">
-                    <div class="header-catalog-spoiler">
-                        <button
-                                class="btn-reset btn btn-primary menu-catalog-spoiler"
-                                aria-label="Открыть меню"
-                                aria-expanded="false"
-                                data-catalog-spoiler
-                                data-overlay-transparent
-                        >
-                            <svg class="icon btn__icon menu-catalog-spoiler__icon">
-                                <use href="img/sprite.svg#burger"></use>
-                            </svg>
-                            <svg class="icon btn__icon menu-catalog-spoiler__icon-active">
-                                <use href="img/sprite.svg#cross"></use>
-                            </svg>
-                            <span class="btn__text">Каталог</span>
-                        </button>
-                    </div>
-                    <div class="header-catalog-preview">
-                        <a class="btn-reset btn btn-link header-catalog-preview__item" href="javascript:;">Розетки и выключатели</a>
-                        <a class="btn-reset btn btn-link header-catalog-preview__item" href="javascript:;">Электроустановочные изделия</a>
-                        <a class="btn-reset btn btn-link header-catalog-preview__item" href="javascript:;">Низковольтное оборудование</a>
-                        <a class="btn-reset btn btn-link header-catalog-preview__item" href="javascript:;">Щиты, шкафы, боксы</a>
-                        <a class="btn-reset btn btn-link header-catalog-preview__item" href="javascript:;">Кабель</a>
-                        <a class="btn-reset btn btn-link header-catalog-preview__item" href="javascript:;">Светотехника</a>
-                        <a class="btn-reset btn btn-link header-catalog-preview__item" href="javascript:;">Еще...</a>
+                    <div class="slider-out basic-slider-wrap">
+                        <div class="basic-slider swiper" data-basic-slider data-header-catalog-slider>
+                            <div class="swiper-wrapper">
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">Геотекстиль</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">Геосетки</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">Пленки</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">Профилированная мембрана</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">Спанбонд</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">Габионы сварные</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">Габионы</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -721,7 +727,7 @@
                             data-menu-spoiler
                             data-overlay
                     >
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#menu"></use>
                         </svg>
                     </button>
@@ -732,69 +738,95 @@
 
     <div class="mobile-menu" data-menu>
         <div class="mobile-menu-close" data-menu-close>
-            <svg class="icon">
+            <svg class="icon icon-fill">
                 <use href="img/sprite.svg#cross"></use>
             </svg>
         </div>
 
-        <div class="mobile-menu__item mobile-menu-catalog">
+        <div class="mobile-menu-catalog">
             <button
-                    class="btn-reset btn btn-primary menu-catalog-spoiler"
+                    class="btn-reset btn menu-catalog-spoiler"
                     aria-label="Открыть меню"
                     aria-expanded="false"
                     data-catalog-spoiler
                     data-overlay-transparent
             >
-                <svg class="icon btn__icon menu-catalog-spoiler__icon">
-                    <use href="img/sprite.svg#burger"></use>
+                <svg class="icon icon-fill menu-catalog-spoiler__icon">
+                    <use href="img/sprite.svg#menu"></use>
                 </svg>
-                <svg class="icon btn__icon menu-catalog-spoiler__icon-active">
+                <svg class="icon icon-fill menu-catalog-spoiler__icon-active">
                     <use href="img/sprite.svg#cross"></use>
                 </svg>
-                <span class="btn__text">Каталог</span>
+                <span class="text-content">Каталог</span>
             </button>
         </div>
 
         <ul class="list-reset mobile-menu-list">
             <li>
-                <button
-                        class="btn-reset mobile-menu__item mobile-menu__link mobile-menu-city"
-                        type="button"
-                        data-mobile-city-spoiler
-                >
-                    <svg class="icon icon-sm">
-                        <use href="img/sprite.svg#pin"></use>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Доставка</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
                     </svg>
-                    <span class="mobile-menu-city__text">
-                            <span>Москва</span>
-                            <svg class="icon">
-                                <use href="img/sprite.svg#chevron-down"></use>
-                            </svg>
-                        </span>
-                </button>
+                </a>
             </li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">доставка</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">оплата</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Гарантия</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">программа лояльности</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Акции</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Распродажа</a></li>
-            <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;">Контакты</a></li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Оптовым покупателям</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Контакты</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">🏡  Услуги</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
         </ul>
 
         <div class="mobile-menu-footer">
-            <div class="mobile-menu__item mobile-menu-login">
-                <button class="btn-reset btn btn-b-light" data-fancybox data-src="#modal-auth">
-                    <span class="btn__text">Войти</span>
-                </button>
-                <button class="btn-reset btn btn-b-dark" data-fancybox data-src="#modal-reg">
-                    <span class="btn__text">Регистрация</span>
+            <div class="mobile-menu-login">
+                <button class="btn-reset btn btn-extra" data-fancybox data-src="#modal-auth">
+                    <span class="text-content">Войти</span>
                 </button>
             </div>
 
-            <div class="mobile-menu__item mobile-menu-contacts">
-                <a class="mobile-menu-contacts__number" href="tel:+79811558247">+7 981 155-82-47</a>
-                <a class="link-dashed link-gray mobile-menu-contacts__call" href="javascript:;">заказать звонок</a>
+            <div class="mobile-menu-contacts">
+                <a class="mobile-menu-contacts__number h4" href="tel:+79811558247">+7 981 155-82-47</a>
+                <a class="link-brand mobile-menu-contacts__cta" href="javascript:;">Заявка на расчет</a>
+            </div>
+
+            <div class="mobile-menu-connection">
+                <a class="mobile-menu-connection__item" href="mailto:info@geo-dvor.ru">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#sms"></use>
+                    </svg>
+                    <span class="text-content">info@geo-dvor.ru</span>
+                </a>
+                <div class="mobile-menu-connection__soc">
+                    <a href="javascript:;" class="mobile-menu-connection__soc-item">
+                        <svg class="icon icon-fill icon-xl">
+                            <use href="img/sprite.svg#soc-vk"></use>
+                        </svg>
+                    </a>
+                    <a href="javascript:;" class="mobile-menu-connection__soc-item">
+                        <svg class="icon icon-fill icon-xl">
+                            <use href="img/sprite.svg#soc-tg"></use>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -804,22 +836,22 @@
             <div class="mobile-city-header__top">
                 <div class="mobile-city__title h4">Выберите ваш город</div>
                 <div class="mobile-city__close">
-                    <svg class="icon icon-md">
+                    <svg class="icon icon-fill icon-md">
                         <use href="img/sprite.svg#cross"></use>
                     </svg>
                 </div>
             </div>
             <div class="mobile-city-search">
                 <div class="mobile-city-search__item">
-                    <div class="input-search-wrapper">
+                    <div class="input-wrapper-search">
                         <input
-                                class="input-reset input-search"
+                                class="input-reset input"
                                 type="search"
                                 name=""
                                 placeholder="Найти город..."
                         >
-                        <button class="btn-reset btn btn-link input-delete-btn">
-                            <svg class="icon btn__icon icon-xs">
+                        <button class="btn-reset btn input-delete-btn">
+                            <svg class="icon icon-fill icon-xs">
                                 <use href="img/sprite.svg#cross"></use>
                             </svg>
                         </button>
@@ -830,23 +862,23 @@
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Москва</span>
+                                    <button class="btn-reset btn">
+                                        <span class="text-content">Москва</span>
                                     </button>
                                 </div>
                                 <div class="swiper-slide">
-                                    <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Санкт-петербург</span>
+                                    <button class="btn-reset btn">
+                                        <span class="text-content">Санкт-петербург</span>
                                     </button>
                                 </div>
                                 <div class="swiper-slide">
-                                    <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Казань</span>
+                                    <button class="btn-reset btn">
+                                        <span class="text-content">Казань</span>
                                     </button>
                                 </div>
                                 <div class="swiper-slide">
-                                    <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Воронеж</span>
+                                    <button class="btn-reset btn">
+                                        <span class="text-content">Воронеж</span>
                                     </button>
                                 </div>
                             </div>
@@ -943,183 +975,144 @@
             <div class="menu-catalog-header">
                 <div class="menu-catalog-title h4">
                     <div class="menu-catalog-title-back">
-                        <svg class="icon icon-md">
+                        <svg class="icon icon-fill icon-md">
                             <use href="img/sprite.svg#arrow-left"></use>
                         </svg>
                     </div>
                     <span data-catalog-title="Каталог">Каталог</span>
                 </div>
                 <div class="menu-catalog-close" data-catalog-close>
-                    <svg class="icon icon-md">
+                    <svg class="icon icon-fill icon-md">
                         <use href="img/sprite.svg#cross"></use>
                     </svg>
                 </div>
             </div>
             <div class="menu-catalog-root">
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn menu-catalog-root-link selected" href="javascript:;" data-submenu-section="0">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-wiring-products"></use>
-                        </svg>
-                        <span class="btn__text">Розетки и выключатели</span>
+                    <a class="menu-catalog-root-link selected" href="javascript:;" data-submenu-section="0">
+                        <span class="text-content">Спанбонд</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn menu-catalog-root-link" href="javascript:;" data-submenu-section="1">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-wiring"></use>
-                        </svg>
-                        <span class="btn__text">Электроустановочные изделия</span>
+                    <a class="menu-catalog-root-link" href="javascript:;" data-submenu-section="1">
+                        <span class="text-content">Геотекстиль</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-low-voltage"></use>
-                        </svg>
-                        <span class="btn__text">Низковольтное оборудование</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Габионы сварные</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-shields-cabinets"></use>
-                        </svg>
-                        <span class="btn__text">Щиты, шкафы, боксы</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Профилированная мембрана</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-cable"></use>
-                        </svg>
-                        <span class="btn__text">Кабель</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Фасадная сетка</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-lighting"></use>
-                        </svg>
-                        <span class="btn__text">Светотехника</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Пленки</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-connectors"></use>
-                        </svg>
-                        <span class="btn__text">Вилки, штекеры, разъемы, шнуры</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Дренажная система</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-tools"></use>
-                        </svg>
-                        <span class="btn__text">Инструменты и монтажные материалы</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Канализация</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-ventilation"></use>
-                        </svg>
-                        <span class="btn__text">Системы вентиляции и обогрева</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Водоснабжение</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-electric-motors"></use>
-                        </svg>
-                        <span class="btn__text">Автоматизация и электродвигатели</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Геосетки</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-grounding"></use>
-                        </svg>
-                        <span class="btn__text">Молниезащита и заземление</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Газонные решетки</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-power-devices"></use>
-                        </svg>
-                        <span class="btn__text">Элементы и устройства питания</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Тенты укрывные</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-miscellaneous"></use>
-                        </svg>
-                        <span class="btn__text">Разные товары для монтажников</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Объемная георешетка</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
@@ -1127,117 +1120,120 @@
                 </div>
 
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-grounding"></use>
-                        </svg>
-                        <span class="btn__text">Молниезащита и заземление</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Анкер металлический</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-power-devices"></use>
-                        </svg>
-                        <span class="btn__text">Элементы и устройства питания</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Поверхностный водоотвод</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-miscellaneous"></use>
-                        </svg>
-                        <span class="btn__text">Разные товары для монтажников</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Защита кабеля</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-grounding"></use>
-                        </svg>
-                        <span class="btn__text">Молниезащита и заземление</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Садовые решетки</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-power-devices"></use>
-                        </svg>
-                        <span class="btn__text">Элементы и устройства питания</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Бордюры садовые</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-miscellaneous"></use>
-                        </svg>
-                        <span class="btn__text">Разные товары для монтажников</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Сетка от кротов</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-grounding"></use>
-                        </svg>
-                        <span class="btn__text">Молниезащита и заземление</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Сетка для ограждения</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-power-devices"></use>
-                        </svg>
-                        <span class="btn__text">Элементы и устройства питания</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Фиксаторы под арматуру</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
                     </a>
                 </div>
                 <div class="menu-catalog-root-item">
-                    <a class="btn-reset btn" href="javascript:;">
-                        <svg class="icon btn__icon">
-                            <use href="img/sprite.svg#catalog-miscellaneous"></use>
-                        </svg>
-                        <span class="btn__text">Разные товары для монтажников</span>
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Мастики, праймер</span>
                         <span class="menu-catalog-root-item-pointer">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-right"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="menu-catalog-root-item">
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Сетка от грызунов</span>
+                        <span class="menu-catalog-root-item-pointer">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-right"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="menu-catalog-root-item">
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Гидроизоляционные ленты</span>
+                        <span class="menu-catalog-root-item-pointer">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-right"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="menu-catalog-root-item">
+                    <a class="menu-catalog-root-link" href="javascript:;">
+                        <span class="text-content">Инструмент и комплектующие</span>
+                        <span class="menu-catalog-root-item-pointer">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </span>
@@ -1246,238 +1242,122 @@
             </div>
             <div class="menu-catalog-submenu">
                 <div class="menu-catalog-submenu-section active" data-root-pointer="0">
-                    <div class="h3 menu-catalog-submenu-section__title">Розетки и выключатели</div>
+                    <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div> <!--//h3 change by design-->
                     <div class="menu-catalog-submenu-links">
-                        <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Все товары раздела</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Розетки</span></a></li>
+                        <ul class="list-reset menu-catalog-submenu-links__list"> <!--//@chack переделать в div без списка, либо добавить liшкам класс-->
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
                             <li>
-                                <a class="link-dark" href="javascript:;">
-                                    <span class="menu-catalog-submenu-link-text">Выключатели</span>
-                                    <span class="menu-catalog-submenu-links-pointer">
-                                        <svg class="icon">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </span>
+                                <a class="menu-catalog-submenu-link" href="javascript:;">
+                                    <span class="text-content">Геотекстиль Дорнит</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#chevron-right"></use>
+                                    </svg>
                                 </a>
                             </li>
                             <li>
-                                <a class="link-dark" href="javascript:;">
-                                    <span class="menu-catalog-submenu-link-text">Рамки</span>
-                                    <span class="menu-catalog-submenu-links-pointer">
-                                        <svg class="icon">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </span>
+                                <a class="menu-catalog-submenu-link" href="javascript:;">
+                                    <span class="text-content">Геотекстиль из полипропилена</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#chevron-right"></use>
+                                    </svg>
                                 </a>
                             </li>
                             <li>
-                                <a class="link-dark" href="javascript:;">
-                                    <span class="menu-catalog-submenu-link-text">Диммеры</span>
-                                    <span class="menu-catalog-submenu-links-pointer">
-                                        <svg class="icon">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </span>
+                                <a class="menu-catalog-submenu-link" href="javascript:;">
+                                    <span class="text-content">Геотекстиль для дренажа</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#chevron-right"></use>
+                                    </svg>
                                 </a>
                             </li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Датчики движения</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Датчики освещенности</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Выключатели с ДУ</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Блоки розеток и выключателей</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Антенные блоки</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Компьютерные розетки</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Геотекстиль для садовых дорожек</span></a></li>
+                            <li>
+                                <a class="menu-catalog-submenu-link" href="javascript:;">
+                                    <span class="text-content">Геотекстиль в нарезке</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#chevron-right"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="menu-catalog-submenu-link" href="javascript:;">
+                                    <span class="text-content">Геотекстиль для заезда на участок</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#chevron-right"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="menu-catalog-submenu-link" href="javascript:;">
+                                    <span class="text-content">Геотекстиль под фундамент</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#chevron-right"></use>
+                                    </svg>
+                                </a>
+                            </li>
                         </ul>
                         <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Системы наблюдения и оповещения</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Дверные звонки и домофоны</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Системы видеонаблюдения</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
                         </ul>
                         <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Системы прокладки кабеля</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Кабель-каналы и аксессуары</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Кабельные лотки и аксессуары</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Трубы для кабеля и комплектующие</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
                         </ul>
                         <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Связь и безопасность</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalog-submenu-link-text">Звонки</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalog-submenu-link-text">Домофоны</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalog-submenu-link-text">Датчики движения</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalog-submenu-link-text">Датчики освещенности</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalog-submenu-link-text">Терморегуляторы</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalog-submenu-link-text">Видеонаблюдени</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalog-submenu-link-text">Пожарно-охранная сигнализация, системы оповещения</span></a></li>
-                            <li><a class="link-dark" href="javascript:;"><span class="menu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalogmenu-catalog-submenu-link-text">Устройства управления жалюзи, звуком, сигнализацией</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
                         </ul>
-                    </div>
-                    <div class="menu-catalog-submenu-banners">
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                                loading="lazy"
-                                                src="img/.png"
-                                                class="image"
-                                                width=""
-                                                height=""
-                                                alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                                loading="lazy"
-                                                src="img/.png"
-                                                class="image"
-                                                width=""
-                                                height=""
-                                                alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                                loading="lazy"
-                                                src="img/.png"
-                                                class="image"
-                                                width=""
-                                                height=""
-                                                alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                                loading="lazy"
-                                                src="img/.png"
-                                                class="image"
-                                                width=""
-                                                height=""
-                                                alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                                loading="lazy"
-                                                src="img/.png"
-                                                class="image"
-                                                width=""
-                                                height=""
-                                                alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="menu-catalog-submenu-section" data-root-pointer="1">
-                    <div class="h3 menu-catalog-submenu-section__title">Розетки и выключатели 2</div>
+                    <div class="h3 menu-catalog-submenu-section__title">Пункт меню 2</div>
                     <div class="menu-catalog-submenu-links">
-                        <ul class="list-reset menu-catalogmenu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;">Все товары раздела</a></li>
-                            <li><a class="link-dark" href="javascript:;">Розетки</a></li>
-                            <li><a class="link-dark" href="javascript:;">Выключатели</a></li>
-                            <li><a class="link-dark" href="javascript:;">Рамки</a></li>
-                            <li><a class="link-dark" href="javascript:;">Диммеры</a></li>
-                            <li><a class="link-dark" href="javascript:;">Датчики движения</a></li>
-                            <li><a class="link-dark" href="javascript:;">Датчики освещенности</a></li>
-                            <li><a class="link-dark" href="javascript:;">Выключатели с ДУ</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalogmenu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;">Системы наблюдения и оповещения</a></li>
-                            <li><a class="link-dark" href="javascript:;">Дверные звонки и домофоны</a></li>
-                            <li><a class="link-dark" href="javascript:;">Системы видеонаблюдения</a></li>
-                        </ul>
-                        <ul class="list-reset menu-catalogmenu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;">Системы прокладки кабеля</a></li>
-                            <li><a class="link-dark" href="javascript:;">Кабель-каналы и аксессуары</a></li>
-                            <li><a class="link-dark" href="javascript:;">Кабельные лотки и аксессуары</a></li>
-                            <li><a class="link-dark" href="javascript:;">Трубы для кабеля и комплектующие</a></li>
+                        <ul class="list-reset menu-catalog-submenu-links__list">
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
                         </ul>
                         <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="link-dark" href="javascript:;">Связь и безопасность</a></li>
-                            <li><a class="link-dark" href="javascript:;">Звонки</a></li>
-                            <li><a class="link-dark" href="javascript:;">Домофоны</a></li>
-                            <li><a class="link-dark" href="javascript:;">Датчики движения</a></li>
-                            <li><a class="link-dark" href="javascript:;">Датчики освещенности</a></li>
-                            <li><a class="link-dark" href="javascript:;">Терморегуляторы</a></li>
-                            <li><a class="link-dark" href="javascript:;">Видеонаблюдени</a></li>
-                            <li><a class="link-dark" href="javascript:;">Пожарно-охранная сигнализация, системы оповещения</a></li>
-                            <li><a class="link-dark" href="javascript:;">Устройства управления жалюзи, звуком, сигнализацией</a></li>
-                            <li><a class="link-dark" href="javascript:;">Терморегуляторы</a></li>
-                            <li><a class="link-dark" href="javascript:;">Видеонаблюдени</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
                         </ul>
-                    </div>
-                    <div class="menu-catalog-submenu-banners">
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                            loading="lazy"
-                                            src="img/.png"
-                                            class="image"
-                                            width=""
-                                            height=""
-                                            alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                            loading="lazy"
-                                            src="img/.png"
-                                            class="image"
-                                            width=""
-                                            height=""
-                                            alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                            loading="lazy"
-                                            src="img/.png"
-                                            class="image"
-                                            width=""
-                                            height=""
-                                            alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                                <div class="menu-catalog-submenu-banners__item swiper-slide">
-                                    <picture>
-                                        <source srcset="img/.webp" type="image/webp">
-                                        <img
-                                            loading="lazy"
-                                            src="img/.png"
-                                            class="image"
-                                            width=""
-                                            height=""
-                                            alt="Изображение блока"
-                                        >
-                                    </picture>
-                                </div>
-                            </div>
-                        </div>
+                        <ul class="list-reset menu-catalog-submenu-links__list">
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                        </ul>
+                        <ul class="list-reset menu-catalog-submenu-links__list">
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                            <li><a class="menu-catalog-submenu-link" href="javascript:;">Пункт подменю</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -1488,22 +1368,22 @@
         <div class="mobile-menu-panel__cart product-card__cart cart-buy" data-fixed-cart-coord>
             <div class="product-card__cart-quantity cart-quantity disabled">
                 <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                    <svg class="icon icon-sm btn__icon">
+                    <svg class="icon icon-fill icon-sm">
                         <use href="img/sprite.svg#minus"></use>
                     </svg>
-                    <svg class="icon icon-sm btn__icon icon-selected">
+                    <svg class="icon icon-fill icon-sm icon-selected">
                         <use href="img/sprite.svg#trash"></use>
                     </svg>
                 </button>
                 <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
                 <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                    <svg class="icon icon-sm btn__icon">
+                    <svg class="icon icon-fill icon-sm">
                         <use href="img/sprite.svg#plus"></use>
                     </svg>
                 </button>
             </div>
-            <button class="btn-reset btn btn-primary cart-in" type="button">
-                <span class="btn__text">В КОРЗИНУ</span>
+            <button class="btn-reset btn cart-in" type="button">
+                <span class="text-content">В КОРЗИНУ</span>
             </button>
         </div>
 
@@ -1512,7 +1392,7 @@
                 <li>
                     <button class="btn-reset header-profile__btn mobile-menu-panel__btn" data-catalog-spoiler>
                         <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                            <svg class="icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#catalog"></use>
                             </svg>
                         </span>
@@ -1522,8 +1402,8 @@
                 <li>
                     <button class="btn-reset header-profile__btn mobile-menu-panel__btn">
                     <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                        <svg class="icon">
-                            <use href="img/sprite.svg#bookmarks"></use>
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#heart"></use>
                         </svg>
                         <span class="header-profile__btn-count">12</span>
                     </span>
@@ -1533,42 +1413,31 @@
                 <li>
                     <button class="btn-reset header-profile__btn mobile-menu-panel__btn">
                     <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                        <svg class="icon">
-                            <use href="img/sprite.svg#inbox-filled"></use>
-                        </svg>
-                        <span class="header-profile__btn-count">7</span>
-                    </span>
-                        <span class="header-profile__btn-text">Сметы</span>
-                    </button>
-                </li>
-                <li>
-                    <button class="btn-reset header-profile__btn mobile-menu-panel__btn">
-                    <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                        <svg class="icon">
-                            <use href="img/sprite.svg#barchart"></use>
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#profile"></use>
                         </svg>
                     </span>
                         <span class="header-profile__btn-text">Кабинет</span>
                     </button>
                 </li>
                 <li>
-                    <button class="btn-reset header-profile__btn mobile-menu-panel__btn mobile-menu-panel__btn-cart">
-                    <span class="header-profile__btn-view mobile-menu-panel__btn-view">
-                        <svg class="icon">
-                            <use href="img/sprite.svg#shopping-cart-2"></use>
-                        </svg>
-                        <span class="header-profile__btn-count">3</span>
-                    </span>
-                        <span class="header-profile__btn-text">12 470,80 ₽</span>
+                    <button class="btn-reset header-profile__btn mobile-menu-panel__btn mobile-menu-panel__btn-secondary">
+                        <span class="header-profile__btn-view mobile-menu-panel__btn-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#shopping-cart"></use>
+                            </svg>
+                            <span class="header-profile__btn-count">3</span>
+                        </span>
+                        <span class="header-profile__btn-text">12 470 ₽</span>
                     </button>
                 </li>
             </ul>
         </div>
     </div>
 
-    <div class="action-notice">
+    <div class="action-notice"> <!-- //@check -->
         <div class="action-notice__view">
-            <svg class="icon icon-sm">
+            <svg class="icon icon-fill icon-sm">
                 <use href="img/sprite.svg#bookmarks"></use>
             </svg>
         </div>

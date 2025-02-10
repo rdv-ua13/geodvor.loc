@@ -56,6 +56,7 @@
             <div class="ui-row">
                 <div class="ui-color">
                     <span class="ui-color__item light tooltip" data-tippy-content="--gray0-color" style="background-color: var(--gray0-color);"></span>
+                    <span class="ui-color__item light tooltip" data-tippy-content="--gray1-color" style="background-color: var(--gray1-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--gray10-color" style="background-color: var(--gray10-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--gray11-color" style="background-color: var(--gray11-color);"></span>
                     <span class="ui-color__item tooltip" data-tippy-content="--gray20-color" style="background-color: var(--gray20-color);"></span>
@@ -281,10 +282,10 @@
                         </svg>
                         <!--end ui content-->
                     </span>
-                    <span class="tooltip" data-tippy-content="#filled-chevron-down">
+                    <span class="tooltip" data-tippy-content="#chevron-down-select">
                         <!--start ui content-->
                         <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#filled-chevron-down"></use>
+                            <use href="img/sprite.svg#chevron-down-select"></use>
                         </svg>
                         <!--end ui content-->
                     </span>
@@ -742,25 +743,25 @@
                         <a class="link" href="javascript:;">Ссылка</a>
                         <!--end ui content-->
                     </span>
-                    <span class="tooltip" data-tippy-content="class='link link-secondary'">
+                    <span class="tooltip" data-tippy-content="class='link-secondary'">
                         <!--start ui content-->
-                        <a class="link link-secondary" href="javascript:;">Ссылка</a>
+                        <a class="link-secondary" href="javascript:;">Ссылка</a>
                         <!--end ui content-->
                     </span>
-                    <span class="tooltip" data-tippy-content="class='link link-brand'">
+                    <span class="tooltip" data-tippy-content="class='link-brand'">
                         <!--start ui content-->
-                        <a class="link link-brand" href="javascript:;">Ссылка</a>
+                        <a class="link-brand" href="javascript:;">Ссылка</a>
                         <!--end ui content-->
                     </span>
-                    <span class="tooltip" data-tippy-content="class='link link-invert'" style="background-color: var(--gray50-color); padding: 0 4px; border-radius: 4px;">
+                    <span class="tooltip" data-tippy-content="class='link-invert'" style="background-color: var(--gray50-color); padding: 0 4px; border-radius: 4px;">
                         <!--start ui content-->
-                        <a class="link link-invert" href="javascript:;">Ссылка</a>
+                        <a class="link-invert" href="javascript:;">Ссылка</a>
                         <!--end ui content-->
                     </span>
                 </div>
             </div>
         </div>
-<?/*
+
         <div class="ui-section">
             <h3 class="h3 ui-title title-bold text-center">Fields</h3>
 
@@ -769,71 +770,84 @@
                     <div class="fz-md">input</div>
                 </div>
                 <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="default">
-                            <!--start ui content-->
-                            <div class="titled-input">
-                                <div class="input-title">Label</div>
-                                <div class="input-wrapper has-icon-l has-icon-r">
-                                    <input
-                                            class="input-reset input"
-                                            type="text"
-                                            name=""
-                                            value=""
-                                            placeholder="Placeholder"
-                                            autocomplete="off"
-                                    >
-                                    <label class="input-icon input-icon-l">
-                                        <svg class="icon icon-sm icon-fill">
-                                            <use href="img/sprite.svg#search"></use>
-                                        </svg>
-                                    </label>
-                                    <label class="input-icon input-icon-r">
-                                        <svg class="icon icon-sm icon-fill">
-                                            <use href="img/sprite.svg#search"></use>
-                                        </svg>
-                                    </label>
-                                </div>
-                            </div>
-                            <!--end ui content-->
-                        </span>
+                    <span class="tooltip" data-tippy-content="default">
+                        <!--start ui content-->
+                        <div class="input-wrapper has-icon-l has-icon-r">
+                            <input
+                                    class="input-reset input"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Placeholder"
+                                    autocomplete="off"
+                            >
+                            <label class="input-icon input-icon-l">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#search"></use>
+                                </svg>
+                            </label>
+                            <label class="input-icon input-icon-r">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#search"></use>
+                                </svg>
+                            </label>
+                        </div>
+                        <!--end ui content-->
+                    </span>
 
                     <span class="tooltip" data-tippy-content="search">
                             <!--start ui content-->
-                            <div class="titled-input">
-                                <div class="input-title">Label</div>
-                                <div class="input-wrapper input-search-wrapper has-icon-l">
-                                    <input
-                                            class="input-reset input input-search"
-                                            type="search"
-                                            name=""
-                                            value=""
-                                            placeholder="Placeholder"
-                                            autocomplete="off"
-                                    >
-                                    <label class="input-icon input-icon-l">
-                                        <svg class="icon icon-sm icon-fill">
-                                            <use href="img/sprite.svg#search"></use>
+                            <!--<div class="input-wrapper input-wrapper-split has-icon-l">
+                                <input
+                                        class="input-reset input"
+                                        type="search"
+                                        name=""
+                                        value=""
+                                        placeholder="Placeholder"
+                                        autocomplete="off"
+                                >
+                                <label class="input-icon input-icon-l">
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#search"></use>
+                                    </svg>
+                                </label>
+                                <label class="input-search-action">
+                                    <button class="btn-reset btn btn-icon input-delete-btn" type="button">
+                                        <svg class="icon icon-fill">
+                                            <use href="img/sprite.svg#cross"></use>
                                         </svg>
-                                    </label>
-                                    <label class="input-search-action">
-                                        <button class="btn-reset btn btn-icon input-delete-btn" type="button">
-                                            <svg class="icon icon-fill btn__icon">
-                                                <use href="img/sprite.svg#filled-tag-cross"></use>
-                                            </svg>
-                                        </button>
-                                        <button class="btn-reset btn btn-sm input-search-btn" type="submit">
-                                            <span class="btn__text">Найти</span>
-                                        </button>
-                                    </label>
-                                </div>
+                                    </button>
+                                    <button class="btn-reset btn btn-sm input-search-btn" type="submit">
+                                        <span class="text-content">Найти</span>
+                                    </button>
+                                </label>
+                            </div>-->
+
+                            <div class="input-wrapper input-wrapper-split has-icon-l">
+                                <input
+                                        class="input-reset input"
+                                        type="text"
+                                        name=""
+                                        value=""
+                                        placeholder="Placeholder"
+                                        autocomplete="off"
+                                >
+                                <label class="input-icon input-icon-l">
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#search"></use>
+                                    </svg>
+                                </label>
+                                <button class="btn-reset btn" type="button">
+                                    <span class="text-content">Найти</span>
+                                </button>
                             </div>
                         <!--end ui content-->
                         </span>
 
-					<?/ * pass
+					<?/* pass
                         <span class="tooltip" data-tippy-content="class='card' (default)">
                             <!--start ui content-->
-                            <div class="titled-input">
+                            <div class="titled-input">!!!
                                 <div class="input-title">Подтверждение пароля</div>
                                 <div class="input-wrapper has-icon-r">
                                     <input
@@ -846,7 +860,7 @@
                                             required
                                     >
                                     <label class="input-icon input-icon-btn">
-                                        <svg class="icon icon-sm icon-fill icon-default">
+                                        <svg class="icon icon-fill icon-default">
                                             <use href="img/sprite.svg#search"></use>
                                         </svg>
                                         <svg class="icon icon-sm icon-fill icon-selected">
@@ -866,6 +880,7 @@
             </div>
         </div>
 
+		<?/*
         <div class="ui-section">
             <h3 class="h3 ui-title title-bold text-center">Checkbox / Radio buttons (для примера состояний стоит type=checkbox)</h3>
 

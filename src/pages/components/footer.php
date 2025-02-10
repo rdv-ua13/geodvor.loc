@@ -17,8 +17,8 @@
                                             autocomplete="off"
                                     >
                                 </div>
-                                <button class="btn-reset btn btn-primary" type="submit">
-                                    <span class="btn__text">Подписаться</span>
+                                <button class="btn-reset btn" type="submit">
+                                    <span class="text-content">Подписаться</span>
                                 </button>
                             </div>
                         </form>

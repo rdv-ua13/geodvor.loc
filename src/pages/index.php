@@ -15,8 +15,8 @@
                                             <div class="main-banner__subtitle">Выгодные условия в декабре 2022 года для всех покупателей</div>
                                         </div>
                                         <div class="main-banner__descr-item desktop-only">
-                                            <a class="btn-reset btn btn-primary" href="javascript:;">
-                                                <span class="btn__text">перейти В серию</span>
+                                            <a class="btn-reset btn" href="javascript:;">
+                                                <span class="text-content">перейти В серию</span>
                                             </a>
                                         </div>
                                     </div>
@@ -51,8 +51,8 @@
                                             <div class="main-banner__subtitle">Выгодные условия в декабре 2022 года для всех покупателей</div>
                                         </div>
                                         <div class="main-banner__descr-item desktop-only">
-                                            <a class="btn-reset btn btn-primary" href="javascript:;">
-                                                <span class="btn__text">перейти В серию</span>
+                                            <a class="btn-reset btn" href="javascript:;">
+                                                <span class="text-content">перейти В серию</span>
                                             </a>
                                         </div>
                                     </div>
@@ -87,8 +87,8 @@
                                             <div class="main-banner__subtitle">Выгодные условия в декабре 2022 года для всех покупателей</div>
                                         </div>
                                         <div class="main-banner__descr-item desktop-only">
-                                            <a class="btn-reset btn btn-primary" href="javascript:;">
-                                                <span class="btn__text">перейти В серию</span>
+                                            <a class="btn-reset btn" href="javascript:;">
+                                                <span class="text-content">перейти В серию</span>
                                             </a>
                                         </div>
                                     </div>
@@ -133,10 +133,10 @@
                     </div>
                     <div class="user-control__action">
                         <button class="btn-reset btn btn-mini btn-secondary">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#fill-bonus"></use>
                             </svg>
-                            <span class="btn__text">узнать о бонусах</span>
+                            <span class="text-content">узнать о бонусах</span>
                         </button>
                     </div>
                 </div>
@@ -147,10 +147,10 @@
                     </div>
                     <div class="user-control__action">
                         <button class="btn-reset btn btn-mini btn-secondary">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#sliders-horiz"></use>
                             </svg>
-                            <span class="btn__text">Перейти в конфигуратор</span>
+                            <span class="text-content">Перейти в конфигуратор</span>
                         </button>
                     </div>
                 </div>
@@ -161,10 +161,10 @@
                     </div>
                     <div class="user-control__action">
                         <button class="btn-reset btn btn-mini btn-secondary">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#bulb"></use>
                             </svg>
-                            <span class="btn__text">Перейти к примерке</span>
+                            <span class="text-content">Перейти к примерке</span>
                         </button>
                     </div>
                 </div>
@@ -175,13 +175,13 @@
                     </div>
                     <div class="user-control__action">
                         <button class="btn-reset btn btn-mini btn-secondary">
-                            <svg class="icon btn__icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#inbox-filled"></use>
                             </svg>
-                            <span class="btn__text">создать смету</span>
+                            <span class="text-content">создать смету</span>
                         </button>
                         <button class="btn-reset btn btn-mini btn-b-light">
-                            <span class="btn__text">управление</span>
+                            <span class="text-content">управление</span>
                         </button>
                     </div>
                 </div>
@@ -426,7 +426,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -436,7 +436,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -458,7 +458,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -466,10 +466,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -483,43 +483,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -590,7 +590,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -600,7 +600,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -622,7 +622,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -630,10 +630,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -647,43 +647,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -780,7 +780,7 @@
                                                         <span class="product-code"><span>2348958- 87</span></span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -802,7 +802,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -810,10 +810,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -827,43 +827,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -932,7 +932,7 @@
                                                         <span class="product-code"><span>Z241- 0008</span></span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -954,7 +954,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -962,10 +962,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -979,43 +979,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -1086,7 +1086,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -1096,7 +1096,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -1118,7 +1118,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -1126,10 +1126,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -1143,43 +1143,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -1250,7 +1250,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -1260,7 +1260,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -1282,7 +1282,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -1290,10 +1290,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -1307,43 +1307,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -1414,7 +1414,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -1424,7 +1424,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -1446,7 +1446,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -1454,10 +1454,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -1471,43 +1471,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -1527,11 +1527,11 @@
 
                     <div class="basic-hcm__more">
                         <a class="btn-reset btn btn-mini btn-b-light" href="javascript:;">
-                            <span class="btn__text">Смотреть все</span>
-                            <svg class="icon icon-xs btn__icon desktop-only">
+                            <span class="text-content">Смотреть все</span>
+                            <svg class="icon icon-fill icon-xs desktop-only">
                                 <use href="img/sprite.svg#arrow-right"></use>
                             </svg>
-                            <svg class="icon icon-xs btn__icon mobile-only">
+                            <svg class="icon icon-fill icon-xs mobile-only">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </a>
@@ -1557,7 +1557,7 @@
                                     </div>
                                     <div class="collection-item__link">
                                         <a class="btn-reset btn btn-mini btn-light" href="javascript:;">
-                                            <span class="btn__text">В коллекцию</span>
+                                            <span class="text-content">В коллекцию</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1574,7 +1574,7 @@
                                     </div>
                                     <div class="collection-item__link">
                                         <a class="btn-reset btn btn-mini btn-light" href="javascript:;">
-                                            <span class="btn__text">В коллекцию</span>
+                                            <span class="text-content">В коллекцию</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1593,7 +1593,7 @@
                                     </div>
                                     <div class="collection-item__link">
                                         <a class="btn-reset btn btn-mini btn-light" href="javascript:;">
-                                            <span class="btn__text">В коллекцию</span>
+                                            <span class="text-content">В коллекцию</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1677,7 +1677,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -1687,7 +1687,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -1709,7 +1709,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -1717,10 +1717,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -1734,43 +1734,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -1841,7 +1841,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -1851,7 +1851,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -1873,7 +1873,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -1881,10 +1881,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -1898,43 +1898,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -2031,7 +2031,7 @@
                                                         <span class="product-code"><span>2348958- 87</span></span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -2053,7 +2053,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -2061,10 +2061,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -2078,43 +2078,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -2183,7 +2183,7 @@
                                                         <span class="product-code"><span>Z241- 0008</span></span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -2205,7 +2205,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -2213,10 +2213,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -2230,43 +2230,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -2337,7 +2337,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -2347,7 +2347,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -2369,7 +2369,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -2377,10 +2377,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -2394,43 +2394,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -2501,7 +2501,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -2511,7 +2511,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -2533,7 +2533,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -2541,10 +2541,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -2558,43 +2558,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -2665,7 +2665,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -2675,7 +2675,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -2697,7 +2697,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -2705,10 +2705,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -2722,43 +2722,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -2778,11 +2778,11 @@
 
                     <div class="basic-hcm__more">
                         <a class="btn-reset btn btn-mini btn-b-light" href="javascript:;">
-                            <span class="btn__text">все новинки</span>
-                            <svg class="icon icon-xs btn__icon desktop-only">
+                            <span class="text-content">все новинки</span>
+                            <svg class="icon icon-fill icon-xs desktop-only">
                                 <use href="img/sprite.svg#arrow-right"></use>
                             </svg>
-                            <svg class="icon icon-xs btn__icon mobile-only">
+                            <svg class="icon icon-fill icon-xs mobile-only">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </a>
@@ -2877,7 +2877,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -2887,7 +2887,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -2909,7 +2909,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -2917,10 +2917,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -2934,43 +2934,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -3041,7 +3041,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -3051,7 +3051,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -3073,7 +3073,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -3081,10 +3081,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -3098,43 +3098,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -3231,7 +3231,7 @@
                                                         <span class="product-code"><span>2348958- 87</span></span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -3253,7 +3253,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -3261,10 +3261,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -3278,43 +3278,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -3383,7 +3383,7 @@
                                                         <span class="product-code"><span>Z241- 0008</span></span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -3405,7 +3405,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -3413,10 +3413,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -3430,43 +3430,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -3537,7 +3537,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -3547,7 +3547,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -3569,7 +3569,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -3577,10 +3577,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -3594,43 +3594,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -3701,7 +3701,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -3711,7 +3711,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability in-stock">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#checkbox-rec"></use>
                                                         </svg>
                                                         <span>Товар в наличии</span>
@@ -3733,7 +3733,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -3741,10 +3741,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -3758,43 +3758,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -3865,7 +3865,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -3875,7 +3875,7 @@
 											</span>
                                                     </div>
                                                     <div class="card-product-descr__availability product-availability on-order">
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#timer"></use>
                                                         </svg>
                                                         <span>Под заказ</span>
@@ -3897,7 +3897,7 @@
                                                         </div>
                                                         <div class="card-product-descr__price-bonus">
                                                             <span>+ 346,99</span>
-                                                            <svg class="icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-bonus"></use>
                                                             </svg>
                                                         </div>
@@ -3905,10 +3905,10 @@
                                                     <div class="card-product-descr__cart product-card__cart cart-buy">
                                                         <div class="product-card__cart-quantity cart-quantity disabled">
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
                                                                 </svg>
-                                                                <svg class="icon icon-sm btn__icon icon-selected">
+                                                                <svg class="icon icon-fill icon-sm icon-selected">
                                                                     <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
@@ -3922,43 +3922,43 @@
                                                                     data-mult="1"
                                                             >
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                                <svg class="icon icon-sm btn__icon">
+                                                                <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#plus"></use>
                                                                 </svg>
                                                             </button>
                                                         </div>
-                                                        <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                            <span class="btn__text">В КОРЗИНУ</span>
+                                                        <button class="btn-reset btn cart-in" type="button">
+                                                            <span class="text-content">В КОРЗИНУ</span>
                                                         </button>
                                                         <div class="card-product-act">
                                                             <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#fill-more-horiz"></use>
                                                                 </svg>
                                                             </button>
                                                             <div class="card-product-act__list" data-card-product-act-content>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                    <svg class="icon btn__icon icon-default">
+                                                                    <svg class="icon icon-fill icon-default">
                                                                         <use href="img/sprite.svg#bookmark-plus"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">В избранное</span>
-                                                                    <svg class="icon btn__icon icon-selected">
+                                                                    <span class="text-content text-default">В избранное</span>
+                                                                    <svg class="icon icon-fill icon-selected">
                                                                         <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-selected">В избранном</span>
+                                                                    <span class="text-content text-selected">В избранном</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#barchart"></use>
                                                                     </svg>
-                                                                    <span class="btn__text text-default">Сравнить</span>
-                                                                    <span class="btn__text text-selected">В сравнении</span>
+                                                                    <span class="text-content text-default">Сравнить</span>
+                                                                    <span class="text-content text-selected">В сравнении</span>
                                                                 </button>
                                                                 <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                    <svg class="icon btn__icon">
+                                                                    <svg class="icon icon-fill">
                                                                         <use href="img/sprite.svg#inbox-in"></use>
                                                                     </svg>
-                                                                    <span class="btn__text">В смету</span>
+                                                                    <span class="text-content">В смету</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -3978,11 +3978,11 @@
 
                     <div class="basic-hcm__more">
                         <a class="btn-reset btn btn-mini btn-b-light" href="javascript:;">
-                            <span class="btn__text">Все акции</span>
-                            <svg class="icon icon-xs btn__icon desktop-only">
+                            <span class="text-content">Все акции</span>
+                            <svg class="icon icon-fill icon-xs desktop-only">
                                 <use href="img/sprite.svg#arrow-right"></use>
                             </svg>
-                            <svg class="icon icon-xs btn__icon mobile-only">
+                            <svg class="icon icon-fill icon-xs mobile-only">
                                 <use href="img/sprite.svg#chevron-right"></use>
                             </svg>
                         </a>
@@ -4009,7 +4009,7 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <span class="btn__text">Все товары</span>
+                                        <span class="text-content">Все товары</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4020,10 +4020,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-wiring-products"></use>
                                         </svg>
-                                        <span class="btn__text">Розетки и выключатели</span>
+                                        <span class="text-content">Розетки и выключатели</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4034,10 +4034,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-low-voltage"></use>
                                         </svg>
-                                        <span class="btn__text">Низковольтное оборудование</span>
+                                        <span class="text-content">Низковольтное оборудование</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4048,10 +4048,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-shields-cabinets"></use>
                                         </svg>
-                                        <span class="btn__text">Щиты, шкафы, боксы</span>
+                                        <span class="text-content">Щиты, шкафы, боксы</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4062,10 +4062,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-lighting"></use>
                                         </svg>
-                                        <span class="btn__text">Светотехника</span>
+                                        <span class="text-content">Светотехника</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4076,10 +4076,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-tools"></use>
                                         </svg>
-                                        <span class="btn__text">Инструменты и монтажные материалы</span>
+                                        <span class="text-content">Инструменты и монтажные материалы</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4090,10 +4090,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-ventilation"></use>
                                         </svg>
-                                        <span class="btn__text">Системы вентиляции и обогрева</span>
+                                        <span class="text-content">Системы вентиляции и обогрева</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4104,10 +4104,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-grounding"></use>
                                         </svg>
-                                        <span class="btn__text">Молниезащита и заземление</span>
+                                        <span class="text-content">Молниезащита и заземление</span>
                                     </label>
                                 </div>
                                 <div class="swiper-slide">
@@ -4118,10 +4118,10 @@
                                                 name="EXTRA[TAGS][]"
                                                 value=""
                                         >
-                                        <svg class="icon btn__icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#catalog-power-devices"></use>
                                         </svg>
-                                        <span class="btn__text">Элементы и устройства питания</span>
+                                        <span class="text-content">Элементы и устройства питания</span>
                                     </label>
                                 </div>
                             </div>
@@ -4193,7 +4193,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -4203,7 +4203,7 @@
 											</span>
                                                 </div>
                                                 <div class="card-product-descr__availability product-availability in-stock">
-                                                    <svg class="icon">
+                                                    <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#checkbox-rec"></use>
                                                     </svg>
                                                     <span>Товар в наличии</span>
@@ -4225,7 +4225,7 @@
                                                     </div>
                                                     <div class="card-product-descr__price-bonus">
                                                         <span>+ 346,99</span>
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#fill-bonus"></use>
                                                         </svg>
                                                     </div>
@@ -4233,10 +4233,10 @@
                                                 <div class="card-product-descr__cart product-card__cart cart-buy">
                                                     <div class="product-card__cart-quantity cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
@@ -4250,43 +4250,43 @@
                                                                 data-mult="1"
                                                         >
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                     <div class="card-product-act">
                                                         <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                            <svg class="icon btn__icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-more-horiz"></use>
                                                             </svg>
                                                         </button>
                                                         <div class="card-product-act__list" data-card-product-act-content>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                <svg class="icon btn__icon icon-default">
+                                                                <svg class="icon icon-fill icon-default">
                                                                     <use href="img/sprite.svg#bookmark-plus"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">В избранное</span>
-                                                                <svg class="icon btn__icon icon-selected">
+                                                                <span class="text-content text-default">В избранное</span>
+                                                                <svg class="icon icon-fill icon-selected">
                                                                     <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-selected">В избранном</span>
+                                                                <span class="text-content text-selected">В избранном</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#barchart"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">Сравнить</span>
-                                                                <span class="btn__text text-selected">В сравнении</span>
+                                                                <span class="text-content text-default">Сравнить</span>
+                                                                <span class="text-content text-selected">В сравнении</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#inbox-in"></use>
                                                                 </svg>
-                                                                <span class="btn__text">В смету</span>
+                                                                <span class="text-content">В смету</span>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -4357,7 +4357,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -4367,7 +4367,7 @@
 											</span>
                                                 </div>
                                                 <div class="card-product-descr__availability product-availability on-order">
-                                                    <svg class="icon">
+                                                    <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#timer"></use>
                                                     </svg>
                                                     <span>Под заказ</span>
@@ -4389,7 +4389,7 @@
                                                     </div>
                                                     <div class="card-product-descr__price-bonus">
                                                         <span>+ 346,99</span>
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#fill-bonus"></use>
                                                         </svg>
                                                     </div>
@@ -4397,10 +4397,10 @@
                                                 <div class="card-product-descr__cart product-card__cart cart-buy">
                                                     <div class="product-card__cart-quantity cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
@@ -4414,43 +4414,43 @@
                                                                 data-mult="1"
                                                         >
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                     <div class="card-product-act">
                                                         <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                            <svg class="icon btn__icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-more-horiz"></use>
                                                             </svg>
                                                         </button>
                                                         <div class="card-product-act__list" data-card-product-act-content>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                <svg class="icon btn__icon icon-default">
+                                                                <svg class="icon icon-fill icon-default">
                                                                     <use href="img/sprite.svg#bookmark-plus"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">В избранное</span>
-                                                                <svg class="icon btn__icon icon-selected">
+                                                                <span class="text-content text-default">В избранное</span>
+                                                                <svg class="icon icon-fill icon-selected">
                                                                     <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-selected">В избранном</span>
+                                                                <span class="text-content text-selected">В избранном</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#barchart"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">Сравнить</span>
-                                                                <span class="btn__text text-selected">В сравнении</span>
+                                                                <span class="text-content text-default">Сравнить</span>
+                                                                <span class="text-content text-selected">В сравнении</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#inbox-in"></use>
                                                                 </svg>
-                                                                <span class="btn__text">В смету</span>
+                                                                <span class="text-content">В смету</span>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -4547,7 +4547,7 @@
                                                     <span class="product-code"><span>2348958- 87</span></span>
                                                 </div>
                                                 <div class="card-product-descr__availability product-availability on-order">
-                                                    <svg class="icon">
+                                                    <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#timer"></use>
                                                     </svg>
                                                     <span>Под заказ</span>
@@ -4569,7 +4569,7 @@
                                                     </div>
                                                     <div class="card-product-descr__price-bonus">
                                                         <span>+ 346,99</span>
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#fill-bonus"></use>
                                                         </svg>
                                                     </div>
@@ -4577,10 +4577,10 @@
                                                 <div class="card-product-descr__cart product-card__cart cart-buy">
                                                     <div class="product-card__cart-quantity cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
@@ -4594,43 +4594,43 @@
                                                                 data-mult="1"
                                                         >
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                     <div class="card-product-act">
                                                         <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                            <svg class="icon btn__icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-more-horiz"></use>
                                                             </svg>
                                                         </button>
                                                         <div class="card-product-act__list" data-card-product-act-content>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                <svg class="icon btn__icon icon-default">
+                                                                <svg class="icon icon-fill icon-default">
                                                                     <use href="img/sprite.svg#bookmark-plus"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">В избранное</span>
-                                                                <svg class="icon btn__icon icon-selected">
+                                                                <span class="text-content text-default">В избранное</span>
+                                                                <svg class="icon icon-fill icon-selected">
                                                                     <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-selected">В избранном</span>
+                                                                <span class="text-content text-selected">В избранном</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#barchart"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">Сравнить</span>
-                                                                <span class="btn__text text-selected">В сравнении</span>
+                                                                <span class="text-content text-default">Сравнить</span>
+                                                                <span class="text-content text-selected">В сравнении</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#inbox-in"></use>
                                                                 </svg>
-                                                                <span class="btn__text">В смету</span>
+                                                                <span class="text-content">В смету</span>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -4699,7 +4699,7 @@
                                                     <span class="product-code"><span>Z241- 0008</span></span>
                                                 </div>
                                                 <div class="card-product-descr__availability product-availability in-stock">
-                                                    <svg class="icon">
+                                                    <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#checkbox-rec"></use>
                                                     </svg>
                                                     <span>Товар в наличии</span>
@@ -4721,7 +4721,7 @@
                                                     </div>
                                                     <div class="card-product-descr__price-bonus">
                                                         <span>+ 346,99</span>
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#fill-bonus"></use>
                                                         </svg>
                                                     </div>
@@ -4729,10 +4729,10 @@
                                                 <div class="card-product-descr__cart product-card__cart cart-buy">
                                                     <div class="product-card__cart-quantity cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
@@ -4746,43 +4746,43 @@
                                                                 data-mult="1"
                                                         >
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                     <div class="card-product-act">
                                                         <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                            <svg class="icon btn__icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-more-horiz"></use>
                                                             </svg>
                                                         </button>
                                                         <div class="card-product-act__list" data-card-product-act-content>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                <svg class="icon btn__icon icon-default">
+                                                                <svg class="icon icon-fill icon-default">
                                                                     <use href="img/sprite.svg#bookmark-plus"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">В избранное</span>
-                                                                <svg class="icon btn__icon icon-selected">
+                                                                <span class="text-content text-default">В избранное</span>
+                                                                <svg class="icon icon-fill icon-selected">
                                                                     <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-selected">В избранном</span>
+                                                                <span class="text-content text-selected">В избранном</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#barchart"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">Сравнить</span>
-                                                                <span class="btn__text text-selected">В сравнении</span>
+                                                                <span class="text-content text-default">Сравнить</span>
+                                                                <span class="text-content text-selected">В сравнении</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#inbox-in"></use>
                                                                 </svg>
-                                                                <span class="btn__text">В смету</span>
+                                                                <span class="text-content">В смету</span>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -4853,7 +4853,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -4863,7 +4863,7 @@
 											</span>
                                                 </div>
                                                 <div class="card-product-descr__availability product-availability in-stock">
-                                                    <svg class="icon">
+                                                    <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#checkbox-rec"></use>
                                                     </svg>
                                                     <span>Товар в наличии</span>
@@ -4885,7 +4885,7 @@
                                                     </div>
                                                     <div class="card-product-descr__price-bonus">
                                                         <span>+ 346,99</span>
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#fill-bonus"></use>
                                                         </svg>
                                                     </div>
@@ -4893,10 +4893,10 @@
                                                 <div class="card-product-descr__cart product-card__cart cart-buy">
                                                     <div class="product-card__cart-quantity cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
@@ -4910,43 +4910,43 @@
                                                                 data-mult="1"
                                                         >
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                     <div class="card-product-act">
                                                         <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                            <svg class="icon btn__icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-more-horiz"></use>
                                                             </svg>
                                                         </button>
                                                         <div class="card-product-act__list" data-card-product-act-content>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                <svg class="icon btn__icon icon-default">
+                                                                <svg class="icon icon-fill icon-default">
                                                                     <use href="img/sprite.svg#bookmark-plus"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">В избранное</span>
-                                                                <svg class="icon btn__icon icon-selected">
+                                                                <span class="text-content text-default">В избранное</span>
+                                                                <svg class="icon icon-fill icon-selected">
                                                                     <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-selected">В избранном</span>
+                                                                <span class="text-content text-selected">В избранном</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#barchart"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">Сравнить</span>
-                                                                <span class="btn__text text-selected">В сравнении</span>
+                                                                <span class="text-content text-default">Сравнить</span>
+                                                                <span class="text-content text-selected">В сравнении</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#inbox-in"></use>
                                                                 </svg>
-                                                                <span class="btn__text">В смету</span>
+                                                                <span class="text-content">В смету</span>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -5017,7 +5017,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -5027,7 +5027,7 @@
 											</span>
                                                 </div>
                                                 <div class="card-product-descr__availability product-availability in-stock">
-                                                    <svg class="icon">
+                                                    <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#checkbox-rec"></use>
                                                     </svg>
                                                     <span>Товар в наличии</span>
@@ -5049,7 +5049,7 @@
                                                     </div>
                                                     <div class="card-product-descr__price-bonus">
                                                         <span>+ 346,99</span>
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#fill-bonus"></use>
                                                         </svg>
                                                     </div>
@@ -5057,10 +5057,10 @@
                                                 <div class="card-product-descr__cart product-card__cart cart-buy">
                                                     <div class="product-card__cart-quantity cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
@@ -5074,43 +5074,43 @@
                                                                 data-mult="1"
                                                         >
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                     <div class="card-product-act">
                                                         <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                            <svg class="icon btn__icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-more-horiz"></use>
                                                             </svg>
                                                         </button>
                                                         <div class="card-product-act__list" data-card-product-act-content>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                <svg class="icon btn__icon icon-default">
+                                                                <svg class="icon icon-fill icon-default">
                                                                     <use href="img/sprite.svg#bookmark-plus"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">В избранное</span>
-                                                                <svg class="icon btn__icon icon-selected">
+                                                                <span class="text-content text-default">В избранное</span>
+                                                                <svg class="icon icon-fill icon-selected">
                                                                     <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-selected">В избранном</span>
+                                                                <span class="text-content text-selected">В избранном</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#barchart"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">Сравнить</span>
-                                                                <span class="btn__text text-selected">В сравнении</span>
+                                                                <span class="text-content text-default">Сравнить</span>
+                                                                <span class="text-content text-selected">В сравнении</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#inbox-in"></use>
                                                                 </svg>
-                                                                <span class="btn__text">В смету</span>
+                                                                <span class="text-content">В смету</span>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -5181,7 +5181,7 @@
 												<span class="star-rating">
 													<span class="star-rating__container">
 														<label>
-															<svg class="icon">
+															<svg class="icon icon-fill">
 																<use href="img/sprite.svg#fill-star"></use>
 															</svg>
 														</label>
@@ -5191,7 +5191,7 @@
 											</span>
                                                 </div>
                                                 <div class="card-product-descr__availability product-availability on-order">
-                                                    <svg class="icon">
+                                                    <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#timer"></use>
                                                     </svg>
                                                     <span>Под заказ</span>
@@ -5213,7 +5213,7 @@
                                                     </div>
                                                     <div class="card-product-descr__price-bonus">
                                                         <span>+ 346,99</span>
-                                                        <svg class="icon">
+                                                        <svg class="icon icon-fill">
                                                             <use href="img/sprite.svg#fill-bonus"></use>
                                                         </svg>
                                                     </div>
@@ -5221,10 +5221,10 @@
                                                 <div class="card-product-descr__cart product-card__cart cart-buy">
                                                     <div class="product-card__cart-quantity cart-quantity disabled">
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#minus"></use>
                                                             </svg>
-                                                            <svg class="icon icon-sm btn__icon icon-selected">
+                                                            <svg class="icon icon-fill icon-sm icon-selected">
                                                                 <use href="img/sprite.svg#trash"></use>
                                                             </svg>
                                                         </button>
@@ -5238,43 +5238,43 @@
                                                                 data-mult="1"
                                                         >
                                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-sm btn__icon">
+                                                            <svg class="icon icon-fill icon-sm">
                                                                 <use href="img/sprite.svg#plus"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn btn-primary cart-in" type="button">
-                                                        <span class="btn__text">В КОРЗИНУ</span>
+                                                    <button class="btn-reset btn cart-in" type="button">
+                                                        <span class="text-content">В КОРЗИНУ</span>
                                                     </button>
                                                     <div class="card-product-act">
                                                         <button class="btn-reset btn btn-light card-product-act__more" data-card-product-act-more>
-                                                            <svg class="icon btn__icon">
+                                                            <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#fill-more-horiz"></use>
                                                             </svg>
                                                         </button>
                                                         <div class="card-product-act__list" data-card-product-act-content>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
-                                                                <svg class="icon btn__icon icon-default">
+                                                                <svg class="icon icon-fill icon-default">
                                                                     <use href="img/sprite.svg#bookmark-plus"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">В избранное</span>
-                                                                <svg class="icon btn__icon icon-selected">
+                                                                <span class="text-content text-default">В избранное</span>
+                                                                <svg class="icon icon-fill icon-selected">
                                                                     <use href="img/sprite.svg#fill-bookmark-check"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-selected">В избранном</span>
+                                                                <span class="text-content text-selected">В избранном</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn switch-content" title="Сравнить" data-notice="compare">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#barchart"></use>
                                                                 </svg>
-                                                                <span class="btn__text text-default">Сравнить</span>
-                                                                <span class="btn__text text-selected">В сравнении</span>
+                                                                <span class="text-content text-default">Сравнить</span>
+                                                                <span class="text-content text-selected">В сравнении</span>
                                                             </button>
                                                             <button class="btn-reset btn card-product-act__btn" title="В смету" data-fancybox data-src="#modal-estimate">
-                                                                <svg class="icon btn__icon">
+                                                                <svg class="icon icon-fill">
                                                                     <use href="img/sprite.svg#inbox-in"></use>
                                                                 </svg>
-                                                                <span class="btn__text">В смету</span>
+                                                                <span class="text-content">В смету</span>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -5308,7 +5308,7 @@
                     </div>
                     <div class="popular-services-item__link">
                         <a class="btn-reset btn btn-secondary" href="javascript:;">
-                            <span class="btn__text">Подробнее</span>
+                            <span class="text-content">Подробнее</span>
                         </a>
                     </div>
                 </div>
@@ -5325,7 +5325,7 @@
                     </div>
                     <div class="popular-services-item__link">
                         <a class="btn-reset btn btn-light" href="javascript:;">
-                            <span class="btn__text">Подробнее</span>
+                            <span class="text-content">Подробнее</span>
                         </a>
                     </div>
                 </div>
@@ -5341,7 +5341,7 @@
                     </div>
                     <div class="popular-services-item__link">
                         <a class="btn-reset btn btn-secondary" href="javascript:;">
-                            <span class="btn__text">Подробнее</span>
+                            <span class="text-content">Подробнее</span>
                         </a>
                     </div>
                 </div>
@@ -5383,7 +5383,7 @@
                 <div class="seo-block__bottom">
                     <div class="seo-block__bottom-item">
                         <div class="seo-block__bottom-view">
-                            <svg class="icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#menu-color-shopping-cart-2"></use>
                             </svg>
                         </div>
@@ -5394,7 +5394,7 @@
                     </div>
                     <div class="seo-block__bottom-item">
                         <div class="seo-block__bottom-view">
-                            <svg class="icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#menu-color-box-2"></use>
                             </svg>
                         </div>
@@ -5405,7 +5405,7 @@
                     </div>
                     <div class="seo-block__bottom-item">
                         <div class="seo-block__bottom-view">
-                            <svg class="icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#menu-color-layers"></use>
                             </svg>
                         </div>
@@ -5416,7 +5416,7 @@
                     </div>
                     <div class="seo-block__bottom-item">
                         <div class="seo-block__bottom-view">
-                            <svg class="icon">
+                            <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#menu-color-repeat"></use>
                             </svg>
                         </div>

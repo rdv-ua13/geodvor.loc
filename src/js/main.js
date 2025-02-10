@@ -9,12 +9,12 @@ function application() {
 }
 application.prototype.init = function () {
     this.initTouch();
-    // this.initHeaderScroll();
-    // this.initBurger();
-    // this.initOverlay();
-    // this.initMenu();
-    // this.setMenuHeightOverflow();
-    // this.initMenuCatalogSubmenu();
+    this.initHeaderScroll();
+    this.initBurger();
+    this.initOverlay();
+    this.initMenu();
+    this.setMenuHeightOverflow();
+    this.initMenuCatalogSubmenu();
     this.initFancyBehavior();
     // this.initClientTypeBehavior();
     // this.initTabs();
@@ -43,8 +43,8 @@ application.prototype.init = function () {
     // this.initDatepicker();
     // this.initDeleteTrigger();
     // this.initDropfiles();
-    // this.initInputSearchBehavior();
-    // this.initSearchResBehavior();
+    this.initInputSearchBehavior();
+    this.initSearchResBehavior();
     // this.initMobileCitySelection();
     // this.initCatalogContentSort();
     // this.initCatalogContentViewSwitcher();
@@ -86,7 +86,7 @@ application.prototype.initHeaderScroll = function () {
     }
 };
 
-// Initialize disable scroll
+/*// Initialize disable scroll
 application.prototype.disableScroll = function () {
     const body = document.body;
     const fixBlocks = document?.querySelectorAll('.fixed-block');
@@ -105,7 +105,7 @@ application.prototype.enableScroll = function () {
     fixBlocks.forEach(el => { el.style.paddingRight = '0px'; });
     body.style.paddingRight = '0px';
     body.classList.remove('dis-scroll');
-};
+};*/
 
 // Initialize burger-menu
 application.prototype.initBurger = function () {
@@ -585,8 +585,24 @@ application.prototype.initPasswordSwitcher = function () {
 
 // Initialize basic slider
 application.prototype.initBasicSlider = function () {
-    if ($('.basic-slider').length) {
+    if ($('.basic-slider-wrap').length) {
         const slider = $('[data-basic-slider]');
+        let basicSlider = null;
+        let spaceBetween = 12;
+
+        if (window.matchMedia('(min-width: 992px)').matches) {
+            spaceBetween = 40;
+
+            if(slider.is('[data-header-catalog-slider]')) {
+                spaceBetween = 40;
+            }
+        } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+            spaceBetween = 12;
+
+            if(slider.is('[data-header-catalog-slider]')) {
+                spaceBetween = 24;
+            }
+        }
 
         slider.each(function (i) {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
@@ -594,8 +610,7 @@ application.prototype.initBasicSlider = function () {
             const basicSliderSetting = {
                 slidesPerView: 'auto',
                 slidesPerGroup: 1,
-                spaceBetween: 12,
-                /*loop: true,*/
+                spaceBetween: spaceBetween,
                 direction: 'horizontal',
                 navigation: {
                     nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
@@ -603,19 +618,12 @@ application.prototype.initBasicSlider = function () {
                 },
                 breakpoints: {
                     992: {
-                        spaceBetween: 40,
-                        /*allowTouchMove: false*/
+                        spaceBetween: spaceBetween
                     },
                 }
             };
-            const basicSliderTagsSetting = {
-                slidesPerView: 'auto',
-                slidesPerGroup: 1,
-                spaceBetween: 12,
-                direction: 'horizontal',
-            };
-            let basicSlider = new Swiper('.basic-slider-wrap-' + i + ' .basic-slider', basicSliderSetting);
-            let basicSliderTags = new Swiper('.basic-slider-wrap-' + i + ' .basic-slider-tags', basicSliderTagsSetting);
+
+            basicSlider = new Swiper('.basic-slider-wrap-' + i + ' .basic-slider', basicSliderSetting);
         });
     }
 };
@@ -1101,10 +1109,10 @@ application.prototype.initReadmore = function () {
             $(".spoiler-" + i).readmore({
                 collapsedHeight: currentElemHeight,
                 moreLink: '<a href="javascript:;" class="link-dashed link-red spoiler-trigger">\n' +
-                    '                                        <span class="btn__text">' + currentMoreText + '</span>\n' +
+                    '                                        <span class="text-content">' + currentMoreText + '</span>\n' +
                     '                                    </a>',
                 lessLink: '<a href="javascript:;" class="link-dashed link-red spoiler-trigger">\n' +
-                    '                                        <span class="btn__text">' + currentLessText + '</span>\n' +
+                    '                                        <span class="text-content">' + currentLessText + '</span>\n' +
                     '                                    </a>'
             });
         });
@@ -1385,21 +1393,27 @@ application.prototype.initDropfiles = function () {
 
 // Initialize input-search behavior
 application.prototype.initInputSearchBehavior = function () {
-    if ($('.input-search').length) {
-        $('.input-search').on('input', function () {
+    if ($('.input-wrapper-search .input').length) {
+        $('.input-wrapper-search .input').on('input', function () {
             if ($(this).val() === '' || $(this).val() === null) {
                 $(this).removeClass('has-data');
-                $(this).closest('.input-search-wrapper').removeClass('has-data');
+                $(this).closest('.input-wrapper-search').removeClass('has-data');
             } else if ($(this).val() !== '' && $(this).val() !== null) {
                 $(this).addClass('has-data');
-                $(this).closest('.input-search-wrapper').addClass('has-data');
+                $(this).closest('.input-wrapper-search').addClass('has-data');
             }
         });
 
-        $('.input-delete-btn').on('click', function () {
-            $(this).closest('.input-search-wrapper').removeClass('has-data');
-            $(this).closest('.input-search-wrapper').find('.input-search').val('').removeClass('has-data');
+        $('.input-wrapper-search .input-delete-btn').on('click', function () {
+            $(this).closest('.input-wrapper-search').removeClass('has-data');
+            $(this).closest('.input-wrapper-search').find('.input').val('').removeClass('has-data');
         });
+
+        if (window.matchMedia('(min-width: 992px)').matches) {
+            $('.input-wrapper-search .input').prop('readonly', false);
+        } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+            $('.input-wrapper-search .input').prop('readonly', true);
+        }
     }
 };
 
@@ -1642,7 +1656,7 @@ application.prototype.initCatalogSidebarFilter = function () {
 // Initialize catalog sidebar sort options content
 application.prototype.initCatalogSidebarSortOptionsContent = function () {
     $('.catalog-sidebar-filter__options-item').each(function(i, e) {
-        $(e).find('.catalog-sidebar-filter__options-search .input-search').on('input', function() {
+        $(e).find('.catalog-sidebar-filter__options-search .input').on('input', function() {
             let text = $(this).val().toLowerCase();
             $(this).parents('.catalog-sidebar-filter__options-item').find('.catalog-sidebar-filter__item .custom-checkbox__label-for').each(function() {
                 if ($(this).text().toLowerCase().indexOf(text) === -1) {
@@ -1657,7 +1671,7 @@ application.prototype.initCatalogSidebarSortOptionsContent = function () {
             });
         });
 
-        $(e).find('.catalog-sidebar-filter__options-search .input-search').siblings('.input-delete-btn').on('click', function(e) {
+        $(e).find('.catalog-sidebar-filter__options-search .input').siblings('.input-delete-btn').on('click', function(e) {
             e.preventDefault();
 
             $(this).closest('.catalog-sidebar-filter__options-content').find('.catalog-sidebar-filter__item').fadeIn(200);
@@ -1941,11 +1955,11 @@ application.prototype.initOrderBonusDebit = function () {
         inputVal.on('input', function () {
             if ($(this).val() === '' || $(this).val() === null) {
                 $(this).removeClass('has-data');
-                $(this).closest('.input-search-wrapper').removeClass('has-data');
+                $(this).closest('.input-wrapper-search').removeClass('has-data');
                 slider.noUiSlider.set(0);
             } else if ($(this).val() !== '' && $(this).val() !== null) {
                 $(this).addClass('has-data');
-                $(this).closest('.input-search-wrapper').addClass('has-data');
+                $(this).closest('.input-wrapper-search').addClass('has-data');
                 slider.noUiSlider.set($(this).val());
             }
         });
@@ -1957,7 +1971,7 @@ application.prototype.initAddingOrgData = function () {
     if ($('[data-org-trigger]').length) {
         let trigger = $('[data-org-trigger]');
 
-        let kppOrg = `<div class="titled-input titled-input-label" data-org-kpp>
+        let kppOrg = `<div class="titled-input titled-input-label" data-org-kpp> !!!
                             <div class="input-title">КПП организации</div>
                             <div class="input-wrapper">
                                 <input
@@ -1971,7 +1985,7 @@ application.prototype.initAddingOrgData = function () {
                             </div>
                         </div>`;
         let titleAddressOrg = `<div class="order-step-row" data-org-title>
-                            <div class="titled-input titled-input-label">
+                            <div class="titled-input titled-input-label">!!!
                                 <div class="input-title">Название организации</div>
                                 <div class="input-wrapper">
                                     <input
@@ -1986,7 +2000,7 @@ application.prototype.initAddingOrgData = function () {
                             </div>
                         </div>
                         <div class="order-step-row" data-org-legal-address>
-                            <div class="titled-input titled-input-label">
+                            <div class="titled-input titled-input-label">!!!
                                 <div class="input-title">Юридический адрес</div>
                                 <div class="input-wrapper">
                                     <input
