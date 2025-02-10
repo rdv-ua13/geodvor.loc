@@ -1,26 +1,30 @@
         <div class="pre-footer">
             <div class="container pre-footer__container">
                 <div class="pre-footer__descr">
-                    <div class="h4">Подпишитесь и узнавайте<br class="mobile-only"> о выгодных предложениях</div>
-                    <div class="pre-footer__descr-text">Нажимая на кнопку, я принимаю условия Политики конфиденциальности и защиты персональных данных и соглашаюсь получать сообщения</div>
+                    <div class="h3">Узнавайте об акциях и новостях раньше всех</div>
+                    <div class="pre-footer__descr-text">Подпишитесь на полезную рассылку</div>
                 </div>
                 <div class="pre-footer__act">
                     <div class="pre-footer__subscribe">
                         <form id="" class="form" method="" action="javascript:;">
-                            <div class="submit-field-wrapper">
-                                <div class="submit-field-input">
-                                    <input
-                                            class="input-reset input"
-                                            type="email"
-                                            name=""
-                                            placeholder="Введите ваш email..."
-                                            autocomplete="off"
-                                    >
-                                </div>
-                                <button class="btn-reset btn" type="submit">
+                            <div class="input-wrapper input-wrapper-split input-wrapper-search has-icon-l">
+                                <input
+                                        class="input-reset input"
+                                        type="search"
+                                        name=""
+                                        placeholder="Введите ваш email"
+                                        autocomplete="off"
+                                >
+                                <label class="input-icon input-icon-l">
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#sms-notification"></use>
+                                    </svg>
+                                </label>
+                                <button class="btn-reset btn btn-secondary input-search-btn" type="submit">
                                     <span class="text-content">Подписаться</span>
                                 </button>
                             </div>
+                            Даю согласие на обработку моих персональных данных. Соглашаюсь с Политикой конфиденциальности и ознакомлен с Политикой в отношении обработки персональных данных
                         </form>
                     </div>
                 </div>
@@ -29,195 +33,119 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-main">
-            <div class="container">
-                <div class="footer__row">
-                    <div class="footer__column">
-                        <div class="footer__title">Популярные разделы</div>
-                        <ul class="list-reset footer__list">
-                            <li><a class="link-light" href="javascript:;">Розетки и выключатели</a></li>
-                            <li><a class="link-light" href="javascript:;">Звонки и домофоны</a></li>
-                            <li><a class="link-light" href="javascript:;">Автоматические выключатели</a></li>
-                            <li><a class="link-light" href="javascript:;">УЗО</a></li>
-                            <li><a class="link-light" href="javascript:;">Дифференциальные автоматы</a></li>
-                            <li><a class="link-light" href="javascript:;">Кросс-модули</a></li>
-                            <li><a class="link-light" href="javascript:;">Кабель и провод</a></li>
-                            <li><a class="link-light" href="javascript:;">Светильники</a></li>
-                            <li><a class="link-light" href="javascript:;">Корпуса шкафов</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <div class="footer__title">Покупателям</div>
-                        <ul class="list-reset footer__list">
-                            <li><a class="link-light" href="javascript:;">Юридическим лицам</a></li>
-                            <li><a class="link-light" href="javascript:;">Физическим лицам</a></li>
-                            <li><a class="link-light" href="javascript:;">Оплата</a></li>
-                            <li><a class="link-light" href="javascript:;">Условия доставки</a></li>
-                            <li><a class="link-light" href="javascript:;">Гарантия и возврат</a></li>
-                            <li><a class="link-light" href="javascript:;">Акции</a></li>
-                            <li><a class="link-light" href="javascript:;">Распродажа</a></li>
-                            <li><a class="link-light" href="javascript:;">Контакты</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <div class="footer__title">Информация</div>
-                        <ul class="list-reset footer__list">
-                            <li><a class="link-light" href="javascript:;">Справочник электрика</a></li>
-                            <li><a class="link-light" href="javascript:;">Вопросы и ответы</a></li>
-                            <li><a class="link-light" href="javascript:;">Новости</a></li>
-                            <li><a class="link-light" href="javascript:;">Статьи</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <div class="footer__title">Связаться с нами</div>
-                        <div class="footer-contacts">
-                            <div>
-                                <div class="footer-contacts__tel">
-                                    <a class="footer-contacts__number" href="tel:+71111111111">+7 (111) 111-11-11</a>
-                                    <a class="link-dashed link-gray" href="javascript:;">заказать звонок</a>
-                                </div>
-                            </div>
-                            <div>
-                                <a class="link" href="mailto:info@geodvor.ru"><span>info@geodvor.ru</span></a>
-                            </div>
-                            <div class="social">
-                                <div class="social__title">Мы в социальных сетях</div>
-                                <ul class="list-reset social__list">
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Вконтакте"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-vk"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Одноклассники"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-ok"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Telegram"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-tg"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Youtube"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-yt"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer__column">
+                    <div class="footer__title">Каталог</div>
+                    <ul class="list-reset footer__list">
+                        <li><a class="footer__link" href="javascript:;">Геотекстиль</a></li>
+                        <li><a class="footer__link" href="javascript:;">Дорнит</a></li>
+                        <li><a class="footer__link" href="javascript:;">Геосетка</a></li>
+                        <li><a class="footer__link" href="javascript:;">Объемная георешетка</a></li>
+                        <li><a class="footer__link" href="javascript:;">Спанбонд</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__title">Покупателям</div>
+                    <ul class="list-reset footer__list">
+                        <li><a class="footer__link" href="javascript:;">Доставка</a></li>
+                        <li><a class="footer__link" href="javascript:;">Оплата</a></li>
+                        <li><a class="footer__link" href="javascript:;">Оптовым покупателям</a></li>
+                        <li><a class="footer__link" href="javascript:;">Контакты</a></li>
+                        <li><a class="footer__link" href="javascript:;">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__title">Полезное</div>
+                    <ul class="list-reset footer__list">
+                        <li><a class="footer__link" href="javascript:;">Готовые решения</a></li>
+                        <li><a class="footer__link" href="javascript:;">Полезные советы</a></li>
+                        <li><a class="footer__link" href="javascript:;">Вопросы покупателей</a></li>
+                        <li><a class="footer__link" href="javascript:;">Карта сайта</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__title">Нужна помощь?</div>
                 </div>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-bottom__content">
-                    <div class="footer__row">
-                        <div class="footer__column">
-                            <div class="footer__title">Мы принимаем к оплате</div>
-                            <ul class="list-reset payment-supports">
-                                <li>
-                                    <a href="javascript:;" target="_blank">
-                                        <img
+            <div class="footer-bottom__content">
+                <div class="footer__row">
+                    <div class="footer__column">
+                        <div class="footer__title">Мы принимаем к оплате</div>
+                        <ul class="list-reset payment-supports">
+                            <li>
+                                <a href="javascript:;" target="_blank">
+                                    <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/ps-visa.svg"
+                                        width="44"
+                                        height="15"
+                                        alt="Мы принимаем к оплате Visa"
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" target="_blank">
+                                    <img
                                             loading="lazy"
                                             class="image"
-                                            src="img/ps-visa.svg"
-                                            width="44"
-                                            height="15"
-                                            alt="Мы принимаем к оплате Visa"
-                                        >
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" target="_blank">
-                                        <img
-                                                loading="lazy"
-                                                class="image"
-                                                src="img/ps-mastercard.svg"
-                                                width="36"
-                                                height="21"
-                                                alt="Мы принимаем к оплате Mastercard"
-                                        >
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" target="_blank">
-                                        <img
-                                                loading="lazy"
-                                                class="image"
-                                                src="img/ps-maestro.svg"
-                                                width="33"
-                                                height="21"
-                                                alt="Мы принимаем к оплате Maestro"
-                                        >
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" target="_blank">
-                                        <img
-                                                loading="lazy"
-                                                class="image"
-                                                src="img/ps-mir.svg"
-                                                width="54"
-                                                height="13"
-                                                alt="Мы принимаем к оплате Мир"
-                                        >
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" target="_blank">
-                                        <img
-                                                loading="lazy"
-                                                class="image"
-                                                src="img/ps-gpay.svg"
-                                                width="53"
-                                                height="17"
-                                                alt="Мы принимаем к оплате Google pay"
-                                        >
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                                            src="img/ps-mastercard.svg"
+                                            width="36"
+                                            height="21"
+                                            alt="Мы принимаем к оплате Mastercard"
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" target="_blank">
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/ps-maestro.svg"
+                                            width="33"
+                                            height="21"
+                                            alt="Мы принимаем к оплате Maestro"
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" target="_blank">
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/ps-mir.svg"
+                                            width="54"
+                                            height="13"
+                                            alt="Мы принимаем к оплате Мир"
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" target="_blank">
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/ps-gpay.svg"
+                                            width="53"
+                                            height="17"
+                                            alt="Мы принимаем к оплате Google pay"
+                                    >
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="footer__row">
-                        <div class="footer__column">
-                            <div class="footer__rights-info">
-                                <div class="footer__rights">
-                                    &#169; 2001–<?= date('Y'); ?> Интернет-магазин «ГЕОДВОР»
-                                    <br>
-                                    <br class="mobile-only">
-                                    При полном или частичном использовании материалов с сайта ссылка на источник обязательна.
-                                </div>
-                                <div class="footer__consent">
-                                    Продолжая работу с сайтом, вы даете согласие на использование сайтом cookies и обработку персональных данных в целях функционирования сайта, проведения ретаргетинга, статистических исследований, улучшения сервиса и предоставления релевантной рекламной информации на основе ваших предпочтений и интересов.
-                                </div>
+                </div>
+                <div class="footer__row">
+                    <div class="footer__column">
+                        <div class="footer__rights-info">
+                            <div class="footer__rights">
+                                &#169; <?= date('Y'); ?> ГЕОДВОР
                             </div>
+                            <div class="footer__consent">Данный интернет-сайт geo-dvor.ru носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Стоимость и наличие товара просьба уточнять по телефону.</div>
                         </div>
                     </div>
                 </div>
@@ -227,6 +155,6 @@
 
 	<?php /*include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/modals.php"); */?>
 
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    <?/*<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>*/?>
 </body>
 </html>

@@ -6273,7 +6273,7 @@ input.disabled {
 }
 
 .pre-footer {
-	background-color: var(--gray6-color);
+	background-color: var(--gray0-color);
 
 	&__container {
 		display: flex;
@@ -6285,6 +6285,12 @@ input.disabled {
 		&-text {
 			color: var(--text-secondary);
 			font-size: 12px;
+		}
+	}
+	&__subscribe {
+		.input-search-btn {
+			min-width: 0;
+			width: auto;
 		}
 	}
 }
