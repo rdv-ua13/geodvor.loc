@@ -590,6 +590,13 @@ body:not(.is-using-mouse) {
 		cursor: not-allowed !important;
 	}
 
+	&-sm {
+		min-height: 36px;
+		height: 36px;
+		padding-right: 11px;
+		padding-left: 11px;
+	}
+
 	&-primary {
 		border-color: var(--green0-color);
 		background-color: var(--green0-color);
@@ -783,6 +790,11 @@ body:not(.is-using-mouse) {
 			text-decoration-style: unset;
 			text-underline-offset: unset;
 		}
+	}
+
+	&-flex {
+		display: inline-flex;
+		gap: 8px;
 	}
 }
 

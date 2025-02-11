@@ -62,32 +62,53 @@
     <?if(strpos($_SERVER["REQUEST_URI"], "ordering.php") || strpos($_SERVER["REQUEST_URI"], "order-confirm.php")):?>header--order<?endif;?>
     ">
         <div class="header-top">
-            <div class="container header-container">
+            <div class="container header-container header-top-container">
                 <div class="header-top-nav">
-                    <ul class="list-reset header-top-nav__list">
-                        <li><a class="header-top__link" href="javascript:;">Доставка</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Оптовым покупателям</a></li>
-                        <li><a class="header-top__link" href="javascript:;">Контакты</a></li>
-                        <li><a class="header-top__link" href="javascript:;">🏡  Услуги</a></li>
-                    </ul>
+                    <a class="link-secondary header-top__link" href="javascript:;">
+                        <span class="text-content">Доставка</span>
+                    </a>
+                    <a class="link-secondary header-top__link" href="javascript:;">
+                        <span class="text-content">Оптовым покупателям</span>
+                    </a>
+                    <a class="link-secondary header-top__link" href="javascript:;">
+                        <span class="text-content">Контакты</span>
+                    </a>
+                    <a class="link header-top__link" href="javascript:;">
+                        <span class="text-content">🏡&nbsp;&nbsp;Услуги</span>
+                    </a>
                 </div>
-                <div class="header-top-city">
-                    <button
-                            class="btn-reset header-top__link header-top-city__spoiler"
-                            type="button"
-                            data-fancybox
-                            data-src="#modal-city"
-                    >
-                        <svg class="icon icon-fill icon-sm">
-                            <use href="img/sprite.svg#pin"></use>
+                <div class="header-top-info">
+                    <a class="link-flex link header-top__link" href="javascript:;">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#location"></use>
                         </svg>
-                        <span class="header-top-city__spoiler-text">
-                            <span>Москва</span>
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-down"></use>
-                            </svg>
-                        </span>
-                    </button>
+                        <span class="text-content">Склад: Колпино, ул. Загородная 6Б</span>
+                    </a>
+                    <a class="link-brand header-top__link" href="javascript:;">
+                        <span class="text-content">Как проехать</span>
+                    </a>
+                </div>
+                <div class="header-top-info">
+                    <a class="link-flex link header-top__link header-top__link--tdu" href="mailto:info@geo-dvor.ru">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#sms"></use>
+                        </svg>
+                        <span class="text-content">info@geo-dvor.ru</span>
+                    </a>
+                    <div class="social header-top-social">
+                        <div class="social__list">
+                            <a href="javascript:;" class="social__item">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#soc-vk"></use>
+                                </svg>
+                            </a>
+                            <a href="javascript:;" class="social__item">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#soc-tg"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 				<?/* login
                 <div class="header-top-profile">
@@ -123,7 +144,7 @@
                 </div>*/?>
 				<?/* not logged */?>
                 <div class="header-top-profile not-logged">
-                    <button class="btn-reset btn btn-light" data-fancybox data-src="#modal-auth">
+                    <button class="btn-reset btn btn-sm btn-extra" data-fancybox data-src="#modal-auth">
                         <span class="text-content">Войти</span>
                     </button>
                 </div>
@@ -653,51 +674,24 @@
                 </div>
 
                 <div class="header-profile">
-                    <ul class="list-reset header-profile__list">
-                        <li>
-                            <button class="btn-reset header-profile__btn">
-                                <span class="header-profile__btn-view">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#bookmarks"></use>
-                                    </svg>
-                                    <span class="header-profile__btn-count">12</span>
-                                </span>
-                                <span class="header-profile__btn-text">Избранное</span>
-                            </button>
-                        </li>
-                        <li>
-                            <button class="btn-reset header-profile__btn">
-                                <span class="header-profile__btn-view">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#inbox-filled"></use>
-                                    </svg>
-                                    <span class="header-profile__btn-count">7</span>
-                                </span>
-                                <span class="header-profile__btn-text">Сметы</span>
-                            </button>
-                        </li>
-                        <li>
-                            <button class="btn-reset header-profile__btn">
-                                <span class="header-profile__btn-view">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#barchart"></use>
-                                    </svg>
-                                </span>
-                                <span class="header-profile__btn-text">Сравнить</span>
-                            </button>
-                        </li>
-                        <li>
-                            <button class="btn-reset header-profile__btn header-profile__btn-cart">
-                                <span class="header-profile__btn-view">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#shopping-cart-2"></use>
-                                    </svg>
-                                    <span class="header-profile__btn-count">3</span>
-                                </span>
-                                <span class="header-profile__btn-text">12 470,80 ₽</span>
-                            </button>
-                        </li>
-                    </ul>
+                    <button class="btn-reset header-profile__btn">
+                        <span class="header-profile__btn-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#heart"></use>
+                            </svg>
+                            <span class="header-profile__btn-count">24</span>
+                        </span>
+                        <span class="header-profile__btn-text">Избранное</span>
+                    </button>
+                    <button class="btn-reset header-profile__btn header-profile__btn-cart">
+                        <span class="header-profile__btn-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#shopping-cart"></use>
+                            </svg>
+                            <span class="header-profile__btn-count">3</span>
+                        </span>
+                        <span class="header-profile__btn-text">Корзина</span>
+                    </button>
                 </div>
 
                 <div class="header-catalog">
@@ -824,145 +818,6 @@
                             <use href="img/sprite.svg#soc-tg"></use>
                         </svg>
                     </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mobile-city">
-        <div class="mobile-city-header">
-            <div class="mobile-city-header__top">
-                <div class="mobile-city__title h4">Выберите ваш город</div>
-                <div class="mobile-city__close">
-                    <svg class="icon icon-fill icon-md">
-                        <use href="img/sprite.svg#cross"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="mobile-city-search">
-                <div class="mobile-city-search__item">
-                    <div class="input-wrapper-search">
-                        <input
-                                class="input-reset input"
-                                type="search"
-                                name=""
-                                placeholder="Найти город..."
-                        >
-                        <button class="btn-reset btn input-delete-btn">
-                            <svg class="icon icon-fill icon-xs">
-                                <use href="img/sprite.svg#cross"></use>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <div class="mobile-city-search__item">
-                    <div class="mobile-search-results-hint">
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <button class="btn-reset btn">
-                                        <span class="text-content">Москва</span>
-                                    </button>
-                                </div>
-                                <div class="swiper-slide">
-                                    <button class="btn-reset btn">
-                                        <span class="text-content">Санкт-петербург</span>
-                                    </button>
-                                </div>
-                                <div class="swiper-slide">
-                                    <button class="btn-reset btn">
-                                        <span class="text-content">Казань</span>
-                                    </button>
-                                </div>
-                                <div class="swiper-slide">
-                                    <button class="btn-reset btn">
-                                        <span class="text-content">Воронеж</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mobile-city-alphabet">
-            <div class="mobile-city-alphabet__list">
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">А</div>
-                    <div class="mobile-city-alphabet__city">Абакан</div>
-                    <div class="mobile-city-alphabet__city">Альметьевск</div>
-                    <div class="mobile-city-alphabet__city">Ангарск</div>
-                    <div class="mobile-city-alphabet__city">Артем</div>
-                    <div class="mobile-city-alphabet__city">Ачинск</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">Б</div>
-                    <div class="mobile-city-alphabet__city">Барнаул</div>
-                    <div class="mobile-city-alphabet__city">Белгород</div>
-                    <div class="mobile-city-alphabet__city">Белово</div>
-                    <div class="mobile-city-alphabet__city">Бердск</div>
-                    <div class="mobile-city-alphabet__city">Бийск</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">В</div>
-                    <div class="mobile-city-alphabet__city">Великие Луки</div>
-                    <div class="mobile-city-alphabet__city">Владивосток</div>
-                    <div class="mobile-city-alphabet__city">Воронеж</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">Г</div>
-                    <div class="mobile-city-alphabet__city">Губкин</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">Е</div>
-                    <div class="mobile-city-alphabet__city">Ейск</div>
-                    <div class="mobile-city-alphabet__city">Екатеринбург</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">Ж</div>
-                    <div class="mobile-city-alphabet__city">Железногорск</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">З</div>
-                    <div class="mobile-city-alphabet__city">Зеленогорск</div>
-                    <div class="mobile-city-alphabet__city">Златоуст</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">И</div>
-                    <div class="mobile-city-alphabet__city">Иваново</div>
-                    <div class="mobile-city-alphabet__city">Иркутск</div>
-                    <div class="mobile-city-alphabet__city">Искитим</div>
-                    <div class="mobile-city-alphabet__city">Ишим</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">Й</div>
-                    <div class="mobile-city-alphabet__city">Йошкар-Ола</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">К</div>
-                    <div class="mobile-city-alphabet__city">Казань</div>
-                    <div class="mobile-city-alphabet__city">Канск</div>
-                    <div class="mobile-city-alphabet__city">Кемерово</div>
-                    <div class="mobile-city-alphabet__city">Киселевск</div>
-                    <div class="mobile-city-alphabet__city">Краснодар</div>
-                    <div class="mobile-city-alphabet__city">Краснотурьинск</div>
-                    <div class="mobile-city-alphabet__city">Красноярск</div>
-                    <div class="mobile-city-alphabet__city">Кызыл</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">Л</div>
-                    <div class="mobile-city-alphabet__city">Ленинск-Кузнецкий</div>
-                    <div class="mobile-city-alphabet__city">Лесосибирск</div>
-                </div>
-                <div class="mobile-city-alphabet__item">
-                    <div class="mobile-city-alphabet__title">М</div>
-                    <div class="mobile-city-alphabet__city">Майский</div>
-                    <div class="mobile-city-alphabet__city">Маркс</div>
-                    <div class="mobile-city-alphabet__city">Мегион</div>
-                    <div class="mobile-city-alphabet__city">Миасс</div>
-                    <div class="mobile-city-alphabet__city">Минусинск</div>
-                    <div class="mobile-city-alphabet__city">Мурманск</div>
-                    <div class="mobile-city-alphabet__city">Муром</div>
                 </div>
             </div>
         </div>
@@ -1430,18 +1285,6 @@
                     </button>
                 </li>
             </ul>
-        </div>
-    </div>
-
-    <div class="action-notice"> <!-- //@check -->
-        <div class="action-notice__view">
-            <svg class="icon icon-fill icon-sm">
-                <use href="img/sprite.svg#bookmarks"></use>
-            </svg>
-        </div>
-        <div class="action-notice__descr">
-            <div class="action-notice__title">Товар добавлен в <span class="action-notice__title-category">избранное</span></div>
-            <div class="action-notice__text">В списке <span class="action-notice__count">2</span> товара</div>
         </div>
     </div>
 
