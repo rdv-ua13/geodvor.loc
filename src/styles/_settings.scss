@@ -152,7 +152,7 @@ h4, .h4 {
 .fw-medium {
 	font-weight: 500;
 }
-.fw-semi-bold {
+.fw-semibold {
 	font-weight: 600;
 }
 .fw-bold {
@@ -685,23 +685,46 @@ body:not(.is-using-mouse) {
 .link {
 	color: var(--text-primary);
 
+	.icon {
+		fill: var(--text-primary);
+		stroke: var(--text-primary);
+	}
 	&:visited,
 	&:focus,
 	&:hover,
 	&:active {
 		color: var(--green10-color);
+
+		.icon {
+			fill: var(--green10-color);
+			stroke: var(--green10-color);
+		}
 	}
 
 	&-secondary {
 		color: var(--text-secondary);
 
+		.icon {
+			fill: var(--text-secondary);
+			stroke: var(--text-secondary);
+		}
 		&:visited,
 		&:focus {
 			color: var(--green10-color);
+
+			.icon {
+				fill: var(--green10-color);
+				stroke: var(--green10-color);
+			}
 		}
 		&:hover,
 		&:active {
 			color: var(--text-primary);
+
+			.icon {
+				fill: var(--text-primary);
+				stroke: var(--text-primary);
+			}
 		}
 	}
 	&-brand {
@@ -710,21 +733,39 @@ body:not(.is-using-mouse) {
 		text-decoration-style: dashed;
 		text-underline-offset: 4px;
 
+		.icon {
+			fill: var(--green10-color);
+			stroke: var(--green10-color);
+		}
 		&:visited,
 		&:focus,
 		&:hover,
 		&:active {
 			color: var(--green0-color);
+
+			.icon {
+				fill: var(--green0-color);
+				stroke: var(--green0-color);
+			}
 		}
 	}
 	&-invert {
 		color: var(--white-color);
 
+		.icon {
+			fill: var(--white-color);
+			stroke: var(--white-color);
+		}
 		&:visited,
 		&:focus,
 		&:hover,
 		&:active {
 			color: var(--gray21-color);
+
+			.icon {
+				fill: var(--gray21-color);
+				stroke: var(--gray21-color);
+			}
 		}
 	}
 
@@ -744,39 +785,6 @@ body:not(.is-using-mouse) {
 		}
 	}
 }
-
-/*.soc-ya,
-.soc-vk {
-	background-color: var(--white-color);
-}
-.soc-ya {
-	fill: #E85032;
-
-	&:hover {
-		fill: var(--red-color);
-	}
-}
-.soc-vk {
-	fill: #0277FF;
-
-	&:hover {
-		opacity: 0.8;
-	}
-}
-.soc-ok {
-	fill: #EB722E;
-
-	&:hover {
-		opacity: 0.8;
-	}
-}
-.soc-tg {
-	fill: #64A9DC;
-
-	&:hover {
-		opacity: 0.8;
-	}
-}*/
 
 .list {
 	&-reset {
@@ -2027,67 +2035,59 @@ input.disabled {
 .social {
 	&__title {
 		&:not(:last-child) {
-			margin-bottom: 10px;
+			margin-bottom: 12px;
 		}
 	}
 	&__list {
 		display: flex;
 		align-items: center;
-		gap: 12px;
+		gap: 8px;
+	}
+	&__item {
+		position: relative;
+		display: flex;
+		overflow: hidden;
+		border-radius: 6px;
 
-		& a {
-			display: flex;
-			border-radius: 4px;
-
-			& .icon {
-				min-width: 32px;
-				width: 32px;
-				min-height: 32px;
-				height: 32px;
-				fill: var(--gray3-color);
-			}
-			&:hover {
-				& .icon {
-					fill: var(--gray4-color);
-				}
-			}
+		&::before {
+			content: '';
+			z-index: 0;
+			position: absolute;
+			inset: 1px;
+			background-color: var(--white-color);
+		}
+		.icon {
+			z-index: 1;
+			min-width: 44px;
+			width: 44px;
+			min-height: 44px;
+			height: 44px;
+			fill: var(--text-secondary);
+			stroke: var(--text-secondary);
 		}
 	}
-}
+} //ok
 
 .payment-supports {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	gap: 8px;
 
 	a {
 		display: flex;
 		align-items: center;
 
-		.icon {
-			min-width: 0;
-			width: auto;
-			min-height: 0;
-			max-height: 20px;
-			height: auto;
-		}
-		.image {
-			width: auto;
-			max-height: 20px;
-			height: 100%;
+		.icon,
+		.image,
+		img {
+			min-width: 32px;
+			width: 32px;
+			min-height: 25px;
+			height: 25px;
 		}
 	}
-}
-@media (min-width: 992px) {
-	.payment-supports {
-		gap: 24px;
-	}
-}
-@media (max-width: 991.98px) {
-	.payment-supports {
-		gap: 16px;
-	}
-}
+} //ok
 
 .product-actions-bar {
 	display: flex;

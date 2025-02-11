@@ -648,10 +648,8 @@
                 </div>
 
                 <div class="header-contacts">
-                    <div class="header-contacts__tel">
-                        <a class="link fz-subheading-sm header-contacts__number" href="tel:+79811558247">+7 981 155-82-47</a>
-                        <a class="link-brand header-contacts__cta" href="javascript:;">Заявка на расчет</a>
-                    </div>
+                    <a class="link fw-semibold fz-subheading-sm header-contacts__tel" href="tel:+79811558247">+7 981 155-82-47</a>
+                    <a class="link-brand header-contacts__cta" href="javascript:;">Заявка на расчет</a>
                 </div>
 
                 <div class="header-profile">
@@ -804,8 +802,8 @@
             </div>
 
             <div class="mobile-menu-contacts">
-                <a class="mobile-menu-contacts__number h4" href="tel:+79811558247">+7 981 155-82-47</a>
-                <a class="link-brand mobile-menu-contacts__cta" href="javascript:;">Заявка на расчет</a>
+                <a class="link h4" href="tel:+79811558247">+7 981 155-82-47</a>
+                <a class="link-brand " href="javascript:;">Заявка на расчет</a>
             </div>
 
             <div class="mobile-menu-connection">
@@ -1244,7 +1242,7 @@
                 <div class="menu-catalog-submenu-section active" data-root-pointer="0">
                     <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div> <!--//h3 change by design-->
                     <div class="menu-catalog-submenu-links">
-                        <ul class="list-reset menu-catalog-submenu-links__list"> <!--//@chack переделать в div без списка, либо добавить liшкам класс-->
+                        <ul class="list-reset menu-catalog-submenu-links__list"> <!--//@check переделать в div без списка, либо добавить liшкам класс-->
                             <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
                             <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
                             <li>

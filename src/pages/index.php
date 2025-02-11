@@ -2,7 +2,7 @@
 
 <div class="gap-xl">
 	<div class="container">
-        <div class="gap-md">
+        <?/*<div class="gap-md">
             <div class="index-slider-wrapper">
                 <div class="index-slider swiper">
                     <div class="swiper-wrapper">
@@ -122,7 +122,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </div>
+        </div>*/?>
 
         <div class="gap-lg">
             <div class="user-control">
