@@ -120,10 +120,11 @@
                     <div class="fz-md">&#60;use&#62; -> sprite.svg#id_из_тултип / file-name.svg#file-name</div>
                     <div class="fz-sm">
                             <pre>
-.icon-xs { width: 12px!important; height: 12px!important; }
-.icon-sm { width: 16px!important; height: 16px!important; } <- default
-.icon-md { width: 20px!important; height: 20px!important; }
-.icon-lg { width: 24px!important; height: 24px!important; }
+.icon-xs { width: 12px!important; height: 16px!important; }
+.icon-sm { width: 16px!important; height: 20px!important; } <- default
+.icon-md { width: 20px!important; height: 24px!important; }
+.icon-lg { width: 24px!important; height: 32px!important; }
+.icon-xl { width: 24px!important; height: 40px!important; }
                             </pre>
                     </div>
                 </div>
