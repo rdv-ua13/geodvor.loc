@@ -78,7 +78,7 @@
                     </a>
                 </div>
                 <div class="header-top-info">
-                    <a class="link-flex link header-top__link" href="javascript:;">
+                    <a class="link-flex link header-top__link header-top__location" href="javascript:;">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#location"></use>
                         </svg>

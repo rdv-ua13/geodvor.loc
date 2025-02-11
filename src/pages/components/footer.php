@@ -1,17 +1,31 @@
         <div class="pre-footer">
             <div class="container pre-footer__container">
-                <div class="pre-footer__descr">
-                    <div class="h3">Узнавайте об акциях и новостях раньше всех</div>
-                    <div class="pre-footer__descr-text">Подпишитесь на полезную рассылку</div>
+                <div class="pre-footer__item pre-footer__descr">
+                    <div class="pre-footer__descr-pic">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/mail-glass.svg#mail-glass"
+                                width="90"
+                                height="90"
+                                alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="pre-footer__descr-info">
+                        <div class="h3">Узнавайте об акциях и новостях раньше всех</div>
+                        <div class="pre-footer__descr-text fz-sm">Подпишитесь на полезную рассылку</div>
+                    </div>
                 </div>
-                <div class="pre-footer__act">
+                <div class="pre-footer__item pre-footer__act">
                     <div class="pre-footer__subscribe">
-                        <form id="" class="form" method="" action="javascript:;">
-                            <div class="input-wrapper input-wrapper-split input-wrapper-search has-icon-l">
+                        <form id="" method="" action="javascript:;">
+                            <div class="input-wrapper input-wrapper-split has-icon-l">
                                 <input
+                                        id=""
                                         class="input-reset input"
-                                        type="search"
+                                        type="text"
                                         name=""
+                                        value=""
                                         placeholder="Введите ваш email"
                                         autocomplete="off"
                                 >
@@ -20,12 +34,12 @@
                                         <use href="img/sprite.svg#sms-notification"></use>
                                     </svg>
                                 </label>
-                                <button class="btn-reset btn btn-secondary input-search-btn" type="submit">
+                                <button class="btn-reset btn btn-secondary" type="submit">
                                     <span class="text-content">Подписаться</span>
                                 </button>
                             </div>
-                            Даю согласие на обработку моих персональных данных. Соглашаюсь с Политикой конфиденциальности и ознакомлен с Политикой в отношении обработки персональных данных
                         </form>
+                        <div class="pre-footer__subscribe-caption fz-сaption-sm">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link-tdu" href="javascript:;">Политикой конфиденциальности</a></div>
                     </div>
                 </div>
             </div>

@@ -123,7 +123,7 @@
                 </div>
             </div>
         </div>*/?>
-
+<?/*
         <div class="gap-lg">
             <div class="user-control">
                 <div class="user-control__item user-control-loyalty">
@@ -5427,7 +5427,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>*/?>
 	</div>
 </div>
 
