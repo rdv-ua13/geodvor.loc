@@ -84,7 +84,10 @@
                     <div class="card__descr">
                         <div class="card__title">Более 1000 отзывов</div>
                         <div class="card__text-content">
-                            На площадках <a class="link link-tdu" href="javascript:;"><span class="text-content">Ozon,</span> </a><a class="link link-tdu" href="javascript:;"><span class="text-content">Авито,</span></a> <a class="link link-tdu" href="javascript:;"><span class="text-content">Яндекс&nbsp;Карты</span></a>
+                            На площадках
+                            <a class="link link-tdu" href="javascript:;"><span class="text-content">Ozon,</span></a>
+                            <a class="link link-tdu" href="javascript:;"><span class="text-content">Авито,</span></a>
+                            <a class="link link-tdu" href="javascript:;"><span class="text-content">Яндекс&nbsp;Карты</span></a>
                         </div>
                     </div>
                 </div>
@@ -106,10 +109,162 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
+<div class="gap-xl">
+    <div class="container">
+        <div class="slider-out basic-slider-wrap">
+            <div class="basic-slider swiper" data-basic-slider>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="card card-product">
+                            <a class="card__view" href="javascript:;">
+                                <div class="mini-slider">
+                                    <div class="mini-slider__slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/cp1.png"
+                                                class="mini-slider__img"
+                                                width="160"
+                                                height="160"
+                                                style="opacity: 1;"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="mini-slider__slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/cp2.png"
+                                                class="mini-slider__img"
+                                                width="160"
+                                                height="160"
+                                                style="opacity: 0;"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="mini-slider__slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/cp3.png"
+                                                class="mini-slider__img"
+                                                width="160"
+                                                height="160"
+                                                style="opacity: 0;"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <ul class="list-reset mini-slider__dots"></ul>
+                                </div>
+                            </a>
+                            <div class="card__descr">
+                                <div class="card__stock product-stock in-stock">
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#checkbox-rec"></use>
+                                    </svg>
+                                    <span>Доставим завтра</span>
+                                </div>
+
+                                <a class="card__title " href="javascript:;">Геотекстиль для грядок, шир. 2*10 м.п</a>
+
+                                <div class="card__characteristics">
+                                    <p>Цвет: Белый</p>
+                                    <p>Плотность: 150 гр/м2</p>
+                                    <p>Ширина рулона: 2 м</p>
+                                    <p>Длина рулона: 10 м</p>
+                                </div>
+
+                                <div class="card__price">
+                                    <div class="basic-tabs">
+                                        <div class="basic-tabs-container" data-tab="card-price">
+                                            <div class="basic-tabs-item">
+                                                <span class="tab basic-tabs-trigger"><span class="card__price-title">Цена за</span></span>
+                                            </div>
+                                            <div class="basic-tabs-item">
+                                                <span class="tab basic-tabs-trigger active" data-target="square_meter"><span>м<sup>2</sup></span></span>
+                                            </div>
+                                            <div class="basic-tabs-item">
+                                                <span class="tab basic-tabs-trigger" data-target="piece"><span>штуку</span></span>
+                                            </div>
+                                        </div>
+                                        <div class="basic-tabs-content" data-tab-content="card-price">
+                                            <div class="basic-tabs-content__panel active" data-id="square_meter">
+                                                <div class="basic-tabs-content__content">
+                                                    <span class="card__price-current">910 ₽</span>
+                                                    <span class="card__price-origin">1230 ₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="basic-tabs-content__panel" data-id="piece">
+                                                <div class="basic-tabs-content__content">
+                                                    <div class="card__price-current">210 ₽</div>
+                                                    <div class="card__price-origin">430 ₽</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card__cart product-card__cart cart-buy">
+                                    <div class="product-card__cart-quantity cart-quantity disabled">
+                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                            <svg class="icon icon-fill icon-sm">
+                                                <use href="img/sprite.svg#minus"></use>
+                                            </svg>
+                                        </button>
+                                        <input
+                                                id=""
+                                                class="input-reset cart-quantity-input"
+                                                type="text"
+                                                placeholder="999"
+                                                value="1"
+                                                max="999"
+                                                data-mult="1"
+                                        >
+                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                            <svg class="icon icon-fill icon-sm">
+                                                <use href="img/sprite.svg#plus"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn-reset btn cart-in" type="button">
+                                        <span class="text-content">В корзину</span>
+                                    </button>
+                                    <?/*
+                                    <div class="card__act">
+                                        <div class="card-product-act__list" data-card-product-act-content>
+                                            <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
+                                                <svg class="icon icon-fill icon-default">
+                                                    <use href="img/sprite.svg#heart"></use>
+                                                </svg>
+                                                <svg class="icon icon-fill icon-selected">
+                                                    <use href="img/sprite.svg#filled-heart"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>*/?>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-navigation">
+                <div class="swiper-button-next">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </div>
+                <div class="swiper-button-prev">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-left"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 ________________________________________________________________
 <div class="gap-xl">
@@ -459,9 +614,6 @@ ________________________________________________________________
                                                             <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
                                                                 <svg class="icon icon-fill icon-sm">
                                                                     <use href="img/sprite.svg#minus"></use>
-                                                                </svg>
-                                                                <svg class="icon icon-fill icon-sm icon-selected">
-                                                                    <use href="img/sprite.svg#trash"></use>
                                                                 </svg>
                                                             </button>
                                                             <input
