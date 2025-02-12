@@ -50,16 +50,6 @@
                 margin-right: 40px;
                 padding: 15px 40px;
             }
-
-            .block-ready {
-                color: forestgreen;
-                font-weight: 900;
-                font-size: 18px;
-            }
-            .block-ready::before,
-            .block-ready::after {
-                content: none;
-            }
             .ready {
                 color: forestgreen;
                 font-weight: 600;
@@ -78,44 +68,36 @@
             <span style="font-size: 24px;">n + ui (всего страниц в макете)</span>
         </span>
     </div>
-    <div style="font-size: 24px;">Готовые разделы отмечены "<span class="block-ready">Блок готов</span>"</div>
 
     <div>
         <ul>
-            <?/*<li class="block-ready">Блок готов</li>*/?>
             <li><a href="index.php" target="_blank" class="ready">Главная</a></li>
             <br>
 
             <?/*
-            <li class="block-ready">Блок готов</li>
             <li><a href="card-product.php" target="_blank" class="ready">Карточка товара</a></li>
             <br>
 
-            <li class="block-ready">Блок готов</li>
             <li><a href="catalog.php" target="_blank" class="ready">Каталог - Верхний уровень</a></li>
             <li><a href="catalog-section.php" target="_blank" class="ready">Каталог - Разделы</a></li>
             <li><a href="catalog-category.php" target="_blank" class="ready">Категории каталога - Изделия</a></li>
             <li><a href="catalog-category-socket-switches.php" target="_blank" class="ready">Категории каталога - Розетки и выключатели</a></li>
             <br>
 
-            <li class="block-ready">Блок готов</li>
             <li><a href="search-searchbar.php" target="_blank" class="ready">Поиск через строку поиска</a></li>
             <li><a href="search-searchbar-product-off.php" target="_blank" class="ready">Отсутствующий товар</a></li>
             <br>
 
-            <li class="block-ready">Блок готов</li>
             <li><a href="cart.php" target="_blank" class="ready">Корзина</a></li>
             <li><a href="cart-category.php" target="_blank" class="ready">Корзина - сортировка по категориям</a></li>
             <li><a href="cart-user.php" target="_blank" class="ready">Корзина - пользователь</a></li>
             <li><a href="cart-empty.php" target="_blank" class="ready">Корзина - пусто</a></li>
             <br>
 
-            <li class="block-ready">Блок готов</li>
             <li><a href="ordering.php" target="_blank" class="ready">Оформление заказа</a></li>
             <li><a href="order-confirm.php" target="_blank" class="ready">Подтверждение заказа</a></li>
             <br>
 
-            <li class="block-ready">Блок готов</li>
             <li><a href="cp-contacts.php" target="_blank" class="ready">Контентные страницы - Контакты</a></li>
             <li><a href="cp-payment.php" target="_blank" class="ready">Контентные страницы - Оплата</a></li>
             <li><a href="cp-delivery.php" target="_blank" class="ready">Контентные страницы - Доставка</a></li>
@@ -127,7 +109,7 @@
             <li><a href="cp-articles-details.php" target="_blank" class="ready">Контентные страницы - Одна статья</a></li>*/?>
             <br>
 
-            <li><a href="ui.php" target="_blank">ui</a></li>
+            <li><a class="ready" href="ui.php" target="_blank">ui</a></li>
         </ul>
     </div>
     </body>

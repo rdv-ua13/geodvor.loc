@@ -31,9 +31,20 @@
 	--orange0-color: #ED9237;
 	--alert0-color: #FCF0E3;
 
-	/*--shadow: 0 0 20px 0 rgba(58, 66, 89, 0.25);
-	--shadow2: 0 2px 7px 0 rgba(58, 66, 89, 0.18);
-	--shadow-product-card: 0 2px 15px 0 rgba(58, 66, 89, 0.16);*/
+
+	--shadow-float0: 0 1px 2px 1px rgba(136, 140, 138, 0.2);
+	--shadow-float1: 0 6px 6px -2px rgba(136, 140, 138, 0.2);
+	--shadow-float2: 0 8px 8px -2px rgba(136, 140, 138, 0.2);
+
+	--shadow-bar0: 0 -1px 2px 1px rgba(136, 140, 138, 0.2);
+	--shadow-bar1: 0 -4px 4px -2px rgba(136, 140, 138, 0.1);
+
+	--shadow-section0: 0 1px 4px 1px rgba(136, 140, 138, 0.2);
+	--shadow-section1: 0 4px 12px -2px rgba(136, 140, 138, 0.1);
+
+	--shadow-popup0: 0 0 2px 0 rgba(136, 140, 138, 0.2);
+	--shadow-popup1: 0 1px 2px 0 rgba(136, 140, 138, 0.1);
+	--shadow-popup2: 0 12px 24px 0 rgba(136, 140, 138, 0.1);
 
 	// fancybox
 	--fancybox-scrollbar-compensate: 17px;
