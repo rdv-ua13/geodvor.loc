@@ -1813,6 +1813,9 @@ input.disabled {
 		.card__price {
 			font-size: 12px;
 
+			&:not(:last-child) {
+				margin-bottom: 12px;
+			}
 			&-title {
 				color: var(--gray40-color);
 				font-weight: 500;
@@ -1898,6 +1901,9 @@ input.disabled {
 			.card__price {
 				font-size: 13px;
 
+				&:not(:last-child) {
+					margin-bottom: 16px;
+				}
 				.basic-tabs-content__content {
 					gap: 8px;
 				}
