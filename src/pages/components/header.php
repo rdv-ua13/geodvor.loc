@@ -53,14 +53,9 @@
     <script defer src="js/main.js"></script>
 </head>
 
-<?if(strpos($_SERVER["REQUEST_URI"], "card-product.php")):?>
-<body class="card-product-page">
-<?else:?>
-<body>
-<?endif;?>
-    <header class="header fixed-block
-    <?if(strpos($_SERVER["REQUEST_URI"], "ordering.php") || strpos($_SERVER["REQUEST_URI"], "order-confirm.php")):?>header--order<?endif;?>
-    ">
+
+<body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?> <?=(strpos($_SERVER["REQUEST_URI"], "card-product.php"))? 'card-product-page' : ''?>">
+    <header class="header fixed-block <?=(strpos($_SERVER["REQUEST_URI"], "ordering.php") || strpos($_SERVER["REQUEST_URI"], "order-confirm.php"))? 'header--order' : ''?>">
         <div class="header-top">
             <div class="container header-container header-top-container">
                 <div class="header-top-nav">
@@ -89,7 +84,7 @@
                     </a>
                 </div>
                 <div class="header-top-info">
-                    <a class="link-flex link header-top__link header-top__link--tdu" href="mailto:info@geo-dvor.ru">
+                    <a class="link-flex link link-tdu header-top__link" href="mailto:info@geo-dvor.ru">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#sms"></use>
                         </svg>

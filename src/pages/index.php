@@ -2,109 +2,111 @@
 
 <div class="gap-xl">
     <div class="container">
-        <div class="slider-out">
-            <div class="index-slider-wrapper">
-                <div class="index-slider swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="main-banner bg-light" style="background-image: url('img/bg-banner0.png');">
-                                <div class="main-banner__item main-banner__descr">
-                                    <div class="main-banner__title h2">
-                                        <div class="link-new">premium–комплекс</div>
-                                        Для эффективных тренировок
-                                    </div>
-                                    <div class="main-banner__subtitle">Используйте самые лучшие продукты для высокоэффективных спортивных тренировок</div>
-                                    <div class="main-banner__more">
-                                        <a class="btn-reset btn btn-primary" href="javascript:;">
-                                            <span class="text-content">Подобрать комплекс</span>
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#arrow-right"></use>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="main-banner__item main-banner__decor">
-                                    <img
-                                            src="img/banner-product.png"
-                                            class="image"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                            </div>
+        <div class="index-top">
+            <div class="index-top-primary">
+                <div class="slider-out basic-slider-wrap">
+                    <div class="basic-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="main-banner bg-light" style="background-image: url('img/bg-banner0.png');">
-                                <div class="main-banner__item main-banner__descr">
-                                    <div class="main-banner__title h2">
-                                        <div class="link-new">premium–комплекс</div>
-                                        Для эффективных тренировок2
-                                    </div>
-                                    <div class="main-banner__subtitle">Используйте самые лучшие продукты для высокоэффективных спортивных тренировок</div>
-                                    <div class="main-banner__more">
-                                        <a class="btn-reset btn btn-primary" href="javascript:;">
-                                            <span class="text-content">Подобрать <span class="desktop-only">комплекс</span></span>
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#arrow-right"></use>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="main-banner__item main-banner__decor">
-                                    <img
-                                            src="img/banner-product.png"
-                                            class="image"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="main-banner bg-light" style="background-image: url('img/bg-banner0.png');">
-                                <div class="main-banner__item main-banner__descr">
-                                    <div class="main-banner__title h2">
-                                        <div class="link-new">premium–комплекс</div>
-                                        Для эффективных тренировок3
-                                    </div>
-                                    <div class="main-banner__subtitle">Используйте самые лучшие продукты для высокоэффективных спортивных тренировок</div>
-                                    <div class="main-banner__more">
-                                        <a class="btn-reset btn btn-primary" href="javascript:;">
-                                            <span class="text-content">Подобрать <span class="desktop-only">комплекс</span></span>
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#arrow-right"></use>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="main-banner__item main-banner__decor">
-                                    <img
-                                            src="img/banner-product.png"
-                                            class="image"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-navigation">
-                        <div class="swiper-button-next">
-                            <button class="btn-reset btn btn-square">
+                        <div class="swiper-navigation">
+                            <div class="swiper-button-next btn btn-icon">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#arrow-right"></use>
                                 </svg>
-                            </button>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <button class="btn-reset btn btn-square">
+                            </div>
+                            <div class="swiper-button-prev btn btn-icon">
                                 <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#arrow-right"></use>
+                                    <use href="img/sprite.svg#arrow-left"></use>
                                 </svg>
-                            </button>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-top-secondary">
+                <div class="basic-slider-wrap">
+                    <div class="basic-slider swiper" data-poster-slider>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="index-top-benefit benefit">
+                <div class="card card-benefit">
+                    <div class="card__view">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/benefit-ozon.svg"
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="card__descr">
+                        <div class="card__title">Premium-продавец на Ozon</div>
+                        <div class="card__text-content">
+                            Рейтинг 4,8 из 5<br>
+                            100% доставленных заказов вовремя
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-benefit">
+                    <div class="card__view">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/benefit-avito.svg"
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="card__descr">
+                        <div class="card__title">Проверенный партнер Авито</div>
+                        <div class="card__text-content">
+                            Более 4-х лет на площадке<br>
+                            Рейтинг 4,8 из 5
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-benefit">
+                    <div class="card__view">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/benefit-messages.svg"
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="card__descr">
+                        <div class="card__title">Более 1000 отзывов</div>
+                        <div class="card__text-content">
+                            На площадках <a class="link link-tdu" href="javascript:;"><span class="text-content">Ozon,</span> </a><a class="link link-tdu" href="javascript:;"><span class="text-content">Авито,</span></a> <a class="link link-tdu" href="javascript:;"><span class="text-content">Яндекс&nbsp;Карты</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-benefit">
+                    <div class="card__view">
+                        <img
+                            loading="lazy"
+                            class="image"
+                            src="img/benefit-box-tick.svg"
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="card__descr">
+                        <div class="card__title">Более 10 тысяч заказов</div>
+                        <div class="card__text-content">
+                            Доставлено нашим клиентам по всей России
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
@@ -112,127 +114,6 @@
 ________________________________________________________________
 <div class="gap-xl">
 	<div class="container">
-        <div class="gap-md">
-            <div class="index-slider-wrapper">
-                <div class="index-slider swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="container">
-                                <div class="catalog-content__banner main-banner">
-                                    <div class="main-banner__descr">
-                                        <div class="main-banner__descr-item">
-                                            <div class="main-banner__title h3">Кэшбэк 15% на серию Glossa<br> от System Electric</div>
-                                            <div class="main-banner__subtitle">Выгодные условия в декабре 2022 года для всех покупателей</div>
-                                        </div>
-                                        <div class="main-banner__descr-item desktop-only">
-                                            <a class="btn-reset btn" href="javascript:;">
-                                                <span class="text-content">перейти В серию</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="main-banner__decor">
-                                        <img
-                                                loading="lazy"
-                                                src="img/schneider-decor-1.png"
-                                                class="image"
-                                                width="155"
-                                                height="155"
-                                                alt="Изображение блока"
-                                        >
-                                        <img
-                                                loading="lazy"
-                                                src="img/schneider-decor-2.png"
-                                                class="image"
-                                                width="155"
-                                                height="155"
-                                                alt="Изображение блока"
-                                        >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="container">
-                                <div class="catalog-content__banner main-banner">
-                                    <div class="main-banner__descr">
-                                        <div class="main-banner__descr-item">
-                                            <div class="main-banner__title h3">Кэшбэк 15% на серию Glossa<br> от System Electric</div>
-                                            <div class="main-banner__subtitle">Выгодные условия в декабре 2022 года для всех покупателей</div>
-                                        </div>
-                                        <div class="main-banner__descr-item desktop-only">
-                                            <a class="btn-reset btn" href="javascript:;">
-                                                <span class="text-content">перейти В серию</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="main-banner__decor">
-                                        <img
-                                                loading="lazy"
-                                                src="img/schneider-decor-1.png"
-                                                class="image"
-                                                width="155"
-                                                height="155"
-                                                alt="Изображение блока"
-                                        >
-                                        <img
-                                                loading="lazy"
-                                                src="img/schneider-decor-2.png"
-                                                class="image"
-                                                width="155"
-                                                height="155"
-                                                alt="Изображение блока"
-                                        >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="container">
-                                <div class="catalog-content__banner main-banner">
-                                    <div class="main-banner__descr">
-                                        <div class="main-banner__descr-item">
-                                            <div class="main-banner__title h3">Кэшбэк 15% на серию Glossa<br> от System Electric</div>
-                                            <div class="main-banner__subtitle">Выгодные условия в декабре 2022 года для всех покупателей</div>
-                                        </div>
-                                        <div class="main-banner__descr-item desktop-only">
-                                            <a class="btn-reset btn" href="javascript:;">
-                                                <span class="text-content">перейти В серию</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="main-banner__decor">
-                                        <img
-                                                loading="lazy"
-                                                src="img/schneider-decor-1.png"
-                                                class="image"
-                                                width="155"
-                                                height="155"
-                                                alt="Изображение блока"
-                                        >
-                                        <img
-                                                loading="lazy"
-                                                src="img/schneider-decor-2.png"
-                                                class="image"
-                                                width="155"
-                                                height="155"
-                                                alt="Изображение блока"
-                                        >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-navigation">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
 
         <div class="gap-lg">
             <div class="user-control">

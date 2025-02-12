@@ -585,6 +585,20 @@
                         </svg>
                         <!--end ui content-->
                     </span>
+                    <span class="tooltip" data-tippy-content="#menu-box-tick">
+                        <!--start ui content-->
+                        <svg class="icon icon-md icon-fill">
+                            <use href="img/sprite.svg#menu-box-tick"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#menu-messages">
+                        <!--start ui content-->
+                        <svg class="icon icon-md icon-fill">
+                            <use href="img/sprite.svg#menu-messages"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
 
                     <span class="tooltip" data-tippy-content="#soc-ok">
                         <!--start ui content-->
@@ -724,6 +738,15 @@
                                 <use href="img/sprite.svg#menu"></use>
                             </svg>
                             <span class="text-content">Кнопка</span>
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#menu"></use>
+                            </svg>
+                        </button>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="class='btn-reset btn btn-icon'">
+                        <!--start ui content-->
+                        <button class="btn-reset btn btn-icon">
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#menu"></use>
                             </svg>
