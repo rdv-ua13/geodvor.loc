@@ -118,7 +118,7 @@
             <div class="basic-slider swiper" data-basic-slider>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-
+<!---->
                         <div class="card card-product">
                             <a class="card__view" href="javascript:;">
                                 <div class="mini-slider">
@@ -178,14 +178,16 @@
                                 <div class="card__price">
                                     <div class="basic-tabs">
                                         <div class="basic-tabs-container" data-tab="card-price">
-                                            <div class="basic-tabs-item">
-                                                <span class="tab basic-tabs-trigger"><span class="card__price-title">Цена за</span></span>
+                                            <div class="basic-tabs-item basic-tabs-item-label">
+                                                <span class="card__price-tab card__price-title tab">Цена за</span>
                                             </div>
                                             <div class="basic-tabs-item">
-                                                <span class="tab basic-tabs-trigger active" data-target="square_meter"><span>м<sup>2</sup></span></span>
+                                                <span class="card__price-tab tab basic-tabs-trigger active" data-target="square_meter">
+                                                    <span>м<sup>2</sup></span>
+                                                </span>
                                             </div>
                                             <div class="basic-tabs-item">
-                                                <span class="tab basic-tabs-trigger" data-target="piece"><span>штуку</span></span>
+                                                <span class="card__price-tab tab basic-tabs-trigger" data-target="piece"><span>штуку</span></span>
                                             </div>
                                         </div>
                                         <div class="basic-tabs-content" data-tab-content="card-price">
@@ -205,10 +207,10 @@
                                     </div>
                                 </div>
 
-                                <div class="card__cart product-card__cart cart-buy">
-                                    <div class="product-card__cart-quantity cart-quantity disabled">
+                                <div class="card__cart cart-buy">
+                                    <div class="cart-quantity">
                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                            <svg class="icon icon-fill icon-sm">
+                                            <svg class="icon icon-fill">
                                                 <use href="img/sprite.svg#minus"></use>
                                             </svg>
                                         </button>
@@ -222,7 +224,7 @@
                                                 data-mult="1"
                                         >
                                         <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                            <svg class="icon icon-fill icon-sm">
+                                            <svg class="icon icon-fill">
                                                 <use href="img/sprite.svg#plus"></use>
                                             </svg>
                                         </button>
@@ -246,6 +248,32 @@
                                 </div>
                             </div>
                         </div>
+<!---->
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-navigation">
+                <div class="swiper-button-next">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </div>
+                <div class="swiper-button-prev">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-left"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="slider-out basic-slider-wrap">
+            <div class="basic-slider swiper" data-basic-slider data-single-slider>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
 
                     </div>
                 </div>
@@ -265,6 +293,10 @@
         </div>
     </div>
 </div>
+
+
+
+
 
 ________________________________________________________________
 <div class="gap-xl">
