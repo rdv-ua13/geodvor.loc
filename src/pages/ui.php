@@ -86,21 +86,19 @@
                 <div class="fz-md">
                         <pre>
 @media (min-width: 992px) {
-    .gap-xxs { margin-bottom: 10px !important; }
-    .gap-xs { margin-bottom: 15px !important; }
+    .gap-xxxs { margin-bottom: 8px !important; }
+    .gap-xxs { margin-bottom: 12px !important; }
+    .gap-xs { margin-bottom: 16px !important; }
     .gap-sm { margin-bottom: 20px !important; }
-    .gap-md { margin-bottom: 25px !important; }
-    .gap-lg { margin-bottom: 30px !important; }
-    .gap-xl { margin-bottom: 50px !important; }
-    .gap-xl { margin-bottom: 50px !important; }
+    .gap-md { margin-bottom: 32px !important; }
+    .gap-lg { margin-bottom: 40px !important; }
+    .gap-xl { margin-bottom: 60px !important; }
 }
 @media (max-width: 991.98px) {
-    .gap-xxs { margin-bottom: 5px !important; }
-    .gap-xs { margin-bottom: 10px !important; }
-    .gap-sm { margin-bottom: 15px !important; }
-    .gap-md { margin-bottom: 20px !important; }
-    .gap-lg { margin-bottom: 25px !important; }
-    .gap-xl { margin-bottom: 40px !important; }
+    .gap-xxxs { margin-bottom: 8px !important; }
+    .gap-xxs, .gap-xs, .gap-sm { margin-bottom: 12px !important; }
+    .gap-md, .gap-lg { margin-bottom: 16px !important; }
+    .gap-xl { margin-bottom: 24px !important; }
 }
                         </pre>
                 </div>
