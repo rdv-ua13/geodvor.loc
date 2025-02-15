@@ -718,6 +718,19 @@
                         </button>
                         <!--end ui content-->
                     </span>
+                    <span class="tooltip" data-tippy-content="class='btn-reset btn btn-extra-secondary'">
+                        <!--start ui content-->
+                        <button class="btn-reset btn btn-extra-secondary">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#menu"></use>
+                            </svg>
+                            <span class="text-content">Кнопка</span>
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#menu"></use>
+                            </svg>
+                        </button>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="class='btn-reset btn btn-ghost'">
                         <!--start ui content-->
                         <button class="btn-reset btn btn-ghost">

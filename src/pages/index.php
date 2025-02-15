@@ -29,7 +29,7 @@
             </div>
             <div class="index-top-secondary">
                 <div class="basic-slider-wrap">
-                    <div class="basic-slider swiper" data-poster-slider>
+                    <div class="basic-slider swiper swiper-autoplay" data-single-autoplay-slider>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"></div>
                             <div class="swiper-slide"></div>
@@ -85,9 +85,9 @@
                         <div class="card__title">Более 1000 отзывов</div>
                         <div class="card__text-content">
                             На площадках
-                            <a class="link link-tdu" href="javascript:;"><span class="text-content">Ozon,</span></a>
-                            <a class="link link-tdu" href="javascript:;"><span class="text-content">Авито,</span></a>
-                            <a class="link link-tdu" href="javascript:;"><span class="text-content">Яндекс&nbsp;Карты</span></a>
+                            <a class="link link-tdu-text" href="javascript:;"><span class="text-content">Ozon,</span></a>
+                            <a class="link link-tdu-text" href="javascript:;"><span class="text-content">Авито,</span></a>
+                            <a class="link link-tdu-text" href="javascript:;"><span class="text-content">Яндекс&nbsp;Карты</span></a>
                         </div>
                     </div>
                 </div>
@@ -114,125 +114,130 @@
 
 <div class="gap-xl">
     <div class="container">
-        <div class="slider-out basic-slider-wrap">
-            <div class="basic-slider swiper" data-basic-slider>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-<!---->
-                        <div class="card card-product">
-                            <a class="card__view" href="javascript:;">
-                                <div class="mini-slider">
-                                    <div class="mini-slider__slide">
-                                        <img
-                                                loading="lazy"
-                                                src="img/cp1.png"
-                                                class="mini-slider__img"
-                                                width="160"
-                                                height="160"
-                                                style="opacity: 1;"
-                                                alt="Изображение блока"
-                                        >
-                                    </div>
-                                    <div class="mini-slider__slide">
-                                        <img
-                                                loading="lazy"
-                                                src="img/cp2.png"
-                                                class="mini-slider__img"
-                                                width="160"
-                                                height="160"
-                                                style="opacity: 0;"
-                                                alt="Изображение блока"
-                                        >
-                                    </div>
-                                    <div class="mini-slider__slide">
-                                        <img
-                                                loading="lazy"
-                                                src="img/cp3.png"
-                                                class="mini-slider__img"
-                                                width="160"
-                                                height="160"
-                                                style="opacity: 0;"
-                                                alt="Изображение блока"
-                                        >
-                                    </div>
-                                    <ul class="list-reset mini-slider__dots"></ul>
-                                </div>
-                            </a>
-                            <div class="card__descr">
-                                <div class="card__stock product-stock in-stock">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#checkbox-rec"></use>
-                                    </svg>
-                                    <span>Доставим завтра</span>
-                                </div>
-
-                                <a class="card__title " href="javascript:;">Геотекстиль для грядок, шир. 2*10 м.п</a>
-
-                                <div class="card__characteristics">
-                                    <p>Цвет: Белый</p>
-                                    <p>Плотность: 150 гр/м2</p>
-                                    <p>Ширина рулона: 2 м</p>
-                                    <p>Длина рулона: 10 м</p>
-                                </div>
-
-                                <div class="card__price">
-                                    <div class="basic-tabs">
-                                        <div class="basic-tabs-container" data-tab="card-price">
-                                            <div class="basic-tabs-item basic-tabs-item-label">
-                                                <span class="card__price-tab card__price-title tab">Цена за</span>
+        <div class="basic-hca">
+            <div class="basic-hca__heading">
+                <div class="h2">Лучшие предложения месяца</div>
+            </div>
+            <div class="basic-hca__content">
+                <div class="slider-out basic-slider-wrap">
+                    <div class="basic-slider nav-out swiper" data-basic-slider>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <!---->
+                                <div class="card card-product">
+                                    <a class="card__view" href="javascript:;">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider__slide">
+                                                <img
+                                                        loading="lazy"
+                                                        src="img/cp1.png"
+                                                        class="mini-slider__img"
+                                                        width="160"
+                                                        height="160"
+                                                        style="opacity: 1;"
+                                                        alt="Изображение блока"
+                                                >
                                             </div>
-                                            <div class="basic-tabs-item">
+                                            <div class="mini-slider__slide">
+                                                <img
+                                                        loading="lazy"
+                                                        src="img/cp2.png"
+                                                        class="mini-slider__img"
+                                                        width="160"
+                                                        height="160"
+                                                        style="opacity: 0;"
+                                                        alt="Изображение блока"
+                                                >
+                                            </div>
+                                            <div class="mini-slider__slide">
+                                                <img
+                                                        loading="lazy"
+                                                        src="img/cp3.png"
+                                                        class="mini-slider__img"
+                                                        width="160"
+                                                        height="160"
+                                                        style="opacity: 0;"
+                                                        alt="Изображение блока"
+                                                >
+                                            </div>
+                                            <ul class="list-reset mini-slider__dots"></ul>
+                                        </div>
+                                    </a>
+                                    <div class="card__descr">
+                                        <div class="card__stock product-stock in-stock">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                            </svg>
+                                            <span>Доставим завтра</span>
+                                        </div>
+
+                                        <a class="card__title " href="javascript:;">Геотекстиль для грядок, шир. 2*10 м.п</a>
+
+                                        <div class="card__characteristics">
+                                            <p>Цвет: Белый</p>
+                                            <p>Плотность: 150 гр/м2</p>
+                                            <p>Ширина рулона: 2 м</p>
+                                            <p>Длина рулона: 10 м</p>
+                                        </div>
+
+                                        <div class="card__price">
+                                            <div class="basic-tabs">
+                                                <div class="basic-tabs-container" data-tab="card-price">
+                                                    <div class="basic-tabs-item basic-tabs-item-label">
+                                                        <span class="card__price-tab card__price-title tab">Цена за</span>
+                                                    </div>
+                                                    <div class="basic-tabs-item">
                                                 <span class="card__price-tab tab basic-tabs-trigger active" data-target="square_meter">
                                                     <span>м<sup>2</sup></span>
                                                 </span>
-                                            </div>
-                                            <div class="basic-tabs-item">
-                                                <span class="card__price-tab tab basic-tabs-trigger" data-target="piece"><span>штуку</span></span>
-                                            </div>
-                                        </div>
-                                        <div class="basic-tabs-content" data-tab-content="card-price">
-                                            <div class="basic-tabs-content__panel active" data-id="square_meter">
-                                                <div class="basic-tabs-content__content">
-                                                    <span class="card__price-current">910 ₽</span>
-                                                    <span class="card__price-origin">1230 ₽</span>
+                                                    </div>
+                                                    <div class="basic-tabs-item">
+                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="piece"><span>штуку</span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="basic-tabs-content" data-tab-content="card-price">
+                                                    <div class="basic-tabs-content__panel active" data-id="square_meter">
+                                                        <div class="basic-tabs-content__content">
+                                                            <span class="card__price-current">910 ₽</span>
+                                                            <span class="card__price-origin">1230 ₽</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="basic-tabs-content__panel" data-id="piece">
+                                                        <div class="basic-tabs-content__content">
+                                                            <div class="card__price-current">210 ₽</div>
+                                                            <div class="card__price-origin">430 ₽</div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="basic-tabs-content__panel" data-id="piece">
-                                                <div class="basic-tabs-content__content">
-                                                    <div class="card__price-current">210 ₽</div>
-                                                    <div class="card__price-origin">430 ₽</div>
-                                                </div>
-                                            </div>
                                         </div>
-                                    </div>
-                                </div>
 
-                                <div class="card__cart cart-buy">
-                                    <div class="cart-quantity">
-                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#minus"></use>
-                                            </svg>
-                                        </button>
-                                        <input
-                                                id=""
-                                                class="input-reset cart-quantity-input"
-                                                type="text"
-                                                placeholder="999"
-                                                value="1"
-                                                max="999"
-                                                data-mult="1"
-                                        >
-                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#plus"></use>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                    <button class="btn-reset btn cart-in" type="button">
-                                        <span class="text-content">В корзину</span>
-                                    </button>
-                                    <?/*
+                                        <div class="card__cart cart-buy">
+                                            <div class="cart-quantity">
+                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#minus"></use>
+                                                    </svg>
+                                                </button>
+                                                <input
+                                                        id=""
+                                                        class="input-reset cart-quantity-input"
+                                                        type="text"
+                                                        placeholder="999"
+                                                        value="1"
+                                                        max="999"
+                                                        data-mult="1"
+                                                >
+                                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#plus"></use>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button class="btn-reset btn cart-in" type="button">
+                                                <span class="text-content">В корзину</span>
+                                            </button>
+											<?/*
                                     <div class="card__act">
                                         <div class="card-product-act__list" data-card-product-act-content>
                                             <button class="btn-reset btn card-product-act__btn switch-content" data-notice="favorites" title="В избранное">
@@ -245,20 +250,74 @@
                                             </button>
                                         </div>
                                     </div>*/?>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!---->
                             </div>
                         </div>
-<!---->
+                    </div>
+                    <div class="swiper-navigation">
+                        <div class="swiper-button-next btn btn-icon">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-right"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev btn btn-icon">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-left"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="basic-hca__action"></div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="slider-out basic-slider-wrap">
+            <div class="promo-banner-slider basic-slider nav-out swiper" data-single-slider>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img
+                            loading="lazy"
+                            class="image desktop-only"
+                            src="img/banner-index_1280x160.png"
+                            alt="Изображение блока"
+                        >
+                        <img
+                            loading="lazy"
+                            class="image mobile-only"
+                            src="img/banner-index_375x300.png"
+                            alt="Изображение блока"
+                        >
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            loading="lazy"
+                            class="image desktop-only"
+                            src="img/banner-index_1280x160.png"
+                            alt="Изображение блока"
+                        >
+                        <img
+                            loading="lazy"
+                            class="image mobile-only"
+                            src="img/banner-index_375x300.png"
+                            alt="Изображение блока"
+                        >
                     </div>
                 </div>
             </div>
             <div class="swiper-navigation">
-                <div class="swiper-button-next">
+                <div class="swiper-button-next btn btn-icon">
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-right"></use>
                     </svg>
                 </div>
-                <div class="swiper-button-prev">
+                <div class="swiper-button-prev btn btn-icon">
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-left"></use>
                     </svg>
@@ -270,24 +329,530 @@
 
 <div class="gap-xl">
     <div class="container">
-        <div class="slider-out basic-slider-wrap">
-            <div class="basic-slider swiper" data-basic-slider data-single-slider>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+        <div class="basic-hca">
+            <div class="basic-hca__heading">
+                <div class="h2">Наши услуги</div>
+            </div>
 
+            <div class="basic-hca__content">
+                <div class="slider-out basic-slider-wrap">
+                    <div class="basic-slider nav-out swiper" data-basic-slider data-basic-slider-sm>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci1.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Построить забор из габионов</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci2.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Берегоукрепление</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci3.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Террасирование участка</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci4.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Подпорная стена</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci1.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Построить забор из габионов</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-navigation">
+                        <div class="swiper-button-next btn btn-icon">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-right"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev btn btn-icon">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-left"></use>
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="swiper-navigation">
-                <div class="swiper-button-next">
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-right"></use>
-                    </svg>
+
+            <div class="basic-hca__action">
+                <a class="btn-reset btn btn-extra basic-hca__action-more" href="javascript:;">
+                    <span class="text-content">Все услуги</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="gap-md">
+            <div class="basic-hca">
+                <div class="basic-hca__heading">
+                    <div class="h2">Геосинтетические материалы</div>
                 </div>
-                <div class="swiper-button-prev">
+
+                <div class="basic-hca__content">
+                    <div class="card-category-list">
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc1.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Спанбонд</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc2.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Геотекстиль</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc3.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Габионы сварные</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc4.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Габионы</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc5.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Профилированная мембрана</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc6.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Фасадная сетка</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc7.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Пленки</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc8.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Дренажная система</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc9.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Канализация</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc10.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Водоснабжение</span>
+                                </span>
+                        </a>
+                        <a class="card card-category" href="javascript:;">
+                                <span class="card__view">
+                                    <img
+                                            loading="lazy"
+                                            src="img/cc11.png"
+                                            class="image"
+                                            width="77"
+                                            height="77"
+                                            alt="Изображение блока"
+                                    >
+                                </span>
+                            <span class="card__descr">
+                                    <span class="card__title">Геосетки</span>
+                                </span>
+                        </a>
+                        <a class="card card-category card-category--more btn-prehover" href="javascript:;">
+                            <span class="card__descr">
+                                <span class="card__title">Весь каталог</span>
+                                <span class="card__caption">14 250 товаров</span>
+                                <span class="card__more">
+                                    <span class="btn-reset btn btn-extra">
+                                        <span class="text-content">Перейти</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="basic-hca__action mobile-only">
+                    <a class="btn-reset btn btn-extra basic-hca__action-more" href="javascript:;">
+                        <span class="text-content">Весь каталог</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p>Геосинтетические материалы — это большой класс строительных материалов, которые применяют для формирования армирующих, гидроизолирующих, дренажных, теплоизолирующих и защитных слоев насыпных, железобетонных, комбинированных и других конструкций. Использование геосинтетиков помогает экономить до 40% базовых материалов, повышает надежность и срок эксплуатации объектов гражданского, промышленного, транспортного и гидротехнического строительства.</p>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="basic-hca">
+            <div class="basic-hca__heading">
+                <div class="h2">Полезное от Гео-Двора</div>
+            </div>
+
+            <div class="basic-hca__content">
+                <div class="slider-out basic-slider-wrap">
+                    <div class="basic-slider nav-out swiper" data-basic-slider>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci1.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <div class="card__caption fz-caption-sm">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#eye-on"></use>
+                                            </svg>
+                                            <div class="text-content">695</div>
+                                        </div>
+
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci2.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <div class="card__caption fz-caption-sm">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#eye-on"></use>
+                                            </svg>
+                                            <div class="text-content">850</div>
+                                        </div>
+
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Спанбонд: особенности, свойства и назначение</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci3.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <div class="card__caption fz-caption-sm">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#eye-on"></use>
+                                            </svg>
+                                            <div class="text-content">1074</div>
+                                        </div>
+
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Область применения термоскрепленного геотекстиля</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci4.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <div class="card__caption fz-caption-sm">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#eye-on"></use>
+                                            </svg>
+                                            <div class="text-content">4237</div>
+                                        </div>
+
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Пластиковая газонная решетка: технология укладки</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-info">
+                                    <a class="card__view" href="javascript:;">
+                                        <img
+                                                loading="lazy"
+                                                src="img/ci1.png"
+                                                class="image"
+                                                width="160"
+                                                height="160"
+                                                alt="Изображение блока"
+                                        >
+                                    </a>
+                                    <div class="card__descr">
+                                        <div class="card__caption fz-caption-sm">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#eye-on"></use>
+                                            </svg>
+                                            <div class="text-content">695</div>
+                                        </div>
+
+                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-navigation">
+                        <div class="swiper-button-next btn btn-icon">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-right"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev btn btn-icon">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-left"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="basic-hca__action basic-hca__action--row">
+                <div class="btn-g">
+                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
+                        <span class="text-content">Готовые решения</span>
+                    </a>
+                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
+                        <span class="text-content">Полезные советы</span>
+                    </a>
+                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
+                        <span class="text-content">Вопросы покупателей</span>
+                    </a>
+                </div>
+                <a class="btn-reset btn btn-extra basic-hca__action-more" href="javascript:;">
+                    <span class="text-content">Все готовые решения</span>
                     <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-left"></use>
+                        <use href="img/sprite.svg#arrow-right"></use>
                     </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="gap-sm">
+            <div class="h3">Виды и область применения геосинтетиков</div>
+        </div>
+
+        <div class="spoiler-wrapper">
+            <div
+                    class="spoiler"
+                    data-spoiler
+                    data-spoiler-more="Показать полностью"
+                    data-spoiler-less="Скрыть"
+            >
+                <div class="spoiler-content">
+                    <p>Вы можете купить геосинтетические материалы для решения обширного круга задач, которые возникают в процессе строительства, земельных работ и благоустройства территории. Современная промышленность предлагает широкий выбор геосинтетиков:</p>
+                    <ul>
+                        <li>текстиль (тканые и нетканые полотна);</li>
+                        <li>мембраны;</li>
+                        <li>сетки и решетки;</li>
+                        <li>композиты (объединяют нескольких видов геосинтетиков).</li>
+                    </ul>
+                    <p>Геосинтетические материалы получили широкое распространение, так как целесообразность и экономическая выгода их использования не вызывают сомнений. Сферы применения:</p>
+                    <ul>
+                        <li>строительство автомобильных и железных дорог, а также взлетно-посадочных полос аэродромов;</li>
+                        <li>обустройство полигонов для утилизации ТБО;</li>
+                        <li>укладка тротуарной плитки и брусчатки;</li>
+                        <li>укрепление берегов естественных и искусственных водоемов, противодействие эрозии;</li>
+                        <li>организация дренирования земельных участков, обустройство систем водоотведения;</li>
+                        <li>обустройство фундаментов;</li>
+                        <li>строительство теплиц, защита сельскохозяйственных культур от сорняков;</li>
+                        <li>ландшафтный дизайн.</li>
+                    </ul>
+                    <p>Широкий выбор и универсальность обеспечивают широкую область применения материала, а цена на геосинтетические материалы позволяет добиться существенной экономии в процессе строительства и эксплуатации объектов гражданской, промышленной, транспортной и сельскохозяйственной инфраструктуры.</p>
                 </div>
             </div>
         </div>
@@ -297,7 +862,7 @@
 
 
 
-
+<?/*
 ________________________________________________________________
 <div class="gap-xl">
 	<div class="container">
@@ -533,12 +1098,12 @@ ________________________________________________________________
 
 		<div class="gap-xl product-card-mobile-section">
 			<div class="product-card-mobile-section-container">
-                <div class="basic-hcm">
-                    <div class="basic-hcm__heading">
+                <div class="basic-hca">
+                    <div class="basic-hca__heading">
                         <div class="h2">Актуальные предложения</div>
                     </div>
 
-                    <div class="basic-hcm__content catalog-extra-slider out-container-x">
+                    <div class="basic-hca__content catalog-extra-slider out-container-x">
                         <div class="basic-slider-wrap">
                             <div class="basic-slider card-product-default-wrap swiper border-bottom-mobile border-bottom-gap-md" data-basic-slider>
                                 <div class="swiper-wrapper">
@@ -1700,7 +2265,7 @@ ________________________________________________________________
                         </div>
                     </div>
 
-                    <div class="basic-hcm__more">
+                    <div class="basic-hca__action">
                         <a class="btn-reset btn btn-mini btn-b-light" href="javascript:;">
                             <span class="text-content">Смотреть все</span>
                             <svg class="icon icon-fill icon-xs desktop-only">
@@ -1781,12 +2346,12 @@ ________________________________________________________________
 
         <div class="gap-xl product-card-mobile-section">
             <div class="product-card-mobile-section-container">
-                <div class="basic-hcm">
-                    <div class="basic-hcm__heading">
+                <div class="basic-hca">
+                    <div class="basic-hca__heading">
                         <div class="h2">Новинки</div>
                     </div>
 
-                    <div class="basic-hcm__content catalog-extra-slider out-container-x">
+                    <div class="basic-hca__content catalog-extra-slider out-container-x">
                         <div class="basic-slider-wrap">
                             <div class="basic-slider card-product-default-wrap swiper border-bottom-mobile border-bottom-gap-md" data-basic-slider>
                                 <div class="swiper-wrapper">
@@ -2951,7 +3516,7 @@ ________________________________________________________________
                         </div>
                     </div>
 
-                    <div class="basic-hcm__more">
+                    <div class="basic-hca__action">
                         <a class="btn-reset btn btn-mini btn-b-light" href="javascript:;">
                             <span class="text-content">все новинки</span>
                             <svg class="icon icon-fill icon-xs desktop-only">
@@ -2981,12 +3546,12 @@ ________________________________________________________________
 
         <div class="gap-xl product-card-mobile-section">
             <div class="product-card-mobile-section-container">
-                <div class="basic-hcm">
-                    <div class="basic-hcm__heading">
+                <div class="basic-hca">
+                    <div class="basic-hca__heading">
                         <div class="h2">Товары по акции</div>
                     </div>
 
-                    <div class="basic-hcm__content catalog-extra-slider out-container-x">
+                    <div class="basic-hca__content catalog-extra-slider out-container-x">
                         <div class="basic-slider-wrap">
                             <div class="basic-slider card-product-default-wrap swiper border-bottom-mobile border-bottom-gap-md" data-basic-slider>
                                 <div class="swiper-wrapper">
@@ -4151,7 +4716,7 @@ ________________________________________________________________
                         </div>
                     </div>
 
-                    <div class="basic-hcm__more">
+                    <div class="basic-hca__action">
                         <a class="btn-reset btn btn-mini btn-b-light" href="javascript:;">
                             <span class="text-content">Все акции</span>
                             <svg class="icon icon-fill icon-xs desktop-only">
@@ -5605,5 +6170,5 @@ ________________________________________________________________
         </div>
 	</div>
 </div>
-
+*/?>
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/footer.php"); ?>

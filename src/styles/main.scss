@@ -319,12 +319,15 @@
 	flex-wrap: wrap;
 	gap: 12px;
 }
-@media (min-width: 992px) {}
-/*@media (max-width: 991.98px) {
-	.benefit {
-		flex-direction: column;
+
+//promo-banner-slider
+@media (max-width: 991.98px) {
+	.slider-out .promo-banner-slider {
+		padding-right: 0;
+		padding-left: 0;
 	}
-}*/
+}
+
 
 
 

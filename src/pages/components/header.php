@@ -84,7 +84,7 @@
                     </a>
                 </div>
                 <div class="header-top-info">
-                    <a class="link-flex link link-tdu header-top__link" href="mailto:info@geo-dvor.ru">
+                    <a class="link-flex link link-tdu-text header-top__link" href="mailto:info@geo-dvor.ru">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#sms"></use>
                         </svg>
@@ -759,6 +759,14 @@
             </li>
             <li>
                 <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">Оплата</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
                     <span class="text-content">Оптовым покупателям</span>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-right"></use>
@@ -768,6 +776,14 @@
             <li>
                 <a class="mobile-menu__link" href="javascript:;">
                     <span class="text-content">Контакты</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="mobile-menu__link" href="javascript:;">
+                    <span class="text-content">О нас</span>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-right"></use>
                     </svg>

@@ -24,6 +24,8 @@ application.prototype.init = function () {
     this.initCartQuantity();
     this.initBasicTabs();
     /*this.initSwitchContent();*/
+    this.initInputSearchBehavior();
+    this.initSearchResBehavior();
 
 
 
@@ -49,8 +51,7 @@ application.prototype.init = function () {
     // this.initDatepicker();
     // this.initDeleteTrigger();
     // this.initDropfiles();
-    this.initInputSearchBehavior();
-    this.initSearchResBehavior();
+
     // this.initMobileCitySelection();
     // this.initCatalogContentSort();
     // this.initCatalogContentViewSwitcher();
@@ -67,6 +68,27 @@ application.prototype.init = function () {
     // this.initAddingOrgData();
     // this.initOpenPromocode();
     // this.initAccordion();
+};
+
+// Initialize disable scroll
+application.prototype.disableScroll = function () {
+    const body = document.body;
+    const fixBlocks = document?.querySelectorAll('.fixed-block');
+    const paddingOffset = `${(window.innerWidth - body.offsetWidth)}px`;
+
+    document.documentElement.style.scrollBehavior = 'none';
+    fixBlocks.forEach(el => { el.style.paddingRight = paddingOffset; });
+    body.style.paddingRight = paddingOffset;
+    body.classList.add('dis-scroll');
+};
+
+// Initialize enable scroll
+application.prototype.enableScroll = function () {
+    const body = document.body;
+    const fixBlocks = document?.querySelectorAll('.fixed-block');
+    fixBlocks.forEach(el => { el.style.paddingRight = '0px'; });
+    body.style.paddingRight = '0px';
+    body.classList.remove('dis-scroll');
 };
 
 // Initialize device check
@@ -129,7 +151,7 @@ application.prototype.initReadmore = function () {
         spoiler.each(function (i) {
             let currentMoreText = spoiler.eq(i).data('spoiler-more');
             let currentLessText = spoiler.eq(i).data('spoiler-less');
-            let defaultHeight = 200;
+            let defaultHeight = 220;
             let defaultMoreText = 'Показать все';
             let defaultLessText = 'Свернуть';
             let currentElemHeight = spoiler.eq(i).data('collapsed-height');
@@ -152,10 +174,10 @@ application.prototype.initReadmore = function () {
             spoiler.eq(i).addClass('spoiler-' + i);
             $('.spoiler-' + i).readmore({
                 collapsedHeight: currentElemHeight,
-                moreLink: '<a href="javascript:;" class="link-dashed link-red spoiler-trigger">\n' +
+                moreLink: '<a href="javascript:;" class="link-brand spoiler-trigger">\n' +
                     '                                        <span class="text-content">' + currentMoreText + '</span>\n' +
                     '                                    </a>',
-                lessLink: '<a href="javascript:;" class="link-dashed link-red spoiler-trigger">\n' +
+                lessLink: '<a href="javascript:;" class="link-brand spoiler-trigger">\n' +
                     '                                        <span class="text-content">' + currentLessText + '</span>\n' +
                     '                                    </a>'
             });
@@ -178,27 +200,6 @@ application.prototype.initHeaderFloat = function () {
         }
     }
 };
-
-/*// Initialize disable scroll
-application.prototype.disableScroll = function () {
-    const body = document.body;
-    const fixBlocks = document?.querySelectorAll('.fixed-block');
-    const paddingOffset = `${(window.innerWidth - body.offsetWidth)}px`;
-
-    document.documentElement.style.scrollBehavior = 'none';
-    fixBlocks.forEach(el => { el.style.paddingRight = paddingOffset; });
-    body.style.paddingRight = paddingOffset;
-    body.classList.add('dis-scroll');
-};
-
-// Initialize enable scroll
-application.prototype.enableScroll = function () {
-    const body = document.body;
-    const fixBlocks = document?.querySelectorAll('.fixed-block');
-    fixBlocks.forEach(el => { el.style.paddingRight = '0px'; });
-    body.style.paddingRight = '0px';
-    body.classList.remove('dis-scroll');
-};*/
 
 // Initialize burger-menu
 application.prototype.initBurger = function () {
@@ -442,30 +443,34 @@ application.prototype.initBasicSlider = function () {
         let spaceBetween = 12;
         let slidesPerView = 'auto';
 
-        // spaceBetween
+        // spaceBetween default
         if (window.matchMedia('(min-width: 992px)').matches) {
             spaceBetween = 40;
-
-            if(slider.is('[data-header-catalog-slider]')) {
-                spaceBetween = 40;
-            }
-            if(slider.is('[data-single-slider]')) {
-                slidesPerView = 1;
-            }
         }
         else if (window.matchMedia('(max-width: 991.98px)').matches) {
             spaceBetween = 12;
-
-            if(slider.is('[data-header-catalog-slider]')) {
-                spaceBetween = 24;
-            }
         }
 
         slider.each(function (i) {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
 
+            // spaceBetween
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                if(slider.eq(i).is('[data-header-catalog-slider]')) {
+                    spaceBetween = 40;
+                }
+                if(slider.eq(i).is('[data-basic-slider-sm]')) {
+                    spaceBetween = 20;
+                }
+            }
+            else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                if(slider.eq(i).is('[data-header-catalog-slider]')) {
+                    spaceBetween = 24;
+                }
+            }
+
             const basicSliderSetting = {
-                slidesPerView: slidesPerView,
+                slidesPerView: 'auto',
                 slidesPerGroup: 1,
                 spaceBetween: spaceBetween,
                 direction: 'horizontal',
@@ -497,15 +502,49 @@ application.prototype.initSliders = function () {
         });
     }*/
 
-    if ($('[data-poster-slider]').length) {
-        const posterSliderSettings = new Swiper('[data-poster-slider]', {
-            slidesPerView: 1,
-            loop: true,
-            autoplay: {
-                delay: 5000,
-            }
+    if ($('[data-single-slider]').length) {
+        const slider = $('[data-single-slider]');
+        let currentSlider = null;
+
+        slider.each(function (i) {
+            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
+
+            const singleSliderSettings = {
+                slidesPerView: 1,
+                navigation: {
+                    nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
+                    prevEl: '.basic-slider-wrap-' + i + ' .swiper-button-prev',
+                },
+                pagination: {
+                    el: '.basic-slider-wrap-' + i + ' .swiper-pagination',
+                }
+            };
+
+            currentSlider = new Swiper('[data-single-slider]', singleSliderSettings);
         });
-        let posterSlider = new Swiper('[data-poster-slider]', posterSliderSettings);
+    }
+    if ($('[data-single-autoplay-slider]').length) {
+        const slider = $('[data-single-autoplay-slider]');
+        let currentSlider = null;
+
+        slider.each(function (i) {
+            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
+
+            const singleSliderAutoplaySettings = {
+                slidesPerView: 1,
+                loop: true,
+                autoplay: {delay: 5000},
+                navigation: {
+                    nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
+                    prevEl: '.basic-slider-wrap-' + i + ' .swiper-button-prev',
+                },
+                pagination: {
+                    el: '.basic-slider-wrap-' + i + ' .swiper-pagination',
+                }
+            };
+
+            currentSlider = new Swiper('[data-single-autoplay-slider]', singleSliderAutoplaySettings);
+        });
     }
 
     if ($('.index-top-primary .swiper').length) {
@@ -897,6 +936,49 @@ application.prototype.initBasicTabs = function () {
         }
     });
 };*/
+
+
+// Initialize input-search behavior
+application.prototype.initInputSearchBehavior = function () {
+    if ($('.input-wrapper-search .input').length) {
+        $('.input-wrapper-search .input').on('input', function () {
+            if ($(this).val() === '' || $(this).val() === null) {
+                $(this).removeClass('has-data');
+                $(this).closest('.input-wrapper-search').removeClass('has-data');
+            } else if ($(this).val() !== '' && $(this).val() !== null) {
+                $(this).addClass('has-data');
+                $(this).closest('.input-wrapper-search').addClass('has-data');
+            }
+        });
+
+        $('.input-wrapper-search .input-delete-btn').on('click', function () {
+            $(this).closest('.input-wrapper-search').removeClass('has-data');
+            $(this).closest('.input-wrapper-search').find('.input').val('').removeClass('has-data');
+        });
+
+        if (window.matchMedia('(min-width: 992px)').matches) {
+            $('.input-wrapper-search .input').prop('readonly', false);
+        } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+            $('.input-wrapper-search .input').prop('readonly', true);
+        }
+    }
+};
+
+// Initialize search result behavior
+application.prototype.initSearchResBehavior = function () {
+    $(document).on('click', '.search-results__close', function () {
+        $(this).closest('.header-search-results').removeClass('active');
+        $(this).closest('.cart-quick-add').removeClass('active');
+    });
+
+    $(document).on('keyup', function (e) {
+        if (e.key == 'Escape') {
+            $('.search-results__close').closest('.header-search-results').removeClass('active');
+            $('.search-results__close').closest('.cart-quick-add').removeClass('active');
+        }
+    });
+};
+
 
 
 
@@ -1398,47 +1480,6 @@ application.prototype.initDropfiles = function () {
             if (galleryItem.length < 2) {
                 $parent.removeClass('has-attached');
             }
-        }
-    });
-};
-
-// Initialize input-search behavior
-application.prototype.initInputSearchBehavior = function () {
-    if ($('.input-wrapper-search .input').length) {
-        $('.input-wrapper-search .input').on('input', function () {
-            if ($(this).val() === '' || $(this).val() === null) {
-                $(this).removeClass('has-data');
-                $(this).closest('.input-wrapper-search').removeClass('has-data');
-            } else if ($(this).val() !== '' && $(this).val() !== null) {
-                $(this).addClass('has-data');
-                $(this).closest('.input-wrapper-search').addClass('has-data');
-            }
-        });
-
-        $('.input-wrapper-search .input-delete-btn').on('click', function () {
-            $(this).closest('.input-wrapper-search').removeClass('has-data');
-            $(this).closest('.input-wrapper-search').find('.input').val('').removeClass('has-data');
-        });
-
-        if (window.matchMedia('(min-width: 992px)').matches) {
-            $('.input-wrapper-search .input').prop('readonly', false);
-        } else if (window.matchMedia('(max-width: 991.98px)').matches) {
-            $('.input-wrapper-search .input').prop('readonly', true);
-        }
-    }
-};
-
-// Initialize search result behavior
-application.prototype.initSearchResBehavior = function () {
-    $(document).on('click', '.search-results__close', function () {
-        $(this).closest('.header-search-results').removeClass('active');
-        $(this).closest('.cart-quick-add').removeClass('active');
-    });
-
-    $(document).on('keyup', function (e) {
-        if (e.key == 'Escape') {
-            $('.search-results__close').closest('.header-search-results').removeClass('active');
-            $('.search-results__close').closest('.cart-quick-add').removeClass('active');
         }
     });
 };
