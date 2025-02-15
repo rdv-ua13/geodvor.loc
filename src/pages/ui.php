@@ -83,7 +83,7 @@
             <h3 class="h3 ui-title title-bold text-center">Gaps</h3>
 
             <div class="ui-row">
-                <div class="fz-sm">
+                <div class="fz-md">
                         <pre>
 @media (min-width: 992px) {
     .gap-xxs { margin-bottom: 10px !important; }
@@ -118,7 +118,7 @@
                         .icon-stroke - строго запрещает свойство "fill"
                     </div><br>
                     <div class="fz-md">&#60;use&#62; -> sprite.svg#id_из_тултип / file-name.svg#file-name</div>
-                    <div class="fz-sm">
+                    <div class="fz-md">
                             <pre>
 .icon-xs { width: 12px!important; height: 16px!important; }
 .icon-sm { width: 16px!important; height: 20px!important; } <- default

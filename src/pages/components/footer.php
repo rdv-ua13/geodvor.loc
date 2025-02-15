@@ -12,8 +12,8 @@
                         >
                     </div>
                     <div class="pre-footer__descr-info">
-                        <div class="h3">Узнавайте об акциях и новостях раньше всех</div>
-                        <div class="pre-footer__descr-text fz-sm">Подпишитесь на полезную рассылку</div>
+                        <div class="pre-footer__descr-title h3">Узнавайте об акциях и новостях раньше всех</div>
+                        <div class="pre-footer__descr-subtitle">Подпишитесь на полезную рассылку</div>
                     </div>
                 </div>
                 <div class="pre-footer__item pre-footer__act">
@@ -22,7 +22,7 @@
                             <div class="input-wrapper input-wrapper-split has-icon-l">
                                 <input
                                         id=""
-                                        class="input-reset input"
+                                        class="input-reset input input-light"
                                         type="text"
                                         name=""
                                         value=""
@@ -39,7 +39,7 @@
                                 </button>
                             </div>
                         </form>
-                        <div class="pre-footer__subscribe-caption fz-caption-sm">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link-tdu" href="javascript:;">Политикой конфиденциальности</a></div>
+                        <div class="pre-footer__subscribe-caption fz-caption-sm">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link-tdu link-tdu--native" href="javascript:;">Политикой конфиденциальности</a></div>
                     </div>
                 </div>
             </div>

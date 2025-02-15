@@ -441,15 +441,6 @@ application.prototype.initBasicSlider = function () {
         const slider = $('[data-basic-slider]');
         let basicSlider = null;
         let spaceBetween = 12;
-        let slidesPerView = 'auto';
-
-        // spaceBetween default
-        if (window.matchMedia('(min-width: 992px)').matches) {
-            spaceBetween = 40;
-        }
-        else if (window.matchMedia('(max-width: 991.98px)').matches) {
-            spaceBetween = 12;
-        }
 
         slider.each(function (i) {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
@@ -459,13 +450,22 @@ application.prototype.initBasicSlider = function () {
                 if(slider.eq(i).is('[data-header-catalog-slider]')) {
                     spaceBetween = 40;
                 }
-                if(slider.eq(i).is('[data-basic-slider-sm]')) {
+                else if(slider.eq(i).is('[data-basic-slider-watched]')) {
+                    spaceBetween = 24;
+                }
+                else if(slider.eq(i).is('[data-basic-slider-sm]')) {
                     spaceBetween = 20;
+                }
+                else {
+                    spaceBetween = 40;
                 }
             }
             else if (window.matchMedia('(max-width: 991.98px)').matches) {
                 if(slider.eq(i).is('[data-header-catalog-slider]')) {
                     spaceBetween = 24;
+                }
+                else {
+                    spaceBetween = 12;
                 }
             }
 
@@ -791,7 +791,12 @@ application.prototype.initMiniSlider = function () {
 
 // Initialize cart quantity
 application.prototype.initCartQuantity = function () {
-    if ($('.cart-quantity').length) {
+    if ($('.cart-buy').length) {
+        $(document).on('click', '.cart-in', function(e) {
+            $(this).addClass('disabled');
+            $(this).closest('.cart-buy').find('.cart-quantity').addClass('enabled');
+        });
+
         $(document).on('click', '.cart-quantity-btn', function(e) {
             let $button = $(this);
             let oldValue = $button.closest('.cart-quantity').find('input.cart-quantity-input').val();
@@ -804,104 +809,29 @@ application.prototype.initCartQuantity = function () {
 
             if($button.data('value') === 'qty-add') {
                 newVal = parseInt(oldValue) + mult;
-            } else {
-                if (oldValue > 0) {
+            }
+            else {
+                if(oldValue > 0) {
                     newVal = parseInt(oldValue) - mult;
-                } else {
+                }
+                else {
                     newVal = 0;
                 }
             }
 
             if(newVal == 0) {
                 newVal = mult;
+                console.log("success4");
+
+                if(window.matchMedia('(max-width: 991.98px)').matches) {
+                    $(this).closest('.cart-quantity').removeClass('enabled');
+                    $(this).closest('.cart-buy').find('.cart-in').removeClass('disabled');
+                }
             }
 
             $button.closest('.cart-quantity').find('input.cart-quantity-input').val(newVal).trigger('change');
         });
     }
-    /*if ($('.cart-quantity').length) {
-        if (window.matchMedia('(min-width: 992px)').matches) {
-            $('.card-product .cart-quantity').addClass('disabled');
-
-            cartQuantityBtnAction();
-        }
-        else if (window.matchMedia('(max-width: 991.98px)').matches) {
-            $('.card-product .cart-quantity').removeClass('disabled');
-
-            $('.cart-buy .cart-in').on('click', function() {
-                if(!$(this).hasClass('active')) {
-                    $(this).addClass('active');
-                    $(this).closest('.cart-buy').find('.cart-quantity').removeClass('disabled');
-                    $(this).closest('.cart-buy').find('.cart-quantity-btn--remove').addClass('selected');
-                }
-                else {
-                    $(this).removeClass('active');
-                    $(this).closest('.cart-buy').find('.cart-quantity').addClass('disabled');
-                    $(this).closest('.cart-buy').find('.cart-quantity-btn--remove').removeClass('selected');
-                    $(this).closest('.cart-buy').find('input.cart-quantity-input').val(1);
-                }
-            });
-
-            $(document).on('click','.cart-quantity-btn--remove', function() {
-                if($(this).hasClass('selected')) {
-                    $(this).removeClass('selected');
-                    $(this).closest('.cart-buy').find('.cart-in').removeClass('active');
-                    $(this).closest('.cart-quantity').addClass('disabled');
-                }
-            });
-
-            cartQuantityBtnAction();
-        }
-
-
-        function cartQuantityBtnAction() {
-            $(document).on('click', '.cart-quantity-btn', function(e) {
-                let $button = $(this);
-                let oldValue = $button.closest('.cart-quantity').find('input.cart-quantity-input').val();
-                let mult = parseInt($button.closest('.cart-quantity').find('input.cart-quantity-input').data('mult'));
-                let newVal = null;
-
-                if(mult <= 0 || isNaN(mult)) {
-                    mult = 1;
-                }
-
-                if($button.data('value') === 'qty-add') {
-                    newVal = parseInt(oldValue) + mult;
-
-                    if(window.matchMedia('(max-width: 991.98px)').matches) {
-                        if(newVal > 1) {
-                            $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').removeClass('selected');
-                        }
-                        else {
-                            $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').addClass('selected');
-                        }
-                    }
-                }
-                else {
-                    if(oldValue > 0) {
-                        newVal = parseInt(oldValue) - mult;
-
-                        if(window.matchMedia('(max-width: 991.98px)').matches) {
-                            $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').removeClass('selected');
-
-                            if(oldValue > 1 && oldValue < 3) {
-                                $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').addClass('selected');
-                            }
-                        }
-                    }
-                    else {
-                        newVal = 0;
-                    }
-                }
-
-                if(newVal == 0) {
-                    newVal = mult;
-                }
-
-                $button.closest('.cart-quantity').find('input.cart-quantity-input').val(newVal).trigger('change');
-            });
-        }
-    }*/
 };
 
 // Initialization basic tabs
