@@ -792,11 +792,6 @@ application.prototype.initMiniSlider = function () {
 // Initialize cart quantity
 application.prototype.initCartQuantity = function () {
     if ($('.cart-buy').length) {
-        $(document).on('click', '.cart-in', function(e) {
-            $(this).addClass('disabled');
-            $(this).closest('.cart-buy').find('.cart-quantity').addClass('enabled');
-        });
-
         $(document).on('click', '.cart-quantity-btn', function(e) {
             let $button = $(this);
             let oldValue = $button.closest('.cart-quantity').find('input.cart-quantity-input').val();
@@ -831,6 +826,13 @@ application.prototype.initCartQuantity = function () {
 
             $button.closest('.cart-quantity').find('input.cart-quantity-input').val(newVal).trigger('change');
         });
+
+        if(window.matchMedia('(max-width: 991.98px)').matches) {
+            $(document).on('click', '.cart-in', function(e) {
+                $(this).addClass('disabled');
+                $(this).closest('.cart-buy').find('.cart-quantity').addClass('enabled');
+            });
+        }
     }
 };
 
