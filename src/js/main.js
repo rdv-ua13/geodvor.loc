@@ -26,6 +26,7 @@ application.prototype.init = function () {
     /*this.initSwitchContent();*/
     this.initInputSearchBehavior();
     this.initSearchResBehavior();
+    this.initClipboard();
 
 
 
@@ -914,6 +915,83 @@ application.prototype.initSearchResBehavior = function () {
             $('.search-results__close').closest('.cart-quick-add').removeClass('active');
         }
     });
+};
+
+// Initialization clipboard
+application.prototype.initClipboard = function () {
+    if ($('[data-clipboard]').length) {
+        let clipboardBtn = $('.clipboard-trigger');
+
+        clipboardBtn.on('click', function () {
+            let clipboardValue = $(this).closest('[data-clipboard]').find('.clipboard-target');
+            copyToClipboard(clipboardValue);
+        });
+
+        function copyToClipboard(element) {
+            let $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+    }
+};
+
+// Initialization contacts map
+application.prototype.initContactsMap = function () {
+    if ($('.contacts-map').length) {
+        ymaps.ready(init);
+
+        let map,
+            placemark,
+            mapItem = $('.contacts-map-content');
+
+        function init () {
+            mapItem.each(function (i) {
+                mapItem.eq(i).attr('id', 'contactsMap' + i);
+
+                let coordX = $(this).data('x'),
+                    coordY = $(this).data('y'),
+                    hint = $(this).data('hint'),
+                    zoomControl = new ymaps.control.ZoomControl({
+                        options: {
+                            size: 'large',
+                            float: 'none',
+                            position: {
+                                top: 50,
+                                right: 10,
+                                left: 'auto',
+                            },
+                        }
+                    });
+
+                // Параметры карты можно задать в конструкторе.
+                map = new ymaps.Map(
+                    // ID DOM-элемента, в который будет добавлена карта.
+                    'contactsMap' + i,
+                    // Параметры карты.
+                    {
+                        // Географические координаты центра отображаемой карты.
+                        center: [
+                            coordX,
+                            coordY
+                        ],
+                        // Масштаб.
+                        zoom: 15,
+                        controls: ['fullscreenControl'],
+                    }, {
+                        // Поиск по организациям.
+                        searchControlProvider: 'yandex#search'
+                    }
+                );
+
+                placemark = new ymaps.Placemark([coordX, coordY]);
+
+                map.geoObjects.add(placemark);
+                map.controls.add(zoomControl);
+            });
+        }
+    }
 };
 
 
@@ -1865,52 +1943,6 @@ application.prototype.initOrdersMap = function () {
                 }
             );
             myMap.controls.add(zoomControl);
-        }
-    }
-};
-
-// Initialize contacts map
-application.prototype.initContactsMap = function () {
-    if ($('.contacts-map').length) {
-        ymaps.ready(init);
-
-        let myMap;
-        let mapItem = $('.contacts-map-content');
-
-        function init () {
-            mapItem.each(function (i) {
-                mapItem.eq(i).attr('id', 'contactsMap' + i);
-
-                let zoomControl = new ymaps.control.ZoomControl({
-                    options: {
-                        size: 'large',
-                        float: 'none',
-                        position: {
-                            top: 50,
-                            right: 10,
-                            left: 'auto',
-                        },
-                    }
-                });
-
-                // Параметры карты можно задать в конструкторе.
-                myMap = new ymaps.Map(
-                    // ID DOM-элемента, в который будет добавлена карта.
-                    'contactsMap' + i,
-                    // Параметры карты.
-                    {
-                        // Географические координаты центра отображаемой карты.
-                        center: [55.798186, 37.489652],
-                        // Масштаб.
-                        zoom: 15,
-                        controls: ['fullscreenControl'],
-                    }, {
-                        // Поиск по организациям.
-                        searchControlProvider: 'yandex#search'
-                    }
-                );
-                myMap.controls.add(zoomControl);
-            });
         }
     }
 };

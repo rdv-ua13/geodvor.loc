@@ -51,6 +51,9 @@
     <script defer src="js/libs.min.js"></script> */?>
 
     <script defer src="js/main.js?v=<?=time();?>"></script>
+
+    <?/* @check пофиксить */?>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=3d113411-9fb0-4147-bc2f-c9492c6b089a&lang=ru_RU" type="text/javascript"></script>
 </head>
 
 
