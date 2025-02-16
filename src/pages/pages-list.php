@@ -65,14 +65,16 @@
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
             <span style="color: forestgreen; font-weight: 600;">n + ui</span>
             &nbsp;/&nbsp;
-            <span style="font-size: 24px;">n + ui (всего страниц в макете)</span>
+            <span style="font-size: 24px;">26 + ui (всего страниц в макете)</span>
         </span>
     </div>
 
     <div>
         <ul>
-            <li><a href="index.php" target="_blank" class="ready">Главная</a></li>
+            <li><a class="ready" href="index.php" target="_blank">Главная</a></li>
             <br>
+
+            <li><a class="ready" href="cp-questions.php" target="_blank">Контентная страница - Вопросы покупателей</a></li>
 
             <?/*
             <li><a href="card-product.php" target="_blank" class="ready">Карточка товара</a></li>

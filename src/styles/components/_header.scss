@@ -1022,7 +1022,24 @@
 	}
 }
 @media (max-width: 991.98px) {
+	.index {
+		.header {
+			margin-bottom: unset;
+			border-bottom: unset;
+		}
+	}
+
 	.header {
+		margin-bottom: 16px;
+		border-bottom: 1px solid var(--gray1-color);
+
+		&.header-less {
+			.header-search,
+			.header-catalog {
+				display: none;
+			}
+		}
+
 		&-top {
 			display: none;
 		}
