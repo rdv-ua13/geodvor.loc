@@ -1365,7 +1365,7 @@
 
             <div class="basic-hca__action basic-hca__action--row">
                 <div class="slider-out basic-slider-wrap">
-                    <div class="basic-slider swiper" data-basic-slider>
+                    <div class="basic-slider swiper" data-basic-slider data-basic-slider-xxs>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a class="btn-reset btn btn-extra-secondary" href="javascript:;">

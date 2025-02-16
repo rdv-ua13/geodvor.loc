@@ -456,6 +456,9 @@ application.prototype.initBasicSlider = function () {
                 else if(slider.eq(i).is('[data-basic-slider-sm]')) {
                     spaceBetween = 20;
                 }
+                else if(slider.eq(i).is('[data-basic-slider-xxs]')) {
+                    spaceBetween = 8;
+                }
                 else {
                     spaceBetween = 40;
                 }
@@ -463,6 +466,9 @@ application.prototype.initBasicSlider = function () {
             else if (window.matchMedia('(max-width: 991.98px)').matches) {
                 if(slider.eq(i).is('[data-header-catalog-slider]')) {
                     spaceBetween = 24;
+                }
+                else if(slider.eq(i).is('[data-basic-slider-xxs]')) {
+                    spaceBetween = 8;
                 }
                 else {
                     spaceBetween = 12;
