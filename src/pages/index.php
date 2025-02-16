@@ -181,27 +181,27 @@
 
                                         <div class="card__price">
                                             <div class="basic-tabs">
-                                                <div class="basic-tabs-container" data-tab="card-price">
+                                                <div class="basic-tabs-container" data-tab="id_01_card-price">
                                                     <div class="basic-tabs-item basic-tabs-item-label">
                                                         <span class="card__price-tab card__price-title tab">Цена за</span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                <span class="card__price-tab tab basic-tabs-trigger active" data-target="square_meter">
-                                                    <span>м<sup>2</sup></span>
-                                                </span>
+                                                        <span class="card__price-tab tab basic-tabs-trigger active" data-target="id_01_square_meter">
+                                                            <span>м<sup>2</sup></span>
+                                                        </span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="piece"><span>штуку</span></span>
+                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="id_01_piece"><span>штуку</span></span>
                                                     </div>
                                                 </div>
-                                                <div class="basic-tabs-content" data-tab-content="card-price">
-                                                    <div class="basic-tabs-content__panel active" data-id="square_meter">
+                                                <div class="basic-tabs-content" data-tab-content="id_01_card-price">
+                                                    <div class="basic-tabs-content__panel active" data-id="id_01_square_meter">
                                                         <div class="basic-tabs-content__content">
                                                             <span class="card__price-current">910 ₽</span>
                                                             <span class="card__price-origin">1230 ₽</span>
                                                         </div>
                                                     </div>
-                                                    <div class="basic-tabs-content__panel" data-id="piece">
+                                                    <div class="basic-tabs-content__panel" data-id="id_01_piece">
                                                         <div class="basic-tabs-content__content">
                                                             <div class="card__price-current">210 ₽</div>
                                                             <div class="card__price-origin">430 ₽</div>
@@ -303,12 +303,12 @@
 
                                         <div class="card__price">
                                             <div class="basic-tabs">
-                                                <div class="basic-tabs-container" data-tab="card-price">
+                                                <div class="basic-tabs-container" data-tab="id_02_card-price">
                                                     <div class="basic-tabs-item basic-tabs-item-label">
                                                         <span class="card__price-tab card__price-title tab">Цена за штуку</span>
                                                     </div>
                                                 </div>
-                                                <div class="basic-tabs-content" data-tab-content="card-price">
+                                                <div class="basic-tabs-content" data-tab-content="id_02_card-price">
                                                     <div class="basic-tabs-content__panel active">
                                                         <div class="basic-tabs-content__content">
                                                             <span class="card__price-current">300 ₽</span>
@@ -410,26 +410,26 @@
 
                                         <div class="card__price">
                                             <div class="basic-tabs">
-                                                <div class="basic-tabs-container" data-tab="card-price">
+                                                <div class="basic-tabs-container" data-tab="id_03_card-price">
                                                     <div class="basic-tabs-item basic-tabs-item-label">
                                                         <span class="card__price-tab card__price-title tab">Цена за</span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                <span class="card__price-tab tab basic-tabs-trigger active" data-target="square_meter">
-                                                    <span>м<sup>2</sup></span>
-                                                </span>
+                                                        <span class="card__price-tab tab basic-tabs-trigger active" data-target="id_03_square_meter">
+                                                            <span>м<sup>2</sup></span>
+                                                        </span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="piece"><span>рулон</span></span>
+                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="id_03_piece"><span>рулон</span></span>
                                                     </div>
                                                 </div>
-                                                <div class="basic-tabs-content" data-tab-content="card-price">
-                                                    <div class="basic-tabs-content__panel active" data-id="square_meter">
+                                                <div class="basic-tabs-content" data-tab-content="id_03_card-price">
+                                                    <div class="basic-tabs-content__panel active" data-id="id_03_square_meter">
                                                         <div class="basic-tabs-content__content">
                                                             <span class="card__price-current">225 ₽</span>
                                                         </div>
                                                     </div>
-                                                    <div class="basic-tabs-content__panel" data-id="piece">
+                                                    <div class="basic-tabs-content__panel" data-id="id_03_piece">
                                                         <div class="basic-tabs-content__content">
                                                             <div class="card__price-current">210 ₽</div>
                                                         </div>
@@ -529,27 +529,27 @@
 
                                         <div class="card__price">
                                             <div class="basic-tabs">
-                                                <div class="basic-tabs-container" data-tab="card-price">
+                                                <div class="basic-tabs-container" data-tab="id_04_card-price">
                                                     <div class="basic-tabs-item basic-tabs-item-label">
                                                         <span class="card__price-tab card__price-title tab">Цена за</span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                        <span class="card__price-tab tab basic-tabs-trigger active" data-target="square_meter">
+                                                        <span class="card__price-tab tab basic-tabs-trigger active" data-target="id_04_square_meter">
                                                             <span>м<sup>2</sup></span>
                                                         </span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="piece"><span>штуку</span></span>
+                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="id_04_piece"><span>штуку</span></span>
                                                     </div>
                                                 </div>
-                                                <div class="basic-tabs-content" data-tab-content="card-price">
-                                                    <div class="basic-tabs-content__panel active" data-id="square_meter">
+                                                <div class="basic-tabs-content" data-tab-content="id_04_card-price">
+                                                    <div class="basic-tabs-content__panel active" data-id="id_04_square_meter">
                                                         <div class="basic-tabs-content__content">
                                                             <span class="card__price-current">5800 ₽</span>
                                                             <span class="card__price-origin">5950 ₽</span>
                                                         </div>
                                                     </div>
-                                                    <div class="basic-tabs-content__panel" data-id="piece">
+                                                    <div class="basic-tabs-content__panel" data-id="id_04_piece">
                                                         <div class="basic-tabs-content__content">
                                                             <div class="card__price-current">210 ₽</div>
                                                             <div class="card__price-origin">430 ₽</div>
@@ -652,12 +652,12 @@
 
                                         <div class="card__price">
                                             <div class="basic-tabs">
-                                                <div class="basic-tabs-container" data-tab="card-price">
+                                                <div class="basic-tabs-container" data-tab="id_05_card-price">
                                                     <div class="basic-tabs-item basic-tabs-item-label">
                                                         <span class="card__price-tab card__price-title tab">Цена за м2</span>
                                                     </div>
                                                 </div>
-                                                <div class="basic-tabs-content" data-tab-content="card-price">
+                                                <div class="basic-tabs-content" data-tab-content="id_05_card-price">
                                                     <div class="basic-tabs-content__panel active">
                                                         <div class="basic-tabs-content__content">
                                                             <span class="card__price-current">127 ₽</span>
@@ -759,26 +759,26 @@
 
                                         <div class="card__price">
                                             <div class="basic-tabs">
-                                                <div class="basic-tabs-container" data-tab="card-price">
+                                                <div class="basic-tabs-container" data-tab="id_06_card-price">
                                                     <div class="basic-tabs-item basic-tabs-item-label">
                                                         <span class="card__price-tab card__price-title tab">Цена за</span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                <span class="card__price-tab tab basic-tabs-trigger active" data-target="square_meter">
+                                                <span class="card__price-tab tab basic-tabs-trigger active" data-target="id_06_square_meter">
                                                     <span>м<sup>2</sup></span>
                                                 </span>
                                                     </div>
                                                     <div class="basic-tabs-item">
-                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="piece"><span>рулон</span></span>
+                                                        <span class="card__price-tab tab basic-tabs-trigger" data-target="id_06_piece"><span>рулон</span></span>
                                                     </div>
                                                 </div>
-                                                <div class="basic-tabs-content" data-tab-content="card-price">
-                                                    <div class="basic-tabs-content__panel active" data-id="square_meter">
+                                                <div class="basic-tabs-content" data-tab-content="id_06_card-price">
+                                                    <div class="basic-tabs-content__panel active" data-id="id_06_square_meter">
                                                         <div class="basic-tabs-content__content">
                                                             <span class="card__price-current">225 ₽</span>
                                                         </div>
                                                     </div>
-                                                    <div class="basic-tabs-content__panel" data-id="piece">
+                                                    <div class="basic-tabs-content__panel" data-id="id_06_piece">
                                                         <div class="basic-tabs-content__content">
                                                             <div class="card__price-current">210 ₽</div>
                                                         </div>
