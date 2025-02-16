@@ -816,7 +816,6 @@ application.prototype.initCartQuantity = function () {
 
             if(newVal == 0) {
                 newVal = mult;
-                console.log("success4");
 
                 if(window.matchMedia('(max-width: 991.98px)').matches) {
                     $(this).closest('.cart-quantity').removeClass('enabled');

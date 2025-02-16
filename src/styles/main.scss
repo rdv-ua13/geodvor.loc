@@ -320,7 +320,15 @@
 	gap: 12px;
 }
 
-//promo-banner-slider
+// @check
+.promo-banner-slider {
+	.swiper-slide {
+		.image {
+			min-width: 100%;
+			width: 100%;
+		}
+	}
+}
 @media (max-width: 991.98px) {
 	.slider-out .promo-banner-slider {
 		padding-right: 0;
