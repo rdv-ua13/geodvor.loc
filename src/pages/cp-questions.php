@@ -8,19 +8,19 @@
 		            <div class="cp-sidebar__heading">Покупателям</div>
 		            <ul class="list-reset cp-sidebar__list">
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">Доставка</a>
+		                    <a href="javascript:;" class="cp-sidebar__link">Доставка</a>
 		                </li>
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">Оплата</a>
+		                    <a href="javascript:;" class="cp-sidebar__link">Оплата</a>
 		                </li>
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">Оптовым покупателям</a>
+		                    <a href="javascript:;" class="cp-sidebar__link">Оптовым покупателям</a>
 		                </li>
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">Контакты</a>
+		                    <a href="javascript:;" class="cp-sidebar__link">Контакты</a>
 		                </li>
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">О нас</a>
+		                    <a href="javascript:;" class="cp-sidebar__link">О нас</a>
 		                </li>
 		            </ul>
 		        </div>
@@ -28,13 +28,13 @@
 		            <div class="cp-sidebar__heading">Полезное</div>
 		            <ul class="list-reset cp-sidebar__list">
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">Готовые решения</a>
+		                    <a href="javascript:;" class="cp-sidebar__link">Готовые решения</a>
 		                </li>
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">Полезные советы</a>
+		                    <a href="javascript:;" class="cp-sidebar__link">Полезные советы</a>
 		                </li>
 		                <li class="cp-sidebar__list-item">
-		                    <a href="javascript:;" class="cp-sidebar__list-link">Вопросы покупателей</a>
+		                    <a href="javascript:;" class="cp-sidebar__link active">Вопросы покупателей</a>
 		                </li>
 		            </ul>
 		        </div>

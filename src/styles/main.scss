@@ -51,6 +51,21 @@
 			display: flex;
 			flex-direction: column;
 			gap: 16px;
+
+			&-item {
+				display: flex;
+			}
+		}
+		&__link {
+			display: inline-flex;
+			color: var(--text-primary);
+			transition: var(--transition);
+
+			&:hover,
+			&:active,
+			&.active {
+				color: var(--green10-color);
+			}
 		}
 	}
 }
@@ -64,6 +79,9 @@
 			min-width: 284px;
 			width: 284px;
 
+			&-nav {
+				gap: 40px;
+			}
 			&__item {
 				gap: 12px;
 			}
