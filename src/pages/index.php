@@ -1217,7 +1217,7 @@
 
 <div class="gap-xl">
     <div class="container">
-        <div class="basic-hca">
+        <div class="basic-hca basic-hca--mob-hac">
             <div class="basic-hca__heading">
                 <div class="h2">Полезное от Гео-Двора</div>
             </div>
@@ -1364,17 +1364,28 @@
             </div>
 
             <div class="basic-hca__action basic-hca__action--row">
-                <div class="btn-g">
-                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
-                        <span class="text-content">Готовые решения</span>
-                    </a>
-                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
-                        <span class="text-content">Полезные советы</span>
-                    </a>
-                    <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
-                        <span class="text-content">Вопросы покупателей</span>
-                    </a>
+                <div class="slider-out basic-slider-wrap">
+                    <div class="basic-slider swiper" data-basic-slider>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
+                                    <span class="text-content">Готовые решения</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
+                                    <span class="text-content">Полезные советы</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
+                                    <span class="text-content">Вопросы покупателей</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <a class="btn-reset btn btn-extra basic-hca__action-more" href="javascript:;">
                     <span class="text-content">Все готовые решения</span>
                     <svg class="icon icon-fill">
