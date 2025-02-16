@@ -30,7 +30,7 @@
     <link rel="preload" href="fonts/Manrope-ExtraBold.woff" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="fonts/Manrope-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
 
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css?v=<?=time();?>" type="text/css">
 
     <?/* Подключение библиотек (отдельно)*/?>
     <script defer src="js/jquery.js"></script>                  <!-- jquery -->
@@ -50,7 +50,7 @@
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>
 
-    <script defer src="js/main.js"></script>
+    <script defer src="js/main.js?v=<?=time();?>"></script>
 </head>
 
 
