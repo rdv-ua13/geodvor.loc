@@ -86,6 +86,20 @@
 		min-width: 100%;
 		width: 100%;
 	}
+	&__payment {
+		gap: 8px;
+
+		a {
+			.icon,
+			.image,
+			img {
+				min-width: 32px;
+				width: 32px;
+				min-height: 25px;
+				height: 25px;
+			}
+		}
+	}
 }
 @media (min-width: 576px) {
 	.footer {

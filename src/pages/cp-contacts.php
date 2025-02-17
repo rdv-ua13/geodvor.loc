@@ -61,8 +61,10 @@
                             <div class="contacts-address__info-content">
                                 <span class="contacts-address__title">График работы магазина</span>
                                 <span>
-                                    ПН-ПТ с 09:00 до 18:00 <br>
-                                    СБ с 09:00 до 16:00, <br>
+                                    ПН-ПТ с 09:00 до 18:00
+                                    <br>
+                                    СБ с 09:00 до 16:00,
+                                    <br>
                                     ВС - выходной
                                 </span>
                             </div>
@@ -132,7 +134,7 @@
                 </div>
 
                 <div class="gap-xl">
-                    <div class="gap-md">
+                    <div class="gap-sm">
                         <div class="h4">Наш склад на карте</div>
                     </div>
                     <div class="contacts-map">

@@ -74,7 +74,8 @@
             <li><a class="ready" href="index.php" target="_blank">Главная</a></li>
             <br>
 
-            <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>
+            <li><a href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>
+            <li><a class="ready" href="cp-payment.php" target="_blank">Контентная страница - Оплата</a></li>
             <li><a class="ready" href="cp-questions.php" target="_blank">Контентная страница - Вопросы покупателей</a></li>
 
             <?/*
@@ -101,8 +102,6 @@
             <li><a href="order-confirm.php" target="_blank" class="ready">Подтверждение заказа</a></li>
             <br>
 
-
-            <li><a href="cp-payment.php" target="_blank" class="ready">Контентные страницы - Оплата</a></li>
             <li><a href="cp-delivery.php" target="_blank" class="ready">Контентные страницы - Доставка</a></li>
             <li><a href="cp-warranty.php" target="_blank" class="ready">Контентные страницы - Гарантия</a></li>
             <li><a href="cp-promotions.php" target="_blank" class="ready">Контентные страницы - Акции</a></li>

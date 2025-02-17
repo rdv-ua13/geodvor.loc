@@ -1916,7 +1916,7 @@ input.disabled {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	gap: 8px;
+	gap: 24px;
 
 	a {
 		display: flex;
@@ -1925,10 +1925,8 @@ input.disabled {
 		.icon,
 		.image,
 		img {
-			min-width: 32px;
-			width: 32px;
-			min-height: 25px;
-			height: 25px;
+			max-height: 20px;
+			height: 100%;
 		}
 	}
 }
