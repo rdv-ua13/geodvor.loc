@@ -52,8 +52,7 @@
 
     <script defer src="js/main.js?v=<?=time();?>"></script>
 
-    <?/* @check пофиксить */?>
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=3d113411-9fb0-4147-bc2f-c9492c6b089a&lang=ru_RU" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
 </head>
 
 
@@ -1109,9 +1108,9 @@
             </div>
             <div class="menu-catalog-submenu">
                 <div class="menu-catalog-submenu-section active" data-root-pointer="0">
-                    <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div> <!--//h3 change by design-->
+                    <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div> <?/* @note h3 change by design*/?>
                     <div class="menu-catalog-submenu-links">
-                        <ul class="list-reset menu-catalog-submenu-links__list"> <!--//@check переделать в div без списка, либо добавить liшкам класс-->
+                        <ul class="list-reset menu-catalog-submenu-links__list"> <?/* @note переделать в div без списка, либо добавить liшкам класс*/?>
                             <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
                             <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
                             <li>

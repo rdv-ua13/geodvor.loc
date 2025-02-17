@@ -350,7 +350,7 @@ application.prototype.initMenu = function () {
     }
 };
 
-// @check
+// @note
 // Initialize menu height overflow
 application.prototype.setMenuHeightOverflow = function () {
     defineMenuOverflow();
@@ -369,7 +369,7 @@ application.prototype.setMenuHeightOverflow = function () {
         }
     }
 };
-// @check
+// @note
 // Initialize menu catalog behavior
 application.prototype.initMenuCatalogSubmenu = function () {
     const catalogSpoiler = $('[data-catalog-spoiler]');

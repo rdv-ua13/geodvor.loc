@@ -423,7 +423,7 @@ body:not(.is-using-mouse) {
 	transform: translate(-50%, -50%)
 }
 
-/*@check*/
+/*@note*/
 .border {
 	border: 1px solid var(--gray5-color);
 
@@ -1092,7 +1092,7 @@ input.disabled {
 	}
 }
 
-// @check
+// @note
 .nav-breadcrumbs {
 	& .swiper-slide {
 		width: auto;
@@ -1149,7 +1149,7 @@ input.disabled {
 	}
 }
 
-// @check
+// @note
 .custom-checkbox,
 .custom-radio {
 	display: inline-flex;
@@ -2437,7 +2437,7 @@ input.disabled {
 	.cart-in {
 		flex: 1;
 	}
-	.cart-one-click { //@check
+	.cart-one-click { //@note
 		flex: 1;
 		min-width: 100%;
 	}
@@ -2736,7 +2736,7 @@ input.disabled {
 
 
 
-// @check all after \/ ____________________________________________________________
+// @note all after \/ ____________________________________________________________
 .client-type {
 	&__item {
 		display: flex;
