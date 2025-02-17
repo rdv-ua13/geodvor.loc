@@ -85,23 +85,25 @@
                     </div>
                 </div>
             </div>
-            <form class="ask-form" action="">
-                <div class="ask-form__item ask-form__heading">
-                    <div class="h3">Возможно у вас есть вопрос?</div>
-                </div>
-                <div class="ask-form__item ask-form__descr">
-                    <div class="fz-lg">Позвоните нам или задайте вопрос, мы вам поможем найти то, что вы ищете</div>
-                    <div class="ask-form__cta">
-                        <button class="btn-reset btn" type="button">
-                            <span class="text-content">Задать свой вопрос</span>
-                        </button>
-                        <div class="ask-form__contacts">
-                            <span>или позвоните</span>
-                            <a class="link h4" href="tel:+79811558247">+7 981 155-82-47</a>
+            <div class="gap-xl">
+                <form class="ask-form" action="">
+                    <div class="ask-form__item ask-form__heading">
+                        <div class="h3">Возможно у вас есть вопрос?</div>
+                    </div>
+                    <div class="ask-form__item ask-form__descr">
+                        <div class="fz-lg">Позвоните нам или задайте вопрос, мы вам поможем найти то, что вы ищете</div>
+                        <div class="ask-form__cta">
+                            <button class="btn-reset btn" type="button">
+                                <span class="text-content">Задать свой вопрос</span>
+                            </button>
+                            <div class="ask-form__contacts">
+                                <span>или позвоните</span>
+                                <a class="link h4" href="tel:+79811558247">+7 981 155-82-47</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
 </div>
