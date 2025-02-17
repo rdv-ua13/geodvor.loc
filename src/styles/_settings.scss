@@ -64,35 +64,107 @@ body {
 }
 
 .flex {
-	display: flex;
+	&,
+	&-start-start,
+	&-start-center,
+	&-start-end,
+	&-center-start,
+	&-center-center,
+	&-center-end,
+	&-end-start,
+	&-end-center,
+	&-end-end {
+		display: flex;
+	}
 
-	&-v-center {
-		display: flex;
+	&-inline {
+		display: inline-flex;
+	}
+
+	&-start-start {
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	&-start-center {
+		justify-content: flex-start;
 		align-items: center;
 	}
-	&-h-center {
-		display: flex;
-		justify-content: center;
+	&-start-end {
+		justify-content: flex-start;
+		align-items: flex-end;
 	}
-	&-h-end {
-		display: flex;
+
+	&-center-start {
+		justify-content: center;
+		align-items: flex-start;
+	}
+	&-center-center {
+		justify-content: center;
+		align-items: center;
+	}
+	&-center-end {
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+	&-end-start {
 		justify-content: flex-end;
+		align-items: flex-start;
 	}
-	&-all-center {
-		display: flex;
+	&-end-center {
+		justify-content: flex-end;
 		align-items: center;
-		justify-content: center;
 	}
-	&-all-sb {
-		display: flex;
+	&-end-end {
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+
+	&-around-start {
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+	&-around-center {
+		justify-content: space-around;
 		align-items: center;
+	}
+	&-around-end {
+		justify-content: space-around;
+		align-items: flex-end;
+	}
+
+	&-between-start {
 		justify-content: space-between;
+		align-items: flex-start;
 	}
+	&-between-center {
+		justify-content: space-between;
+		align-items: center;
+	}
+	&-between-end {
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	&-evenly-start {
+		justify-content: space-evenly;
+		align-items: flex-start;
+	}
+	&-evenly-center {
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	&-evenly-end {
+		justify-content: space-evenly;
+		align-items: flex-end;
+	}
+}
+.grow {
 	&-1 {
-		flex: 1;
+		flex-grow: 1;
 	}
-	&-0-1-100 {
-		flex: 0 1 100%;
+	&-2 {
+		flex-grow: 2;
 	}
 }
 
@@ -1053,6 +1125,9 @@ input.disabled {
 		&-sm {
 			margin-bottom: 20px !important;
 		}
+		&-sm-plus {
+			margin-bottom: 24px !important;
+		}
 		&-md {
 			margin-bottom: 32px !important;
 		}
@@ -1078,6 +1153,7 @@ input.disabled {
 		&-sm {
 			margin-bottom: 12px !important;
 		}
+		&-sm-plus,
 		&-md {
 			margin-bottom: 16px !important;
 		}
