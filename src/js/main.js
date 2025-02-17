@@ -27,6 +27,7 @@ application.prototype.init = function () {
     this.initInputSearchBehavior();
     this.initSearchResBehavior();
     this.initClipboard();
+    this.initContactsMap();
 
 
 
@@ -64,7 +65,6 @@ application.prototype.init = function () {
     // this.initCatalogSidebarApplyFilter();
     // this.initCheckall();
     // this.initOrdersMap();
-    // this.initContactsMap();
     // this.initOrderBonusDebit();
     // this.initAddingOrgData();
     // this.initOpenPromocode();
@@ -992,6 +992,49 @@ application.prototype.initContactsMap = function () {
             });
         }
     }
+
+    /*if ($('.contacts-map').length) {
+        ymaps.ready(init);
+
+        let myMap;
+        let mapItem = $('.contacts-map-content');
+
+        function init () {
+            mapItem.each(function (i) {
+                mapItem.eq(i).attr('id', 'contactsMap' + i);
+
+                let zoomControl = new ymaps.control.ZoomControl({
+                    options: {
+                        size: 'large',
+                        float: 'none',
+                        position: {
+                            top: 50,
+                            right: 10,
+                            left: 'auto',
+                        },
+                    }
+                });
+
+                // Параметры карты можно задать в конструкторе.
+                myMap = new ymaps.Map(
+                    // ID DOM-элемента, в который будет добавлена карта.
+                    'contactsMap' + i,
+                    // Параметры карты.
+                    {
+                        // Географические координаты центра отображаемой карты.
+                        center: [59.767013, 30.592935],
+                        // Масштаб.
+                        zoom: 15,
+                        controls: ['fullscreenControl'],
+                    }, {
+                        // Поиск по организациям.
+                        searchControlProvider: 'yandex#search'
+                    }
+                );
+                myMap.controls.add(zoomControl);
+            });
+        }
+    }*/
 };
 
 

@@ -390,7 +390,7 @@
 		border-radius: var(--bradius);
 
 		&::before {
-			content: 'Здесь не прогрузилась карта';
+			content: 'Карта загружается...';
 			z-index: -1;
 			position: absolute;
 			inset: 0;
