@@ -2037,6 +2037,15 @@ input.disabled {
 	}
 }
 
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px 12px;
+
+	&--sm {
+		gap: 12px 4px;
+	}
+}
 .card {
 	z-index: 1;
 	position: relative;
@@ -2286,16 +2295,11 @@ input.disabled {
 			}
 		}
 	}
-	&-category-list {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 12px 0;
-	}
 	&-category {
 		flex: initial;
 		align-items: center;
-		min-width: 117px;
-		width: 117px;
+		min-width: 114px;
+		width: 114px;
 		padding-bottom: 4px;
 
 		.card__view {
@@ -2344,8 +2348,21 @@ input.disabled {
 			}
 		}
 	}
+	&-about {
+
+	}
 }
 @media (min-width: 992px) {
+	.card-list {
+		gap: 40px 20px;
+
+		&--sm {
+			gap: 20px;
+		}
+		&--lg {
+			gap: 60px 40px;
+		}
+	}
 	.card {
 		&-benefit {
 			gap: 16px;
@@ -2446,9 +2463,6 @@ input.disabled {
 				-webkit-box-orient: vertical;
 				overflow: hidden;
 			}
-		}
-		&-category-list {
-			gap: 20px;
 		}
 		&-category {
 			min-width: 196px;

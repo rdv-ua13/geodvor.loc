@@ -1024,7 +1024,7 @@
                 </div>
 
                 <div class="basic-hca__content">
-                    <div class="card-category-list">
+                    <div class="card-list card-list--sm">
                         <a class="card card-category" href="javascript:;">
                                 <span class="card__view">
                                     <img
