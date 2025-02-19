@@ -1588,6 +1588,10 @@ input.disabled {
 		border-color: var(--gray0-color);
 		background-color: var(--gray0-color);
 
+		&.input-secondary {
+			border-color: var(--gray21-color);
+			background-color: var(--white-color);
+		}
 		&.input-light {
 			border-color: var(--white-color);
 			background-color: var(--white-color);
@@ -1597,6 +1601,7 @@ input.disabled {
 		border-color: var(--green0-color);
 		background-color: var(--white-color);
 
+		&.input-secondary,
 		&.input-light {
 			border-color: var(--green0-color);
 			background-color: var(--white-color);
