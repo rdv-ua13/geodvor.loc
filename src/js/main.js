@@ -148,6 +148,7 @@ application.prototype.initTooltips = function () {
 application.prototype.initReadmore = function () {
     if ($('[data-spoiler]').length) {
         const spoiler = $('[data-spoiler]');
+        let spoilerSettings = null;
 
         spoiler.each(function (i) {
             let currentMoreText = spoiler.eq(i).data('spoiler-more');
@@ -173,7 +174,7 @@ application.prototype.initReadmore = function () {
             }
 
             spoiler.eq(i).addClass('spoiler-' + i);
-            $('.spoiler-' + i).readmore({
+            spoilerSettings = {
                 collapsedHeight: currentElemHeight,
                 moreLink: '<a href="javascript:;" class="link-brand spoiler-trigger">\n' +
                     '                                        <span class="text-content">' + currentMoreText + '</span>\n' +
@@ -181,7 +182,27 @@ application.prototype.initReadmore = function () {
                 lessLink: '<a href="javascript:;" class="link-brand spoiler-trigger">\n' +
                     '                                        <span class="text-content">' + currentLessText + '</span>\n' +
                     '                                    </a>'
-            });
+            };
+
+            if($('.spoiler-' + i).is('[data-spoiler-mobile-only]')) {
+                if(window.matchMedia('(min-width: 992px)').matches) {
+                    $('.spoiler-' + i).readmore('destroy');
+                }
+                else if(window.matchMedia('(max-width: 991.98px)').matches) {
+                    $('.spoiler-' + i).readmore(spoilerSettings);
+                }
+            }
+            else if($('.spoiler-' + i).is('[data-spoiler-desktop-only]')) {
+                if(window.matchMedia('(min-width: 992px)').matches) {
+                    $('.spoiler-' + i).readmore(spoilerSettings);
+                }
+                else if(window.matchMedia('(max-width: 991.98px)').matches) {
+                    $('.spoiler-' + i).readmore('destroy');
+                }
+            }
+            else {
+                $('.spoiler-' + i).readmore(spoilerSettings);
+            }
         });
     }
 };

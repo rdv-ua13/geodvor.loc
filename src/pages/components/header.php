@@ -57,7 +57,7 @@
 
 
 <body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?> <?=(strpos($_SERVER["REQUEST_URI"], "card-product.php"))? 'card-product-page' : ''?>">
-    <header class="header fixed-block <?=(!strpos($_SERVER["REQUEST_URI"], "index.php"))? 'header-less' : ''?> <?=(strpos($_SERVER["REQUEST_URI"], "ordering.php") || strpos($_SERVER["REQUEST_URI"], "order-confirm.php"))? 'header--order' : ''?>">
+    <header class="header fixed-block <?=(!strpos($_SERVER["REQUEST_URI"], "index.php") && !strpos($_SERVER["REQUEST_URI"], "catalog.php"))? 'header-less' : ''?> <?=(strpos($_SERVER["REQUEST_URI"], "ordering.php") || strpos($_SERVER["REQUEST_URI"], "order-confirm.php"))? 'header--order' : ''?>">
         <div class="header-top">
             <div class="container header-container header-top-container">
                 <div class="header-top-nav">

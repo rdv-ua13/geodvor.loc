@@ -74,6 +74,9 @@
             <li><a class="ready" href="index.php" target="_blank">Главная</a></li>
             <br>
 
+            <li><a href="catalog.php" target="_blank" class="ready">Каталог - Верхний уровень</a></li>
+            <br>
+
             <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>
             <li><a class="ready" href="cp-payment.php" target="_blank">Контентная страница - Оплата</a></li>
             <li><a class="ready" href="cp-delivery.php" target="_blank">Контентная страница - Доставка</a></li>
@@ -88,7 +91,7 @@
             <li><a href="card-product.php" target="_blank" class="ready">Карточка товара</a></li>
             <br>
 
-            <li><a href="catalog.php" target="_blank" class="ready">Каталог - Верхний уровень</a></li>
+
             <li><a href="catalog-section.php" target="_blank" class="ready">Каталог - Разделы</a></li>
             <li><a href="catalog-category.php" target="_blank" class="ready">Категории каталога - Изделия</a></li>
             <li><a href="catalog-category-socket-switches.php" target="_blank" class="ready">Категории каталога - Розетки и выключатели</a></li>

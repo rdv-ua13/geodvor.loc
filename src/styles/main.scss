@@ -155,6 +155,26 @@
 				}
 			}
 		}
+		&-default {
+			@at-root {
+			    ul#{&} {
+			        li {
+			            &::before {
+			                content: "";
+			                position: absolute;
+							top: 10px;
+							left: -13px;
+							min-width: 4px;
+							width: 4px;
+							min-height: 4px;
+							height: 4px;
+							border-radius: 50%;
+			                background-color: var(--text-primary);
+			            }
+			        }
+			    }
+			}
+		}
 	}
 	&-gaps {
 		display: inline-flex;
@@ -258,8 +278,7 @@
 			}
 		}
 		&-content {
-			min-width: calc(100% - 284px - 40px);
-			width: calc(100% - 284px - 40px);
+			flex: 1;
 		}
 		&-item {
 			gap: 16px;

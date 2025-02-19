@@ -2165,6 +2165,10 @@ input.disabled {
 		grid-template-columns: repeat(auto-fit, minmax(114px, 1fr));
 		gap: 12px 4px;
 	}
+	&--catalog {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
 
 	.card {
 		min-width: 100%;
@@ -2223,7 +2227,7 @@ input.disabled {
 	&-benefit {
 		flex-direction: row;
 		gap: 12px;
-		max-width: 305px;
+		max-width: 311px;
 
 		.card__view {
 			&,
@@ -2474,6 +2478,49 @@ input.disabled {
 			}
 		}
 	}
+	&-catalog-category {
+		flex-direction: row;
+		gap: 16px;
+
+		.card__view {
+			&,
+			.image {
+				min-width: 48px;
+				width: 48px;
+				min-height: 48px;
+				height: 48px;
+			}
+		}
+		.card__descr {
+			position: relative;
+			justify-content: center;
+			padding-right: 32px;
+		}
+		.card__title {
+			font-size: 15px;
+		}
+		.card__text-content {
+			color: var(--text-secondary);
+		}
+		.card__fall-pointer {
+			position: absolute;
+			top: 16px;
+			right: 0;
+			min-width: 16px;
+			width: 16px;
+			min-height: 16px;
+			height: 16px;
+
+			.icon {
+				min-width: 16px;
+				width: 16px;
+				min-height: 16px;
+				height: 16px;
+				fill: var(--text-secondary);
+				stroke: var(--text-secondary);
+			}
+		}
+	}
 	&-about {
 		gap: 12px;
 		min-width: 100%;
@@ -2518,10 +2565,15 @@ input.disabled {
 		gap: 40px 20px;
 
 		&--sm {
+			grid-template-columns: repeat(auto-fit, minmax(196px, 1fr));
 			gap: 20px;
 		}
 		&--lg {
 			gap: 60px 40px;
+		}
+		&--catalog {
+			grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+			gap: 20px;
 		}
 
 		.card {
@@ -2643,6 +2695,39 @@ input.disabled {
 			.card__title {
 				font-weight: 600;
 				font-size: 16px;
+			}
+		}
+		&-catalog-category {
+			flex-direction: column;
+			gap: unset;
+			min-width: 305px;
+			width: 305px;
+			padding: 11px 11px 23px;
+			border: 1px solid var(--gray10-color);
+			border-radius: var(--bradius);
+
+			.card__view {
+				&,
+				.image {
+					min-width: 100%;
+					width: 100%;
+					min-height: 281px;
+					height: 281px;
+				}
+			}
+			.card__descr {
+				justify-content: unset;
+				align-items: center;
+				gap: 8px;
+				padding-top: 32px;
+				padding-right: unset;
+			}
+			.card__title {
+				font-weight: 500;
+				font-size: 18px;
+			}
+			.card__fall-pointer {
+				display: none;
 			}
 		}
 		&-about {
