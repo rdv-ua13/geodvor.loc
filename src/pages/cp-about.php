@@ -70,21 +70,72 @@
                     <div class="h3">Почему клиенты выбирают «Геодвор»</div>
 				</div>
                 <div class="card-list">
-                    <a class="card card-category" href="javascript:;">
+                    <div class="card card-about">
                         <span class="card__view">
-                            <img
-                                    loading="lazy"
-                                    src="img/cc1.png"
-                                    class="image"
-                                    width="77"
-                                    height="77"
-                                    alt="Изображение блока"
-                            >
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#tt_heart"></use>
+                            </svg>
                         </span>
                         <span class="card__descr">
-                            <span class="card__title">Спанбонд</span>
+                            <span class="card__title">100% ориентированность на клиента</span>
+                            <span class="card__text-content">Поможем подобрать товар под любой бюджет, помочь с пересогласованием и доставим товары в день заказа</span>
                         </span>
-                    </a>
+                    </div>
+                    <div class="card card-about">
+                        <span class="card__view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#tt_cart"></use>
+                            </svg>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__title">Снабжение материалами «под ключ»</span>
+                            <span class="card__text-content">В нашем магазине вы найдете практически все, что необходимо для обустройства дренажной системы, фундамента, парковки или дороги</span>
+                        </span>
+                    </div>
+                    <div class="card card-about">
+                        <span class="card__view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#tt_watch"></use>
+                            </svg>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__title">Минимальные сроки решения поставленных задач</span>
+                            <span class="card__text-content">Коммерческое предложение выдаем в течение часа после запроса (за исключением сложных материалов)</span>
+                        </span>
+                    </div>
+                    <div class="card card-about">
+                        <span class="card__view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#tt_thumb"></use>
+                            </svg>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__title">Высокое качество работ и материалов</span>
+                            <span class="card__text-content">Мы всегда пристально следим за качеством материала. Качественно выполняемой работы контролируется на каждом этапе</span>
+                        </span>
+                    </div>
+                    <div class="card card-about">
+                        <span class="card__view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#tt_briefcase"></use>
+                            </svg>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__title">Строгое выполнение взятых на себя обязательств</span>
+                            <span class="card__text-content">Меняем материал, если обнаружен заводской брак. Выезжаем на объект с представителями заводов для выяснения причин, почему так произошло</span>
+                        </span>
+                    </div>
+                    <div class="card card-about">
+                        <span class="card__view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#tt_lifebuoy"></use>
+                            </svg>
+                        </span>
+                        <span class="card__descr">
+                            <span class="card__title">Полноценное техническое сопровождение</span>
+                            <span class="card__text-content">Предоставляем сравнительные таблицы, все документы о качестве товара, сертификаты соответствия, пожарные сертификаты</span>
+                        </span>
+                    </div>
 			    </div>
 			</div>
 		</div>

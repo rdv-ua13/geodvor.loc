@@ -78,6 +78,7 @@
             <li><a class="ready" href="cp-payment.php" target="_blank">Контентная страница - Оплата</a></li>
             <li><a class="ready" href="cp-delivery.php" target="_blank">Контентная страница - Доставка</a></li>
             <li><a class="ready" href="cp-about.php" target="_blank">Контентная страница - О нас</a></li>
+            <li><a class="ready" href="cp-wholesale.php" target="_blank">Контентная страница - Оптовым покупателям</a></li>
             <li><a class="ready" href="cp-questions.php" target="_blank">Контентная страница - Вопросы покупателей</a></li>
 
             <?/*

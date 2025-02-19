@@ -464,6 +464,48 @@
                         </svg>
                         <!--end ui content-->
                     </span>
+                    <span class="tooltip" data-tippy-content="#tt_briefcase">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#tt_briefcase"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#tt_cart">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#tt_cart"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#tt_heart">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#tt_heart"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#tt_lifebuoy">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#tt_lifebuoy"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#tt_thumb">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#tt_thumb"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
+                    <span class="tooltip" data-tippy-content="#tt_watch">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#tt_watch"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
 
                     <span class="tooltip" data-tippy-content="#menu-box-2">
                         <!--start ui content-->
