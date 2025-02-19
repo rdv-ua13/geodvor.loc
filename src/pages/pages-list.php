@@ -63,9 +63,9 @@
             <img src="img/logo.svg" width="180" height="50" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">n + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">10 + ui</span>
             &nbsp;/&nbsp;
-            <span style="font-size: 24px;">26 + ui (всего страниц в макете)</span>
+            <span style="font-size: 24px;">29 + ui (всего страниц в макете)</span>
         </span>
     </div>
 
@@ -80,6 +80,9 @@
             <li><a class="ready" href="cp-about.php" target="_blank">Контентная страница - О нас</a></li>
             <li><a class="ready" href="cp-wholesale.php" target="_blank">Контентная страница - Оптовым покупателям</a></li>
             <li><a class="ready" href="cp-questions.php" target="_blank">Контентная страница - Вопросы покупателей</a></li>
+            <li><a class="ready" href="cp-solutions.php" target="_blank">Контентная страница - Готовые решения</a></li>
+            <li><a class="ready" href="cp-adviсe.php" target="_blank">Контентная страница - Полезные советы</a></li>
+            <li><a class="ready" href="cp-services.php" target="_blank">Контентная страница - Услуги</a></li>
 
             <?/*
             <li><a href="card-product.php" target="_blank" class="ready">Карточка товара</a></li>
