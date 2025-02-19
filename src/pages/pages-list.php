@@ -63,7 +63,7 @@
             <img src="img/logo.svg" width="180" height="50" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">10 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">11 + ui</span>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">29 + ui (всего страниц в макете)</span>
         </span>
