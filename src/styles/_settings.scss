@@ -2616,6 +2616,18 @@ input.disabled {
 			}
 
 			&--watched {
+				min-width: 190px;
+				width: 190px;
+
+				.card__view {
+					&,
+					.image {
+						min-width: 190px;
+						width: 190px;
+						min-height: 190px;
+						height: 190px;
+					}
+				}
 				.card__price {
 					gap: 8px;
 
