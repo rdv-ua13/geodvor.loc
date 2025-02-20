@@ -74,7 +74,8 @@
             <li><a class="ready" href="index.php" target="_blank">Главная</a></li>
             <br>
 
-            <li><a href="catalog.php" target="_blank" class="ready">Каталог - Верхний уровень</a></li>
+            <li><a class="ready" href="catalog.php" target="_blank">Каталог - Верхний уровень</a></li>
+            <li><a class="ready" href="catalog-category.php" target="_blank">Каталог - Категория каталога</a></li>
             <br>
 
             <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>

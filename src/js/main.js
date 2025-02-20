@@ -57,7 +57,6 @@ application.prototype.init = function () {
     // this.initMobileCitySelection();
     // this.initCatalogContentSort();
     // this.initCatalogContentViewSwitcher();
-    // this.initCatalogSidebarFilterViewSwitcher();
     // this.initCheckedRadioInsurances();
     // this.initCatalogSidebarFilterCheckedTags();
     // this.initCatalogSidebarFilter();
@@ -523,12 +522,12 @@ application.prototype.initBasicSlider = function () {
 
 // Initialize sliders
 application.prototype.initSliders = function () {
-    /*if ($('.nav-breadcrumbs').length) {
+    if ($('.nav-breadcrumbs').length) {
         let sliderNavBreadcrumbs = new Swiper('.nav-breadcrumbs', {
-            spaceBetween: 0,
             slidesPerView: 'auto',
+            spaceBetween: 4
         });
-    }*/
+    }
 
     if ($('[data-single-slider]').length) {
         const slider = $('[data-single-slider]');
@@ -1650,24 +1649,7 @@ application.prototype.initCatalogContentViewSwitcher = function () {
     }
 };
 
-// Initialize catalog sidebar filter view switcher
-application.prototype.initCatalogSidebarFilterViewSwitcher = function () {
-    if ($('[data-filter-option-view]').length && $('[data-filter-option-content]').length) {
-        const viewSwitcherContainer = $('[data-filter-option]');
-        const viewSwitcher = $('[data-filter-option-view]');
-        const viewSwitcherContent = $('[data-filter-option-content]');
 
-        viewSwitcher.on('click', function () {
-            if (!$(this).hasClass('collapse-view-in')) {
-                $(this).addClass('collapse-view-in');
-                $(this).closest(viewSwitcherContainer).find(viewSwitcherContent).addClass('collapse-content-in');
-            } else if ($(this).hasClass('collapse-view-in')) {
-                $(this).removeClass('collapse-view-in');
-                $(this).closest(viewSwitcherContainer).find(viewSwitcherContent).removeClass('collapse-content-in');
-            }
-        });
-    }
-};
 
 // Initialize checked radio insurances
 application.prototype.initCheckedRadioInsurances = function () {
@@ -1684,7 +1666,7 @@ application.prototype.initCheckedRadioInsurances = function () {
 
 // Initialize catalog sidebar filter checked tags
 application.prototype.initCatalogSidebarFilterCheckedTags = function () {
-    if ($('.catalog-sidebar-filter__tag').length) {
+    if ($('.catalog-sidebar-filter__tag').length) { //@note namespace - ".cp-sidebar-filter"
         $('.catalog-sidebar-filter__tag input[type="checkbox"]').on('click',function () {
             $(this).closest('.catalog-sidebar-filter__tag').toggleClass('checked');
         });
@@ -1743,7 +1725,7 @@ application.prototype.initCatalogSidebarFilter = function () {
 
 // Initialize catalog sidebar sort options content
 application.prototype.initCatalogSidebarSortOptionsContent = function () {
-    $('.catalog-sidebar-filter__options-item').each(function(i, e) {
+    $('.catalog-sidebar-filter__options-item').each(function(i, e) { //@note namespace - ".cp-sidebar-filter"
         $(e).find('.catalog-sidebar-filter__options-search .input').on('input', function() {
             let text = $(this).val().toLowerCase();
             $(this).parents('.catalog-sidebar-filter__options-item').find('.catalog-sidebar-filter__item .custom-checkbox__label-for').each(function() {
@@ -1780,7 +1762,7 @@ application.prototype.initCatalogSidebarApplyFilter = function () {
         '           <div class="catalog-sidebar-apply-filter__title">Показать</div>' +
         '           <div class="catalog-sidebar-apply-filter__value">2 184 товара</div>' +
         '       </div>';
-
+    //@note namespace - ".cp-sidebar-filter"
     $(document).on('click', '.catalog-sidebar-filter__item .custom-checkbox__input', '.catalog-sidebar-filter__item .custom-checkbox__label-for', function () {
         let scroll = $(window).scrollTop();
         trigger = $(this).closest('.custom-checkbox');

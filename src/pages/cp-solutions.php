@@ -1,4 +1,4 @@
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/header.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
 <div class="container">
     <div class="cp">
@@ -362,11 +362,11 @@
             </div>
             <div class="gap-xl">
                 <div class="pagination-wrapper">
-                    <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/pagination.php"); ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/pagination.php"); ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/footer.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/footer.php"); ?>

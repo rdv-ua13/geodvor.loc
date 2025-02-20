@@ -1,43 +1,59 @@
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/header.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
 <div class="container">
 	<div class="cp">
-		<div class="cp-sidebar cp-sidebar-nav">
-			<div class="cp-sidebar__item">
-				<div class="cp-sidebar__heading">Покупателям</div>
-				<ul class="list-reset cp-sidebar__list">
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link">Доставка</a>
-					</li>
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link">Оплата</a>
-					</li>
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link active">Оптовым покупателям</a>
-					</li>
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link">Контакты</a>
-					</li>
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link">О нас</a>
-					</li>
-				</ul>
-			</div>
-			<div class="cp-sidebar__item">
-				<div class="cp-sidebar__heading">Полезное</div>
-				<ul class="list-reset cp-sidebar__list">
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link">Готовые решения</a>
-					</li>
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link">Полезные советы</a>
-					</li>
-					<li class="cp-sidebar__list-item">
-						<a href="javascript:;" class="cp-sidebar__link">Вопросы покупателей</a>
-					</li>
-				</ul>
-			</div>
-		</div>
+        <div class="cp-sidebar cp-sidebar-nav">
+            <div class="cp-sidebar__item">
+                <div class="cp-sidebar__heading">Покупателям</div>
+                <ul class="list-reset cp-sidebar__list">
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Доставка</span>
+                        </a>
+                    </li>
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Оплата</span>
+                        </a>
+                    </li>
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link active">
+                            <span class="cp-sidebar__link-content">Оптовым покупателям</span>
+                        </a>
+                    </li>
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Контакты</span>
+                        </a>
+                    </li>
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">О нас</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cp-sidebar__item">
+                <div class="cp-sidebar__heading">Полезное</div>
+                <ul class="list-reset cp-sidebar__list">
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Готовые решения</span>
+                        </a>
+                    </li>
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Полезные советы</span>
+                        </a>
+                    </li>
+                    <li class="cp-sidebar__list-item">
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Вопросы покупателей</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 		<div class="cp-content">
 			<div class="gap-lg">
 				<h1 class="h1">Выберите Геодвор  для комплектации ваших объектов</h1>
@@ -131,4 +147,4 @@
 	</div>
 </div>
 
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/footer.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/footer.php"); ?>

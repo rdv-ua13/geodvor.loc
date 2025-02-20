@@ -1,4 +1,4 @@
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/header.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
 <div class="container">
     <div class="cp">
@@ -7,19 +7,29 @@
                 <div class="cp-sidebar__heading">Покупателям</div>
                 <ul class="list-reset cp-sidebar__list">
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link">Доставка</a>
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Доставка</span>
+                        </a>
                     </li>
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link">Оплата</a>
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Оплата</span>
+                        </a>
                     </li>
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link">Оптовым покупателям</a>
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Оптовым покупателям</span>
+                        </a>
                     </li>
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link">Контакты</a>
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Контакты</span>
+                        </a>
                     </li>
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link">О нас</a>
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">О нас</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -27,13 +37,19 @@
                 <div class="cp-sidebar__heading">Полезное</div>
                 <ul class="list-reset cp-sidebar__list">
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link">Готовые решения</a>
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Готовые решения</span>
+                        </a>
                     </li>
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link">Полезные советы</a>
+                        <a href="javascript:;" class="cp-sidebar__link">
+                            <span class="cp-sidebar__link-content">Полезные советы</span>
+                        </a>
                     </li>
                     <li class="cp-sidebar__list-item">
-                        <a href="javascript:;" class="cp-sidebar__link active">Вопросы покупателей</a>
+                        <a href="javascript:;" class="cp-sidebar__link active">
+                            <span class="cp-sidebar__link-content">Вопросы покупателей</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -108,4 +124,4 @@
     </div>
 </div>
 
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/footer.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/footer.php"); ?>
