@@ -6,11 +6,11 @@
 
 <div class="container">
     <div class="catalog-category">
-        <div class="catalog-heading">
-            <h1 class="h1 catalog-heading__title">Геотекстиль</h1>
-            <div class="catalog-heading__placeholder">— 178 товаров</div>
-            <div class="catalog-heading__back">
-                <a class="catalog-heading__back-link link" href="javascript:;">
+        <div class="cp-heading">
+            <h1 class="h1 cp-heading__title">Геотекстиль</h1>
+            <div class="cp-heading__placeholder">— 178 товаров</div>
+            <div class="cp-heading__back">
+                <a class="cp-heading__back-link link" href="javascript:;">
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#chevron-left"></use>
                     </svg>
@@ -382,92 +382,125 @@
                 </div>
             </div>
             <div class="cp-content">
-                <div class="gap-sm-plus">
-                    <!---->
-                    <div class="catalog-content__top">
-                        <div class="catalog-content-settings">
-                            <div class="catalog-content-settings__sort">
-                                <div class="catalog-content-settings__sort-title">Сортировать:</div>
-                                <div class="catalog-content-settings__sort-select">
-                                    <span class="catalog-content-settings__sort-select-text">Сначала недорогие</span>
-                                    <svg class="icon">
-                                        <use href="img/sprite.svg#chevron-down"></use>
-                                    </svg>
+                <div class="cp-content__top">
+                    <div class="cp-content__category slider-out basic-slider-wrap">
+                        <div class="basic-slider swiper" data-basic-slider>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="javascript:;" class="cp-content__category-link">Агроткань с разметкой</a>
                                 </div>
-                                <div class="catalog-content-settings__sort-options">
-                                    <div class="catalog-content-settings__sort-item">
-                                        <input id="sortByLowPrice" type="radio" class="visually-hidden" name="sortCatalogCategory" value="" checked="">
-                                        <label for="sortByLowPrice" class="catalog-content-settings__sort-label active">Сначала недорогие</label>
-                                    </div>
-                                    <div class="catalog-content-settings__sort-item">
-                                        <input id="sortByHighPrice" type="radio" class="visually-hidden" name="sortCatalogCategory" value="">
-                                        <label for="sortByHighPrice" class="catalog-content-settings__sort-label">Сначала дорогие</label>
-                                    </div>
-                                    <div class="catalog-content-settings__sort-item">
-                                        <input id="sortByPopular" type="radio" class="visually-hidden" name="sortCatalogCategory" value="">
-                                        <label for="sortByPopular" class="catalog-content-settings__sort-label">Сначала популярные</label>
-                                    </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:;" class="cp-content__category-link">Геотекстить Дорнит</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:;" class="cp-content__category-link">Геотекстиль из полипропилена</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:;" class="cp-content__category-link">Геотекстиль для дренажа</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:;" class="cp-content__category-link">Геотекстиль для садовых дорожек</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:;" class="cp-content__category-link">Геотекстиль в нарезке</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cp-content__banner">
+                        <img
+                            loading="lazy"
+                            class="image mobile-only"
+                            src="img/banner-catalog_375x120.png"
+                            width="375"
+                            height="120"
+                            alt="Изображение блока"
+                        >
+                        <img
+                            loading="lazy"
+                            class="image desktop-only"
+                            src="img/banner-catalog_1280x160.png"
+                            width="1280"
+                            height="160"
+                            alt="Изображение блока"
+                        >
+                    </div>
+
+                    <div class="cp-content__settings">
+                        <div class="cp-content__sort">
+                            <div class="cp-content__sort-title">Сортировать:</div>
+                            <div class="cp-content__sort-select">
+                                <span class="text-content">популярные</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#chevron-down-select"></use>
+                                </svg>
+                            </div>
+                            <div class="cp-content__sort-options">
+                                <div class="cp-content__sort-item">
+                                    <input id="sort0" type="radio" class="visually-hidden" name="sortCatalogCategory" value="" checked="">
+                                    <label for="sort0" class="cp-content__sort-label active">популярные</label>
+                                </div>
+                                <div class="cp-content__sort-item">
+                                    <input id="sort1" type="radio" class="visually-hidden" name="sortCatalogCategory" value="">
+                                    <label for="sort1" class="cp-content__sort-label">подешевле</label>
+                                </div>
+                                <div class="cp-content__sort-item">
+                                    <input id="sort2" type="radio" class="visually-hidden" name="sortCatalogCategory" value="">
+                                    <label for="sort2" class="cp-content__sort-label">подороже</label>
+                                </div>
+                                <div class="cp-content__sort-item">
+                                    <input id="sort3" type="radio" class="visually-hidden" name="sortCatalogCategory" value="">
+                                    <label for="sort3" class="cp-content__sort-label">по алфавиту</label>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="catalog-content-filter-spoiler" data-filter-spoiler="">
-                            <div class="catalog-content-filter-spoiler__view">
-                                <svg class="icon">
+                        <div class="cp-content__filter-spoiler" data-filter-spoiler>
+                            <div class="cp-content__filter-spoiler-view">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filter"></use>
                                 </svg>
                             </div>
                             <span>Фильтры</span>
                         </div>
-
-                        <div class="catalog-content-filter-selected" data-filter-selected="">
-                            <div class="catalog-content-filter-selected__list">
-                                <button class="btn-reset btn btn-mini btn-primary catalog-content-filter-selected__item" data-removable="">
-                                    <span class="btn__text">Наличие: Центральный склад</span>
-                                    <span class="catalog-content-filter-selected__item-delete" data-delete-trigger="">
-                                            <svg class="icon btn__icon">
-                                                <use href="img/sprite.svg#cross"></use>
-                                            </svg>
-                                        </span>
-                                </button>
-                                <button class="btn-reset btn btn-mini btn-primary catalog-content-filter-selected__item" data-removable="">
-                                    <span class="btn__text">Тип изделия: USB розетки</span>
-                                    <span class="catalog-content-filter-selected__item-delete" data-delete-trigger="">
-                                            <svg class="icon btn__icon">
-                                                <use href="img/sprite.svg#cross"></use>
-                                            </svg>
-                                        </span>
-                                </button>
-                                <button class="btn-reset btn btn-mini btn-primary catalog-content-filter-selected__item" data-removable="">
-                                    <span class="btn__text">Серия: Atlas Design</span>
-                                    <span class="catalog-content-filter-selected__item-delete" data-delete-trigger="">
-                                            <svg class="icon btn__icon">
-                                                <use href="img/sprite.svg#cross"></use>
-                                            </svg>
-                                        </span>
-                                </button>
-                                <button class="btn-reset btn btn-mini btn-light catalog-content-filter-selected__item" data-filter-reset="">
-                                    <svg class="icon btn__icon">
-                                        <use href="img/sprite.svg#trash"></use>
-                                    </svg>
-                                    <span class="btn__text">Очистить фильтры</span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <div class="catalog-content__banner">
-                            <div class="catalog-content__banner-text">
-                                <div class="catalog-content__banner-title h3">Кэшбэк 15% на серию Glossa<br> от System Electric</div>
-                                <div class="catalog-content__banner-subtitle">Выгодные условия в декабре 2022 года для всех покупателей</div>
-                            </div>
-                            <div class="catalog-content__banner-decor">
-                                <img loading="lazy" src="img/schneider-decor-1.png" class="image" width="155" height="155" alt="Изображение блока">
-                                <img loading="lazy" src="img/schneider-decor-2.png" class="image" width="155" height="155" alt="Изображение блока">
-                            </div>
-                        </div>
+                        <button class="btn-reset btn btn-secondary cp-content__filter-spoiler" type="button" data-filter-spoiler>
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#filter"></use>
+                            </svg>
+                            <span class="text-content">Фильтры</span>
+                            <span class="cp-content__filter-spoiler-count">2</span>
+                        </button>
                     </div>
-                    <!---->
+
+                    <div class="cp-content__filter-selected" data-filter-selected>
+                        <button class="btn-reset btn btn-secondary cp-content__filter-selected-item" data-removable>
+                            <span class="text-content">Текст</span>
+                            <span class="cp-content__filter-selected-delete" data-delete-trigger>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#cross"></use>
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="btn-reset btn btn-secondary cp-content__filter-selected-item" data-removable>
+                            <span class="text-content">Текст</span>
+                            <span class="cp-content__filter-selected-delete" data-delete-trigger>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#cross"></use>
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="btn-reset btn btn-secondary cp-content__filter-selected-item" data-removable>
+                            <span class="text-content">Текст</span>
+                            <span class="cp-content__filter-selected-delete" data-delete-trigger>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#cross"></use>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
                 </div>
+
                 <div class="gap-lg card-list card-list--lg">
                     <div class="card card-product">
                         <a class="card__view" href="javascript:;">
@@ -1428,6 +1461,7 @@
                 <div class="basic-hca__action"></div>
             </div>
         </div>
+
         <div class="gap-lg">
             <div class="benefit">
                 <div class="card card-benefit">
