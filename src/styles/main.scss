@@ -467,10 +467,24 @@
 		&__filter {
 			&-spoiler {
 				&-count {
+					z-index: 1;
 					position: absolute;
-					top: -8px;
-					right: -8px;
-
+					top: -7px;
+					right: -7px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					min-width: 18px;
+					min-height: 18px;
+					height: 18px;
+					padding-right: 4px;
+					padding-left: 4px;
+					border: 2px solid var(--white-color);
+					border-radius: 18px;
+					background-color: #7F091D;
+					color: var(--white-color);
+					font-weight: 800;
+					font-size: 9px;
 				}
 			}
 		}

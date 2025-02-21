@@ -456,14 +456,6 @@
                             </div>
                         </div>
 
-                        <div class="cp-content__filter-spoiler" data-filter-spoiler>
-                            <div class="cp-content__filter-spoiler-view">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#filter"></use>
-                                </svg>
-                            </div>
-                            <span>Фильтры</span>
-                        </div>
                         <button class="btn-reset btn btn-secondary cp-content__filter-spoiler" type="button" data-filter-spoiler>
                             <svg class="icon icon-fill">
                                 <use href="img/sprite.svg#filter"></use>
