@@ -1051,7 +1051,7 @@ application.prototype.initCatalogContentSort = function () {
                     $(this).siblings('.cp-content__sort-label').removeClass('active');
                 }
 
-                if (window.matchMedia('(max-width: 1199.98px)').matches) {
+                if (window.matchMedia('(max-width: 991.98px)').matches) {
                     let selectPlaceholder = $('.cp-content__sort-label.active').text();
 
                     $('.cp-content__sort').find('.cp-content__sort-select .text-content').text(selectPlaceholder);
@@ -1061,9 +1061,9 @@ application.prototype.initCatalogContentSort = function () {
         }
 
         function catalogSettingsSortSelect() {
-            if (window.matchMedia('(min-width: 1200px)').matches) {
+            if (window.matchMedia('(min-width: 992px)').matches) {
                 closeCatalogContentSettingsSort();
-            } else if (window.matchMedia('(max-width: 1199.98px)').matches) {
+            } else if (window.matchMedia('(max-width: 991.98px)').matches) {
                 $('.cp-content__sort-select').on('click', function () {
                     if (!$(this).hasClass('active')) {
                         $(this).addClass('active');

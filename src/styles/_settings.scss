@@ -2128,8 +2128,26 @@ input.disabled {
 
 .card-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(169px, 1fr));
 	gap: 32px 12px;
+
+	.card {
+		min-width: 100%;
+		width: 100%;
+
+		.card__view {
+			&,
+			.image {
+				min-width: 100%;
+				width: 100%;
+			}
+			.mini-slider {
+				&__img {
+					object-fit: cover;
+				}
+			}
+		}
+	}
 
 	&--sm {
 		grid-template-columns: repeat(auto-fit, minmax(114px, 1fr));
@@ -2138,11 +2156,6 @@ input.disabled {
 	&--catalog {
 		grid-template-columns: 1fr;
 		gap: 16px;
-	}
-
-	.card {
-		min-width: 100%;
-		width: 100%;
 	}
 }
 .card {
@@ -2197,7 +2210,6 @@ input.disabled {
 	&-benefit {
 		flex-direction: row;
 		gap: 12px;
-		max-width: 311px;
 
 		.card__view {
 			&,
@@ -2228,8 +2240,8 @@ input.disabled {
 		.card__view {
 			&,
 			.image {
-				min-width: 160px;
-				width: 160px;
+				min-width: 100%;
+				width: 100%;
 				min-height: 160px;
 				height: 160px;
 			}
@@ -2551,9 +2563,64 @@ input.disabled {
 			width: 100%;
 		}
 	}
+	.cp {
+		&-sidebar ~ &-content {
+			.card-list {
+				grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+
+				.card {
+					&-product,
+					&-info {
+						.card__view {
+							&,
+							.image {
+								min-height: 298px;
+								height: 298px;
+							}
+						}
+					}
+				}
+
+				&--sm {
+					grid-template-columns: repeat(auto-fit, minmax(142px, 1fr));
+
+					.card {
+						&-product,
+						&-info {
+							.card__view {
+								&,
+								.image {
+									min-height: 142px;
+									height: 142px;
+								}
+							}
+						}
+					}
+				}
+				&--lg {
+					grid-template-columns: repeat(auto-fit, minmax(209px, 1fr));
+
+					.card {
+						&-product,
+						&-info {
+							.card__view {
+								&,
+								.image {
+									min-height: 209px;
+									height: 209px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
 	.card {
 		&-benefit {
 			gap: 16px;
+			max-width: 311px;
 
 			.card__view {
 				&,
@@ -2728,6 +2795,10 @@ input.disabled {
 }
 @media (max-width: 991.98px) {
 	.card {
+		&-benefit {
+			min-width: 100%;
+			width: 100%;
+		}
 		&-product {
 			.card__characteristics {
 				display: none;
@@ -3019,25 +3090,6 @@ input.disabled {
 	}
 }
 
-.switch-content {
-	&:not(.selected) {
-		.icon-selected,
-		.text-selected {
-			display: none;
-		}
-	}
-	&.selected {
-		.icon-default,
-		.text-default {
-			display: none;
-		}
-		.icon-selected {
-			fill: var(--red0-color);
-			stroke: var(--red0-color);
-		}
-	}
-}
-
 .clipboard {
 	display: inline-flex;
 	align-items: center;
@@ -3056,7 +3108,29 @@ input.disabled {
 	}
 }
 
+[data-readmore] {
+	overflow: hidden;
+	transition: height 0.2s ease-out;
+}
 
+[data-removable] {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+}
+
+[data-delete-trigger] {
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+	.icon {
+		pointer-events: none;
+		user-select: none;
+	}
+}
 
 
 
@@ -3945,35 +4019,6 @@ input.disabled {
 	}
 }
 
-[data-readmore] {
-	overflow: hidden;
-	transition: height 0.2s ease-out;
-}
-
-[data-removable] {
-	display: inline-flex;
-	align-items: center;
-	gap: 8px;
-}
-
-[data-delete-trigger] {
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-
-	.icon {
-		pointer-events: none;
-		fill: var(--gray4-color);
-	}
-
-	&:hover {
-		.icon {
-			fill: var(--gray3-color);
-		}
-	}
-}
 
 .modal {
 	position: relative;
@@ -4378,57 +4423,6 @@ input.disabled {
 	}
 }
 
-.basic-hcm {
-	display: flex;
-}
-@media (min-width: 992px) {
-	.basic-hcm {
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 32px;
-
-		&__heading {
-			order: 1;
-		}
-		&__content {
-			order: 10;
-			min-width: 100%;
-			width: 100%;
-		}
-		&__more {
-			order: 5;
-
-			.btn {
-				font-size: 10px;
-			}
-		}
-	}
-}
-@media (max-width: 991.98px) {
-	.basic-hcm {
-		flex-direction: column;
-		gap: 16px;
-
-		&__more {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: flex-start;
-			gap: 8px;
-
-			.btn {
-				flex: 1;
-				justify-content: space-between;
-				padding-right: 0;
-				padding-left: 0;
-				border-color: transparent;
-				font-weight: 400;
-				font-size: 13px;
-				letter-spacing: 0;
-				text-transform: unset;
-			}
-		}
-	}
-}
 
 .tag-bar {
 	display: flex;
