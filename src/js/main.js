@@ -30,6 +30,7 @@ application.prototype.init = function () {
     this.initDeleteTrigger();
     this.initCatalogSidebarFilter();
     this.initCatalogContentSort();
+    this.initCardFavorites();
 };
 
 // Initialize disable scroll
@@ -58,7 +59,7 @@ application.prototype.initTouch = function () {
     if ('ontouchstart' in document.documentElement) {
         $('html').addClass('touch');
     }
-}
+};
 
 // Initialize custom fancybox behavior
 application.prototype.initFancyboxBehavior = function () {
@@ -751,7 +752,7 @@ application.prototype.initSliders = function () {
     }*/
 };
 
-// Initialization mini slider - change images on mouse movement
+// Initialize mini slider - change images on mouse movement
 application.prototype.initMiniSlider = function () {
     if ($('.mini-slider').length) {
         $('.mini-slider').each(function(index, element) {
@@ -824,7 +825,7 @@ application.prototype.initCartQuantity = function () {
     }
 };
 
-// Initialization basic tabs
+// Initialize basic tabs
 application.prototype.initBasicTabs = function () {
     if ($('.basic-tabs').length) {
         const tabsContainer = $('.basic-tabs-container');
@@ -885,7 +886,7 @@ application.prototype.initSearchResBehavior = function () {
     });
 };
 
-// Initialization clipboard
+// Initialize clipboard
 application.prototype.initClipboard = function () {
     if ($('[data-clipboard]').length) {
         let clipboardBtn = $('.clipboard-trigger');
@@ -905,7 +906,7 @@ application.prototype.initClipboard = function () {
     }
 };
 
-// Initialization contacts map
+// Initialize contacts map
 application.prototype.initContactsMap = function () {
     if ($('.contacts-map').length) {
         ymaps.ready(init);
@@ -1082,6 +1083,25 @@ application.prototype.initCatalogContentSort = function () {
         }
     }
 };
+
+// Initialize card favorites action
+application.prototype.initCardFavorites = function () {
+    if ($('[data-favorites]').length) {
+        $(document).on('click', '[data-favorites]', function (e) {
+            console.log(e.target);
+            if (!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                console.log("success");
+            }
+            else if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+                console.log("success2");
+            }
+        });
+    }
+};
+
+
 
 
 

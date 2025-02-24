@@ -60,6 +60,10 @@
 				}
 			}
 		}
+		&__msg {
+			margin-bottom: 24px;
+			font-size: 14px;
+		}
 	}
 
 	&-sidebar {
@@ -489,6 +493,10 @@
 					}
 				}
 			}
+			&__msg {
+				margin-bottom: 20px;
+				font-size: 15px;
+			}
 		}
 
 		&-sidebar {
@@ -840,7 +848,9 @@
 	.catalog {
 		&-category {
 			.cp-sidebar__top {
-				padding-top: 34px;
+				&-back {
+					padding-top: 34px;
+				}
 			}
 			.cp-heading__back {
 				position: absolute;

@@ -21,7 +21,7 @@
 
         <div class="cp">
             <div class="cp-sidebar" data-filter>
-                <div class="cp-sidebar__item cp-sidebar__top cp-sidebar-category">
+                <div class="cp-sidebar__item cp-sidebar__top cp-sidebar__top-back cp-sidebar-category">
                     <div class="cp-sidebar__heading">Геотекстиль</div>
                     <ul class="list-reset cp-sidebar__list">
                         <li class="cp-sidebar__list-item">
@@ -616,11 +616,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -721,11 +724,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -839,11 +845,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -958,11 +967,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1064,11 +1076,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1182,11 +1197,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1303,11 +1321,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1408,11 +1429,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1526,11 +1550,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1645,11 +1672,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1751,11 +1781,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
@@ -1869,11 +1902,14 @@
                                 <button class="btn-reset btn cart-in" type="button">
                                     <span class="text-content">В корзину</span>
                                 </button>
-                                <button class="btn-reset btn btn-icon btn-icon--soft" type="button" data-favorites>
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#heart"></use>
+								<button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+									<svg class="icon icon-fill">
+										<use href="img/sprite.svg#heart"></use>
+									</svg>
+                                    <svg class="icon icon-fill selected">
+                                        <use href="img/sprite.svg#filled-heart"></use>
                                     </svg>
-                                </button>
+								</button>
                             </div>
                         </div>
                     </div>
