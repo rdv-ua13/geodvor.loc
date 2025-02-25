@@ -914,7 +914,7 @@
 
 		// @note
 		&.header-float {
-			/*border-bottom: add;*/
+			border-bottom: 1px solid var(--gray1-color);
 
 			.header-top,
 			.header-catalog {
