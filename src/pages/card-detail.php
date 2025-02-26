@@ -240,7 +240,7 @@
                     <div class="card-detail__descr">
                         <h1 class="h3">Геотекстиль Дорнит ГЕО 300 гр/м2 шир. 2х50 м.п, 100 м2</h1>
 
-                        <div class="card-detail__characteristics">
+                        <div class="card-detail__characteristics-short">
                             <div class="fw-medium fz-subheading">Характеристики</div>
                             <table class="table-descr table-descr--sb">
                                 <tbody>
@@ -289,9 +289,9 @@
                             <a href="#cd_characteristics" class="link-brand" data-scroll-to>Все характеристики</a>
                         </div>
 
-                        <div class="card-detail__characteristics">
+                        <div class="card-detail__characteristics-short">
                             <p>Геотекстиль с плотностью 300 гр/м² и шириной 2 метра — это высокопрочный материал, идеально подходящий для различных строительных и ландшафтных проектов. Он обеспечивает надежную стабилизацию грунта, улучшает дренаж и защищает конструкции, что делает его незаменимым для использования под фундамент, временные дороги, въезды на участок, отмостку и дорожки</p>
-                            <a href="javascript:;" class="link-brand">Читать полностью</a>
+                            <a href="#cd_full_description" class="link-brand" data-scroll-to>Читать полностью</a>
                         </div>
                     </div>
                 </div>
@@ -541,53 +541,11 @@
                                 <tbody>
                                 <tr>
                                     <td>
-                                        <span>Неравнота по массе, не более (ГОСТ Р 15902.2)</span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <a class="link" href="javascript:;">8%</a>
-                                        </span>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="card-detail-info__item">
-                            <table class="table-descr table-descr--sb">
-                                <tbody>
-                                <tr>
-                                    <td>
                                         <span>Толщина</span>
                                     </td>
                                     <td>
                                         <span>
                                             <a class="link" href="javascript:;">100 мкм</a>
-                                        </span>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="card-detail-info__item">
-                            <table class="table-descr table-descr--sb">
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <span>
-                                            Прочность при растяжении, не менее (ГОСТ Р 55030)  
-                                            <br>
-                                            - вдоль
-                                            <br>
-                                            - поперек
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <a class="link" href="javascript:;">11,5 кН/м</a>
-                                        </span>
-                                        <br>
-                                        <span>
-                                            <a class="link" href="javascript:;">11,5 кН/м</a>
                                         </span>
                                     </td>
                                 </tr>
@@ -631,29 +589,6 @@
                                 <tbody>
                                 <tr>
                                     <td>
-                                        <span>
-                                            Относительное удлинение при максимальной нагрузке,  не более (ГОСТ Р 55030)
-                                            <br>
-                                            - вдоль
-                                            <br>
-                                             - поперек
-                                         </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <a class="link" href="javascript:;">100%</a>
-                                            <a class="link" href="javascript:;">100%</a>
-                                        </span>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="card-detail-info__item">
-                            <table class="table-descr table-descr--sb">
-                                <tbody>
-                                <tr>
-                                    <td>
                                         <span>Поверхностная плотность (ГОСТ Р 50277)</span>
                                     </td>
                                     <td>
@@ -681,11 +616,76 @@
                                 </tbody>
                             </table>
                         </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Неравнота по массе, не более (ГОСТ Р 15902.2)</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">8%</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>
+                                            Прочность при растяжении, не менее (ГОСТ Р 55030)  
+                                            <br>
+                                            - вдоль
+                                            <br>
+                                            - поперек
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">11,5 кН/м</a>
+                                        </span>
+                                        <br>
+                                        <span>
+                                            <a class="link" href="javascript:;">11,5 кН/м</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>
+                                            Относительное удлинение при максимальной нагрузке,  не более (ГОСТ Р 55030)
+                                            <br>
+                                            - вдоль
+                                            <br>
+                                             - поперек
+                                         </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">100%</a>
+                                            <a class="link" href="javascript:;">100%</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <div class="gap-lg">
                     <div class="gap-sm-plus">
-                        <div id="cd_characteristics" class="h4">Описание товара</div>
+                        <div id="cd_full_description" class="h4">Описание товара</div>
                     </div>
 
                     Спанбонд 80 мкм широко применяется в агротехнике, садоводстве и сельском хозяйстве. Его основное назначение — мульчирование грунта для защиты и улучшения полезных качеств плодородной почвы. По сравнению с другими видами мульчи нетканое полотно обладает целым рядом преимуществ:
@@ -718,24 +718,71 @@
                 </div>
                 <div class="gap-xl">
                     <div class="gap-sm-plus">
-                        <div id="cd_characteristics" class="h4">Документация</div>
+                        <div class="h4">Документация</div>
                     </div>
 
-                    Сертификат соответствия ГОСТ Р 50277
-                    Инструкция
-                    2.6 МБ
-                    Скачать
-                    2.6 МБ
-                    Скачать
-                    Инструкция
-                    Инструкция
-                    2.6 МБ
-                    Скачать
-                    2.6 МБ
-                    Скачать
-                    Инструкция
-                    2.6 МБ
-                    Скачать
+                    <div class="card-detail-docs">
+                        <div class="card-detail-docs__item">
+                            <div class="card-detail-docs__view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#file"></use>
+                                </svg>
+                            </div>
+                            <div class="card-detail-docs__descr">
+                                <div class="card-detail-docs__title">Сертификат соответствия ГОСТ Р 50277</div>
+                                <div class="card-detail-docs__size">2.6 МБ</div>
+                                <a class="link-brand card-detail-docs__download" href="javascript:;" download="">Скачать</a>
+                            </div>
+                        </div>
+                        <div class="card-detail-docs__item">
+                            <div class="card-detail-docs__view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#file"></use>
+                                </svg>
+                            </div>
+                            <div class="card-detail-docs__descr">
+                                <div class="card-detail-docs__title">Инструкция</div>
+                                <div class="card-detail-docs__size">2.6 МБ</div>
+                                <a class="link-brand card-detail-docs__download" href="javascript:;" download="">Скачать</a>
+                            </div>
+                        </div>
+                        <div class="card-detail-docs__item">
+                            <div class="card-detail-docs__view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#file"></use>
+                                </svg>
+                            </div>
+                            <div class="card-detail-docs__descr">
+                                <div class="card-detail-docs__title">Инструкция</div>
+                                <div class="card-detail-docs__size">2.6 МБ</div>
+                                <a class="link-brand card-detail-docs__download" href="javascript:;" download="">Скачать</a>
+                            </div>
+                        </div>
+                        <div class="card-detail-docs__item">
+                            <div class="card-detail-docs__view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#file"></use>
+                                </svg>
+                            </div>
+                            <div class="card-detail-docs__descr">
+                                <div class="card-detail-docs__title">Инструкция</div>
+                                <div class="card-detail-docs__size">2.6 МБ</div>
+                                <a class="link-brand card-detail-docs__download" href="javascript:;" download="">Скачать</a>
+                            </div>
+                        </div>
+                        <div class="card-detail-docs__item">
+                            <div class="card-detail-docs__view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#file"></use>
+                                </svg>
+                            </div>
+                            <div class="card-detail-docs__descr">
+                                <div class="card-detail-docs__title">Инструкция</div>
+                                <div class="card-detail-docs__size">2.6 МБ</div>
+                                <a class="link-brand card-detail-docs__download" href="javascript:;" download="">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="cp-sidebar">

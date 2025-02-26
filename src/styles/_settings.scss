@@ -2360,6 +2360,39 @@ input.disabled {
 				text-decoration: line-through;
 			}
 		}
+		.cart-buy {
+			[data-favorites] {
+				.icon {
+					&.selected {
+						fill: var(--red0-color);
+						stroke: var(--red0-color);
+					}
+				}
+
+				&:not(.active) {
+					.icon {
+						&.selected {
+							z-index: -1;
+							position: absolute;
+							opacity: 0;
+						}
+					}
+				}
+				&.active {
+					.icon {
+						&:not(.selected) {
+							z-index: -1;
+							position: absolute;
+							opacity: 0;
+						}
+					}
+				}
+
+				&:hover {
+					background-color: var(--gray1-color);
+				}
+			}
+		}
 
 		&--watched {
 			.card__price {
@@ -2555,6 +2588,7 @@ input.disabled {
 
 	&-detail {
 		display: flex;
+		flex-direction: column;
 		gap: 8px;
 
 		&__view {
@@ -2568,18 +2602,50 @@ input.disabled {
 			flex-direction: column;
 			gap: 12px;
 		}
-		&__characteristics {
+
+		&-docs {
 			display: flex;
-			flex-direction: column;
-			gap: 12px;
-		}
-		&-info {
-			display: flex;
-			flex-direction: column;
-			gap: 6px;
+			gap: 16px;
 
 			&__item {
+				display: flex;
+				align-items: center;
+				gap: 16px;
+			}
+			&__view {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-width: 48px;
+				width: 48px;
+				min-height: 48px;
+				height: 48px;
+				border-radius: var(--bradius);
+				background-color: var(--gray0-color);
 
+				.icon {
+					min-width: 24px;
+					width: 24px;
+					min-height: 24px;
+					height: 24px;
+				}
+			}
+			&__descr {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0 12px;
+			}
+			&__title {
+				min-width: 100%;
+				width: 100%;
+				display: -webkit-box;
+				-webkit-line-clamp: 1;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				font-weight: 500;
+			}
+			&__size {
+				color: var(--text-secondary);
 			}
 		}
 	}
@@ -2728,36 +2794,6 @@ input.disabled {
 					opacity: 0;
 					background-color: var(--white-color);
 					transition: var(--transition);
-
-					.icon {
-						&.selected {
-							fill: var(--red0-color);
-							stroke: var(--red0-color);
-						}
-					}
-
-					&:not(.active) {
-						.icon {
-							&.selected {
-								z-index: -1;
-								position: absolute;
-								opacity: 0;
-							}
-						}
-					}
-					&.active {
-						.icon {
-							&:not(.selected) {
-								z-index: -1;
-								position: absolute;
-								opacity: 0;
-							}
-						}
-					}
-
-					&:hover {
-						background-color: var(--gray1-color);
-					}
 				}
 			}
 
@@ -2904,6 +2940,7 @@ input.disabled {
 		}
 
 		&-detail {
+			flex-direction: row;
 			gap: 48px;
 
 			&__view {
@@ -2913,17 +2950,29 @@ input.disabled {
 			&__descr {
 				gap: 32px;
 			}
-			&__characteristics {
+			&__characteristics-short {
+				display: flex;
+				flex-direction: column;
 				gap: 16px;
 			}
 			&-info {
-				flex-direction: row;
-				flex-wrap: wrap;
-				gap: 10px 60px;
+				column-count: 2;
+				column-gap: 60px;
 
 				&__item {
-					min-width: calc((100% - 60px) / 2);
-					width: calc((100% - 60px) / 2);
+					&:not(:last-child) {
+						margin-bottom: 10px;
+					}
+				}
+			}
+			&-docs {
+				flex-direction: row;
+				flex-wrap: wrap;
+				gap: 24px 32px;
+
+				&__item {
+					min-width: calc((100% - 32px) / 2);
+					width: calc((100% - 32px) / 2);
 				}
 			}
 		}
@@ -2958,9 +3007,16 @@ input.disabled {
 			}
 		}
 
-		/*&-detail {
-
-		}*/
+		&-detail {
+			&__characteristics-short {
+				display: none;
+			}
+			&-info {
+				display: flex;
+				flex-direction: column;
+				gap: 6px;
+			}
+		}
 	}
 }
 
@@ -3021,148 +3077,6 @@ input.disabled {
 		font-size: 14px;
 		line-height: 28px;
 		text-align: center;
-	}
-}
-
-
-.details {
-	&-thumb-slider {
-		&-wrapper {
-			position: relative;
-			overflow: hidden;
-		}
-
-		.swiper-slide {
-			display: flex;
-			justify-content: center;
-			min-width: 100%;
-			width: 100%;
-			overflow: hidden;
-			border-radius: var(--bradius);
-
-			.image {
-				min-width: 100%;
-				width: 100%;
-				min-height: 100%;
-				height: 100%;
-			}
-		}
-
-		&-pointer {
-			.swiper-slide {
-				display: flex;
-				padding: 2px;
-				border: 1px solid transparent;
-				border-radius: var(--bradius);
-				transition: var(--transition);
-
-				&-thumb-active {
-					border-color: var(--gray50-color);
-				}
-
-				.image {
-					min-width: 100%;
-					width: 100%;
-					min-height: 100%;
-					height: 100%;
-					border-radius: 4px;
-				}
-
-				&:hover {
-					&:not(.swiper-slide-thumb-active) {
-						border-color: var(--gray10-color);
-					}
-				}
-			}
-
-			.swiper-button-disabled {
-				opacity: 0;
-			}
-		}
-	}
-}
-@media (min-width: 992px) {
-	.details {
-		&-thumb-slider {
-			min-height: 413px;
-			height: 413px;
-
-			&:not(:last-child) {
-				margin-bottom: 12px;
-			}
-
-			.swiper-navigation,
-			.swiper-pagination {
-				display: none;
-			}
-
-			&-pointer {
-				.swiper-slide {
-					min-width: 60px;
-					width: 60px;
-					min-height: 60px;
-					height: 60px;
-				}
-
-				.swiper-navigation {
-					inset: 0;
-					min-height: 60px;
-					height: 60px;
-					margin-top: unset;
-
-					.swiper-button-prev,
-					.swiper-button-next {
-						bottom: 0;
-						min-width: 36px;
-						width: 36px;
-						min-height: 60px;
-						height: 60px;
-						margin-top: unset;
-						border: unset;
-						border-radius: unset;
-						box-shadow: unset;
-
-						&:hover,
-						&:focus,
-						&:active,
-						&.active {
-							background-color: var(--white-color);
-
-							.swiper-button-nav-wrapper {
-								background-color: var(--gray1-color);
-							}
-						}
-					}
-					.swiper-button-prev {
-						padding-right: 8px;
-					}
-					.swiper-button-next {
-						padding-left: 8px;
-					}
-					.swiper-button-nav-wrapper {
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						min-width: 28px;
-						width: 28px;
-						min-height: 60px;
-						height: 60px;
-						border-radius: var(--bradius);
-						background-color: var(--white-color);
-						transition: var(--transition);
-					}
-				}
-			}
-		}
-	}
-}
-@media (max-width: 991.98px) {
-	.details {
-		&-thumb-slider {
-			&-pointer {
-				display: none;
-			}
-		}
 	}
 }
 
@@ -3325,6 +3239,7 @@ input.disabled {
 		&:last-child {
 			span {
 				padding-left: 4px;
+				font-weight: 500;
 			}
 		}
 		&:first-child::before {
