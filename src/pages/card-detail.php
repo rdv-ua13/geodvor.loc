@@ -123,6 +123,7 @@
                                         >
                                     </div>
                                 </div>
+                                <div class="swiper-pagination"></div>
                             </div>
                             <div class="swiper details-thumb-slider-pointer" thumbsSlider="">
                                 <div class="swiper-wrapper">
@@ -219,17 +220,20 @@
                                 </div>
                                 <div class="swiper-navigation">
                                     <div class="swiper-button-next btn btn-icon">
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
+                                        <div class="swiper-button-nav-wrapper">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </div>
                                     </div>
                                     <div class="swiper-button-prev btn btn-icon">
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-left"></use>
-                                        </svg>
+                                        <div class="swiper-button-nav-wrapper">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-left"></use>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
@@ -515,24 +519,169 @@
                     <div class="gap-sm-plus">
                         <div id="cd_characteristics" class="h4">Все характеристики</div>
                     </div>
-                    Цвет
-                    Черный
-                    Неравнота по массе, не более (ГОСТ Р 15902.2)
-                    8%
-                    Толщина
-                    100 мкм
-                    Прочность при растяжении, не менее (ГОСТ Р 55030) - вдоль - поперек
-                    11,5 кН/м 11,5 кН/м
-                    Ширина рулона
-                    1,6 м
-                    Длина рулона
-                    10 м.п.
-                    Относительное удлинение при максимальной нагрузке,  не более (ГОСТ Р 55030) - вдоль - поперек
-                    100% 100%
-                    Поверхностная плотность (ГОСТ Р 50277)
-                    500 (+/-20) г/м2
-                    Толщина при давлении 2 кПа (ГОСТ Р 50276)
-                    3,0 (+/-15) мм
+                    <div class="card-detail-info">
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Цвет</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">Черный</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Неравнота по массе, не более (ГОСТ Р 15902.2)</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">8%</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Толщина</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">100 мкм</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>
+                                            Прочность при растяжении, не менее (ГОСТ Р 55030)  
+                                            <br>
+                                            - вдоль
+                                            <br>
+                                            - поперек
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">11,5 кН/м</a>
+                                        </span>
+                                        <br>
+                                        <span>
+                                            <a class="link" href="javascript:;">11,5 кН/м</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Ширина рулона</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">1,6 м</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Длина рулона</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">10 м.п.</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>
+                                            Относительное удлинение при максимальной нагрузке,  не более (ГОСТ Р 55030)
+                                            <br>
+                                            - вдоль
+                                            <br>
+                                             - поперек
+                                         </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">100%</a>
+                                            <a class="link" href="javascript:;">100%</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Поверхностная плотность (ГОСТ Р 50277)</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">500 (+/-20) г/м2</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-detail-info__item">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Толщина при давлении 2 кПа (ГОСТ Р 50276)</span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            <a class="link" href="javascript:;">3,0 (+/-15) мм</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
                 <div class="gap-lg">
                     <div class="gap-sm-plus">

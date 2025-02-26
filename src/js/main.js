@@ -564,14 +564,21 @@ application.prototype.initSliders = function () {
             spaceBetween: 8,
             direction: "horizontal",
             freeMode: true,
-            watchSlidesProgress: true
+            watchSlidesProgress: true,
+            navigation: {
+                nextEl: '.details-thumb-slider-pointer .swiper-button-next',
+                prevEl: '.details-thumb-slider-pointer .swiper-button-prev',
+            }
         });
         let detailsThumbSlider = new Swiper('.details-thumb-slider', {
             slidesPerView: 1,
-            effect: 'fade',
+            spaceBetween: 8,
             watchOverflow: true,
             thumbs: {
                 swiper: detailsThumbSliderPointer,
+            },
+            pagination: {
+                el: '.details-thumb-slider .swiper-pagination',
             }
         });
     }
