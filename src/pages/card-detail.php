@@ -240,6 +240,152 @@
                     <div class="card-detail__descr">
                         <h1 class="h3">Геотекстиль Дорнит ГЕО 300 гр/м2 шир. 2х50 м.п, 100 м2</h1>
 
+                        <div class="cp-sidebar card-detail-sidebar-mobile">
+                            <div class="cp-sidebar__item cp-sidebar__price-cart card-product">
+                                <div class="card__price">
+                                    <div class="basic-tabs">
+                                        <div class="basic-tabs-container" data-tab="id_01_card-price">
+                                            <div class="basic-tabs-item basic-tabs-item-label">
+                                                <span class="card__price-tab card__price-title tab">Цена за</span>
+                                            </div>
+                                            <div class="basic-tabs-item">
+                                    <span class="card__price-tab tab basic-tabs-trigger active" data-target="id_01_square_meter">
+                                        <span>м<sup>2</sup></span>
+                                    </span>
+                                            </div>
+                                            <div class="basic-tabs-item">
+                                                <span class="card__price-tab tab basic-tabs-trigger" data-target="id_01_piece"><span>штуку</span></span>
+                                            </div>
+                                        </div>
+                                        <div class="basic-tabs-content" data-tab-content="id_01_card-price">
+                                            <div class="basic-tabs-content__panel active" data-id="id_01_square_meter">
+                                                <div class="basic-tabs-content__content">
+                                                    <span class="card__price-current">910 ₽</span>
+                                                    <span class="card__price-origin">1230 ₽</span>
+                                                </div>
+                                            </div>
+                                            <div class="basic-tabs-content__panel" data-id="id_01_piece">
+                                                <div class="basic-tabs-content__content">
+                                                    <div class="card__price-current">210 ₽</div>
+                                                    <div class="card__price-origin">430 ₽</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__caption">
+                                    <div class="card__caption-view">
+                                        <svg class="icon icon-fill">
+                                            <use href="img/sprite.svg#info"></use>
+                                        </svg>
+                                    </div>
+                                    <span class="text-content">Товар продается кратно – по 20 м2</span>
+                                </div>
+                                <div class="card__cart cart-buy">
+                                    <div class="cart-quantity">
+                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#minus"></use>
+                                            </svg>
+                                        </button>
+                                        <input
+                                                id=""
+                                                class="input-reset cart-quantity-input"
+                                                type="text"
+                                                placeholder="999"
+                                                value="1"
+                                                max="999"
+                                                data-mult="1"
+                                        >
+                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#plus"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn-reset btn cart-in" type="button">
+                                        <span class="text-content">В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="cp-sidebar__item cp-sidebar__status">
+                                <div class="cp-sidebar__heading">
+                                    <div class="cp-sidebar__status-stock in-stock"> <?/* '.on-order' - под заказ / '.out-stock' - нет в наличии */?>
+                                        <div class="cp-sidebar__status-stock-view">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#checkbox-rec"></use>
+                                            </svg>
+                                        </div>
+                                        <span class="text-content">Товар в наличии</span>
+                                    </div>
+                                </div>
+                                <div class="cp-sidebar__status-info">
+                                    <span class="cp-sidebar__status-info-title">Доступно для самовывоза</span>
+                                    <table class="table-descr table-descr--sb fz-caption">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="text-secondary">Со склада</span>
+                                            </td>
+                                            <td>
+                                                <span>Завтра</span>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="cp-sidebar__status-info">
+                                    <span class="cp-sidebar__status-info-title">Доставим</span>
+                                    <table class="table-descr table-descr--sb fz-caption">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="text-secondary">Курьером</span>
+                                            </td>
+                                            <td>
+                                                <span>20 января</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span class="text-secondary">Транспортной  компанией</span>
+                                            </td>
+                                            <td>
+                                                <span>с 24 января</span>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="cp-sidebar__status-extra">
+                                    <a href="javascript:;" class="link-flex link link-tdu-text">
+                                        <div class="cp-sidebar__status-extra-view">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#map"></use>
+                                            </svg>
+                                        </div>
+                                        <span class="text-content">Схема проезда</span>
+                                    </a>
+                                    <a href="javascript:;" class="link-flex link link-tdu-text">
+                                        <div class="cp-sidebar__status-extra-view">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#delivery"></use>
+                                            </svg>
+                                        </div>
+                                        <span class="text-content">Условия доставки</span>
+                                    </a>
+                                    <a href="javascript:;" class="link-flex link link-tdu-text">
+                                        <div class="cp-sidebar__status-extra-view">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#shop"></use>
+                                            </svg>
+                                        </div>
+                                        <span class="text-content">Самовывоз</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="card-detail__characteristics-short">
                             <div class="fw-medium fz-subheading">Характеристики</div>
                             <table class="table-descr table-descr--sb">
@@ -674,6 +820,9 @@
                                     <td>
                                         <span>
                                             <a class="link" href="javascript:;">100%</a>
+                                        </span>
+                                        <br>
+                                        <span>
                                             <a class="link" href="javascript:;">100%</a>
                                         </span>
                                     </td>
@@ -853,8 +1002,81 @@
                         </button>
                     </div>
                 </div>
-                <div class="cp-sidebar__item">
-                    <div class="cp-sidebar__heading">Геотекстиль</div>
+                <div class="cp-sidebar__item cp-sidebar__status">
+                    <div class="cp-sidebar__heading">
+                        <div class="cp-sidebar__status-stock in-stock"> <?/* '.on-order' - под заказ / '.out-stock' - нет в наличии */?>
+                            <div class="cp-sidebar__status-stock-view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#checkbox-rec"></use>
+                                </svg>
+                            </div>
+                            <span class="text-content">Товар в наличии</span>
+                        </div>
+                    </div>
+                    <div class="cp-sidebar__status-info">
+                        <span class="cp-sidebar__status-info-title">Доступно для самовывоза</span>
+                        <table class="table-descr table-descr--sb fz-caption">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <span class="text-secondary">Со склада</span>
+                                </td>
+                                <td>
+                                    <span>Завтра</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cp-sidebar__status-info">
+                        <span class="cp-sidebar__status-info-title">Доставим</span>
+                        <table class="table-descr table-descr--sb fz-caption">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <span class="text-secondary">Курьером</span>
+                                </td>
+                                <td>
+                                    <span>20 января</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="text-secondary">Транспортной  компанией</span>
+                                </td>
+                                <td>
+                                    <span>с 24 января</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cp-sidebar__status-extra">
+                        <a href="javascript:;" class="link-flex link link-tdu-text">
+                            <div class="cp-sidebar__status-extra-view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#map"></use>
+                                </svg>
+                            </div>
+                            <span class="text-content">Схема проезда</span>
+                        </a>
+                        <a href="javascript:;" class="link-flex link link-tdu-text">
+                            <div class="cp-sidebar__status-extra-view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#delivery"></use>
+                                </svg>
+                            </div>
+                            <span class="text-content">Условия доставки</span>
+                        </a>
+                        <a href="javascript:;" class="link-flex link link-tdu-text">
+                            <div class="cp-sidebar__status-extra-view">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#shop"></use>
+                                </svg>
+                            </div>
+                            <span class="text-content">Самовывоз</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
