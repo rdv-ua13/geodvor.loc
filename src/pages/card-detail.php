@@ -786,364 +786,75 @@
                 </div>
             </div>
             <div class="cp-sidebar">
-                <div class="cp-sidebar__item cp-sidebar__top cp-sidebar__top-back cp-sidebar-category">
-                    <div class="cp-sidebar__heading">Геотекстиль</div>
-                    <ul class="list-reset cp-sidebar__list">
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Агроткань с разметкой</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстить Дорнит</span>
-                                <span class=" stock">8</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль из полипропилена</span>
-                                <span class="cp-sidebar__link-content stock">43</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль для дренажа</span>
-                                <span class="cp-sidebar__link-content stock">4</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль для садовых дорожек</span>
-                                <span class="cp-sidebar__link-content stock">16</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль в нарезке</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link" title="Временно статика">
-                                <span class="cp-sidebar__link-content" style="color:var(--gray40-color);">Еще 5</span>
-                                <svg class="cp-sidebar__link-content icon icon-fill" style="fill: var(--gray40-color);">
-                                    <use href="img/sprite.svg#chevron-down"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <?/*
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>*/?>
-                    </ul>
-                </div>
-                <div class="cp-sidebar__item cp-sidebar-filter">
-                    <div class="cp-sidebar-filter__header">
-                        <div class="cp-sidebar-filter__title h4">Фильтр</div>
-                        <div class="cp-sidebar-filter__close" data-filter-close>
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#cross"></use>
-                            </svg>
+                <div class="cp-sidebar__item cp-sidebar__price-cart card-product">
+                    <div class="card__price">
+                        <div class="basic-tabs">
+                            <div class="basic-tabs-container" data-tab="id_01_card-price">
+                                <div class="basic-tabs-item basic-tabs-item-label">
+                                    <span class="card__price-tab card__price-title tab">Цена за</span>
+                                </div>
+                                <div class="basic-tabs-item">
+                                    <span class="card__price-tab tab basic-tabs-trigger active" data-target="id_01_square_meter">
+                                        <span>м<sup>2</sup></span>
+                                    </span>
+                                </div>
+                                <div class="basic-tabs-item">
+                                    <span class="card__price-tab tab basic-tabs-trigger" data-target="id_01_piece"><span>штуку</span></span>
+                                </div>
+                            </div>
+                            <div class="basic-tabs-content" data-tab-content="id_01_card-price">
+                                <div class="basic-tabs-content__panel active" data-id="id_01_square_meter">
+                                    <div class="basic-tabs-content__content">
+                                        <span class="card__price-current">910 ₽</span>
+                                        <span class="card__price-origin">1230 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="id_01_piece">
+                                    <div class="basic-tabs-content__content">
+                                        <div class="card__price-current">210 ₽</div>
+                                        <div class="card__price-origin">430 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-                    <form class="cp-sidebar-filter__selection" action="">
-                        <ul class="list-reset cp-sidebar-filter__options">
-                            <li class="cp-sidebar-filter__options-item">
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-0" class="custom-checkbox__input" type="checkbox" name="csf0[0]">
-                                            <label for="csf-checkbox-0" class="custom-checkbox__label-for">Новые поступления</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-1" class="custom-checkbox__input" type="checkbox" name="csf0[1]">
-                                            <label for="csf-checkbox-1" class="custom-checkbox__label-for">🔥 Предложения месяца</label>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="cp-sidebar-filter__options-item">
-                                <div class="cp-sidebar__heading">Цена, ₽</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <div class="cp-sidebar-filter__range">
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value=""
-                                                        placeholder="от 36"
-                                                >
-                                            </div>
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value="до 5000"
-                                                        placeholder="до 5000"
-                                                >
-                                            </div>
-                                        </div>
-
-                                        <?/* @note - доделать
-                                        <div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-                                        <div id="debitRange"></div>
-                                        <div class="range-slider__values">
-                                        <span id="debitRangeValueMin" class="range-slider__val">0</span>
-                                        <span id="debitRangeValueMax" class="range-slider__val">2726</span>
-                                        </div>
-                                        </div>*/?>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="cp-sidebar-filter__options-item">
-                                <div class="cp-sidebar__heading">Марка</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-10" class="custom-checkbox__input" type="checkbox" name="csf10[0]">
-                                            <label for="csf-checkbox-10" class="custom-checkbox__label-for">Дорнит ГЕО</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-11" class="custom-checkbox__input" type="checkbox" name="csf10[1]">
-                                            <label for="csf-checkbox-11" class="custom-checkbox__label-for">Геоком Д</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-12" class="custom-checkbox__input" type="checkbox" name="csf10[2]">
-                                            <label for="csf-checkbox-12" class="custom-checkbox__label-for">Лавсан ГЕО</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-13" class="custom-checkbox__input" type="checkbox" name="csf10[3]">
-                                            <label for="csf-checkbox-13" class="custom-checkbox__label-for">Геотекс</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-14" class="custom-checkbox__input" type="checkbox" name="csf10[4]">
-                                            <label for="csf-checkbox-14" class="custom-checkbox__label-for">Канвалан</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <a href="javascript:;" class="cp-sidebar__link" title="Временно статика">
-                                            <span class="cp-sidebar__link-content" style="color:var(--gray40-color);">Еще 5</span>
-                                            <svg class="cp-sidebar__link-content icon icon-fill" style="fill: var(--gray40-color);">
-                                                <use href="img/sprite.svg#chevron-down"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="cp-sidebar-filter__options-item">
-                                <div class="cp-sidebar__heading">Способ производства</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-20" class="custom-checkbox__input" type="checkbox" name="csf20[0]">
-                                            <label for="csf-checkbox-20" class="custom-checkbox__label-for">Нетканный иглопробивной</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-21" class="custom-checkbox__input" type="checkbox" name="csf20[1]">
-                                            <label for="csf-checkbox-21" class="custom-checkbox__label-for">Нетканный термоскрепленный</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-22" class="custom-checkbox__input" type="checkbox" name="csf20[2]">
-                                            <label for="csf-checkbox-22" class="custom-checkbox__label-for">Тканный</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-23" class="custom-checkbox__input" type="checkbox" name="csf20[3]">
-                                            <label for="csf-checkbox-23" class="custom-checkbox__label-for">Нетканный гидроскрепленный</label>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="cp-sidebar-filter__options-item">
-                                <div class="cp-sidebar__heading">Сырье</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-30" class="custom-checkbox__input" type="checkbox" name="csf30[0]">
-                                            <label for="csf-checkbox-30" class="custom-checkbox__label-for">Полиэфир</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-31" class="custom-checkbox__input" type="checkbox" name="csf30[1]">
-                                            <label for="csf-checkbox-31" class="custom-checkbox__label-for">Полипропилен</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-32" class="custom-checkbox__input" type="checkbox" name="csf30[2]">
-                                            <label for="csf-checkbox-32" class="custom-checkbox__label-for">Полипропилен термоскрепленный</label>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="cp-sidebar-filter__options-item">
-                                <div class="cp-sidebar__heading">Ширина, м</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <div class="cp-sidebar-filter__range">
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value="от 1"
-                                                        placeholder="от 1"
-                                                >
-                                            </div>
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value="до 2"
-                                                        placeholder="до 2"
-                                                >
-                                            </div>
-                                        </div>
-
-                                        <?/* @note - доделать
-                                        <div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-                                        <div id="debitRange"></div>
-                                        <div class="range-slider__values">
-                                        <span id="debitRangeValueMin" class="range-slider__val">0</span>
-                                        <span id="debitRangeValueMax" class="range-slider__val">2726</span>
-                                        </div>
-                                        </div>*/?>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="cp-sidebar-filter__options-item">
-                                <div class="cp-sidebar__heading">Намотка, м.п.</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <div class="cp-sidebar-filter__range">
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value=""
-                                                        placeholder="от 25"
-                                                >
-                                            </div>
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value=""
-                                                        placeholder="до 130"
-                                                >
-                                            </div>
-                                        </div>
-
-                                        <?/* @note - доделать
-                                        <div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-                                        <div id="debitRange"></div>
-                                        <div class="range-slider__values">
-                                        <span id="debitRangeValueMin" class="range-slider__val">0</span>
-                                        <span id="debitRangeValueMax" class="range-slider__val">2726</span>
-                                        </div>
-                                        </div>*/?>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="cp-sidebar-filter__options-item">
-                                <div class="cp-sidebar__heading">Толщина, мкм</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <div class="cp-sidebar-filter__range">
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value=""
-                                                        placeholder="от 60"
-                                                >
-                                            </div>
-                                            <div class="input-wrapper cp-sidebar-filter__range-item">
-                                                <input
-                                                        class="input-reset input input-secondary"
-                                                        type="text"
-                                                        name=""
-                                                        value=""
-                                                        placeholder="до 200"
-                                                >
-                                            </div>
-                                        </div>
-
-                                        <?/* @note - доделать
-                                        <div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-                                        <div id="debitRange"></div>
-                                        <div class="range-slider__values">
-                                        <span id="debitRangeValueMin" class="range-slider__val">0</span>
-                                        <span id="debitRangeValueMax" class="range-slider__val">2726</span>
-                                        </div>
-                                        </div>*/?>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <div class="cp-sidebar-filter__cta">
-                            <button class="btn-reset btn" data-filter-results>
-                                <span class="text-content">Показать товары</span>
+                    <div class="card__caption">
+                        <div class="card__caption-view">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#info"></use>
+                            </svg>
+                        </div>
+                        <span class="text-content">Товар продается кратно – по 20 м2</span>
+                    </div>
+                    <div class="card__cart cart-buy">
+                        <div class="cart-quantity">
+                            <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#minus"></use>
+                                </svg>
                             </button>
-                            <button class="btn-reset btn btn-extra" data-filter-reset>
-                                <span class="text-content">Сбросить фильтр</span>
+                            <input
+                                    id=""
+                                    class="input-reset cart-quantity-input"
+                                    type="text"
+                                    placeholder="999"
+                                    value="1"
+                                    max="999"
+                                    data-mult="1"
+                            >
+                            <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#plus"></use>
+                                </svg>
                             </button>
                         </div>
-                    </form>
+                        <button class="btn-reset btn cart-in" type="button">
+                            <span class="text-content">В корзину</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="cp-sidebar__item">
+                    <div class="cp-sidebar__heading">Геотекстиль</div>
                 </div>
             </div>
         </div>
