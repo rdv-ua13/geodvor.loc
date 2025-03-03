@@ -80,6 +80,9 @@
             <li><a class="ready" href="card-detail.php" target="_blank">Карточка товара</a></li>
             <br>
 
+            <li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
+            <br>
+
             <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>
             <li><a class="ready" href="cp-payment.php" target="_blank">Контентная страница - Оплата</a></li>
             <li><a class="ready" href="cp-delivery.php" target="_blank">Контентная страница - Доставка</a></li>

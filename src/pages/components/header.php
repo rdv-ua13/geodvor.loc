@@ -205,7 +205,7 @@
                                     <use href="img/sprite.svg#search"></use>
                                 </svg>
                             </label>
-                            <button class="btn-reset btn btn-secondary input-delete-btn">
+                            <button class="btn-reset btn input-delete-btn">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#cross"></use>
                                 </svg>
@@ -242,7 +242,7 @@
                                                         <use href="img/sprite.svg#search"></use>
                                                     </svg>
                                                 </label>
-                                                <button class="btn-reset btn btn-secondary input-delete-btn">
+                                                <button class="btn-reset btn input-delete-btn">
                                                     <svg class="icon icon-fill">
                                                         <use href="img/sprite.svg#cross"></use>
                                                     </svg>

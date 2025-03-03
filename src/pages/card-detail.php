@@ -15,7 +15,7 @@
                     <span>Каталог</span>
                 </a>
             </div>
-            <div class="cp-heading__favorites">
+            <div class="cp-heading__cta">
                 <button class="btn-reset btn btn-sm btn-ghost" type="button" data-favorites>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#heart"></use>

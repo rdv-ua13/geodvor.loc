@@ -875,32 +875,6 @@
 
                     <span class="tooltip" data-tippy-content="search">
                             <!--start ui content-->
-                            <!--<div class="input-wrapper input-wrapper-split has-icon-l">
-                                <input
-                                        class="input-reset input"
-                                        type="search"
-                                        name=""
-                                        value=""
-                                        placeholder="Placeholder"
-                                        autocomplete="off"
-                                >
-                                <label class="input-icon input-icon-l">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#search"></use>
-                                    </svg>
-                                </label>
-                                <label class="input-search-action">
-                                    <button class="btn-reset btn btn-icon input-delete-btn" type="button">
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#cross"></use>
-                                        </svg>
-                                    </button>
-                                    <button class="btn-reset btn btn-sm input-search-btn" type="submit">
-                                        <span class="text-content">Найти</span>
-                                    </button>
-                                </label>
-                            </div>-->
-
                             <div class="input-wrapper input-wrapper-split has-icon-l">
                                 <input
                                         class="input-reset input"

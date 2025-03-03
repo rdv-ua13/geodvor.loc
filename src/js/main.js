@@ -24,6 +24,7 @@ application.prototype.init = function () {
     this.initCartQuantity();
     this.initBasicTabs();
     this.initInputSearchBehavior();
+    this.initHeaderInputSearchReadonly();
     this.initSearchResBehavior();
     this.initClipboard();
     this.initContactsMap();
@@ -694,11 +695,16 @@ application.prototype.initInputSearchBehavior = function () {
             $(this).closest('.input-wrapper-search').removeClass('has-data');
             $(this).closest('.input-wrapper-search').find('.input').val('').removeClass('has-data');
         });
+    }
+};
 
+// Initialize header input-search behavior
+application.prototype.initHeaderInputSearchReadonly = function () {
+    if ($('.header-search .input-wrapper-search .input').length) {
         if (window.matchMedia('(min-width: 992px)').matches) {
-            $('.input-wrapper-search .input').prop('readonly', false);
+            $('.header-search .input-wrapper-search .input').prop('readonly', false);
         } else if (window.matchMedia('(max-width: 991.98px)').matches) {
-            $('.input-wrapper-search .input').prop('readonly', true);
+            $('.header-search .input-wrapper-search .input').prop('readonly', true);
         }
     }
 };
