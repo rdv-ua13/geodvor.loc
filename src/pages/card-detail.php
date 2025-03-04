@@ -240,7 +240,7 @@
                     <div class="card-detail__descr">
                         <h1 class="h3">Геотекстиль Дорнит ГЕО 300 гр/м2 шир. 2х50 м.п, 100 м2</h1>
 
-                        <div class="cp-sidebar card-detail-sidebar-mobile">
+                        <div class="cp-sidebar cp-content-sidebar">
                             <div class="cp-sidebar__item cp-sidebar__price-cart card-product">
                                 <div class="card__price">
                                     <div class="basic-tabs">

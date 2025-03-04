@@ -1104,12 +1104,6 @@ input.disabled {
 				stroke: var(--gray30-color);
 			}
 		}
-		/*&:last-child {
-			a,
-			span {
-				color: var(--gray30-color);
-			}
-		}*/
 	}
 }
 @media (max-width: 991.98px) {
@@ -1160,29 +1154,6 @@ input.disabled {
 @media (max-width: 991.98px) {
 	.pagination {
 		margin: 0 auto;
-		/*&-more {
-			&,
-			.btn {
-				min-width: 100%;
-			}
-		}
-		&-all {
-			&,
-			.btn-link {
-				min-width: 100%;
-				width: 100%;
-			}
-			.btn-link {
-				justify-content: space-between;
-				padding-top: 20px;
-				padding-bottom: 6px;
-				border-top: 1px solid var(--gray5-color);
-				font-weight: 400;
-				font-size: 13px;
-				letter-spacing: 0;
-				text-transform: unset;
-			}
-		}*/
 	}
 }
 

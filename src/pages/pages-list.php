@@ -81,6 +81,7 @@
             <br>
 
             <li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
+            <li><a class="ready" href="cart-empty.php" target="_blank">Корзина пуста</a></li>
             <br>
 
             <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>

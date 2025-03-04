@@ -28,11 +28,10 @@
                     <div class="cart-quick-add__search">
                         <div class="input-wrapper input-wrapper-search has-icon-l">
                             <input
-                                    class="input-reset input input-secondary"
+                                    class="input-reset input input-secondary  testShowDropmenu01"
                                     type="search"
                                     name=""
                                     placeholder="Быстрое добавление товара"
-                                    onclick="$(this).closest('.cart-quick-add').toggleClass('active');$(this).closest('body').toggleClass('dis-scroll overflow-hidden');"
                             >
                             <label class="input-icon input-icon-l">
                                 <svg class="icon icon-fill">
@@ -52,7 +51,7 @@
                             <div class="search-results__header">
                                 <div class="search-results__header-top">
                                     <div class="search-results__title h4">Быстрое добавление товара</div>
-                                    <div class="search-results__close" onclick="$(this).closest('body').toggleClass('dis-scroll overflow-hidden');">
+                                    <div class="search-results__close  testHideDropmenu01">
                                         <svg class="icon icon-fill icon-lg">
                                             <use href="img/sprite.svg#cross"></use>
                                         </svg>
@@ -67,7 +66,6 @@
                                                     name=""
                                                     value="геотекстиль"
                                                     placeholder="Быстрое добавление товара"
-                                                    onclick="$(this).closest('.cart-quick-add__results').toggleClass('active');"
                                             >
                                             <label class="input-icon input-icon-l">
                                                 <svg class="icon icon-fill">
@@ -348,7 +346,7 @@
                 </div>
 
                 <div class="cart-list">
-                    <div class="card card-product">
+                    <div class="card card-product" data-removable>
                         <a class="card__view" href="javascript:;">
                             <img
                                 loading="lazy"
@@ -404,7 +402,6 @@
                                     </button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="card card-product">
@@ -585,10 +582,65 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="gap-md cp-sidebar cp-content-sidebar">
+                    <div class="cp-sidebar__item">
+                        <div class="cp-sidebar__item-row cp-sidebar__item-row--divider cp-sidebar__item-row--divider-top">
+                            <button class="btn-reset btn w-100" type="button">
+                                <span class="text-content">Перейти к оформлению</span>
+                            </button>
+                        </div>
+                        <div class="cp-sidebar__item-row cp-sidebar__item-row--divider">
+                            <table class="table-descr table-descr--sb table-descr--total">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Итого</span>
+                                    </td>
+                                    <td>
+                                        <span>7950 ₽</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div class="input-wrapper">
+                                <input
+                                        class="input-reset input input-secondary"
+                                        type="text"
+                                        name=""
+                                        value=""
+                                        placeholder="Промокод"
+                                >
+                            </div>
+                        </div>
+                        <div class="cp-sidebar__item-row cp-sidebar__item-row--divider">
+                            <table class="table-descr table-descr--sb">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="fw-normal">4 товара</span>
+                                    </td>
+                                    <td>
+                                        <span class="fw-semibold">7950 ₽</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fw-normal">Скидки на товары</span>
+                                    </td>
+                                    <td>
+                                        <span class="brand-color fw-semibold">-570 ₽</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 			</div>
 			<div class="cp-sidebar">
 				<div class="cp-sidebar__item">
-                    <div class="cp-sidebar__item-row cp-sidebar__item-row--divider">
+                    <div class="cp-sidebar__item-row cp-sidebar__item-row--divider cp-sidebar__item-row--divider-top">
                         <button class="btn-reset btn w-100" type="button">
                             <span class="text-content">Перейти к оформлению</span>
                         </button>

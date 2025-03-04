@@ -33,6 +33,8 @@ application.prototype.init = function () {
     this.initCatalogContentSort();
     this.initCardFavorites();
     this.initSmoothScrollTo();
+
+    this.initTestShowHideDropmenu();
 };
 
 // Initialize disable scroll
@@ -954,6 +956,28 @@ application.prototype.initSmoothScrollTo = function () {
             scrollTop: $(currentId).offset().top - offset
         }, 200);
     });
+};
+
+// Initialize scroll to
+application.prototype.initTestShowHideDropmenu = function () {
+    if ($('.testShowDropmenu01').length) {
+        $('.testShowDropmenu01').on('click', function () {
+            $('.testShowDropmenu01').closest('.cart-quick-add').toggleClass('active');
+
+            if(window.matchMedia('(max-width: 991.98px)').matches) {
+                $('body').toggleClass('dis-scroll overflow-hidden');
+            }
+        });
+    }
+    if ($('.testHideDropmenu01').length) {
+        $('.testHideDropmenu01').on('click', function () {
+            $('.testShowDropmenu01').closest('.cart-quick-add').removeClass('active');
+
+            if(window.matchMedia('(max-width: 991.98px)').matches) {
+                $('body').toggleClass('dis-scroll overflow-hidden');
+            }
+        });
+    }
 };
 
 
