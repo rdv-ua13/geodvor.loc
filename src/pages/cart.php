@@ -22,7 +22,7 @@
 			</div>
 		</div>
 
-		<div class="cp">
+		<div class="gap-xl cp">
 			<div class="cp-content">
                 <div class="cart-quick-add">
                     <div class="cart-quick-add__search">
