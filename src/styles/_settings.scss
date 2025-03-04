@@ -1390,27 +1390,6 @@ input.disabled {
 			}
 		}
 	}
-	&--flatpickr {
-		&::before {
-			content: "";
-			z-index: 1;
-			position: absolute;
-			top: 50%;
-			right: 10px;
-			transform: translateY(-50%);
-			min-width: 24px;
-			width: 24px;
-			min-height: 24px;
-			height: 24px;
-			background: url("../img/sprite.svg#calendar") no-repeat center/cover transparent;
-			pointer-events: none;
-			user-select: none;
-		}
-
-		.input {
-			padding-right: 48px;
-		}
-	}
 }
 .input {
 	width: 100%;
@@ -1662,6 +1641,59 @@ input.disabled {
 }
 .select2-container--open .select2-dropdown--below {
 	border-radius: 12px;
+}
+.flatpickr {
+	&-day {
+		&.today {
+			border-color: var(--green0-color);
+
+			&:hover,
+			&:focus {
+				border-color: var(--green0-color);
+				background-color: transparent;
+				color: var(--green0-color);
+			}
+		}
+		&.selected,
+		&.startRange,
+		&.endRange,
+		&.selected.inRange,
+		&.startRange.inRange,
+		&.endRange.inRange,
+		&.selected:focus,
+		&.startRange:focus,
+		&.endRange:focus,
+		&.selected:hover,
+		&.startRange:hover,
+		&.endRange:hover,
+		&.selected.prevMonthDay,
+		&.startRange.prevMonthDay,
+		&.endRange.prevMonthDay,
+		&.selected.nextMonthDay,
+		&.startRange.nextMonthDay,
+		&.endRange.nextMonthDay {
+			border-color: var(--green0-color);
+			background-color: transparent;
+			color: var(--green0-color);
+		}
+
+		&.inRange,
+		&.prevMonthDay.inRange,
+		&.nextMonthDay.inRange,
+		&.today.inRange,
+		&.prevMonthDay.today.inRange,
+		&.nextMonthDay.today.inRange,
+		&:hover,
+		&.prevMonthDay:hover,
+		&.nextMonthDay:hover,
+		&:focus,
+		&.prevMonthDay:focus,
+		&.nextMonthDay:focus {
+			border-color: var(--gray1-color);
+			background-color: var(--gray1-color);
+			color: var(--text-primary);
+		}
+	}
 }
 
 .swiper-navigation {
@@ -2997,6 +3029,61 @@ input.disabled {
 		}
 		&__panel.active {
 			display: block;
+		}
+
+		&__content {
+			&.empty {
+				.personal-acc__orders {
+					min-height: 240px;
+
+					&-item {
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						gap: 32px;
+						padding: 48px 20px;
+						border: 0;
+					}
+					&-view {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						.icon {
+							min-width: 60px;
+							width: 60px;
+							min-height: 60px;
+							height: 60px;
+							fill: var(--green0-color);
+							stroke: var(--green0-color);
+						}
+					}
+					&-descr {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						gap: 12px;
+					}
+					&-hint {
+						color: var(--text-secondary);
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.basic-tabs {
+		&-content {
+			&__content {
+				&.empty {
+					.personal-acc__orders {
+						min-height: 400px;
+						padding-top: 120px;
+						padding-bottom: 120px;
+					}
+				}
+			}
 		}
 	}
 }
@@ -4743,40 +4830,7 @@ input.disabled {
 	}
 }
 
-.flatpickr {
-	&-day {
-		&.today {
-			border-color: var(--green-color);
 
-			&:hover,
-			&:focus {
-				border-color: var(--text1-color);
-				background: var(--text1-color);
-			}
-		}
-		&.selected,
-		&.startRange,
-		&.endRange,
-		&.selected.inRange,
-		&.startRange.inRange,
-		&.endRange.inRange,
-		&.selected:focus,
-		&.startRange:focus,
-		&.endRange:focus,
-		&.selected:hover,
-		&.startRange:hover,
-		&.endRange:hover,
-		&.selected.prevMonthDay,
-		&.startRange.prevMonthDay,
-		&.endRange.prevMonthDay,
-		&.selected.nextMonthDay,
-		&.startRange.nextMonthDay,
-		&.endRange.nextMonthDay {
-			background: var(--green-color);
-			border-color: var(--green-color);
-		}
-	}
-}
 
 .star-rating-wrapper {
 	display: inline-flex;

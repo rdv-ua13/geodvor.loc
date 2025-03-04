@@ -63,7 +63,7 @@
             <img src="img/logo.svg" width="180" height="50" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">16 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">19 + ui</span>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">29 + ui (всего страниц в макете)</span>
         </span>
@@ -82,6 +82,10 @@
 
             <li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина пуста</a></li>
+            <br>
+
+            <li><a class="ready" href="pa-orders.php" target="_blank">ЛК - Заказы</a></li>
+            <li><a class="ready" href="pa-orders-menu-mobile.php" target="_blank">ЛК - Меню мобильное</a></li>
             <br>
 
             <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>

@@ -33,6 +33,7 @@ application.prototype.init = function () {
     this.initCatalogContentSort();
     this.initCardFavorites();
     this.initSmoothScrollTo();
+    this.initDatepicker();
 
     this.initTestShowHideDropmenu();
 };
@@ -958,6 +959,20 @@ application.prototype.initSmoothScrollTo = function () {
     });
 };
 
+// Initialize datepicker
+application.prototype.initDatepicker = function () {
+    if ($('.flatpickr').length) {
+        const dateElem = $('.flatpickr');
+
+        let newFlatpickr = flatpickr(dateElem, {
+            dateFormat: 'd.m.Y',
+            disableMobile: 'true',
+            locale: 'ru'
+        });
+    }
+};
+
+
 // Initialize scroll to
 application.prototype.initTestShowHideDropmenu = function () {
     if ($('.testShowDropmenu01').length) {
@@ -1316,19 +1331,6 @@ application.prototype.initShareLink = function () {
 // Mobile number mask
 application.prototype.initMaskedInput = function () {
     $('.isPhone').mask('+7 (999) 999-99-99', { autoclear: false });
-};
-
-// Init datepicker
-application.prototype.initDatepicker = function () {
-    if ($('.flatpickr').length) {
-        const dateElem = $('.flatpickr');
-
-        let newFlatpickr = flatpickr(dateElem, {
-            dateFormat: 'd.m.Y',
-            disableMobile: 'true',
-            locale: 'ru'
-        });
-    }
 };
 
 

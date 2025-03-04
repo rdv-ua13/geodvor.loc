@@ -170,6 +170,13 @@
                         </svg>
                         <!--end ui content-->
                     </span>
+                    <span class="tooltip" data-tippy-content="#edit">
+                        <!--start ui content-->
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#edit"></use>
+                        </svg>
+                        <!--end ui content-->
+                    </span>
                     <span class="tooltip" data-tippy-content="#call-calling">
                         <!--start ui content-->
                         <svg class="icon icon-fill">
