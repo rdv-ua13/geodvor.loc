@@ -120,7 +120,7 @@
                     <div class="personal-acc__tabs basic-tabs">
                         <div class="gap-sm-plus slider-out basic-slider-wrap">
                             <div class="basic-tabs-container basic-slider swiper" data-tab="pa-tabs" data-basic-slider data-basic-slider-xxs>
-                                <div class="basic-tabs-slider-list swiper-wrapper reset-slider-list">
+                                <div class="basic-tabs-slider-list swiper-wrapper">
                                     <div class="basic-tabs-item swiper-slide">
                                         <span class="btn btn-sm btn-extra-secondary basic-tabs-trigger" data-target="all"><span>Все заказы</span></span>
                                     </div>

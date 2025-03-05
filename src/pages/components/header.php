@@ -60,7 +60,7 @@
     <header
             class="header fixed-block
                 <?=(!strpos($_SERVER["REQUEST_URI"], "index.php") && !strpos($_SERVER["REQUEST_URI"], "catalog.php"))? 'header-less' : ''?>
-                <?=(strpos($_SERVER["REQUEST_URI"], "ordering.php"))? 'header--order' : ''?>"
+                <?=(strpos($_SERVER["REQUEST_URI"], "order.php"))? 'header-order' : ''?>"
     >
         <div class="header-top">
             <div class="container header-container header-top-container">
@@ -172,6 +172,15 @@
                     <?else:?>
                         </a>
                     <?endif;?>
+                </div>
+
+                <div class="header-back">
+                    <a class="link link-flex" href="javascript:;">
+                        <svg class="icon icon-sm icon-fill">
+                            <use href="img/sprite.svg#chevron-left"></use>
+                        </svg>
+                        <span>Вернуться в корзину</span>
+                    </a>
                 </div>
 
                 <div class="header-catalog-spoiler">

@@ -748,6 +748,32 @@
 		position: fixed;
 		gap: 16px;
 
+		&.header-order {
+			border-bottom: 1px solid var(--gray1-color);
+
+			.header-top,
+			.header-search,
+			.header-profile,
+			.header-catalog,
+			.header-catalog-spoiler {
+				display: none;
+			}
+
+			.header-back {
+				display: flex;
+				align-items: center;
+				margin-right: auto;
+			}
+
+			& ~ .main {
+				padding-top: 94px;
+
+				.pre-footer {
+					display: none;
+				}
+			}
+		}
+
 		&-logo {
 			.image {
 				min-width: 156px;
@@ -1043,6 +1069,12 @@
 		&.header-less {
 			.header-search,
 			.header-catalog {
+				display: none;
+			}
+		}
+
+		&.header-order {
+			.header-back {
 				display: none;
 			}
 		}

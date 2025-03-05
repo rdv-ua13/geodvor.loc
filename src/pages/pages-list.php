@@ -63,7 +63,7 @@
             <img src="img/logo.svg" width="180" height="50" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">19 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">21 + ui</span>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">29 + ui (всего страниц в макете)</span>
         </span>
@@ -86,6 +86,7 @@
 
             <li><a class="ready" href="order.php" target="_blank">Оформление заказа</a></li>
             <li><a class="ready" href="order-confirm.php" target="_blank">Подтверждение заказа</a></li>
+            <li><a class="ready" href="order-confirm-company.php" target="_blank">Подтверждение заказа (Юр. лица)</a></li>
             <br>
 
             <li><a class="ready" href="pa-orders.php" target="_blank">ЛК - Заказы</a></li>
