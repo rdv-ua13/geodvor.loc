@@ -84,6 +84,10 @@
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина пуста</a></li>
             <br>
 
+            <li><a class="ready" href="order.php" target="_blank">Оформление заказа</a></li>
+            <li><a class="ready" href="order-confirm.php" target="_blank">Подтверждение заказа</a></li>
+            <br>
+
             <li><a class="ready" href="pa-orders.php" target="_blank">ЛК - Заказы</a></li>
             <li><a class="ready" href="pa-orders-menu-mobile.php" target="_blank">ЛК - Меню мобильное</a></li>
             <br>
