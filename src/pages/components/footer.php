@@ -118,7 +118,7 @@
                 </div>
                 <ul class="list-reset footer__payment payment-supports">
                     <li>
-                        <a href="javascript:;" target="_blank">
+                        <a class="payment-supports__item" href="javascript:;" target="_blank">
                             <img
                                     loading="lazy"
                                     class="image"
@@ -130,7 +130,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:;" target="_blank">
+                        <a class="payment-supports__item" href="javascript:;" target="_blank">
                             <img
                                     loading="lazy"
                                     class="image"
@@ -142,7 +142,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:;" target="_blank">
+                        <a class="payment-supports__item" href="javascript:;" target="_blank">
                             <img
                                     loading="lazy"
                                     class="image"

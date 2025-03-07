@@ -65,7 +65,7 @@
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
             <span style="color: forestgreen; font-weight: 600;">21 + ui</span>
             &nbsp;/&nbsp;
-            <span style="font-size: 24px;">29 + ui (всего страниц в макете)</span>
+            <span style="font-size: 24px;">31 + ui (всего страниц в макете)</span>
         </span>
     </div>
 
@@ -102,38 +102,6 @@
             <li><a class="ready" href="cp-solutions.php" target="_blank">Контентная страница - Готовые решения</a></li>
             <li><a class="ready" href="cp-adviсe.php" target="_blank">Контентная страница - Полезные советы</a></li>
             <li><a class="ready" href="cp-services.php" target="_blank">Контентная страница - Услуги</a></li>
-
-            <?/*
-            <li><a href="card-product.php" target="_blank" class="ready">Карточка товара</a></li>
-            <br>
-
-
-            <li><a href="catalog-section.php" target="_blank" class="ready">Каталог - Разделы</a></li>
-            <li><a href="catalog-category.php" target="_blank" class="ready">Категории каталога - Изделия</a></li>
-            <li><a href="catalog-category-socket-switches.php" target="_blank" class="ready">Категории каталога - Розетки и выключатели</a></li>
-            <br>
-
-            <li><a href="search-searchbar.php" target="_blank" class="ready">Поиск через строку поиска</a></li>
-            <li><a href="search-searchbar-product-off.php" target="_blank" class="ready">Отсутствующий товар</a></li>
-            <br>
-
-            <li><a href="cart.php" target="_blank" class="ready">Корзина</a></li>
-            <li><a href="cart-category.php" target="_blank" class="ready">Корзина - сортировка по категориям</a></li>
-            <li><a href="cart-user.php" target="_blank" class="ready">Корзина - пользователь</a></li>
-            <li><a href="cart-empty.php" target="_blank" class="ready">Корзина - пусто</a></li>
-            <br>
-
-            <li><a href="ordering.php" target="_blank" class="ready">Оформление заказа</a></li>
-            <li><a href="order-confirm.php" target="_blank" class="ready">Подтверждение заказа</a></li>
-            <br>
-
-
-            <li><a href="cp-warranty.php" target="_blank" class="ready">Контентные страницы - Гарантия</a></li>
-            <li><a href="cp-promotions.php" target="_blank" class="ready">Контентные страницы - Акции</a></li>
-            <li><a href="cp-news.php" target="_blank" class="ready">Контентные страницы - Новости</a></li>
-            <li><a href="cp-news-details.php" target="_blank" class="ready">Контентные страницы - Одна новость</a></li>
-            <li><a href="cp-articles.php" target="_blank" class="ready">Контентные страницы - Статьи</a></li>
-            <li><a href="cp-articles-details.php" target="_blank" class="ready">Контентные страницы - Одна статья</a></li>*/?>
             <br>
 
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>

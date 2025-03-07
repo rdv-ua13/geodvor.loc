@@ -34,6 +34,7 @@ application.prototype.init = function () {
     this.initCardFavorites();
     this.initSmoothScrollTo();
     this.initDatepicker();
+    this.initMaskedInput();
 
     this.initTestShowHideDropmenu();
 };
@@ -972,6 +973,12 @@ application.prototype.initDatepicker = function () {
     }
 };
 
+// Initialize mobile number mask
+application.prototype.initMaskedInput = function () {
+    $('.isPhone').mask('+7 (999) 999-99-99', { autoclear: false });
+};
+
+
 
 // Initialize scroll to
 application.prototype.initTestShowHideDropmenu = function () {
@@ -1326,11 +1333,6 @@ application.prototype.initShareLink = function () {
             temp.remove();
         }
     }
-};
-
-// Mobile number mask
-application.prototype.initMaskedInput = function () {
-    $('.isPhone').mask('+7 (999) 999-99-99', { autoclear: false });
 };
 
 

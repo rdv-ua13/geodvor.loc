@@ -79,7 +79,7 @@
                         <div class="h4">Оплата банковской картой без комиссии</div>
                         <ul class="list-reset payment-supports">
                             <li>
-                                <a href="javascript:;" target="_blank">
+                                <a class="payment-supports__item" href="javascript:;" target="_blank">
                                     <img
                                             loading="lazy"
                                             class="image"
@@ -91,7 +91,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:;" target="_blank">
+                                <a class="payment-supports__item" href="javascript:;" target="_blank">
                                     <img
                                             loading="lazy"
                                             class="image"
@@ -103,7 +103,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:;" target="_blank">
+                                <a class="payment-supports__item" href="javascript:;" target="_blank">
                                     <img
                                             loading="lazy"
                                             class="image"

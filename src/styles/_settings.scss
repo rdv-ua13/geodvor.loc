@@ -1197,7 +1197,7 @@ input.disabled {
 .custom-checkbox,
 .custom-radio {
 	display: inline-flex;
-	align-items: flex-start;
+	align-items: center;
 	gap: 12px;
 	line-height: 1;
 	cursor: default;
@@ -1229,11 +1229,6 @@ input.disabled {
 			opacity: 0;
 			transition: var(--transition);
 		}
-		/*&:not(:checked) {
-			&:hover {
-				border-color: var(--gray1-color);
-			}
-		}*/
 		&:checked,
 		&.checked {
 			/*&,
@@ -1258,38 +1253,16 @@ input.disabled {
 				stroke: var(--text-primary);
 			}
 		}
-		/*&:disabled,
+		&:disabled,
 		&.disabled {
-			cursor: default;
-
-			&,
-			&:hover {
-				border-color: var(--gray5-color);
-				background-color: var(--gray5-color);
-			}
-			& ~ .custom-checkbox__label-for,
-			& ~ .custom-radio__label-for {
-				color: var(--text-caption);
-				user-select: none;
-			}
-			& ~ .custom-checkbox__brand,
-			& ~ .custom-radio__brand {
-				& .icon,
-				& .image {
-					max-height: 30px;
-				}
-				& .icon {
-					fill: var(--text-caption);
-				}
-				& .image {
-					filter: grayscale(1);
-				}
-			}
-		}*/
+			cursor: not-allowed;
+		}
 	}
 	&__label-for {
 		display: inline-flex;
+		flex: 1;
 		align-items: center;
+		gap: 12px;
 		line-height: 20px;
 	}
 }
@@ -1527,6 +1500,13 @@ input.disabled {
 			pointer-events: none;
 			user-select: none;
 		}
+	}
+
+	@at-root {
+	    textarea#{&} {
+			height: auto;
+			resize: none;
+	    }
 	}
 
 	&-select2 {
@@ -2012,7 +1992,7 @@ input.disabled {
 	align-items: center;
 	gap: 24px;
 
-	a {
+	&__item {
 		display: flex;
 		align-items: center;
 
@@ -3394,6 +3374,10 @@ input.disabled {
 			}
 		}
 	}
+}
+
+.required-star {
+	color: var(--red10-color);
 }
 
 /*.modal {

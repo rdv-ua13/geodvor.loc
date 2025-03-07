@@ -16,261 +16,158 @@
 
 		<div class="gap-xl cp">
 			<div class="cp-content">
-				<div class="gap-lg">
-                    <form action="" method="" class="order-content">
-                        <div class="order-step">
-                            <div class="h3">Данные покупателя</div>
+                <form action="" method="" class="order-content">
+                    <div class="order-step">
+                        <div class="h3">Данные покупателя</div>
 
-                            <div class="slider-out basic-slider-wrap">
-                                <div class="basic-tabs-container basic-slider swiper" data-tab="tab-order-step-one" data-basic-slider data-basic-slider-xxs>
+                        <div class="basic-tabs">
+                            <div class="gap-sm-plus slider-out basic-slider-wrap">
+                                <div class="basic-tabs-container basic-slider swiper" data-tab="order-step-one-tabs" data-basic-slider data-basic-slider-xxs>
                                     <div class="basic-tabs-slider-list swiper-wrapper">
                                         <div class="basic-tabs-item swiper-slide">
-                                            <span class="btn btn-extra-secondary basic-tabs-trigger active" data-target="0"><span>Физическое лицо</span></span>
+                                            <span class="btn btn-sm btn-extra-secondary basic-tabs-trigger active" data-target="0"><span>Физическое лицо</span></span>
                                         </div>
                                         <div class="basic-tabs-item swiper-slide">
-                                            <span class="btn btn-extra-secondary basic-tabs-trigger" data-target="1"><span>Юридическое лицо</span></span>
+                                            <span class="btn btn-sm btn-extra-secondary basic-tabs-trigger" data-target="1"><span>Юридическое лицо</span></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="basic-tabs-content" data-tab-content="tab-order-step-one">
+                            <div class="basic-tabs-content" data-tab-content="order-step-one-tabs">
                                 <div class="basic-tabs-content__panel active" data-id="0">
-                                    <div class="order-step__data">
-                                        <div class="order-step-row order-step__notice">
-                                            <svg class="icon icon-sm">
-                                                <use href="img/sprite.svg#profile"></use>
-                                            </svg>
-                                            <span>
-                                                Не хотите каждый раз заново заполнять данные?
-                                                <a class="btn-reset btn btn-secondary" href="javascript:;">
+                                    <div class="basic-tabs-content__content">
+                                        <div class="order-step__data">
+                                            <div class="order-step-row order-step__notice">
+                                                <span class="order-step__notice-title">
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#profile"></use>
+                                                    </svg>
+                                                    <span class="text-content">Не хотите каждый раз заново заполнять данные?</span>
+                                                </span>
+                                                <a class="btn-reset btn btn-sm btn-secondary" href="javascript:;">
                                                     <span class="text-content">Войти в профиль</span>
                                                 </a>
-                                            </span>
-                                        </div>
+                                            </div>
 
-                                        <div class="order-step-row">
-                                            <div class="titled-input titled-input-label">
-                                                <div class="input-title">Номер телефона для связи</div>
-                                                <div class="input-wrapper">
-                                                    <input
-                                                            class="input-reset input isPhone"
-                                                            type="tel"
-                                                            name=""
-                                                            value=""
-                                                            placeholder="+7 (999) 999-99-99"
-                                                            autocomplete="off"
-                                                    >
+                                            <div class="order-step-row order-step-row--twin">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Номер телефона для связи <span class="required-star">*</span></div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary isPhone"
+                                                                type="tel"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="+7 (999) 999-99-99"
+                                                                required
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div class="titled-input">
+                                                    <div class="input-title">Имя</div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Ваше имя"
+                                                        >
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="titled-input titled-input-label">
-                                                <div class="input-title">Электронная почта</div>
-                                                <div class="input-wrapper">
-                                                    <input
-                                                            class="input-reset input"
-                                                            type="email"
-                                                            name=""
-                                                            value=""
-                                                            placeholder="mail@mail.ru"
-                                                            autocomplete="off"
-                                                    >
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="order-step-row">
-                                            <div class="titled-input titled-input-label">
-                                                <div class="input-title">Ваше имя</div>
-                                                <div class="input-wrapper">
-                                                    <input
-                                                            class="input-reset input"
-                                                            type="text"
-                                                            name=""
-                                                            value=""
-                                                            placeholder="Ваше имя"
-                                                            autocomplete="off"
-                                                    >
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="order-step-row">
-                                            <div class="titled-input">
-                                                <div class="input-title semi-bold">Сфера деятельности</div>
-                                                <div class="input-wrapper input-wrapper-radio">
-                                                            <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-individual-one"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityIndividual"
-                                                                >
-                                                                <label for="order-activity-individual-one" class="custom-radio__label-for">Розничный покупатель</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-individual-two"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityIndividual"
-                                                                >
-                                                                <label for="order-activity-individual-two" class="custom-radio__label-for">Электромонтажник</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-individual-three"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityIndividual"
-                                                                >
-                                                                <label for="order-activity-individual-three" class="custom-radio__label-for">Дизайнер</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-individual-four"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityIndividual"
-                                                                >
-                                                                <label for="order-activity-individual-four" class="custom-radio__label-for">Щитовик</label>
-                                                            </span>
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Электронная почта <span class="required-star">*</span></div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary"
+                                                                type="email"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Электронная почта"
+                                                                required
+                                                        >
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="basic-tabs-content__panel" data-id="1">
-                                    <div class="order-step__data">
-                                        <div class="order-step-row order-step__notice">
-                                            <svg class="icon icon-sm">
-                                                <use href="img/sprite.svg#user-square"></use>
-                                            </svg>
-                                            <span>
-                                                        Не хотите каждый раз заново заполнять данные?
-                                                        <a class="link-red" href="javascript:;">Войдите в профиль</a>
-                                                    </span>
-                                        </div>
+                                    <div class="basic-tabs-content__content">
+                                        <div class="order-step__data">
+                                            <div class="order-step-row order-step__notice">
+                                                <span class="order-step__notice-title">
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#profile"></use>
+                                                    </svg>
+                                                    <span class="text-content">Не хотите каждый раз заново заполнять данные?</span>
+                                                </span>
+                                                <a class="btn-reset btn btn-sm btn-secondary" href="javascript:;">
+                                                    <span class="text-content">Войти в профиль</span>
+                                                </a>
+                                            </div>
 
-                                        <div class="order-step-row">
-                                            <div class="titled-input titled-input-label">
-                                                <div class="input-title">Номер телефона для связи</div>
-                                                <div class="input-wrapper">
-                                                    <input
-                                                            class="input-reset input isPhone"
-                                                            type="tel"
-                                                            name=""
-                                                            value=""
-                                                            placeholder="+7 (999) 999-99-99"
-                                                            autocomplete="off"
-                                                    >
+                                            <div class="order-step-row order-step-row--twin">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Номер телефона для связи <span class="required-star">*</span></div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary isPhone"
+                                                                type="tel"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="+7 (999) 999-99-99"
+                                                                required
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div class="titled-input">
+                                                    <div class="input-title">Имя</div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Ваше имя"
+                                                        >
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="titled-input titled-input-label">
-                                                <div class="input-title">Электронная почта</div>
-                                                <div class="input-wrapper">
-                                                    <input
-                                                            class="input-reset input"
-                                                            type="email"
-                                                            name=""
-                                                            value=""
-                                                            placeholder="mail@mail.ru"
-                                                            autocomplete="off"
-                                                    >
+
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Электронная почта <span class="required-star">*</span></div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary"
+                                                                type="email"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Электронная почта"
+                                                                required
+                                                        >
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        <div class="order-step-row">
-                                            <div class="titled-input titled-input-label">
-                                                <div class="input-title">Ваше имя</div>
-                                                <div class="input-wrapper">
-                                                    <input
-                                                            class="input-reset input"
-                                                            type="text"
-                                                            name=""
-                                                            value=""
-                                                            placeholder="Ваше имя"
-                                                            autocomplete="off"
-                                                    >
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="order-step-row" data-org-container>
-                                            <div class="titled-input titled-input-label">
-                                                <div class="input-title">ИНН организации</div>
-                                                <div class="input-wrapper">
-                                                    <input
-                                                            class="input-reset input"
-                                                            type="text"
-                                                            name=""
-                                                            value=""
-                                                            placeholder="Найти по ИНН"
-                                                            autocomplete="off"
-                                                            data-org-trigger
-                                                    >
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="order-step-row">
-                                            <div class="titled-input">
-                                                <div class="input-title semi-bold">Сфера деятельности</div>
-                                                <div class="input-wrapper input-wrapper-radio">
-                                                            <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-entity-one"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityEntity"
-                                                                >
-                                                                <label for="order-activity-entity-one" class="custom-radio__label-for">OEM партнер</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-entity-two"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityEntity"
-                                                                >
-                                                                <label for="order-activity-entity-two" class="custom-radio__label-for">Эксплуатация</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-entity-three"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityEntity"
-                                                                >
-                                                                <label for="order-activity-entity-three" class="custom-radio__label-for">Электромонтажник</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-entity-four"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityEntity"
-                                                                >
-                                                                <label for="order-activity-entity-four" class="custom-radio__label-for">Дизайнер</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-entity-five"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityEntity"
-                                                                >
-                                                                <label for="order-activity-entity-five" class="custom-radio__label-for">Щитовик</label>
-                                                            </span>
-                                                    <span class="custom-radio">
-                                                                <input
-                                                                        id="order-activity-entity-six"
-                                                                        class="custom-radio__input"
-                                                                        type="checkbox"
-                                                                        name="orderActivityEntity"
-                                                                >
-                                                                <label for="order-activity-entity-six" class="custom-radio__label-for">СМО (Строительно-монтажная организация)</label>
-                                                            </span>
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">ИНН организации <span class="required-star">*</span></div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Найти по ИНН"
+                                                                required
+                                                        >
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -278,72 +175,297 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="order-step">
+                        <div class="h3">Способ доставки</div>
 
-                        <!--<div class="order-reg-content__heading">
-						<div class="h4">Номер заказа – <span class="brand-dark-color">82509</span></div>
-						<div>Статус: <span class="on-order-color fw-semibold">Ждёт оплаты</span></div>
-					</div>-->
-                        <div class="order-reg-content__item">
-                            <div class="order-reg-content__title">Данные покупателя</div>
+                        <div class="basic-tabs">
+                            <div class="gap-sm-plus slider-out basic-slider-wrap">
+                                <div class="basic-tabs-container basic-slider swiper" data-tab="order-step-two-tabs" data-basic-slider data-basic-slider-xxs>
+                                    <div class="basic-tabs-slider-list swiper-wrapper">
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="btn btn-sm btn-extra-secondary basic-tabs-trigger active" data-target="0"><span>Доставка</span></span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="btn btn-sm btn-extra-secondary basic-tabs-trigger" data-target="1"><span>Самовывоз</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="basic-tabs-content" data-tab-content="order-step-two-tabs">
+                                <div class="basic-tabs-content__panel active" data-id="0">
+                                    <div class="basic-tabs-content__content">
+                                        <div class="order-step__data">
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Укажите адрес доставки  <span class="required-star">*</span></div>
+                                                    <div class="input-wrapper">
+                                                        <input
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Начните вводить адрес"
+                                                                required
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-step-row">
+                                                <div class="contacts-map order-map">
+                                                    <div class="contacts-map-content" data-x="59.767013" data-y="30.592935"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Особенности подъезда</div>
+                                                    <div class="input-wrapper">
+                                                        <textarea
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="С какой улицы, двор, арка, пропуск, место для разгрузки"
+                                                                autocomplete="off"
+                                                        ></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Контакты ответственного за приём на месте</div>
+                                                    <div class="input-wrapper">
+                                                        <textarea
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Имя, номер телефона"
+                                                                autocomplete="off"
+                                                                rows="1"
+                                                        ></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Другие комментарии к доставке</div>
+                                                    <div class="input-wrapper">
+                                                        <textarea
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Укажите дополнительные комментарии к доставке"
+                                                                autocomplete="off"
+                                                        ></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="1">
+                                    <div class="basic-tabs-content__content">
+                                        <div class="order-step__data">
+                                            <div class="order-step-row">
+                                                <div class="order-shop">
+                                                    <div class="order-shop__view">
+                                                        <svg class="icon icon-fill">
+                                                            <use href="img/sprite.svg#shop"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="order-shop__descr">
+                                                        <div class="order-shop__title">Санкт-Петербург, Колпино, ул. Загородная 6Б</div>
+                                                        График работы:
+                                                        <br>
+                                                        ПН-ПТ с 09:00 до 18:00
+                                                        <br>
+                                                        СБ с 09:00 до 16:00
+                                                        <br>
+                                                        ВС - выходной
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-step-row">
+                                                <div class="contacts-map order-map">
+                                                    <div class="contacts-map-content" data-x="59.767013" data-y="30.592935"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Комментарий к заказу</div>
+                                                    <div class="input-wrapper">
+                                                        <textarea
+                                                                class="input-reset input input-secondary"
+                                                                type="text"
+                                                                name=""
+                                                                value=""
+                                                                placeholder="Укажите дополнительные комментарии к заказу"
+                                                                autocomplete="off"
+                                                        ></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="order-reg-content__item">
-                            <div class="order-reg-content__title">Детали доставки</div>
-                            <table class="table-descr">
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <span>Способ получения</span>
-                                    </td>
-                                    <td>
-                                        <span class="fw-semibold">Доставка</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="fw-normal">Адрес доставки</span>
-                                    </td>
-                                    <td>
-                                        <span class="fw-semibold">пр. Ленина, 114, оф. 218</span>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                    </div>
+
+                    <div class="order-step">
+                        <div class="h3">Способ оплаты</div>
+
+                        <div class="order-step__data order-step__data--list">
+                            <div class="order-step-row order-step-row-radio">
+                                <div class="input-wrapper">
+                                    <span class="custom-radio">
+                                        <input
+                                                id="order-payment-method-one"
+                                                class="custom-radio__input"
+                                                type="radio"
+                                                name="orderPaymentMethod"
+                                                checked
+                                        >
+                                        <label for="order-payment-method-one" class="custom-radio__label-for">
+                                            Банковской картой на сайте
+                                            <ul class="list-reset payment-supports">
+                                                <li>
+                                                    <a class="payment-supports__item" href="javascript:;" target="_blank">
+                                                        <img
+                                                                loading="lazy"
+                                                                class="image"
+                                                                src="img/ps-visa-origin.svg"
+                                                                width="32"
+                                                                height="10"
+                                                                alt="Мы принимаем к оплате Visa"
+                                                        >
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="payment-supports__item" href="javascript:;" target="_blank">
+                                                        <img
+                                                                loading="lazy"
+                                                                class="image"
+                                                                src="img/ps-mastercard-origin.svg"
+                                                                width="28"
+                                                                height="16"
+                                                                alt="Мы принимаем к оплате Mastercard"
+                                                        >
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="payment-supports__item" href="javascript:;" target="_blank">
+                                                        <img
+                                                                loading="lazy"
+                                                                class="image"
+                                                                src="img/ps-mir-origin.svg"
+                                                                width="35"
+                                                                height="9"
+                                                                alt="Мы принимаем к оплате Мир"
+                                                        >
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="order-step-row order-step-row-radio">
+                                <div class="input-wrapper input-wrapper-radio">
+                                    <span class="custom-radio">
+                                        <input
+                                                id="order-payment-method-two"
+                                                class="custom-radio__input"
+                                                type="radio"
+                                                name="orderPaymentMethod"
+                                        >
+                                        <label for="order-payment-method-two" class="custom-radio__label-for">Картой при получении</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="order-step-row order-step-row-radio">
+                                <div class="input-wrapper input-wrapper-radio">
+                                    <span class="custom-radio">
+                                        <input
+                                                id="order-payment-method-three"
+                                                class="custom-radio__input"
+                                                type="radio"
+                                                name="orderPaymentMethod"
+                                        >
+                                        <label for="order-payment-method-three" class="custom-radio__label-for">Наличными при получении</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="order-step-row order-step-row-radio">
+                                <div class="input-wrapper input-wrapper-radio">
+                                    <span class="custom-radio">
+                                        <input
+                                                id="order-payment-method-four"
+                                                class="custom-radio__input"
+                                                type="radio"
+                                                name="orderPaymentMethod"
+                                        >
+                                        <label for="order-payment-method-four" class="custom-radio__label-for">Выставить счёт</label>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="order-reg-content__item">
-                            <div class="order-reg-content__title">Оплата заказа</div>
-                            <table class="table-descr">
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <span>Способ оплаты</span>
-                                    </td>
-                                    <td>
-                                        <span class="fw-semibold">Картой при получении</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="fw-normal">Статус оплаты</span>
-                                    </td>
-                                    <td>
-                                        <span class="fw-semibold">Ожидает оплаты</span>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="order-reg-content__item">
-                            <button class="btn-reset btn btn-extra" type="button">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#print"></use>
-                                </svg>
-                                <span class="text-content">Распечатать заказ</span>
-                            </button>
-                        </div>
-                    </form>
-				</div>
+                    </div>
+
+                    <div class="order-step order-step--total">
+                        <table class="table-descr table-descr--sb table-descr--total">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <span>Итого</span>
+                                </td>
+                                <td>
+                                    <span>7950 ₽</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table-descr table-descr--sb">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <span class="fw-normal">4 товара</span>
+                                </td>
+                                <td>
+                                    <span class="fw-semibold">7950 ₽</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="fw-normal">Доставка</span>
+                                </td>
+                                <td>
+                                    <span class="fw-semibold">600 ₽</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <button class="btn-reset btn" type="button">
+                            <span class="text-content">Подтвердить заказ</span>
+                        </button>
+                    </div>
+
+                    <div class="seo-block">
+                        Оформляя заказ, Вы принимаете <a class="link link-tdu-text" href="javascript:;"><span class="text-content">условия оферты</span></a> и даете согласие на обработку персональных данных в соответствии с <a class="link link-tdu-text" href="javascript:;"><span class="text-content">Положением о персональных данных</span></a>. С подробными условиями доставки можно ознакомиться на странице <a class="link link-tdu-text" href="javascript:;"><span class="text-content">Доставка</span></a>
+                    </div>
+                </form>
 			</div>
 			<div class="cp-sidebar">
 				<div class="cp-sidebar__item">

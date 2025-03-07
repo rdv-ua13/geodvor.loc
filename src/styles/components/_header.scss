@@ -80,6 +80,10 @@
 		}
 	}
 
+	&-back {
+		display: none;
+	}
+
 	//@note
 	&-search {
 		position: relative;
@@ -920,6 +924,13 @@
 		&-catalog {
 			padding-top: 10px;
 
+			.basic-slider-wrap {
+				min-width: 100%;
+				width: 100%;
+			}
+			.basic-slider {
+				overflow: visible;
+			}
 			&__item {
 				min-height: 40px;
 				height: 40px;

@@ -716,6 +716,10 @@
                                 <a class="swiper-slide header-catalog__item" href="javascript:;">Габионы сварные</a>
                                 <a class="swiper-slide header-catalog__item" href="javascript:;">Габионы</a>
                                 <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
+                                <a class="swiper-slide header-catalog__item" href="javascript:;">&#x1F525; Предложения месяца</a>
                             </div>
                         </div>
                     </div>
