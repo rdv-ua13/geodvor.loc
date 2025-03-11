@@ -83,7 +83,7 @@
                             <div class="search-results__suggest">
                                 <div class="search-results__suggest-list-wrapper">
                                     <div class="search-results__suggest-list">
-                                        <div class="search-results-product">
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -110,8 +110,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -139,8 +139,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -167,8 +167,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -195,8 +195,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -224,8 +224,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -252,8 +252,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -280,8 +280,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -309,8 +309,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-results-product">
+                                        </a>
+                                        <a href="javascript:;" class="search-results-product">
                                             <div class="search-results-product__view">
                                                 <img
                                                         loading="lazy"
@@ -337,7 +337,7 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

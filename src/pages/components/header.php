@@ -205,7 +205,7 @@
                     <form id="" class="form" method="" action="javascript:;">
                         <div class="input-wrapper input-wrapper-split input-wrapper-search has-icon-l">
                             <input
-                                    class="input-reset input"
+                                    class="input-reset input input-search"
                                     type="search"
                                     name=""
                                     placeholder="Найти товар или услугу"
@@ -234,7 +234,7 @@
                                 <div class="search-results__header-top">
                                     <div class="search-results__title h4">Поиск</div>
                                     <div class="search-results__close">
-                                        <svg class="icon icon-fill icon-md">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#cross"></use>
                                         </svg>
                                     </div>
@@ -266,414 +266,404 @@
                                             </div>
                                         </form>
                                     </div>
-									<?/*<div class="search-results__search-item">
-                                        <div class="mobile-search-results-hint">
-                                            <div class="swiper">
-                                                <div class="swiper-wrapper">
-                                                    <div class="swiper-slide">
-                                                        <button class="btn-reset btn">
-                                                            <span class="text-content">Москва</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <button class="btn-reset btn">
-                                                            <span class="text-content">Санкт-петербург</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <button class="btn-reset btn">
-                                                            <span class="text-content">Казань</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <button class="btn-reset btn">
-                                                            <span class="text-content">Воронеж</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>*/?>
                                 </div>
                             </div>
-							<?/*<div class="search-results__sidebar">
-                                <div class="search-results__sidebar-item search-results__match search-results__match--history">
-                                    <div class="search-results__sidebar-title">История поиска</div>
-                                    <div class="search-results__match-item" data-removable>
-                                        <a class="btn-reset btn search-results__link" href="javascript:;">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#history"></use>
-                                            </svg>
-                                            <span class="text-content">выключатель двойной</span>
-                                        </a>
-                                        <div class="search-results__link-delete" data-delete-trigger>
-                                            <svg class="icon icon-fill icon-sm">
-                                                <use href="img/sprite.svg#cross"></use>
-                                            </svg>
+							<div class="search-results__suggest before-request">
+                                <div class="search-results__suggest-wrapper">
+                                    <div class="search-results__suggest-list">
+                                        <div class="search-results__suggest-header">
+                                            <div class="search-results__suggest-title">История поиска</div>
+                                            <a href="javascript:;" class="search-results__suggest-item  testShowDropmenu02" data-removable title="Клик покажет результаты поиска">
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/sprite.svg#history"></use>
+                                                </svg>
+                                                <span class="text-content">геотекстиль</span>
+                                                <span class="search-results__suggest-delete" data-delete-trigger>
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#cross"></use>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results__suggest-item" data-removable>
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/sprite.svg#history"></use>
+                                                </svg>
+                                                <span class="text-content">геотекстиль из полипропилена</span>
+                                                <span class="search-results__suggest-delete" data-delete-trigger>
+                                                    <svg class="icon icon-fill">
+                                                        <use href="img/sprite.svg#cross"></use>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="search-results__suggest-content">
+                                            <div class="search-results__suggest-title">Популярное</div>
+                                            <a href="javascript:;" class="search-results__suggest-item">
+                                                <span class="text-content">Геотекстиль Дорнит</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results__suggest-item">
+                                                <span class="text-content">Дорнит</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results__suggest-item">
+                                                <span class="text-content">Дренажная система</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results__suggest-item">
+                                                <span class="text-content">Габионы сварные</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results__suggest-item">
+                                                <span class="text-content">Габионы</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results__suggest-item">
+                                                <span class="text-content">Фасадная сетка</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results__suggest-item">
+                                                <span class="text-content">Спанбонд</span>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="search-results__match-item" data-removable>
-                                        <a class="btn-reset btn search-results__link" href="javascript:;">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#history"></use>
-                                            </svg>
-                                            <span class="text-content">автоматический выключатель</span>
-                                        </a>
-                                        <div class="search-results__link-delete" data-delete-trigger>
-                                            <svg class="icon icon-fill icon-sm">
-                                                <use href="img/sprite.svg#cross"></use>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="search-results__sidebar-item search-results__categories">
-                                    <div class="search-results__sidebar-title">Искать в категории:</div>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">Розетки и выключаетели</span>
-                                    </a>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">Розетки двухпостовые</span>
-                                    </a>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">Рамки для розеток</span>
-                                    </a>
-                                </div>
-                                <div class="search-results__sidebar-item search-results__brands">
-                                    <div class="search-results__sidebar-title">Бренды:</div>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">ABB</span>
-                                    </a>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">DEKraft</span>
-                                    </a>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">Legrand</span>
-                                    </a>
-                                </div>
-                                <div class="search-results__sidebar-item search-results__series">
-                                    <div class="search-results__sidebar-title">Серии:</div>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">BA-101</span>
-                                    </a>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">Valena Classic</span>
-                                    </a>
-                                    <a class="btn-reset btn search-results__link" href="javascript:;">
-                                        <span class="text-content">Averes</span>
-                                    </a>
                                 </div>
                             </div>
-                            <div class="search-results__suggest">
-                                <div class="search-results__suggest-title">Товары:</div>
-                                <div class="search-results__suggest-list">
-                                    <div class="search-results-product">
-                                        <div class="search-results-product__view">
-                                            <picture>
-                                                <source srcset="img/product.webp" type="image/webp">
-                                                <img
-                                                        loading="lazy"
-                                                        src="img/product.png"
-                                                        class="image"
-                                                        width="64"
-                                                        height="64"
-                                                        alt="Изображение блока"
-                                                >
-                                            </picture>
-                                        </div>
-                                        <div class="search-results-product__descr">
-                                            <div class="search-results-product__descr-header">
-                                                <div class="search-results-product__info">
-                                                    <span class="product-code">ZB3327018</span>
+                            <div class="search-results__suggest request">
+                                <div class="search-results__suggest-wrapper">
+                                    <div class="search-results__suggest-list">
+                                        <div class="search-results__suggest-content search-results__suggest-content-products">
+                                            <div class="search-results__suggest-title">Товары</div>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp1.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
                                                 </div>
-                                                <div class="search-results-product__title">SE Unica System+ Антрацит Блок розеточный (2к+з)+usb тип А</div>
-                                            </div>
-                                            <div class="search-results-product__descr-bottom">
-                                                <div class="search-results-product__price">
-                                                    <div class="search-results-product__price-current">1 478,40 ₽</div>
-                                                    <div class="search-results-product__price-originally">1 624,50 ₽</div>
-                                                </div>
-                                                <div class="search-results-product__cart cart-buy">
-                                                    <div class="cart-quantity disabled">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#minus"></use>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Геотекстиль для грядок, шир. 2*10 м.п</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">910,50 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
                                                             </svg>
-                                                            <svg class="icon icon-fill icon-sm icon-selected">
-                                                                <use href="img/sprite.svg#trash"></use>
-                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#plus"></use>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn cart-in" type="button">
-                                                        <span class="text-content">В КОРЗИНУ</span>
-                                                    </button>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="search-results-product">
-                                        <div class="search-results-product__view">
-                                            <picture>
-                                                <source srcset="img/product-2.webp" type="image/webp">
-                                                <img
-                                                        loading="lazy"
-                                                        src="img/product-2.png"
-                                                        class="image"
-                                                        width="64"
-                                                        height="64"
-                                                        alt="Изображение блока"
-                                                >
-                                            </picture>
-                                        </div>
-                                        <div class="search-results-product__descr">
-                                            <div class="search-results-product__descr-header">
-                                                <div class="search-results-product__info">
-                                                    <span class="product-code">AB3327018</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp2.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
                                                 </div>
-                                                <div class="search-results-product__title">SE Удлинитель катушечный Thorsman 4 роз 15м</div>
-                                            </div>
-                                            <div class="search-results-product__descr-bottom">
-                                                <div class="search-results-product__price">
-                                                    <div class="search-results-product__price-current">1 478,40 ₽</div>
-                                                    <div class="search-results-product__price-originally">1 624,50 ₽</div>
-                                                </div>
-                                                <div class="search-results-product__cart cart-buy">
-                                                    <div class="cart-quantity disabled">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#minus"></use>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Техническая пленка 100 мкм, шир. 3х10</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">300 ₽</div>
+                                                            <div class="search-results-product__price-originally">1230,50 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
                                                             </svg>
-                                                            <svg class="icon icon-fill icon-sm icon-selected">
-                                                                <use href="img/sprite.svg#trash"></use>
-                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#plus"></use>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn cart-in" type="button">
-                                                        <span class="text-content">В КОРЗИНУ</span>
-                                                    </button>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="search-results-product">
-                                        <div class="search-results-product__view">
-                                            <picture>
-                                                <source srcset="img/product-3.webp" type="image/webp">
-                                                <img
-                                                        loading="lazy"
-                                                        src="img/product-3.png"
-                                                        class="image"
-                                                        width="64"
-                                                        height="64"
-                                                        alt="Изображение блока"
-                                                >
-                                            </picture>
-                                        </div>
-                                        <div class="search-results-product__descr">
-                                            <div class="search-results-product__descr-header">
-                                                <div class="search-results-product__info">
-                                                    <span class="product-code">BB3327018</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp3.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
                                                 </div>
-                                                <div class="search-results-product__title">SE Unica Extend Бел Удлинитель 3 розетки 2К+З, кабель 1,5м</div>
-                                            </div>
-                                            <div class="search-results-product__descr-bottom">
-                                                <div class="search-results-product__price">
-                                                    <div class="search-results-product__price-current">1 478,40 ₽</div>
-                                                    <div class="search-results-product__price-originally">1 624,50 ₽</div>
-                                                </div>
-                                                <div class="search-results-product__cart cart-buy">
-                                                    <div class="cart-quantity disabled">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#minus"></use>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Тент универсальный 80 гр, 2х3 с люверсами</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">225 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
                                                             </svg>
-                                                            <svg class="icon icon-fill icon-sm icon-selected">
-                                                                <use href="img/sprite.svg#trash"></use>
-                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#plus"></use>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn cart-in" type="button">
-                                                        <span class="text-content">В КОРЗИНУ</span>
-                                                    </button>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="search-results-product">
-                                        <div class="search-results-product__view">
-                                            <picture>
-                                                <source srcset="img/product-4.webp" type="image/webp">
-                                                <img
-                                                        loading="lazy"
-                                                        src="img/product-4.png"
-                                                        class="image"
-                                                        width="64"
-                                                        height="64"
-                                                        alt="Изображение блока"
-                                                >
-                                            </picture>
-                                        </div>
-                                        <div class="search-results-product__descr">
-                                            <div class="search-results-product__descr-header">
-                                                <div class="search-results-product__info">
-                                                    <span class="product-code">CB3327018</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp1.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
                                                 </div>
-                                                <div class="search-results-product__title">SE Unica System+ Белый Блок розеточный (2к+з)+usb тип А</div>
-                                            </div>
-                                            <div class="search-results-product__descr-bottom">
-                                                <div class="search-results-product__price">
-                                                    <div class="search-results-product__price-current">1 478,40 ₽</div>
-                                                    <div class="search-results-product__price-originally">1 624,50 ₽</div>
-                                                </div>
-                                                <div class="search-results-product__cart cart-buy">
-                                                    <div class="cart-quantity disabled">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#minus"></use>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Геотекстиль для грядок, шир. 2*10 м.п</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">910,50 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
                                                             </svg>
-                                                            <svg class="icon icon-fill icon-sm icon-selected">
-                                                                <use href="img/sprite.svg#trash"></use>
-                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#plus"></use>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn cart-in" type="button">
-                                                        <span class="text-content">В КОРЗИНУ</span>
-                                                    </button>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="search-results-product">
-                                        <div class="search-results-product__view">
-                                            <picture>
-                                                <source srcset="img/product-5.webp" type="image/webp">
-                                                <img
-                                                        loading="lazy"
-                                                        src="img/product-5.png"
-                                                        class="image"
-                                                        width="64"
-                                                        height="64"
-                                                        alt="Изображение блока"
-                                                >
-                                            </picture>
-                                        </div>
-                                        <div class="search-results-product__descr">
-                                            <div class="search-results-product__descr-header">
-                                                <div class="search-results-product__info">
-                                                    <span class="product-code">DB3327018</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp2.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
                                                 </div>
-                                                <div class="search-results-product__title">SE Unica Extend Черный Удлинитель 3 розетки 2К+З, кабель 1,5м</div>
-                                            </div>
-                                            <div class="search-results-product__descr-bottom">
-                                                <div class="search-results-product__price">
-                                                    <div class="search-results-product__price-current">1 478,40 ₽</div>
-                                                    <div class="search-results-product__price-originally">1 624,50 ₽</div>
-                                                </div>
-                                                <div class="search-results-product__cart cart-buy">
-                                                    <div class="cart-quantity disabled">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#minus"></use>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Техническая пленка 100 мкм, шир. 3х10</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">300 ₽</div>
+                                                            <div class="search-results-product__price-originally">1230,50 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
                                                             </svg>
-                                                            <svg class="icon icon-fill icon-sm icon-selected">
-                                                                <use href="img/sprite.svg#trash"></use>
-                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#plus"></use>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn cart-in" type="button">
-                                                        <span class="text-content">В КОРЗИНУ</span>
-                                                    </button>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="search-results-product">
-                                        <div class="search-results-product__view">
-                                            <picture>
-                                                <source srcset="img/product.webp" type="image/webp">
-                                                <img
-                                                        loading="lazy"
-                                                        src="img/product.png"
-                                                        class="image"
-                                                        width="64"
-                                                        height="64"
-                                                        alt="Изображение блока"
-                                                >
-                                            </picture>
-                                        </div>
-                                        <div class="search-results-product__descr">
-                                            <div class="search-results-product__descr-header">
-                                                <div class="search-results-product__info">
-                                                    <span class="product-code">EB3327018</span>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp3.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
                                                 </div>
-                                                <div class="search-results-product__title">SE Unica System+ Антрацит Блок розеточный (2к+з)+usb тип А</div>
-                                            </div>
-                                            <div class="search-results-product__descr-bottom">
-                                                <div class="search-results-product__price">
-                                                    <div class="search-results-product__price-current">1 478,40 ₽</div>
-                                                    <div class="search-results-product__price-originally">1 624,50 ₽</div>
-                                                </div>
-                                                <div class="search-results-product__cart cart-buy">
-                                                    <div class="cart-quantity disabled">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#minus"></use>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Тент универсальный 80 гр, 2х3 с люверсами</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">225 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
                                                             </svg>
-                                                            <svg class="icon icon-fill icon-sm icon-selected">
-                                                                <use href="img/sprite.svg#trash"></use>
-                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
                                                         </button>
-                                                        <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
-                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                            <svg class="icon icon-fill icon-sm">
-                                                                <use href="img/sprite.svg#plus"></use>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
                                                             </svg>
                                                         </button>
                                                     </div>
-                                                    <button class="btn-reset btn cart-in" type="button">
-                                                        <span class="text-content">В КОРЗИНУ</span>
-                                                    </button>
                                                 </div>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp1.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Геотекстиль для грядок, шир. 2*10 м.п</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">910,50 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
+                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
+                                                        </button>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp2.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Техническая пленка 100 мкм, шир. 3х10</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">300 ₽</div>
+                                                            <div class="search-results-product__price-originally">1230,50 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
+                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
+                                                        </button>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:;" class="search-results-product">
+                                                <div class="search-results-product__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            src="img/cp3.png"
+                                                            class="image"
+                                                            width="40"
+                                                            height="40"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="search-results-product__descr">
+                                                    <div class="search-results-product__info">
+                                                        <div class="search-results-product__title">Тент универсальный 80 гр, 2х3 с люверсами</div>
+                                                        <div class="search-results-product__price">
+                                                            <div class="search-results-product__price-current">225 ₽</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="search-results-product__cart">
+                                                        <button class="btn-reset btn" type="button">
+                                                            <svg class="icon icon-fill mobile-only">
+                                                                <use href="img/sprite.svg#shopping-cart"></use>
+                                                            </svg>
+                                                            <span class="text-content desktop-only">В корзину</span>
+                                                        </button>
+                                                        <button class="btn-reset btn btn-icon btn-icon-switch btn-icon--soft" type="button" data-favorites>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#heart"></use>
+                                                            </svg>
+                                                            <svg class="icon icon-fill selected">
+                                                                <use href="img/sprite.svg#filled-heart"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="search-results__suggest-more">
+                                                <a class="btn-reset btn btn-extra" href="javascript:;">
+                                                    <span class="text-content">Показать все найденные товары</span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="search-results__suggest-details">
-                                    <div class="search-results__suggest-found">Найдено товаров: 178</div>
-                                    <a class="btn-reset btn btn-light search-results__suggest-more" href="javascript:;">Показать все найденные товары</a>
-                                </div>
-                            </div>*/?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -858,14 +848,14 @@
             <div class="menu-catalog-header">
                 <div class="menu-catalog-title h4">
                     <div class="menu-catalog-title-back">
-                        <svg class="icon icon-fill icon-md">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#arrow-left"></use>
                         </svg>
                     </div>
                     <span data-catalog-title="Каталог">Каталог</span>
                 </div>
                 <div class="menu-catalog-close" data-catalog-close>
-                    <svg class="icon icon-fill icon-md">
+                    <svg class="icon icon-fill">
                         <use href="img/sprite.svg#cross"></use>
                     </svg>
                 </div>
@@ -1125,23 +1115,29 @@
             </div>
             <div class="menu-catalog-submenu">
                 <div class="menu-catalog-submenu-section active" data-root-pointer="0">
-                    <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div> <?/* @note h3 change by design*/?>
+                    <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div>
                     <div class="menu-catalog-submenu-links">
-                        <ul class="list-reset menu-catalog-submenu-links__list"> <?/* @note переделать в div без списка, либо добавить liшкам класс*/?>
-                            <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
+                        <ul class="list-reset menu-catalog-submenu-links__list">
+                            <li><a class="menu-catalog-submenu-link menu-catalog-submenu-link--all" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
                             <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
                             <li>
                                 <a class="menu-catalog-submenu-link" href="javascript:;">
                                     <span class="text-content">Геотекстиль Дорнит</span>
-                                    <svg class="icon icon-fill">
+                                    <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                         <use href="img/sprite.svg#chevron-right"></use>
                                     </svg>
                                 </a>
+                                <div class="menu-catalog-submenu-link-points">
+                                    <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 150</a>
+                                    <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 200</a>
+                                    <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 250</a>
+                                    <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 300</a>
+                                </div>
                             </li>
                             <li>
                                 <a class="menu-catalog-submenu-link" href="javascript:;">
                                     <span class="text-content">Геотекстиль из полипропилена</span>
-                                    <svg class="icon icon-fill">
+                                    <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                         <use href="img/sprite.svg#chevron-right"></use>
                                     </svg>
                                 </a>
@@ -1149,7 +1145,7 @@
                             <li>
                                 <a class="menu-catalog-submenu-link" href="javascript:;">
                                     <span class="text-content">Геотекстиль для дренажа</span>
-                                    <svg class="icon icon-fill">
+                                    <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                         <use href="img/sprite.svg#chevron-right"></use>
                                     </svg>
                                 </a>
@@ -1158,7 +1154,7 @@
                             <li>
                                 <a class="menu-catalog-submenu-link" href="javascript:;">
                                     <span class="text-content">Геотекстиль в нарезке</span>
-                                    <svg class="icon icon-fill">
+                                    <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                         <use href="img/sprite.svg#chevron-right"></use>
                                     </svg>
                                 </a>
@@ -1166,7 +1162,7 @@
                             <li>
                                 <a class="menu-catalog-submenu-link" href="javascript:;">
                                     <span class="text-content">Геотекстиль для заезда на участок</span>
-                                    <svg class="icon icon-fill">
+                                    <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                         <use href="img/sprite.svg#chevron-right"></use>
                                     </svg>
                                 </a>
@@ -1174,7 +1170,7 @@
                             <li>
                                 <a class="menu-catalog-submenu-link" href="javascript:;">
                                     <span class="text-content">Геотекстиль под фундамент</span>
-                                    <svg class="icon icon-fill">
+                                    <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                         <use href="img/sprite.svg#chevron-right"></use>
                                     </svg>
                                 </a>

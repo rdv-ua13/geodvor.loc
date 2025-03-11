@@ -10,6 +10,9 @@
                             <div class="swiper-slide"></div>
                             <div class="swiper-slide"></div>
                             <div class="swiper-slide"></div>
+
+                            <div class="swiper-slide index-top-primary__alien"></div>
+                            <div class="swiper-slide index-top-primary__alien"></div>
                         </div>
                         <div class="swiper-navigation">
                             <div class="swiper-button-next btn btn-icon">

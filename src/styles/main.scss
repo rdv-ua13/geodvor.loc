@@ -1273,6 +1273,7 @@
 			color: var(--gray30-color);
 
 			&::before {
+				z-index: -1;
 				position: absolute;
 				inset: 0;
 				display: flex;
@@ -1286,6 +1287,12 @@
 			&-slide {
 				&::before {
 					content: 'Тут будет главный слайдер';
+				}
+
+				&.index-top-primary__alien {
+					&::before {
+						content: 'Пришелец из второстепенного баннера';
+					}
 				}
 			}
 		}
@@ -1321,6 +1328,14 @@
 		&-primary {
 			min-width: calc((100% - 20px) * 0.66);
 			width: calc((100% - 20px) * 0.66);
+
+			.swiper {
+				&-slide {
+					&.index-top-primary__alien {
+						display: none;
+					}
+				}
+			}
 		}
 		&-secondary {
 			min-width: calc((100% - 20px) * 0.34);
