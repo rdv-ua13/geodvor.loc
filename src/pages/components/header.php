@@ -111,44 +111,48 @@
                         </div>
                     </div>
                 </div>
-				<?/* login
-                <div class="header-top-profile">
-                    <div class="header-top-profile__view">
-                        <picture>
-                            <source srcset="img/avatar.webp" type="image/webp">
-                            <img
-                                loading="lazy"
-                                src="img/avatar.png"
-                                width="28"
-                                height="28"
-                                alt="Изображение блока"
-                            >
-                        </picture>
-                    </div>
-                    <div class="header-top-profile__descr">
-                        <div class="header-top-profile__name">Илья маковецкий</div>
-                        <div class="header-top-profile__bonus">
-                            <div class="header-top-profile__bonus-value">
-                                <span>2746,99</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#fill-bonus"></use>
-                                </svg>
-                            </div>
-                            <div class="header-top-profile__bonus-exp">до 01.04</div>
-                        </div>
-                    </div>
-                    <div class="header-top-profile__pointer">
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#chevron-down"></use>
-                        </svg>
-                    </div>
-                </div>*/?>
 				<?/* not logged */?>
-                <div class="header-top-profile not-logged">
+                <div class="header-top-profile not-logged" title="Авторизованый закомментирован в разметке">
                     <button class="btn-reset btn btn-sm btn-extra" data-fancybox data-src="#modal-auth">
                         <span class="text-content">Войти</span>
                     </button>
                 </div>
+				<?/* login */?>
+                <?/*<div class="header-top-profile">
+                    <div class="header-top-profile__login">
+                        <div class="header-top-profile__user">
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#profile-2"></use>
+                            </svg>
+                            <span class="text-content">designboss@internet.ru</span>
+                            <svg class="icon icon-fill header-top-profile__user-pointer">
+                                <use href="img/sprite.svg#chevron-down-select"></use>
+                            </svg>
+                        </div>
+                        <div class="header-top-profile__user-menu">
+                            <a href="javascript:;" class="header-top-profile__user-menu-item">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#box"></use>
+                                </svg>
+                                <span class="text-content">Мои заказы</span>
+                            </a>
+                            <a href="javascript:;" class="header-top-profile__user-menu-item">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#profile-2"></use>
+                                </svg>
+                                <span class="text-content">Мой профиль</span>
+                            </a>
+                            <a href="javascript:;" class="header-top-profile__user-menu-logout">
+                                <div class="header-top-profile__user-menu-item">
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#logout"></use>
+                                    </svg>
+                                    <span class="text-content">Выйти</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>*/?>
             </div>
         </div>
         <div class="header-nav">
