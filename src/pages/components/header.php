@@ -674,7 +674,8 @@
 
                 <div class="header-contacts">
                     <a class="link fw-semibold fz-subheading-sm header-contacts__tel" href="tel:+79811558247">+7 981 155-82-47</a>
-                    <a class="link-brand header-contacts__cta" href="javascript:;">Заявка на расчет</a>
+                    <a class="link-brand header-contacts__cta" href="javascript:;" data-fancybox data-src="#modal-calc">Заявка на расчет</a>
+                    <a class="link-brand header-contacts__cta order" href="javascript:;" data-fancybox data-src="#modal-call">Позвоните мне</a>
                 </div>
 
                 <div class="header-profile">

@@ -42,7 +42,7 @@
                         <li class="cp-sidebar__list-item">
                             <a href="javascript:;" class="cp-sidebar__link">
                                 <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#user-square"></use>
+                                    <use href="img/sprite.svg#profile-2"></use>
                                 </svg>
                                 <span class="cp-sidebar__link-content">Мой профиль</span>
                                 <svg class="icon icon-pointer icon-fill">

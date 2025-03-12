@@ -101,7 +101,7 @@
                     </div>
                     <div class="contacts-address__info">
                         <div class="contacts-address__info-content">
-                            <button class="btn-reset btn btn-extra" type="button">
+                            <button class="btn-reset btn btn-extra" type="button" data-fancybox data-src="#modal-appeal">
                                 <span class="text-content">Написать обращение</span>
                             </button>
                         </div>

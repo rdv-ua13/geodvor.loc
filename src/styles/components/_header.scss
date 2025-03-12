@@ -250,6 +250,12 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+
+		&__cta {
+			&.order {
+				display: none;
+			}
+		}
 	}
 
 	&-profile {
@@ -333,6 +339,17 @@
 
 	&-mobile-menu {
 		margin-left: auto;
+	}
+
+	&-order {
+		.header-contacts__cta {
+			&.order {
+				display: block;
+			}
+			&:not(.order) {
+				display: none;
+			}
+		}
 	}
 }
 

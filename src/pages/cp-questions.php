@@ -109,7 +109,7 @@
                     <div class="ask-form__item ask-form__descr">
                         <div class="fz-lg">Позвоните нам или задайте вопрос, мы вам поможем найти то, что вы ищете</div>
                         <div class="ask-form__cta">
-                            <button class="btn-reset btn" type="button">
+                            <button class="btn-reset btn" type="button" data-fancybox data-src="#modal-question">
                                 <span class="text-content">Задать свой вопрос</span>
                             </button>
                             <div class="ask-form__contacts">

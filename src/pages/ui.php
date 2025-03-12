@@ -464,10 +464,10 @@
                         </svg>
                         <!--end ui content-->
                     </span>
-                    <span class="tooltip" data-tippy-content="#user-square">
+                    <span class="tooltip" data-tippy-content="#warning">
                         <!--start ui content-->
                         <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#user-square"></use>
+                            <use href="img/sprite.svg#warning"></use>
                         </svg>
                         <!--end ui content-->
                     </span>
@@ -932,47 +932,32 @@
                         <!--end ui content-->
                     </span>
 
+                    <span class="tooltip" data-tippy-content="titled-input + error">
+                        <!--start ui content-->
+                        <div class="titled-input">
+                            <div class="input-title">Номер телефона <span class="required-star">*</span></div>
+                            <div class="input-wrapper error">
+                                <input
+                                        class="input-reset input input-secondary"
+                                        type="email"
+                                        name=""
+                                        value=""
+                                        placeholder="Электронная почта"
+                                        required
+                                >
+                                <span class="input-error-label">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#warning"></use>
+                                </svg>
+                                <span class="text-content">Это поле обязательное</span>
+                            </span>
+                            </div>
+                        </div>
+                        <!--end ui content-->
+                    </span>
                 </div>
             </div>
         </div>
-
-		<?/*
-        <div class="ui-section">
-            <h3 class="h3 ui-title title-bold text-center">Checkbox / Radio buttons (для примера состояний стоит type=checkbox)</h3>
-
-            <div class="ui-row">
-                <div class="ui-tooltip-set">
-                    <div class="tooltip" data-tippy-content="default">
-                        <!--start ui content-->
-                        <div class="custom-checkbox">
-                            <input class="custom-checkbox__input" type="checkbox">
-                        </div>
-                        <!--end ui content-->
-                    </div>
-                    <div class="tooltip" data-tippy-content="disabled">
-                        <!--start ui content-->
-                        <div class="custom-checkbox">
-                            <input class="custom-checkbox__input disabled" type="checkbox" disabled>
-                        </div>
-                        <!--end ui content-->
-                    </div>
-                    <div class="tooltip" data-tippy-content="checked">
-                        <!--start ui content-->
-                        <div class="custom-checkbox">
-                            <input class="custom-checkbox__input custom-checkbox__input--checkline" type="checkbox" checked>
-                        </div>
-                        <!--end ui content-->
-                    </div>
-                    <div class="tooltip" data-tippy-content="checked">
-                        <!--start ui content-->
-                        <div class="custom-checkbox">
-                            <input class="custom-checkbox__input" type="checkbox" checked>
-                        </div>
-                        <!--end ui content-->
-                    </div>
-                </div>
-            </div>
-        </div>*/?>
     </div>
 </div>
 </body>

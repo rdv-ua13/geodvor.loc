@@ -1378,6 +1378,35 @@ input.disabled {
 			}
 		}
 	}
+
+	&.error {
+		.input {
+			&,
+			&:hover,
+			&:focus,
+			&:active,
+			&.active {
+				border-color: var(--red21-color)!important;
+				background-color: var(--red20-color)!important;
+				color: var(--red10-color)!important;
+
+				.icon {
+					fill: var(--red10-color)!important;
+					stroke: var(--red10-color)!important;
+				}
+			}
+			&::placeholder {
+				color: var(--red10-color)!important;
+			}
+
+			&-error-label {
+				display: flex;
+			}
+			&-caption {
+				display: none;
+			}
+		}
+	}
 }
 .input {
 	width: 100%;
@@ -1610,17 +1639,28 @@ input.disabled {
 		}
 	}
 
-	&-error {
-		border-color: var(--red-color)!important;
-		color: var(--red-color)!important;
+	&-error-label {
+		display: none;
+		align-items: center;
+		gap: 4px;
+		padding-top: 8px;
+		color: var(--red10-color)!important;
+		font-size: 12px;
 
-		&::before,
-		&::after {
-			color: var(--red-color)!important;
-		}
 		.icon {
-			fill: var(--red-color)!important;
-			stroke: var(--red-color)!important;
+			min-width: 16px;
+			width: 16px;
+			min-height: 16px;
+			height: 16px;
+			fill: var(--red10-color)!important;
+			stroke: var(--red10-color)!important;
+		}
+	}
+}
+@media (min-width: 992px) {
+	.input {
+		&-error-label {
+			font-size: 13px;
 		}
 	}
 }
@@ -3441,10 +3481,12 @@ input.disabled {
 		width: 28px;
 		min-height: 28px;
 		height: 28px;
+		border-radius: 4px;
 		color: var(--gray40-color);
 		transition: var(--transition);
 
 		&:hover {
+			background-color: var(--gray1-color);
 			color: var(--text-primary);
 		}
 	}
@@ -3489,6 +3531,8 @@ input.disabled {
 				width: 48px;
 				min-height: 48px;
 				height: 48px;
+				fill: var(--green0-color);
+				stroke: var(--green0-color);
 			}
 		}
 		&-share {
@@ -3638,8 +3682,8 @@ input.disabled {
 			width: 440px;
 		}
 		&.modal-big {
-			min-width: 600px;
-			width: 600px;
+			min-width: 800px;
+			width: 800px;
 		}
 		&__content {
 			&-item {
