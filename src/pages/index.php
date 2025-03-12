@@ -7,9 +7,30 @@
                 <div class="slider-out basic-slider-wrap">
                     <div class="basic-slider swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide">
+                                <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/ci1.png"
+                                    alt="Изображение блока"
+                                >
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/ci2.png"
+                                        alt="Изображение блока"
+                                >
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/ci3.png"
+                                        alt="Изображение блока"
+                                >
+                            </div>
 
                             <div class="swiper-slide index-top-primary__alien"></div>
                             <div class="swiper-slide index-top-primary__alien"></div>
@@ -123,7 +144,7 @@
             </div>
             <div class="basic-hca__content">
                 <div class="slider-out basic-slider-wrap">
-                    <div class="basic-slider nav-out swiper" data-basic-slider>
+                    <div class="basic-slider nav-out swiper card-product-slider" data-basic-slider>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="card card-product">
@@ -869,32 +890,16 @@
             <div class="promo-banner-slider basic-slider nav-out swiper" data-single-slider>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img
-                            loading="lazy"
-                            class="image desktop-only"
-                            src="img/banner-index_1280x160.png"
-                            alt="Изображение блока"
-                        >
-                        <img
-                            loading="lazy"
-                            class="image mobile-only"
-                            src="img/banner-index_375x300.png"
-                            alt="Изображение блока"
-                        >
+                        <picture>
+                            <source srcset="img/banner-index_1280x160.png" media="(min-width: 992px)">
+                            <img src="img/banner-index_375x300.png" alt="Изображение блока">
+                        </picture>
                     </div>
                     <div class="swiper-slide">
-                        <img
-                            loading="lazy"
-                            class="image desktop-only"
-                            src="img/banner-index_1280x160.png"
-                            alt="Изображение блока"
-                        >
-                        <img
-                            loading="lazy"
-                            class="image mobile-only"
-                            src="img/banner-index_375x300.png"
-                            alt="Изображение блока"
-                        >
+                        <picture>
+                            <source srcset="img/demo.jpg" media="(min-width: 992px)">
+                            <img src="img/demo.jpg" alt="Изображение блока">
+                        </picture>
                     </div>
                 </div>
             </div>

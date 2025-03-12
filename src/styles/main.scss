@@ -1025,8 +1025,11 @@
 				}
 			}
 			.cp-sidebar {
+				position: sticky;
+				top: 16px;
 				min-width: 305px;
 				width: 305px;
+				max-height: calc(100vh - 32px);
 
 				&__item {
 					padding: 20px 24px;
@@ -1269,6 +1272,7 @@
 
 	.swiper {
 		&-slide {
+			border-radius: var(--bradius);
 			background-color: #F2F2F2;
 			color: var(--gray30-color);
 
@@ -1279,6 +1283,12 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
+			}
+
+			.image {
+				min-width: 100%;
+				width: 100%;
+				border-radius: var(--bradius);
 			}
 		}
 	}
@@ -1312,9 +1322,6 @@
 		flex-wrap: wrap;
 		gap: 32px 20px;
 
-		.swiper {
-			border-radius: var(--bradius);
-		}
 		&-primary,
 		&-secondary {
 			.swiper {
@@ -1322,6 +1329,7 @@
 					min-width: 100%;
 					width: 100%;
 					min-height: 314px;
+					height: 314px;
 				}
 			}
 		}
@@ -1385,9 +1393,11 @@
 
 .promo-banner-slider {
 	.swiper-slide {
+		img,
 		.image {
 			min-width: 100%;
 			width: 100%;
+			border-radius: var(--bradius);
 		}
 	}
 }

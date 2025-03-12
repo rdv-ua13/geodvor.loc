@@ -51,6 +51,16 @@
 					fill: var(--gray30-color);
 					stroke: var(--gray30-color);
 				}
+
+				&:hover,
+				&:focus,
+				&:active,
+				&.active {
+					.icon {
+						fill: var(--gray50-color);
+						stroke: var(--gray50-color);
+					}
+				}
 			}
 		}
 	}
@@ -735,6 +745,25 @@
 		}
 
 		&-top {
+			&-info {
+				.link {
+					.text-content {
+						text-decoration: underline;
+						text-decoration-style: solid;
+						text-underline-offset: 4px;
+						text-decoration-color: var(--gray10-color);
+					}
+
+					&:hover,
+					&:focus,
+					&:active,
+					&.active {
+						.text-content {
+							text-decoration-color: var(--green10-color);
+						}
+					}
+				}
+			}
 			&-profile {
 				display: flex;
 				align-items: center;
@@ -1034,6 +1063,13 @@
 				min-height: 40px;
 				height: 40px;
 				font-size: 15px;
+
+				&:hover,
+				&:focus,
+				&:active,
+				&.active {
+				 color: var(--green10-color);
+				}
 			}
 		}
 

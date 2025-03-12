@@ -299,6 +299,15 @@ a {
 	transition: var(--transition);
 }
 
+picture {
+	display: flex;
+
+	&,
+	img {
+		min-width: 100%;
+		width: 100%;
+	}
+}
 img {
 	max-width: 100%;
 	object-fit: cover;
