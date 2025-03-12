@@ -35,6 +35,7 @@ application.prototype.init = function () {
     this.initSmoothScrollTo();
     this.initDatepicker();
     this.initMaskedInput();
+    this.initPasswordSwitcher();
 
     this.initTestShowHideDropmenu();
 };
@@ -976,7 +977,22 @@ application.prototype.initDatepicker = function () {
 
 // Initialize mobile number mask
 application.prototype.initMaskedInput = function () {
-    $('.isPhone').mask('+7 (999) 999-99-99', { autoclear: false });
+    if ($('.isPhone').length) {
+        $('.isPhone').mask('+7 (999) 999-99-99', { autoclear: false });
+    }
+};
+
+// Initialize password-switcher
+application.prototype.initPasswordSwitcher = function () {
+    $(document).on('click', 'input[data-password-switcher]', function(){
+        if ($(this).is(':checked')) {
+            $(this).closest('.input-wrapper').find('input[data-password-target]').attr('type', 'text');
+            $(this).closest('.input-icon-btn').addClass('show');
+        } else {
+            $(this).closest('.input-wrapper').find('input[data-password-target]').attr('type', 'password');
+            $(this).closest('.input-icon-btn').removeClass('show');
+        }
+    });
 };
 
 
@@ -1144,21 +1160,6 @@ application.prototype.initNotification = function () {
 // Initialize morph
 application.prototype.initMorph = function (int, array) {
     return (array = array || ['товар', 'товара', 'товаров']) && array[(int % 100 > 4 && int % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(int % 10 < 5) ? int % 10 : 5]];
-};
-
-// Initialize password-switcher
-application.prototype.initPasswordSwitcher = function () {
-    if ($('input[type=password]').length) {
-        $(document).on('click', 'input[data-password-switcher]', function(){
-            if ($(this).is(':checked')) {
-                $(this).closest('.form__field').find('input[data-password-target]').attr('type', 'text');
-                $(this).closest('.form__input-btn').addClass('show');
-            } else {
-                $(this).closest('.form__field').find('input[data-password-target]').attr('type', 'password');
-                $(this).closest('.form__input-btn').removeClass('show');
-            }
-        });
-    }
 };
 
 // Initialize basic gallery slider

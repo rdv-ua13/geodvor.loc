@@ -881,60 +881,57 @@
                     </span>
 
                     <span class="tooltip" data-tippy-content="search">
-                            <!--start ui content-->
-                            <div class="input-wrapper input-wrapper-split has-icon-l">
-                                <input
-                                        class="input-reset input"
-                                        type="text"
-                                        name=""
-                                        value=""
-                                        placeholder="Placeholder"
-                                        autocomplete="off"
-                                >
-                                <label class="input-icon input-icon-l">
-                                    <svg class="icon icon-fill">
-                                        <use href="img/sprite.svg#search"></use>
-                                    </svg>
-                                </label>
-                                <button class="btn-reset btn" type="button">
-                                    <span class="text-content">Найти</span>
-                                </button>
-                            </div>
-                        <!--end ui content-->
-                        </span>
+                        <!--start ui content-->
+                        <div class="input-wrapper input-wrapper-split has-icon-l">
+                            <input
+                                    class="input-reset input"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Placeholder"
+                                    autocomplete="off"
+                            >
+                            <label class="input-icon input-icon-l">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#search"></use>
+                                </svg>
+                            </label>
+                            <button class="btn-reset btn" type="button">
+                                <span class="text-content">Найти</span>
+                            </button>
+                        </div>
+                    <!--end ui content-->
+                    </span>
 
-					<?/* pass
-                        <span class="tooltip" data-tippy-content="class='card' (default)">
-                            <!--start ui content-->
-                            <div class="titled-input">!!!
-                                <div class="input-title">Подтверждение пароля</div>
-                                <div class="input-wrapper has-icon-r">
-                                    <input
-                                            class="input-reset input"
-                                            type="password"
-                                            name=""
-                                            value=""
-                                            placeholder="Test"
-                                            data-password-target
-                                            required
-                                    >
-                                    <label class="input-icon input-icon-btn">
-                                        <svg class="icon icon-fill icon-default">
-                                            <use href="img/sprite.svg#search"></use>
-                                        </svg>
-                                        <svg class="icon icon-sm icon-fill icon-selected">
-                                            <use href="img/sprite.svg#search"></use>
-                                        </svg>
-                                        <input
-                                                type="checkbox"
-                                                class="visually-hidden"
-                                                data-password-switcher
-                                        >
-                                    </label>
-                                </div>
-                            </div>
-                            <!--end ui content-->
-                        </span>* /?>
+                    <span class="tooltip" data-tippy-content="password">
+                        <!--start ui content-->
+                        <div class="input-wrapper has-icon-r">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="password"
+                                    name=""
+                                    value=""
+                                    placeholder="Пароль"
+                                    data-password-target
+                                    required
+                            >
+                            <label class="input-icon input-icon-r input-icon-btn">
+                                <svg class="icon icon-fill icon-default">
+                                    <use href="img/sprite.svg#eye-off"></use>
+                                </svg>
+                                <svg class="icon icon-sm icon-fill icon-show">
+                                    <use href="img/sprite.svg#eye-on"></use>
+                                </svg>
+                                <input
+                                        type="checkbox"
+                                        class="visually-hidden"
+                                        data-password-switcher
+                                >
+                            </label>
+                        </div>
+                        <!--end ui content-->
+                    </span>
+
                 </div>
             </div>
         </div>
