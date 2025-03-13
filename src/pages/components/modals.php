@@ -661,6 +661,57 @@
     </div>
 </div>
 
+<?/* address */?>
+<div id="modal-address" class="modal modal-big">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Как проехать до нашего склада</div>
+            </div>
+
+            <div class="modal__row">
+                <div class="contacts-address contacts-address--sm">
+                    <div class="contacts-address__item contacts-address__item--unbordered">
+                        <div class="contacts-address__info">
+                            <div class="contacts-address__info-content contacts-address__info-content--lg">
+                                <div class="cp-gaps">
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#shop"></use>
+                                    </svg>
+                                    Санкт-Петербург, Колпино, ул. Загородная 6Б
+                                </div>
+                                <div class="cp-gaps text-secondary">
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#clock"></use>
+                                    </svg>
+                                    ПН-ПТ с 09:00 до 18:00
+                                    <br>
+                                    СБ с 09:00 до 16:00,
+                                    <br>
+                                    ВС - выходной
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts-address__item contacts-address__item--unbordered">
+                        <div class="contacts-address__info-content contacts-address__info-content--lg contacts-address__info-content--end">
+                            <button class="btn-reset btn btn-secondary" type="button">
+                                <span class="text-content">Построить маршрут в Яндекс Картах</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__row">
+                <div class="contacts-map order-map">
+                    <div class="contacts-map-content" data-x="59.767013" data-y="30.592935"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?/* request-success */?>
 <div id="modal-request-success" class="modal">
     <div class="modal__content">

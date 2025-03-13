@@ -85,7 +85,7 @@
                         </svg>
                         <span class="text-content">Склад: Колпино, ул. Загородная 6Б</span>
                     </a>
-                    <a class="link-brand header-top__link" href="javascript:;">
+                    <a class="link-brand header-top__link" href="javascript:;" data-fancybox data-src="#modal-address">
                         <span class="text-content">Как проехать</span>
                     </a>
                 </div>

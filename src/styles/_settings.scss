@@ -31,18 +31,6 @@ body {
 		font-size: 14px;
 	}
 }
-@media (max-width: 991.98px) {
-	body {
-		/*padding-bottom: 73px;*/
-
-		/*&.has-cart-menu-panel {
-			padding-bottom: 137px;
-		}*/
-	}
-	/*.card-product-page {
-		padding-bottom: 130px;
-	}*/
-}
 
 .container,
 .container-fluid,
@@ -1240,10 +1228,6 @@ input.disabled {
 		}
 		&:checked,
 		&.checked {
-			/*&,
-			&:hover {
-				border-color: var(--yellow2-color);
-			}*/
 			&::before {
 				opacity: 1;
 			}
@@ -3566,11 +3550,6 @@ input.disabled {
 			padding-top: 12px;
 		}
 	}
-	&-fields {
-		display: flex;
-		flex-direction: column;
-		gap: 24px;
-	}
 	&__soc {
 		display: flex;
 		flex-direction: column;
@@ -3587,6 +3566,11 @@ input.disabled {
 					stroke: var(--text-secondary);
 				}
 			}
+		}
+	}
+	&__row {
+		&:not(:last-child) {
+			margin-bottom: 16px;
 		}
 	}
 
@@ -3618,60 +3602,6 @@ input.disabled {
 					font-size: 11px;
 				}
 			}
-			/*&-title {
-				color: var(--text-primary);
-				font-weight: 600;
-
-				&:not(:last-child) {
-					margin-bottom: 8px;
-				}
-			}
-			textarea {
-				resize: none;
-			}
-			&-ps {
-				padding-top: 12px;
-			}
-			&-btn {
-				display: flex;
-				align-items: center;
-
-				&--single .btn {
-					width: 100%;
-				}
-			}
-			&-agree {
-				padding-top: 12px;
-				color: var(--text-secondary);
-				font-size: 12px;
-			}*/
-
-			/*&-btn {
-				position: absolute;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				min-width: 40px;
-				width: 40px;
-				min-height: 40px;
-				height: 40px;
-				padding: 12px;
-				cursor: pointer;
-
-				& .icon {
-					fill: var(--text-caption);
-				}
-				&:not(.show) {
-					& .icon-show {
-						display: none;
-					}
-				}
-				&.show {
-					& .icon-default {
-						display: none;
-					}
-				}
-			}*/
 		}
 	}
 }
@@ -3684,6 +3614,10 @@ input.disabled {
 		&.modal-big {
 			min-width: 800px;
 			width: 800px;
+
+			.modal__content-item {
+				padding: 24px 32px;
+			}
 		}
 		&__content {
 			&-item {
@@ -3693,6 +3627,11 @@ input.disabled {
 		&__header {
 			padding-top: 8px;
 
+			&:not(:last-child) {
+				margin-bottom: 24px;
+			}
+		}
+		&__row {
 			&:not(:last-child) {
 				margin-bottom: 24px;
 			}
@@ -3711,6 +3650,21 @@ input.disabled {
 					&-agree {
 						font-size: 12px;
 					}
+				}
+			}
+		}
+
+		.contacts-address {
+			gap: 20px;
+
+			&__item {
+				&:nth-child(1) {
+					min-width: calc(100% - 20px - 320px);
+					width: calc(100% - 20px - 320px);
+				}
+				&:nth-child(2) {
+					min-width: 320px;
+					width: 320px;
 				}
 			}
 		}
