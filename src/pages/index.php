@@ -1243,181 +1243,384 @@
 
 <div class="gap-xl">
     <div class="container">
-        <div class="basic-hca basic-hca--mob-hac">
+        <div class="basic-hca basic-hca--action-into-tab">
             <div class="basic-hca__heading">
                 <div class="h2">Полезное от Гео-Двора</div>
             </div>
 
             <div class="basic-hca__content">
-                <div class="slider-out basic-slider-wrap">
-                    <div class="basic-slider nav-out swiper" data-basic-slider data-basic-slider-sm>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card card-info">
-                                    <a class="card__view" href="javascript:;">
-                                        <img
-                                                loading="lazy"
-                                                src="img/ci1.png"
-                                                class="image"
-                                                width="160"
-                                                height="160"
-                                                alt="Изображение блока"
-                                        >
-                                    </a>
-                                    <div class="card__descr">
-                                        <div class="card__caption fz-caption-sm">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#eye-on"></use>
-                                            </svg>
-                                            <div class="text-content">695</div>
-                                        </div>
-
-                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
-                                    </div>
+                <div class="basic-tabs">
+                    <div class="gap-md-plus basic-tabs__header slider-out basic-slider-wrap">
+                        <div class="basic-tabs-container basic-slider swiper" data-tab="geo-useful-tabs" data-basic-slider data-basic-slider-xxs>
+                            <div class="basic-tabs-slider-list swiper-wrapper">
+                                <div class="basic-tabs-item swiper-slide">
+                                    <span class="btn btn-extra-secondary basic-tabs-trigger active" data-target="0"><span>Готовые решения</span></span>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card card-info">
-                                    <a class="card__view" href="javascript:;">
-                                        <img
-                                                loading="lazy"
-                                                src="img/ci2.png"
-                                                class="image"
-                                                width="160"
-                                                height="160"
-                                                alt="Изображение блока"
-                                        >
-                                    </a>
-                                    <div class="card__descr">
-                                        <div class="card__caption fz-caption-sm">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#eye-on"></use>
-                                            </svg>
-                                            <div class="text-content">850</div>
-                                        </div>
-
-                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Спанбонд: особенности, свойства и назначение</a>
-                                    </div>
+                                <div class="basic-tabs-item swiper-slide">
+                                    <span class="btn btn-extra-secondary basic-tabs-trigger" data-target="1"><span>Полезные советы</span></span>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card card-info">
-                                    <a class="card__view" href="javascript:;">
-                                        <img
-                                                loading="lazy"
-                                                src="img/ci3.png"
-                                                class="image"
-                                                width="160"
-                                                height="160"
-                                                alt="Изображение блока"
-                                        >
-                                    </a>
-                                    <div class="card__descr">
-                                        <div class="card__caption fz-caption-sm">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#eye-on"></use>
-                                            </svg>
-                                            <div class="text-content">1074</div>
-                                        </div>
-
-                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Область применения термоскрепленного геотекстиля</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card card-info">
-                                    <a class="card__view" href="javascript:;">
-                                        <img
-                                                loading="lazy"
-                                                src="img/ci4.png"
-                                                class="image"
-                                                width="160"
-                                                height="160"
-                                                alt="Изображение блока"
-                                        >
-                                    </a>
-                                    <div class="card__descr">
-                                        <div class="card__caption fz-caption-sm">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#eye-on"></use>
-                                            </svg>
-                                            <div class="text-content">4237</div>
-                                        </div>
-
-                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Пластиковая газонная решетка: технология укладки</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card card-info">
-                                    <a class="card__view" href="javascript:;">
-                                        <img
-                                                loading="lazy"
-                                                src="img/ci1.png"
-                                                class="image"
-                                                width="160"
-                                                height="160"
-                                                alt="Изображение блока"
-                                        >
-                                    </a>
-                                    <div class="card__descr">
-                                        <div class="card__caption fz-caption-sm">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#eye-on"></use>
-                                            </svg>
-                                            <div class="text-content">695</div>
-                                        </div>
-
-                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
-                                    </div>
+                                <div class="basic-tabs-item swiper-slide">
+                                    <span class="btn btn-extra-secondary basic-tabs-trigger" data-target="2"><span>Вопросы покупателей</span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-navigation">
-                        <div class="swiper-button-next btn btn-icon">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-right"></use>
-                            </svg>
+
+                    <div class="basic-tabs-content" data-tab-content="geo-useful-tabs">
+                        <div class="basic-tabs-content__panel active" data-id="0">
+                            <div class="basic-tabs-content__content">
+                                <a class="btn-reset btn btn-extra basic-hca__content-more" href="javascript:;">
+                                    <span class="text-content">Все готовые решения</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </a>
+
+                                <div class="slider-out basic-slider-wrap">
+                                    <div class="basic-slider nav-out swiper" data-basic-slider data-basic-slider-sm>
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">695</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">850</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Спанбонд: особенности, свойства и назначение</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">1074</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Область применения термоскрепленного геотекстиля</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci4.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">4237</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Пластиковая газонная решетка: технология укладки</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">695</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-navigation">
+                                        <div class="swiper-button-next btn btn-icon">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="swiper-button-prev btn btn-icon">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-left"></use>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-button-prev btn btn-icon">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#chevron-left"></use>
-                            </svg>
+                        <div class="basic-tabs-content__panel" data-id="1">
+                            <div class="basic-tabs-content__content">
+                                <a class="btn-reset btn btn-extra basic-hca__content-more" href="javascript:;">
+                                    <span class="text-content">Все советы</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </a>
+
+                                <div class="slider-out basic-slider-wrap">
+                                    <div class="basic-slider nav-out swiper" data-basic-slider data-basic-slider-sm>
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">695</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci2.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">850</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Спанбонд: особенности, свойства и назначение</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci3.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">1074</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Область применения термоскрепленного геотекстиля</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci4.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">4237</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Пластиковая газонная решетка: технология укладки</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card card-info">
+                                                    <a class="card__view" href="javascript:;">
+                                                        <img
+                                                                loading="lazy"
+                                                                src="img/ci1.png"
+                                                                class="image"
+                                                                width="160"
+                                                                height="160"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </a>
+                                                    <div class="card__descr">
+                                                        <div class="card__caption fz-caption-sm">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#eye-on"></use>
+                                                            </svg>
+                                                            <div class="text-content">695</div>
+                                                        </div>
+
+                                                        <a class="card__title link link-tdu link-tdu--native" href="javascript:;">Где используется обмазочная гидроизоляция</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-navigation">
+                                        <div class="swiper-button-next btn btn-icon">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="swiper-button-prev btn btn-icon">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-left"></use>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basic-tabs-content__panel" data-id="2">
+                            <div class="basic-tabs-content__content">
+                                <a class="btn-reset btn btn-extra basic-hca__content-more" href="javascript:;">
+                                    <span class="text-content">Все вопросы</span>
+                                    <svg class="icon icon-fill">
+                                        <use href="img/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </a>
+
+                                <div class="cp-column cp-column--sm">
+                                    <div class="cp-item cp-item--frame">
+                                        <div class="fw-semibold fz-subheading-sm">Как быстро я могу получить товар после заказа?</div>
+                                        <div class="cp-item__content">
+                                            Если заказ сделан до 12:00, то доставка возможна в этот же день. В ином случае доставка осуществляется на следующий день
+                                        </div>
+                                    </div>
+                                    <div class="cp-item cp-item--frame">
+                                        <div class="fw-semibold fz-subheading-sm">За счет чего у Вас такие низкие цены?</div>
+                                        <div class="cp-item__content">
+                                            Большинство товара мы производим самостоятельно. Это позволяет нам держать самую низкую цену на качественный материал
+                                        </div>
+                                    </div>
+                                    <div class="cp-item cp-item--frame">
+                                        <div class="fw-semibold fz-subheading-sm">Могу ли я посмотреть выставочные образцы Ваших габионов где-то еще помимо основного склада в Колпино?</div>
+                                        <div class="cp-item__content">
+                                            Конечно! Специально для Вашего удобства наши габионы размещаются по двум адресам в СПб:
+                                            <br>
+                                            <br>
+                                            - Инкеркам, ТК Мурманка, Мурманское шоссе 26 (р-н Мега Дыбенко)
+                                            <br>
+                                            - Выборгское шоссе 212 (р-н Озерков)
+                                        </div>
+                                    </div>
+                                    <div class="cp-item cp-item--frame">
+                                        <div class="fw-semibold fz-subheading-sm">Осуществляете ли Вы продажу габионов с их монтажом?</div>
+                                        <div class="cp-item__content">
+                                            Да, конечно! Наш специалист рассчитает для Вас стоимость материала с учетом работ и сделает индивидуальное предложение.
+                                        </div>
+                                    </div>
+                                    <div class="cp-item cp-item--frame">
+                                        <div class="fw-semibold fz-subheading-sm">Могу ли я приобрести у Вас геомембрану на отрез?</div>
+                                        <div class="cp-item__content">
+                                            Да, это возможно! Мы отрежем Вам необходимое количество погонных метров.
+                                        </div>
+                                    </div>
+                                    <div class="cp-item cp-item--frame">
+                                        <div class="fw-semibold fz-subheading-sm">Работаете ли Вы с физическими лицами и продаете ли материал в розницу?</div>
+                                        <div class="cp-item__content">
+                                            Да, конечно. Вы можете приобрести у нас необходимое количество материала кратно его фасовке. (искл. Геомембрана)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="basic-hca__action basic-hca__action--row">
-                <div class="slider-out basic-slider-wrap">
-                    <div class="basic-slider swiper" data-basic-slider data-basic-slider-xxs>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
-                                    <span class="text-content">Готовые решения</span>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
-                                    <span class="text-content">Полезные советы</span>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="btn-reset btn btn-extra-secondary" href="javascript:;">
-                                    <span class="text-content">Вопросы покупателей</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <a class="btn-reset btn btn-extra basic-hca__action-more" href="javascript:;">
-                    <span class="text-content">Все готовые решения</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#arrow-right"></use>
-                    </svg>
-                </a>
             </div>
         </div>
     </div>

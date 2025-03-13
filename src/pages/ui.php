@@ -92,13 +92,13 @@
     .gap-sm { margin-bottom: 20px !important; }
     .gap-sm-plus { margin-bottom: 24px !important; }
     .gap-md { margin-bottom: 32px !important; }
-    .gap-lg { margin-bottom: 40px !important; }
+    .gap-md-plus, .gap-lg { margin-bottom: 40px !important; }
     .gap-xl { margin-bottom: 60px !important; }
 }
 @media (max-width: 991.98px) {
     .gap-xxxs { margin-bottom: 8px !important; }
     .gap-xxs, .gap-xs, .gap-sm { margin-bottom: 12px !important; }
-    .gap-sm-plus, .gap-md { margin-bottom: 16px !important; }
+    .gap-sm-plus, .gap-md, .gap-md-plus { margin-bottom: 16px !important; }
     .gap-lg, .gap-xl { margin-bottom: 24px !important; }
 }
                         </pre>
