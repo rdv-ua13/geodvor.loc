@@ -43,7 +43,6 @@
     <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/readmore.js"></script>                <!-- readmore -->
-    <script defer src="js/select2.js"></script>                 <!-- select2 -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
     <script defer src="js/tippy-bundle.umd.js"></script>        <!-- tippy -->
 
@@ -1249,28 +1248,6 @@
     </div>
 
     <div class="mobile-menu-panel">
-        <div class="mobile-menu-panel__cart product-card__cart cart-buy" data-fixed-cart-coord>
-            <div class="product-card__cart-quantity cart-quantity disabled">
-                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                    <svg class="icon icon-fill icon-sm">
-                        <use href="img/sprite.svg#minus"></use>
-                    </svg>
-                    <svg class="icon icon-fill icon-sm icon-selected">
-                        <use href="img/sprite.svg#trash"></use>
-                    </svg>
-                </button>
-                <input id="" class="input-reset cart-quantity-input" type="text" placeholder="999" value="1" max="999" data-mult="1">
-                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                    <svg class="icon icon-fill icon-sm">
-                        <use href="img/sprite.svg#plus"></use>
-                    </svg>
-                </button>
-            </div>
-            <button class="btn-reset btn cart-in" type="button">
-                <span class="text-content">В КОРЗИНУ</span>
-            </button>
-        </div>
-
         <div class="mobile-menu-panel__toolbar">
             <ul class="list-reset mobile-menu-panel__list">
                 <li>

@@ -101,7 +101,6 @@ const includedJsBuild = () => {
             "node_modules/nouislider/dist/nouislider.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/readmore-js/readmore.js",
-            "node_modules/select2/dist/js/select2.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/tippy.js/dist/tippy-bundle.umd.js",
         ]
@@ -124,7 +123,6 @@ const libsJsBuild = () => {
             "node_modules/nouislider/dist/nouislider.js",
             "node_modules/@popperjs/core/dist/umd/popper.js",
             "node_modules/readmore-js/readmore.js",
-            "node_modules/select2/dist/js/select2.js",
             "node_modules/swiper/swiper-bundle.js",
             "node_modules/tippy.js/dist/tippy-bundle.umd.js",
         ]
