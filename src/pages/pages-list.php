@@ -89,8 +89,10 @@
             <li><a class="ready" href="order-confirm-company.php" target="_blank">Подтверждение заказа (Юр. лица)</a></li>
             <br>
 
-            <li><a class="ready" href="pa-orders.php" target="_blank">ЛК - Заказы</a></li>
             <li><a class="ready" href="pa-orders-menu-mobile.php" target="_blank">ЛК - Меню мобильное</a></li>
+            <li><a class="ready" href="pa-orders.php" target="_blank">ЛК - Заказы</a></li>
+            <li><a class="ready" href="pa-orders-details.php" target="_blank">ЛК - Заказ</a></li>
+            <li><a class="ready" href="pa-profile.php" target="_blank">ЛК - Мой профиль</a></li>
             <br>
 
             <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>

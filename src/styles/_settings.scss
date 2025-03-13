@@ -211,6 +211,9 @@ h4, .h4 {
 .on-order-color {
 	color: var(--orange0-color);
 }
+.subtitle-color {
+	color: var(--gray40-color);
+}
 
 .text-center {
 	text-align: center;
@@ -1039,6 +1042,9 @@ input.disabled {
 		&-lg {
 			margin-bottom: 40px !important;
 		}
+		&-lg-plus {
+			margin-bottom: 48px !important;
+		}
 		&-xl {
 			margin-bottom: 60px !important;
 		}
@@ -1064,6 +1070,7 @@ input.disabled {
 			margin-bottom: 16px !important;
 		}
 		&-lg,
+		&-lg-plus,
 		&-xl {
 			margin-bottom: 24px !important;
 		}
@@ -1311,6 +1318,11 @@ input.disabled {
 		background: none;
 	}
 }
+.checkbox-group {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
 
 .titled-input {
 	display: flex;
@@ -1323,6 +1335,9 @@ input.disabled {
 	position: relative;
 	min-width: 100%;
 
+	&-flex {
+		display: flex;
+	}
 	&-split {
 		display: flex;
 		gap: 4px;
@@ -3293,30 +3308,28 @@ input.disabled {
 		text-align: left;
 
 		&:first-child {
-			max-width: 60%;
+			max-width: 40%;
 			padding-right: 12px;
 			color: var(--text-secondary);
 
+			&::before {
+				content: "";
+				position: absolute;
+				right: 0;
+				top: 18px;
+				left: 4px;
+				height: 1px;
+				background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAYAAAAW/mTzAAAAHklEQVQImWM8debC+2/fvwsoysv9k5OVYmJgYPgAAHoMCO6trEXWAAAAAElFTkSuQmCC') 0 0 repeat-x;
+			}
 			span {
 				padding-right: 4px;
 			}
 		}
 		&:last-child {
-			max-width: 40%;
-
 			span {
 				padding-left: 4px;
 				font-weight: 500;
 			}
-		}
-		&:first-child::before {
-			content: "";
-			position: absolute;
-			right: 0;
-			top: 18px;
-			left: 4px;
-			height: 1px;
-			background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAYAAAAW/mTzAAAAHklEQVQImWM8debC+2/fvwsoysv9k5OVYmJgYPgAAHoMCO6trEXWAAAAAElFTkSuQmCC') 0 0 repeat-x;
 		}
 		span {
 			z-index: 1;
@@ -3330,15 +3343,6 @@ input.disabled {
 		span,
 		a {
 			line-height: inherit;
-		}
-	}
-
-	&:not(.table-descr--sb) {
-		td {
-			&:first-child {
-				max-width: 40%;
-				width: 40%;
-			}
 		}
 	}
 
@@ -3627,6 +3631,11 @@ input.disabled {
 					padding-top: 12px;
 					color: var(--text-secondary);
 					font-size: 11px;
+				}
+				&-checkbox {
+					display: flex;
+					flex-direction: column;
+					gap: 12px;
 				}
 			}
 		}

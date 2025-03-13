@@ -712,6 +712,126 @@
     </div>
 </div>
 
+<?/* order-cancel */?>
+<div id="modal-order-cancel" class="modal">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Причина отмены заказа</div>
+            </div>
+
+            <form id="" class="form" method="" action="javascript:;">
+                <div class="form__field-area">
+                    <div class="form__field-area-checkbox">
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-one"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-one" class="custom-radio__label-for">Хочу изменить адрес доставки</label>
+                            </span>
+                        </div>
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-two"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-two" class="custom-radio__label-for">Хочу убрать/добавить некоторые позиции</label>
+                            </span>
+                        </div>
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-three"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-three" class="custom-radio__label-for">Проблема с оплатой</label>
+                            </span>
+                        </div>
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-four"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-four" class="custom-radio__label-for">Заказ задерживается</label>
+                            </span>
+                        </div>
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-five"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-five" class="custom-radio__label-for">Не устраивает цена</label>
+                            </span>
+                        </div>
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-six"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-six" class="custom-radio__label-for">Нашел с доставкой быстрее</label>
+                            </span>
+                        </div>
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-seven"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-seven" class="custom-radio__label-for">Заказ больше не актуален</label>
+                            </span>
+                        </div>
+                        <div class="input-wrapper input-wrapper-flex">
+                            <span class="custom-radio">
+                                <input
+                                        id="modal-order-cancel-eight"
+                                        class="custom-radio__input"
+                                        type="radio"
+                                        name="modalOrderCancel"
+                                >
+                                <label for="modal-order-cancel-eight" class="custom-radio__label-for">Другая причина</label>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="input-wrapper input-wrapper-flex">
+                        <textarea
+                                class="input-reset input input-secondary"
+                                type="text"
+                                name=""
+                                value=""
+                                placeholder="Расскажите подробнее"
+                                rows="3"
+                        ></textarea>
+                    </div>
+                    <button class="btn-reset btn btn-extra" type="submit" data-fancybox data-src="#modal-order-cancel-success">
+                        <span class="text-content">Отменить заказ</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <?/* request-success */?>
 <div id="modal-request-success" class="modal">
     <div class="modal__content">
@@ -761,6 +881,19 @@
                     <div class="h4 text-center">Мы получили ваш вопрос</div>
                 </div>
                 <div class="modal__subtitle modal__subtitle--primary text-center">В ближайшее время с вами свяжется менеджер</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?/* request-question-success */?>
+<div id="modal-order-cancel-success" class="modal">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Отмена заказа</div>
+                <div class="modal__subtitle modal__subtitle--primary">Заказ №14151345 успешно отменен</div>
             </div>
         </div>
     </div>

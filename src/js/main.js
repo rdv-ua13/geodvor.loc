@@ -447,6 +447,9 @@ application.prototype.initBasicSlider = function () {
                 else if(slider.eq(i).is('[data-basic-slider-sm]')) {
                     spaceBetween = 20;
                 }
+                else if(slider.eq(i).is('[data-basic-slider-xs]')) {
+                    spaceBetween = 16;
+                }
                 else if(slider.eq(i).is('[data-basic-slider-xxs]')) {
                     spaceBetween = 8;
                 }
@@ -458,7 +461,7 @@ application.prototype.initBasicSlider = function () {
                 if(slider.eq(i).is('[data-header-catalog-slider]')) {
                     spaceBetween = 24;
                 }
-                else if(slider.eq(i).is('[data-basic-slider-xxs]')) {
+                else if(slider.eq(i).is('[data-basic-slider-xs]') || slider.eq(i).is('[data-basic-slider-xxs]')) {
                     spaceBetween = 8;
                 }
                 else {
