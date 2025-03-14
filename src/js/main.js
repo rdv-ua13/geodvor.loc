@@ -511,6 +511,7 @@ application.prototype.initSliders = function () {
 
             const singleSliderSettings = {
                 slidesPerView: 1,
+                spaceBetween: 12,
                 autoHeight: true,
                 navigation: {
                     nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',

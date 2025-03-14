@@ -52,16 +52,22 @@
 
                                             <div class="order-step-row order-step-row--twin">
                                                 <div class="titled-input">
-                                                    <div class="input-title">Номер телефона для связи <span class="required-star">*</span></div>
-                                                    <div class="input-wrapper">
+                                                    <div class="input-title">Номер телефона <span class="required-star">*</span></div>
+                                                    <div class="input-wrapper error">
                                                         <input
                                                                 class="input-reset input input-secondary isPhone"
-                                                                type="tel"
+                                                                type="email"
                                                                 name=""
                                                                 value=""
-                                                                placeholder="+7 (999) 999-99-99"
+                                                                placeholder="+7 999 999-99-99"
                                                                 required
                                                         >
+                                                        <span class="input-error-label">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#warning"></use>
+                                                            </svg>
+                                                            <span class="text-content">Это поле обязательное</span>
+                                                        </span>
                                                     </div>
                                                 </div>
                                                 <div class="titled-input">

@@ -346,7 +346,7 @@
                 </div>
 
                 <div class="cart-list">
-                    <div class="card card-product" data-removable>
+                    <div class="card card-product">
                         <a class="card__view" href="javascript:;">
                             <img
                                 loading="lazy"
@@ -395,7 +395,7 @@
                                             </svg>
                                         </button>
                                     </div>
-                                    <button class="btn-reset btn btn-icon btn-ghost card__cart-remove" type="button" data-delete-trigger>
+                                    <button class="btn-reset btn btn-icon btn-ghost card__cart-remove" type="button" data-delete-trigger data-fancybox data-src="#modal-delete-product">
                                         <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#trash"></use>
                                         </svg>
@@ -404,7 +404,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card card-product">
+                    <div class="card card-product" data-removable>
                         <a class="card__view" href="javascript:;">
                             <img
                                     loading="lazy"

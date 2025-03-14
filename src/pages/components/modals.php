@@ -1093,6 +1093,30 @@
     </div>
 </div>
 
+<?/* delete-product */?>
+<div id="modal-delete-product" class="modal">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Удалить товар</div>
+                <div class="modal__subtitle modal__subtitle--primary">Вы уверены, что хотите удалить выбранный товар из корзины?</div>
+            </div>
+
+            <form id="" class="form" method="" action="javascript:;">
+                <div class="form__field-area-btn-g">
+                    <button class="btn-reset btn form-btn-half" type="submit">
+                        <span class="text-content">Удалить</span>
+                    </button>
+                    <button class="btn-reset btn btn-extra form-btn-half" type="button">
+                        <span class="text-content">Отменить</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <?/* request-success */?>
 <div id="modal-request-success" class="modal">
     <div class="modal__content">
