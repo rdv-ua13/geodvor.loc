@@ -63,7 +63,7 @@
             <img src="img/logo.svg" width="180" height="50" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">21 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">31 + ui</span>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">31 + ui (всего страниц в макете)</span>
         </span>
@@ -93,6 +93,10 @@
             <li><a class="ready" href="pa-orders.php" target="_blank">ЛК - Заказы</a></li>
             <li><a class="ready" href="pa-orders-details.php" target="_blank">ЛК - Заказ</a></li>
             <li><a class="ready" href="pa-profile.php" target="_blank">ЛК - Мой профиль</a></li>
+            <li><a class="ready" href="pa-counterparty-empty.php" target="_blank">ЛК - Контрагенты (пусто)</a></li>
+            <li><a class="ready" href="pa-counterparty.php" target="_blank">ЛК - Контрагенты</a></li>
+            <li><a class="ready" href="pa-favorites-empty.php" target="_blank">ЛК - Избранное (пусто)</a></li>
+            <li><a class="ready" href="pa-favorites.php" target="_blank">ЛК - Избранное</a></li>
             <br>
 
             <li><a class="ready" href="cp-contacts.php" target="_blank">Контентная страница - Контакты</a></li>
@@ -102,8 +106,13 @@
             <li><a class="ready" href="cp-wholesale.php" target="_blank">Контентная страница - Оптовым покупателям</a></li>
             <li><a class="ready" href="cp-questions.php" target="_blank">Контентная страница - Вопросы покупателей</a></li>
             <li><a class="ready" href="cp-solutions.php" target="_blank">Контентная страница - Готовые решения</a></li>
+            <li><a class="ready" href="cp-solutions-details.php" target="_blank">Контентная страница - Готовые решения (детальная)</a></li>
             <li><a class="ready" href="cp-adviсe.php" target="_blank">Контентная страница - Полезные советы</a></li>
+            <li><a class="ready" href="cp-adviсe-details.php" target="_blank">Контентная страница - Полезные советы (детальная)</a></li>
             <li><a class="ready" href="cp-services.php" target="_blank">Контентная страница - Услуги</a></li>
+            <li><a class="ready" href="cp-services-details.php" target="_blank">Контентная страница - Услуги (детальная)</a></li>
+            <br>
+            <li><a class="ready" href="404.php" target="_blank">Cтраница 404</a></li>
             <br>
 
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>

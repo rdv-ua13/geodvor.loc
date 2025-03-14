@@ -662,7 +662,7 @@
 </div>
 
 <?/* address */?>
-<div id="modal-address" class="modal modal-big">
+<div id="modal-address" class="modal modal-lg">
     <div class="modal__content">
         <input class="visually-hidden" type="text" name="" value="">
         <div class="modal__content-item">
@@ -825,6 +825,267 @@
                     </div>
                     <button class="btn-reset btn btn-extra" type="submit" data-fancybox data-src="#modal-order-cancel-success">
                         <span class="text-content">Отменить заказ</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<?/* add-counterparty-empty */?>
+<div id="modal-add-counterparty-empty" class="modal modal-md">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Добавить контрагента</div>
+            </div>
+
+            <form id="" class="form" method="" action="javascript:;">
+                <div class="gap-sm-plus form__field-area">
+                    <div class="titled-input">
+                        <div class="input-title">ИНН организации <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Найти по ИНН"
+                                    required
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="form__field-area-btn-g">
+                    <button class="btn-reset btn btn-primary form-btn-full" type="submit" data-fancybox data-src="#modal-add-counterparty">
+                        <span class="text-content">Добавить контрагента</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<?/* add-counterparty */?>
+<div id="modal-add-counterparty" class="modal modal-md">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Добавить контрагента</div>
+            </div>
+
+            <form id="" class="form" method="" action="javascript:;">
+                <div class="gap-sm-plus form__field-area">
+                    <div class="titled-input">
+                        <div class="input-title">ИНН организации <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="7730 1596 3525"
+                                    placeholder="Найти по ИНН"
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Название организации <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="ИП ОСТРОВСКИЙ АЛЕКСАНДР ВАЛЕРИЕВИЧ"
+                                    placeholder=""
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Юридический адрес</div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Адрес и индексом"
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">БИК банка <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="044 525 225"
+                                    placeholder=""
+                                    required
+                            >
+                            <div class="input-caption fz-caption">ПАО Сбербанк</div>
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Номер счета <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="4080 2810 9380 0018 0520"
+                                    placeholder=""
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Должность и ФИО подписанта</div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Должность, ФИО полностью"
+                                    required
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="form__field-area-btn-g">
+                    <button class="btn-reset btn form-btn-full" type="submit">
+                        <span class="text-content">Добавить контрагента</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<?/* edit-counterparty */?>
+<div id="modal-edit-counterparty" class="modal modal-md">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Редактировать контрагента</div>
+            </div>
+
+            <form id="" class="form" method="" action="javascript:;">
+                <div class="gap-sm-plus form__field-area">
+                    <div class="titled-input">
+                        <div class="input-title">ИНН организации <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="7730 1596 3525"
+                                    placeholder="Найти по ИНН"
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Название организации <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="ИП ОСТРОВСКИЙ АЛЕКСАНДР ВАЛЕРИЕВИЧ"
+                                    placeholder=""
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Юридический адрес</div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Адрес и индексом"
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">БИК банка <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="044 525 225"
+                                    placeholder=""
+                                    required
+                            >
+                            <div class="input-caption fz-caption">ПАО Сбербанк</div>
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Номер счета <span class="required-star">*</span></div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value="4080 2810 9380 0018 0520"
+                                    placeholder=""
+                                    required
+                            >
+                        </div>
+                    </div>
+                    <div class="titled-input">
+                        <div class="input-title">Должность и ФИО подписанта</div>
+                        <div class="input-wrapper">
+                            <input
+                                    class="input-reset input input-secondary"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Должность, ФИО полностью"
+                                    required
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="form__field-area-btn-g">
+                    <button class="btn-reset btn form-btn-full" type="submit">
+                        <span class="text-content">Сохранить изменения</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<?/* delete-counterparty */?>
+<div id="modal-delete-counterparty" class="modal">
+    <div class="modal__content">
+        <input class="visually-hidden" type="text" name="" value="">
+        <div class="modal__content-item">
+            <div class="modal__header">
+                <div class="modal__title h4">Удалить контрагента?</div>
+                <div class="modal__subtitle modal__subtitle--primary">Вы уверены, что хотите удалить выбранного контрагента?</div>
+            </div>
+
+            <form id="" class="form" method="" action="javascript:;">
+                <div class="form__field-area-btn-g">
+                    <button class="btn-reset btn form-btn-half" type="submit">
+                        <span class="text-content">Удалить</span>
+                    </button>
+                    <button class="btn-reset btn btn-extra form-btn-half" type="button">
+                        <span class="text-content">Отменить</span>
                     </button>
                 </div>
             </form>

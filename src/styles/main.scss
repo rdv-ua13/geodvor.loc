@@ -3119,6 +3119,79 @@
 			}
 		}
 	}
+
+	&-counterparty {
+		&__heading {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+
+			&-cta {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+		&__item {
+			display: flex;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 12px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
+		&__descr {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			gap: 2px;
+		}
+		&__title {
+			font-weight: 600;
+		}
+		&__subtitle {
+			color: var(--gray40-color);
+		}
+		&__cta {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+
+			&-edit {
+				flex: 1;
+			}
+		}
+	}
+
+	&-favorites {
+		.card-product {
+			.cart-buy {
+				[data-favorites] {
+					z-index: 1;
+					opacity: 1;
+
+					.icon {
+						min-width: 24px;
+						width: 24px;
+						min-height: 24px;
+						height: 24px;
+
+						&:not(.selected) {
+							z-index: -1;
+							position: absolute;
+							opacity: 0;
+						}
+						&.selected {
+							z-index: 1;
+							position: static;
+							opacity: 1;
+							fill: var(--red0-color);
+							stroke: var(--red0-color);
+						}
+					}
+				}
+			}
+		}
+	}
 }
 @media (min-width: 992px) {
 	.personal-acc {
@@ -3150,9 +3223,14 @@
 					padding-bottom: 8px;
 
 					&:first-child {
+						max-width: 40%;
+
 						&::before {
 							top: 22px;
 						}
+					}
+					&:last-child {
+						max-width: unset;
 					}
 				}
 			}
@@ -3328,6 +3406,29 @@
 
 			&-item {
 				gap: 20px;
+			}
+		}
+
+		&-counterparty {
+			&__heading {
+				position: relative;
+
+				&-cta {
+					z-index: 1;
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+			}
+			&__item {
+				flex-direction: row;
+				gap: 24px;
+				border-top: 1px solid var(--gray1-color);
+			}
+			&__cta {
+				justify-content: flex-end;
+				min-width: 210px;
+				width: 210px;
 			}
 		}
 	}
@@ -3506,6 +3607,52 @@
 				}
 			}
 		}
+
+		&-counterparty {
+			&__item {
+				position: relative;
+
+				&::before {
+					content: "";
+					z-index: 1;
+					position: absolute;
+					top: 0;
+					right: calc(var(--container-offset) * -1);
+					left: calc(var(--container-offset) * -1);
+					min-height: 1px;
+					height: 1px;
+					background-color: var(--gray1-color);
+				}
+			}
+		}
+
+		&-favorites {
+			.cp-content__sort {
+				position: relative;
+				padding-top: 16px;
+
+				&::before {
+					content: "";
+					z-index: 1;
+					position: absolute;
+					top: 0;
+					right: calc(var(--container-offset) * -1);
+					left: calc(var(--container-offset) * -1);
+					min-height: 1px;
+					height: 1px;
+					background-color: var(--gray1-color);
+				}
+
+				&,
+				&-select {
+					min-width: 100%;
+					width: 100%;
+				}
+				&-select {
+					justify-content: space-between;
+				}
+			}
+		}
 	}
 }
 
@@ -3516,5 +3663,110 @@
 @media (min-width: 992px) {
 	.seo-block {
 		font-size: 13px;
+	}
+}
+
+.empty {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	padding: 48px 20px;
+
+	&__view {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.icon {
+			min-width: 60px;
+			width: 60px;
+			min-height: 60px;
+			height: 60px;
+			fill: var(--green0-color);
+			stroke: var(--green0-color);
+		}
+	}
+	&__descr {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+	&__title,
+	&__subtitle {
+		text-align: center;
+	}
+	&__subtitle {
+		color: var(--text-secondary);
+	}
+
+	&.no-page {
+		gap: 24px;
+		padding: 40px 12px;
+
+		.empty__view {
+			.icon {
+				min-width: 80px;
+				width: 80px;
+				min-height: 80px;
+				height: 80px;
+				fill: var(--gray30-color);
+				stroke: var(--gray30-color);
+			}
+		}
+		.empty__descr {
+			gap: 24px;
+		}
+		.empty__subtitle {
+			color: var(--text-primary);
+		}
+		.empty__cta {
+			.form {
+				min-width: 100%;
+				width: 100%;
+			}
+			.input-wrapper {
+				&-search {
+					.input {
+						padding-right: 32px;
+
+						&-delete-btn {
+							right: 84px;
+						}
+					}
+				}
+				&.has-icon-r {
+					.input-icon-r {
+						right: 0;
+					}
+				}
+				&.has-icon-l {
+					.input {
+						padding-left: 36px;
+					}
+					.input-icon-l {
+						left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.empty {
+		min-height: 400px;
+		padding-top: 120px;
+		padding-bottom: 120px;
+
+		&.no-page {
+			.empty__cta {
+				.form {
+					min-width: 600px;
+					width: 600px;
+				}
+			}
+		}
 	}
 }
