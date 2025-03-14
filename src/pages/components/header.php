@@ -1296,4 +1296,60 @@
         </div>
     </div>
 
+    <div class="action-notice cookie delay-hide active" >
+        <div class="action-notice__descr">
+            <div class="action-notice__title">Мы используем куки, чтобы сайт работал лучше</div>
+            <div class="action-notice__caption">Оставаясь с нами, вы соглашаетесь на использование файлов куки</div>
+            <div class="action-notice__close">
+                <button class="btn-reset btn" type="button">
+                    <span class="text-content">Хорошо</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="action-notice" data-notice-popup="cart-in">
+        <div class="action-notice__close">
+            <svg class="icon icon-fill">
+                <use href="img/sprite.svg#cross"></use>
+            </svg>
+        </div>
+        <div class="action-notice__view">
+            <img
+                loading="lazy"
+                class="image"
+                src="img/cp1.png"
+                width="48"
+                height="48"
+                alt="Изображение блока"
+            >
+        </div>
+        <div class="action-notice__descr">
+            <div class="action-notice__caption">Товар добавлен в корзину</div>
+            <div class="action-notice__title">Техническая пленка 100 мкм, шир. 3х10</div>
+        </div>
+    </div>
+
+    <div class="action-notice" data-notice-popup="favorites">
+        <div class="action-notice__close">
+            <svg class="icon icon-fill">
+                <use href="img/sprite.svg#cross"></use>
+            </svg>
+        </div>
+        <div class="action-notice__view">
+            <img
+                loading="lazy"
+                class="image"
+                src="img/cp2.png"
+                width="48"
+                height="48"
+                alt="Изображение блока"
+            >
+        </div>
+        <div class="action-notice__descr">
+            <div class="action-notice__caption">Товар добавлен в избранное</div>
+            <div class="action-notice__title">Геотекстиль Дорнит ГЕО 300 гр/м2 шир. 2х50 м.п, 100 м2</div>
+        </div>
+    </div>
+
     <main class="main">

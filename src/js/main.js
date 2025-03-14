@@ -36,6 +36,8 @@ application.prototype.init = function () {
     this.initDatepicker();
     this.initMaskedInput();
     this.initPasswordSwitcher();
+    this.initNotification();
+    this.initNotificationCookie();
 
     this.initTestShowHideDropmenu();
 };
@@ -1001,32 +1003,34 @@ application.prototype.initPasswordSwitcher = function () {
 
 // Initialize notification
 application.prototype.initNotification = function () {
-    const actionNotice = $('.action-notice');
+    const noticeAction = $('[data-notice-popup]');
     const noticeBtn = $('[data-notice]');
+    let noticeValue = null;
 
     noticeBtn.on('click', function () {
-        let currentDataValue = noticeBtn.data('notice');
+        noticeValue = $(this).data('notice');
 
-        if (!noticeBtn.hasClass('added')) {
-            actionNotice.addClass('added');
-        } else {
-            actionNotice.removeClass('added');
-        }
-
-        showNotification();
-        setTimeout(hideNotification, 5000);
-
+        noticeAction.removeClass('active');
+        $('[data-notice-popup="' + noticeValue + '"]').addClass('active').fadeIn(200);
+        setTimeout(
+            function () {
+                $('[data-notice-popup="' + noticeValue + '"]').fadeOut(200).removeClass('active');
+            }, 6000
+        );
     });
 
-    function showNotification() {
-        $('.action-notice')
-            .fadeIn()
-            .animate({ opacity: 1 }, 200);
-    }
+    $('.action-notice__close').on('click', function () {
+        $(this).closest('.action-notice').removeClass('active');
+    });
+};
 
-    function hideNotification() {
-        $('.action-notice').fadeOut('slow');
-    }
+// Initialize notification
+application.prototype.initNotificationCookie = function () {
+    setTimeout(
+        function () {
+            $('.cookie').removeClass('delay-hide');
+        }, 2000
+    );
 };
 
 

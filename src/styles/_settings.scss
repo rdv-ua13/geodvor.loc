@@ -2126,6 +2126,16 @@ input.disabled {
 			fill: var(--text-secondary);
 			stroke: var(--text-secondary);
 		}
+
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			.icon {
+				fill: var(--gray30-color);
+				stroke: var(--gray30-color);
+			}
+		}
 	}
 }
 
@@ -2945,6 +2955,13 @@ input.disabled {
 				font-weight: 600;
 				font-size: 16px;
 			}
+
+			&:hover,
+			&:focus,
+			&:active,
+			&.active {
+				border-color: var(--text-primary);
+			}
 		}
 		&-catalog-category {
 			flex-direction: column;
@@ -2977,6 +2994,13 @@ input.disabled {
 			}
 			.card__fall-pointer {
 				display: none;
+			}
+
+			&:hover,
+			&:focus,
+			&:active,
+			&.active {
+				border-color: var(--text-primary);
 			}
 		}
 		&-about {
@@ -3032,6 +3056,32 @@ input.disabled {
 	}
 }
 @media (max-width: 991.98px) {
+	.card-list {
+		.card {
+			&-category {
+				.card__view {
+					&,
+					.image {
+						min-width: 77px;
+						width: 77px;
+						min-height: 77px;
+						height: 77px;
+					}
+				}
+			}
+			&-catalog-category {
+				.card__view {
+					&,
+					.image {
+						min-width: 48px;
+						width: 48px;
+						min-height: 48px;
+						height: 48px;
+					}
+				}
+			}
+		}
+	}
 	.card {
 		&-benefit {
 			min-width: 100%;
@@ -3119,6 +3169,13 @@ input.disabled {
 				.icon:not(.icon-selected) {
 					display: none;
 				}
+			}
+		}
+
+		&:hover {
+			.icon {
+				fill: var(--text-primary);
+				stroke: var(--text-primary);
 			}
 		}
 	}
@@ -3320,11 +3377,33 @@ input.disabled {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		min-width: 28px;
+		width: 28px;
+		min-height: 28px;
+		height: 28px;
+		border-radius: var(--bradius);
 		cursor: pointer;
+		transition: var(--transition);
 
 		.icon {
+			min-width: 20px;
+			width: 20px;
+			min-height: 20px;
+			height: 20px;
 			fill: var(--gray40-color);
 			stroke: var(--gray40-color);
+		}
+
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			background-color: var(--gray1-color);
+
+			.icon {
+				fill: var(--text-primary);
+				stroke: var(--text-primary);
+			}
 		}
 	}
 }

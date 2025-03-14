@@ -1846,6 +1846,12 @@
 						</div>
 					</div>
 				</div>
+                <div class="gap-lg">
+                    <div class="pagination-wrapper">
+						<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/pagination.php"); ?>
+                    </div>
+                </div>
+
 				<div class="gap-xl">
 					<div class="gap-sm">
 						<div class="h3">Виды и область применения геосинтетиков</div>
