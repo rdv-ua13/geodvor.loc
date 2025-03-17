@@ -53,7 +53,7 @@
 							<div class="h3">Лучшие товары из категории Геотекстиль</div>
 						</div>
 						<div class="basic-hca__content">
-							<div class="slider-out basic-slider-wrap">
+							<div class="slider-out basic-slider-wrap card-product-slider-wrap">
 								<div class="basic-slider nav-out swiper" data-basic-slider>
 									<div class="swiper-wrapper">
 										<div class="swiper-slide">

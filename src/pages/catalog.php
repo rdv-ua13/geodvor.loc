@@ -289,7 +289,7 @@
                         <div class="h3">Вы недавно смотрели</div>
                     </div>
                     <div class="basic-hca__content">
-                        <div class="slider-out basic-slider-wrap">
+                        <div class="slider-out basic-slider-wrap card-product-slider-wrap-sm">
                             <div class="basic-slider nav-out swiper" data-basic-slider data-basic-slider-watched>
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">

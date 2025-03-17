@@ -50,7 +50,7 @@
                     <div class="h2">Лучшие предложения месяца</div>
                 </div>
                 <div class="basic-hca__content">
-                    <div class="slider-out basic-slider-wrap">
+                    <div class="slider-out basic-slider-wrap card-product-slider-wrap">
                         <div class="basic-slider nav-out swiper" data-basic-slider>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -795,7 +795,7 @@
                     <div class="h3">Вы недавно смотрели</div>
                 </div>
                 <div class="basic-hca__content">
-                    <div class="slider-out basic-slider-wrap">
+                    <div class="slider-out basic-slider-wrap card-product-slider-wrap-sm">
                         <div class="basic-slider nav-out swiper" data-basic-slider data-basic-slider-watched>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">

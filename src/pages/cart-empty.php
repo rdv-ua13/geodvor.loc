@@ -1,7 +1,7 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
 <div class="container">
-    <div class="cart">
+    <div class="cart cart-empty-page">
         <div class="cp-heading">
             <h1 class="h1 cp-heading__title">Корзина</h1>
             <div class="cp-heading__back">
