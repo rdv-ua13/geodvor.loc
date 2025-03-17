@@ -13,6 +13,7 @@ application.prototype.init = function () {
     this.initTooltips();
     this.initReadmore();
     this.initHeaderFloat();
+    this.initCatalogDetailSidebarFloat();
     this.initBurger();
     this.initOverlay();
     this.initMenu();
@@ -190,6 +191,22 @@ application.prototype.initHeaderFloat = function () {
             $('.header').addClass('header-float');
         } else {
             $('.header').removeClass('header-float');
+        }
+    }
+};
+
+// Initialize catalog-detail sidebar float
+application.prototype.initCatalogDetailSidebarFloat = function () {
+    $(window).scroll(function () {
+        setCatalogDetailSidebarFloat();
+    });
+    setCatalogDetailSidebarFloat();
+
+    function setCatalogDetailSidebarFloat() {
+        if ($(window).scrollTop() > 120) {
+            $('.catalog-detail .cp-sidebar').addClass('cp-sidebar-float');
+        } else {
+            $('.catalog-detail .cp-sidebar').removeClass('cp-sidebar-float');
         }
     }
 };
