@@ -8,32 +8,36 @@
                     <div class="basic-slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img
-                                    loading="lazy"
-                                    class="image"
-                                    src="img/ci1.png"
-                                    alt="Изображение блока"
-                                >
+                                <picture>
+                                    <source srcset="img/ci1.png" media="(min-width: 992px)">
+                                    <img src="img/ci1.png" alt="Изображение блока">
+                                </picture>
                             </div>
                             <div class="swiper-slide">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/ci2.png"
-                                        alt="Изображение блока"
-                                >
+                                <picture>
+                                    <source srcset="img/ci2.png" media="(min-width: 992px)">
+                                    <img src="img/ci2.png" alt="Изображение блока">
+                                </picture>
                             </div>
                             <div class="swiper-slide">
-                                <img
-                                        loading="lazy"
-                                        class="image"
-                                        src="img/ci3.png"
-                                        alt="Изображение блока"
-                                >
+                                <picture>
+                                    <source srcset="img/ci3.png" media="(min-width: 992px)">
+                                    <img src="img/ci3.png" alt="Изображение блока">
+                                </picture>
                             </div>
 
-                            <div class="swiper-slide index-top-primary__alien"></div>
-                            <div class="swiper-slide index-top-primary__alien"></div>
+                            <div class="swiper-slide index-top-primary__alien">
+                                <picture>
+                                    <source srcset="img/ci1.png" media="(min-width: 992px)">
+                                    <img src="img/ci1.png" alt="Изображение блока">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide index-top-primary__alien">
+                                <picture>
+                                    <source srcset="img/ci3.png" media="(min-width: 992px)">
+                                    <img src="img/ci3.png" alt="Изображение блока">
+                                </picture>
+                            </div>
                         </div>
                         <div class="swiper-navigation">
                             <div class="swiper-button-next btn btn-icon">
@@ -55,8 +59,18 @@
                 <div class="basic-slider-wrap">
                     <div class="basic-slider swiper swiper-autoplay" data-single-autoplay-slider>
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/ci3.png" media="(min-width: 992px)">
+                                    <img src="img/ci3.png" alt="Изображение блока">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/ci2.png" media="(min-width: 992px)">
+                                    <img src="img/ci2.png" alt="Изображение блока">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                 </div>

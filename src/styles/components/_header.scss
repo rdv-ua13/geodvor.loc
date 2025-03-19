@@ -1153,6 +1153,10 @@
 					&:not(:last-child) {
 						margin-bottom: 32px;
 					}
+
+					&.menu-catalog-submenu-all {
+						display: none;
+					}
 				}
 			}
 			&-link {
@@ -1160,10 +1164,6 @@
 				align-items: center;
 				gap: 8px;
 				font-weight: 600;
-
-				&--all {
-					display: none;
-				}
 
 				&-pointer {
 					display: none;

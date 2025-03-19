@@ -1455,6 +1455,8 @@
 	display: flex;
 
 	.swiper {
+		border-radius: var(--bradius);
+
 		&-slide {
 			border-radius: var(--bradius);
 			background-color: #F2F2F2;
@@ -1469,6 +1471,10 @@
 				align-items: center;
 			}
 
+			picture {
+				overflow: hidden;
+			}
+			picture,
 			.image {
 				min-width: 100%;
 				width: 100%;

@@ -1122,7 +1122,7 @@
                     <div class="h3 menu-catalog-submenu-section__title">Геотекстиль</div>
                     <div class="menu-catalog-submenu-links">
                         <ul class="list-reset menu-catalog-submenu-links__list">
-                            <li><a class="menu-catalog-submenu-link menu-catalog-submenu-link--all" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
+                            <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
                             <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
                             <li>
                                 <a class="menu-catalog-submenu-link" href="javascript:;">
@@ -1296,7 +1296,7 @@
         </div>
     </div>
 
-    <div class="action-notice cookie delay-hide active" >
+    <div class="action-notice cookie delay-hide active">
         <div class="action-notice__descr">
             <div class="action-notice__title">Мы используем куки, чтобы сайт работал лучше</div>
             <div class="action-notice__caption">Оставаясь с нами, вы соглашаетесь на использование файлов куки</div>
