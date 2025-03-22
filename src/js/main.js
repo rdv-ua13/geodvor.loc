@@ -526,22 +526,22 @@ application.prototype.initSliders = function () {
         let currentSlider = null;
 
         slider.each(function (i) {
-            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
+            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i + '0');
 
             const singleSliderSettings = {
                 slidesPerView: 1,
                 spaceBetween: 12,
                 autoHeight: true,
                 navigation: {
-                    nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
-                    prevEl: '.basic-slider-wrap-' + i + ' .swiper-button-prev',
+                    nextEl: '.basic-slider-wrap-' + i + '0 .swiper-button-next',
+                    prevEl: '.basic-slider-wrap-' + i + '0 .swiper-button-prev',
                 },
                 pagination: {
-                    el: '.basic-slider-wrap-' + i + ' .swiper-pagination',
+                    el: '.basic-slider-wrap-' + i + '0 .swiper-pagination',
                 }
             };
 
-            currentSlider = new Swiper('[data-single-slider]', singleSliderSettings);
+            currentSlider = new Swiper('.basic-slider-wrap-' + i + '0 [data-single-slider]', singleSliderSettings);
         });
     }
     if ($('[data-single-autoplay-slider]').length) {
@@ -549,22 +549,22 @@ application.prototype.initSliders = function () {
         let currentSlider = null;
 
         slider.each(function (i) {
-            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
+            slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i + '00');
 
             const singleSliderAutoplaySettings = {
                 slidesPerView: 1,
                 loop: true,
                 autoplay: {delay: 5000},
                 navigation: {
-                    nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
-                    prevEl: '.basic-slider-wrap-' + i + ' .swiper-button-prev',
+                    nextEl: '.basic-slider-wrap-' + i + '00 .swiper-button-next',
+                    prevEl: '.basic-slider-wrap-' + i + '00 .swiper-button-prev',
                 },
                 pagination: {
-                    el: '.basic-slider-wrap-' + i + ' .swiper-pagination',
+                    el: '.basic-slider-wrap-' + i + '00 .swiper-pagination',
                 }
             };
 
-            currentSlider = new Swiper('[data-single-autoplay-slider]', singleSliderAutoplaySettings);
+            currentSlider = new Swiper('.basic-slider-wrap-' + i + '00 [data-single-autoplay-slider]', singleSliderAutoplaySettings);
         });
     }
 
