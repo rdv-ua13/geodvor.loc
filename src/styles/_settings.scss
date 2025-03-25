@@ -2742,14 +2742,15 @@ input.disabled {
 }
 @media (min-width: 992px) {
 	.card-list {
-		grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(305px, calc((100% - (20px * 2)) / 3)));
 		gap: 40px 20px;
 
 		&--sm {
-			grid-template-columns: repeat(auto-fit, minmax(196px, 1fr));
+			grid-template-columns: repeat(auto-fit, minmax(196px, calc((100% - (20px * 5)) / 6)));
 			gap: 20px;
 		}
 		&--lg {
+			grid-template-columns: repeat(auto-fit, minmax(305px, calc((100% - (40px * 2)) / 3)));
 			gap: 60px 40px;
 		}
 		&--catalog {
@@ -2765,7 +2766,7 @@ input.disabled {
 	.cp {
 		&-sidebar ~ &-content {
 			.card-list {
-				grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+				grid-template-columns: repeat(auto-fit, minmax(298px, calc((100% - (20px * 2)) / 3)));
 
 				.card {
 					&-product,
@@ -2781,7 +2782,7 @@ input.disabled {
 				}
 
 				&--sm {
-					grid-template-columns: repeat(auto-fit, minmax(142px, 1fr));
+					grid-template-columns: repeat(auto-fit, minmax(142px, calc((100% - (20px * 5)) / 6)));
 
 					.card {
 						&-product,
@@ -2797,7 +2798,7 @@ input.disabled {
 					}
 				}
 				&--lg {
-					grid-template-columns: repeat(auto-fit, minmax(209px, 1fr));
+					grid-template-columns: repeat(auto-fit, minmax(209px, calc((100% - (40px * 3)) / 4)));
 
 					.card {
 						&-product,
