@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="cp">
+        <div class="gap-xl cp">
             <div class="cp-sidebar" data-filter>
                 <div class="cp-sidebar__item cp-sidebar__top cp-sidebar__top-back cp-sidebar-category">
                     <div class="cp-sidebar__heading">Геотекстиль</div>
@@ -362,7 +362,7 @@
                 </div>
             </div>
             <div class="cp-content">
-                <div class="cp-content__top">
+                <div class="cp-content__item cp-content__top">
                     <div class="cp-content__category slider-out basic-slider-wrap">
                         <div class="basic-slider swiper" data-basic-slider>
                             <div class="swiper-wrapper">
@@ -470,7 +470,7 @@
                     </div>
                 </div>
 
-                <div data-entity="container-l">
+                <div class="cp-content__item" data-entity="container-l">
                     <div class="gap-lg card-list card-list--lg">
                         <div class="card card-product">
                             <a class="card__view" href="javascript:;">
@@ -1932,13 +1932,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="gap-lg">
+                <div class="gap-lg cp-content__item">
                     <div class="pagination-wrapper">
 						<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/pagination.php"); ?>
                     </div>
                 </div>
 
-                <div class="gap-xl">
+                <div class="gap-xl cp-content__item">
                     <div class="spoiler-wrapper manual-manager">
                         <div
                             class="spoiler"

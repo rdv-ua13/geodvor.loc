@@ -500,6 +500,11 @@
 				}
 			}
 		}
+		&__item {
+			&:last-child {
+				margin-bottom: unset!important;
+			}
+		}
 	}
 
 	&-details {
