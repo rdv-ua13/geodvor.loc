@@ -389,22 +389,10 @@
                     </div>
 
                     <div class="cp-content__banner">
-                        <img
-                            loading="lazy"
-                            class="image mobile-only"
-                            src="img/banner-catalog_375x120.png"
-                            width="375"
-                            height="120"
-                            alt="Изображение блока"
-                        >
-                        <img
-                            loading="lazy"
-                            class="image desktop-only"
-                            src="img/banner-catalog_1280x160.png"
-                            width="1280"
-                            height="160"
-                            alt="Изображение блока"
-                        >
+                        <picture>
+                            <source srcset="img/banner-index_1280x160.png" media="(min-width: 992px)">
+                            <img src="img/banner-index_375x300.png" alt="Изображение блока">
+                        </picture>
                     </div>
 
                     <div class="cp-content__settings">
