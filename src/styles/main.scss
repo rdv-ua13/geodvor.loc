@@ -1315,6 +1315,9 @@
 			}
 			.cp-sidebar {
 				&__price-cart {
+					.card__cart {
+						display: none;
+					}
 					.cart-quantity {
 						max-width: unset;
 

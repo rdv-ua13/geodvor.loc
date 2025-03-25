@@ -17,7 +17,7 @@
 		flex-wrap: wrap;
 		gap: 6px 24px;
 		padding-top: 16px;
-		padding-bottom: 96px;
+		padding-bottom: 24px;
 		border-top: 1px solid rgba(146,146,146,0.2);
 	}
 	&__item {
@@ -141,6 +141,8 @@
 }
 @media (max-width: 991.98px) {
 	.footer {
+		padding-bottom: 72px;
+
 		&-bottom {
 			flex-direction: column;
 		}
@@ -153,6 +155,13 @@
 			&:not(:last-child) {
 				margin-bottom: 10px;
 			}
+		}
+	}
+
+	.extended-mobile-menu-panel,
+	.extended-mobile-menu-panel-total {
+		.footer {
+			padding-bottom: 132px;
 		}
 	}
 }

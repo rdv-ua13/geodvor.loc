@@ -55,7 +55,10 @@
 </head>
 
 
-<body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?> <?=(strpos($_SERVER["REQUEST_URI"], "card-product.php"))? 'card-product-page' : ''?>">
+<body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?>
+        <?=(strpos($_SERVER["REQUEST_URI"], "card-detail.php"))? 'extended-mobile-menu-panel' : ''?>
+        <?=(strpos($_SERVER["REQUEST_URI"], "cart.php") || strpos($_SERVER["REQUEST_URI"], "order.php"))? 'extended-mobile-menu-panel-total' : ''?>"
+>
     <header
             class="header fixed-block
                 <?=(!strpos($_SERVER["REQUEST_URI"], "index.php") && !strpos($_SERVER["REQUEST_URI"], "catalog.php"))? 'header-less' : ''?>
@@ -1248,6 +1251,49 @@
     </div>
 
     <div class="mobile-menu-panel">
+        <div class="mobile-menu-panel__cart">
+            <div class="cart-buy">
+                <div class="cart-quantity">
+                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#minus"></use>
+                        </svg>
+                    </button>
+                    <input
+                            id=""
+                            class="input-reset cart-quantity-input"
+                            type="text"
+                            placeholder="999"
+                            value="1"
+                            max="999"
+                            data-mult="1"
+                    >
+                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#plus"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="cart-in-wrapper" data-entity="buttons-block">
+                    <div id="">
+                        <a id="" class="btn-reset btn cart-in" href="javascript:;" rel="nofollow">
+                            <span class="text-content">В корзину</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu-panel__total">
+            <div class="mobile-menu-panel__total-info">
+                <div class="mobile-menu-panel__total-info-title">Итого</div>
+                <div class="mobile-menu-panel__total-info-value">7950 ₽</div>
+            </div>
+            <div class="mobile-menu-panel__total-cta">
+                <button class="btn-reset btn" type="button">
+                    <span class="text-content">Перейти к оформлению</span>
+                </button>
+            </div>
+        </div>
         <div class="mobile-menu-panel__toolbar">
             <ul class="list-reset mobile-menu-panel__list">
                 <li>
