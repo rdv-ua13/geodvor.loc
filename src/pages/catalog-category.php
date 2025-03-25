@@ -23,83 +23,85 @@
             <div class="cp-sidebar" data-filter>
                 <div class="cp-sidebar__item cp-sidebar__top cp-sidebar__top-back cp-sidebar-category">
                     <div class="cp-sidebar__heading">Геотекстиль</div>
-                    <ul class="list-reset cp-sidebar__list">
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Агроткань с разметкой</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстить Дорнит</span>
-                                <span class=" stock">8</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль из полипропилена</span>
-                                <span class="cp-sidebar__link-content stock">43</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль для дренажа</span>
-                                <span class="cp-sidebar__link-content stock">4</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль для садовых дорожек</span>
-                                <span class="cp-sidebar__link-content stock">16</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Геотекстиль в нарезке</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link" title="Временно статика">
-                                <span class="cp-sidebar__link-content" style="color:var(--gray40-color);">Еще 5</span>
-                                <svg class="cp-sidebar__link-content icon icon-fill" style="fill: var(--gray40-color);">
-                                    <use href="img/sprite.svg#chevron-down"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <?/*
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>
-                        <li class="cp-sidebar__list-item">
-                            <a href="javascript:;" class="cp-sidebar__link">
-                                <span class="cp-sidebar__link-content">Название подкатегории</span>
-                                <span class="cp-sidebar__link-content stock">11</span>
-                            </a>
-                        </li>*/?>
-                    </ul>
+                    <div class="spoiler-wrapper spoiler-catalog-wrapper">
+                        <div
+                                class="spoiler spoiler-catalog"
+                                data-spoiler-catalog
+                                data-spoiler-more-num="99"
+                                data-collapsed-height-desktop="180"
+                        >
+                            <div class="spoiler-content">
+                                <ul class="list-reset cp-sidebar__list">
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link subcategory-active">
+                                            <span class="cp-sidebar__link-content">Агроткань с разметкой</span>
+                                            <span class="cp-sidebar__link-content stock">11</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Геотекстить Дорнит</span>
+                                            <span class=" stock">8</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Геотекстиль из полипропилена</span>
+                                            <span class="cp-sidebar__link-content stock">43</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Геотекстиль для дренажа</span>
+                                            <span class="cp-sidebar__link-content stock">4</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Геотекстиль для садовых дорожек</span>
+                                            <span class="cp-sidebar__link-content stock">16</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Геотекстиль в нарезке</span>
+                                            <span class="cp-sidebar__link-content stock">11</span>
+                                        </a>
+                                    </li>
+									<li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Название подкатегории</span>
+                                            <span class="cp-sidebar__link-content stock">11</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Название подкатегории</span>
+                                            <span class="cp-sidebar__link-content stock">11</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Название подкатегории</span>
+                                            <span class="cp-sidebar__link-content stock">11</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Название подкатегории</span>
+                                            <span class="cp-sidebar__link-content stock">11</span>
+                                        </a>
+                                    </li>
+                                    <li class="cp-sidebar__list-item">
+                                        <a href="javascript:;" class="cp-sidebar__link">
+                                            <span class="cp-sidebar__link-content">Название подкатегории</span>
+                                            <span class="cp-sidebar__link-content stock">11</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="cp-sidebar__item cp-sidebar-filter">
                     <div class="cp-sidebar-filter__header">
@@ -153,60 +155,65 @@
                                                 >
                                             </div>
                                         </div>
-
-                                        <?/* @note - доделать
-                                        <div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-                                            <div id="debitRange"></div>
-                                            <div class="range-slider__values">
-                                                <span id="debitRangeValueMin" class="range-slider__val">0</span>
-                                                <span id="debitRangeValueMax" class="range-slider__val">2726</span>
-                                            </div>
-                                        </div>*/?>
                                     </li>
                                 </ul>
                             </li>
                             <li class="cp-sidebar-filter__options-item">
                                 <div class="cp-sidebar__heading">Марка</div>
-                                <ul class="list-reset cp-sidebar__list">
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-10" class="custom-checkbox__input" type="checkbox" name="csf10[0]">
-                                            <label for="csf-checkbox-10" class="custom-checkbox__label-for">Дорнит ГЕО</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-11" class="custom-checkbox__input" type="checkbox" name="csf10[1]">
-                                            <label for="csf-checkbox-11" class="custom-checkbox__label-for">Геоком Д</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-12" class="custom-checkbox__input" type="checkbox" name="csf10[2]">
-                                            <label for="csf-checkbox-12" class="custom-checkbox__label-for">Лавсан ГЕО</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-13" class="custom-checkbox__input" type="checkbox" name="csf10[3]">
-                                            <label for="csf-checkbox-13" class="custom-checkbox__label-for">Геотекс</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <span class="custom-checkbox">
-                                            <input id="csf-checkbox-14" class="custom-checkbox__input" type="checkbox" name="csf10[4]">
-                                            <label for="csf-checkbox-14" class="custom-checkbox__label-for">Канвалан</label>
-                                        </span>
-                                    </li>
-                                    <li class="cp-sidebar__list-item">
-                                        <a href="javascript:;" class="cp-sidebar__link" title="Временно статика">
-                                            <span class="cp-sidebar__link-content" style="color:var(--gray40-color);">Еще 5</span>
-                                            <svg class="cp-sidebar__link-content icon icon-fill" style="fill: var(--gray40-color);">
-                                                <use href="img/sprite.svg#chevron-down"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div class="spoiler-wrapper spoiler-catalog-wrapper">
+                                    <div
+                                            class="spoiler spoiler-catalog"
+                                            data-spoiler-catalog
+                                            data-spoiler-more-num="33"
+                                    >
+                                        <div class="spoiler-content">
+                                            <ul class="list-reset cp-sidebar__list">
+                                                <li class="cp-sidebar__list-item">
+                                                    <span class="custom-checkbox">
+                                                        <input id="csf-checkbox-10" class="custom-checkbox__input" type="checkbox" name="csf10[0]">
+                                                        <label for="csf-checkbox-10" class="custom-checkbox__label-for">Дорнит ГЕО</label>
+                                                    </span>
+                                                </li>
+                                                <li class="cp-sidebar__list-item">
+                                                    <span class="custom-checkbox">
+                                                        <input id="csf-checkbox-11" class="custom-checkbox__input" type="checkbox" name="csf10[1]">
+                                                        <label for="csf-checkbox-11" class="custom-checkbox__label-for">Геоком Д</label>
+                                                    </span>
+                                                </li>
+                                                <li class="cp-sidebar__list-item">
+                                                    <span class="custom-checkbox">
+                                                        <input id="csf-checkbox-12" class="custom-checkbox__input" type="checkbox" name="csf10[2]">
+                                                        <label for="csf-checkbox-12" class="custom-checkbox__label-for">Лавсан ГЕО</label>
+                                                    </span>
+                                                </li>
+                                                <li class="cp-sidebar__list-item">
+                                                    <span class="custom-checkbox">
+                                                        <input id="csf-checkbox-13" class="custom-checkbox__input" type="checkbox" name="csf10[3]">
+                                                        <label for="csf-checkbox-13" class="custom-checkbox__label-for">Геотекс</label>
+                                                    </span>
+                                                </li>
+                                                <li class="cp-sidebar__list-item">
+                                                    <span class="custom-checkbox">
+                                                        <input id="csf-checkbox-14" class="custom-checkbox__input" type="checkbox" name="csf10[4]">
+                                                        <label for="csf-checkbox-14" class="custom-checkbox__label-for">Канвалан</label>
+                                                    </span>
+                                                </li>
+                                                <li class="cp-sidebar__list-item">
+                                                    <span class="custom-checkbox">
+                                                        <input id="csf-checkbox-14" class="custom-checkbox__input" type="checkbox" name="csf10[5]">
+                                                        <label for="csf-checkbox-14" class="custom-checkbox__label-for">Канвалан2</label>
+                                                    </span>
+                                                </li>
+                                                <li class="cp-sidebar__list-item">
+                                                    <span class="custom-checkbox">
+                                                        <input id="csf-checkbox-14" class="custom-checkbox__input" type="checkbox" name="csf10[6]">
+                                                        <label for="csf-checkbox-14" class="custom-checkbox__label-for">Канвалан3</label>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li class="cp-sidebar-filter__options-item">
                                 <div class="cp-sidebar__heading">Способ производства</div>
@@ -284,15 +291,6 @@
                                                 >
                                             </div>
                                         </div>
-
-										<?/* @note - доделать
-										<div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-										<div id="debitRange"></div>
-										<div class="range-slider__values">
-										<span id="debitRangeValueMin" class="range-slider__val">0</span>
-										<span id="debitRangeValueMax" class="range-slider__val">2726</span>
-										</div>
-										</div>*/?>
                                     </li>
                                 </ul>
                             </li>
@@ -320,15 +318,6 @@
                                                 >
                                             </div>
                                         </div>
-
-										<?/* @note - доделать
-										<div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-										<div id="debitRange"></div>
-										<div class="range-slider__values">
-										<span id="debitRangeValueMin" class="range-slider__val">0</span>
-										<span id="debitRangeValueMax" class="range-slider__val">2726</span>
-										</div>
-										</div>*/?>
                                     </li>
                                 </ul>
                             </li>
@@ -356,15 +345,6 @@
                                                 >
                                             </div>
                                         </div>
-
-										<?/* @note - доделать
-										<div class="order-step-bonus-action__item order-step-bonus-debit-range range-slider">
-										<div id="debitRange"></div>
-										<div class="range-slider__values">
-										<span id="debitRangeValueMin" class="range-slider__val">0</span>
-										<span id="debitRangeValueMax" class="range-slider__val">2726</span>
-										</div>
-										</div>*/?>
                                     </li>
                                 </ul>
                             </li>

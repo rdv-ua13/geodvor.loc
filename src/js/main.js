@@ -12,6 +12,7 @@ application.prototype.init = function () {
     this.initFancyboxBehavior();
     this.initTooltips();
     this.initReadmore();
+    this.initReadmoreCatalog();
     this.initHeaderFloat();
     this.initCatalogDetailSidebarFloat();
     this.initBurger();
@@ -174,6 +175,95 @@ application.prototype.initReadmore = function () {
             }
             else {
                 $('.spoiler-' + i).readmore(spoilerSettings);
+            }
+        });
+    }
+};
+
+// Initialize readmore plugin in catalog`s sidebar
+application.prototype.initReadmoreCatalog = function () {
+    if ($('[data-spoiler-catalog]').length) {
+        const spoiler = $('[data-spoiler-catalog]');
+        let spoilerSettings = null;
+
+        spoiler.each(function (i) {
+            let currentMoreText = spoiler.eq(i).data('spoiler-more');
+            let currentLessText = spoiler.eq(i).data('spoiler-less');
+            let currentMoreNum = spoiler.eq(i).data('spoiler-more-num');
+            let defaultHeight = null;
+            let defaultMoreText = 'Еще ' + currentMoreNum;
+            let defaultLessText = 'Свернуть';
+            let currentElemHeight = null;
+            let currentElemHeightDesktop = spoiler.eq(i).data('collapsed-height-desktop');
+            let currentElemHeightMobile = spoiler.eq(i).data('collapsed-height-mobile');
+
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                defaultHeight = 148;
+
+                if (currentElemHeightDesktop) {
+                    currentElemHeight = currentElemHeightDesktop;
+                }
+                else if (currentElemHeightDesktop === '' || currentElemHeightDesktop === null || currentElemHeightDesktop === undefined) {
+                    currentElemHeight = defaultHeight;
+                }
+            }
+            else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                defaultHeight = 164;
+
+                if (currentElemHeightMobile) {
+                    currentElemHeight = currentElemHeightMobile;
+                }
+                else if (currentElemHeightMobile === '' || currentElemHeightMobile === null || currentElemHeightMobile === undefined) {
+                    currentElemHeight = defaultHeight;
+                }
+            }
+
+            if (currentMoreText === '' || currentMoreText === null || currentMoreText === undefined &&
+                currentLessText === '' || currentLessText === null || currentLessText === undefined)
+            {
+                currentMoreText = defaultMoreText;
+                currentLessText = defaultLessText;
+            } else if (currentMoreText === '' || currentMoreText === null || currentMoreText === undefined) {
+                currentMoreText = defaultMoreText;
+            } else if (currentLessText === '' || currentLessText === null || currentLessText === undefined) {
+                currentLessText = defaultLessText;
+            }
+
+            spoiler.eq(i).addClass('spoiler-catalog-' + i);
+            spoilerSettings = {
+                collapsedHeight: currentElemHeight,
+                moreLink: '<a href="javascript:;" class="link-secondary spoiler-trigger">\n' +
+                    '   <span class="text-content">' + currentMoreText + '</span>\n' +
+                    '       <svg class="icon icon-fill">\n' +
+                    '           <use href="img/sprite.svg#chevron-down"></use>\n' +
+                    '       </svg>' +
+                    '</a>',
+                lessLink: '<a href="javascript:;" class="link-secondary spoiler-trigger">\n' +
+                    '   <span class="text-content">' + currentLessText + '</span>\n' +
+                    '       <svg class="icon icon-fill">\n' +
+                    '           <use href="img/sprite.svg#chevron-up"></use>\n' +
+                    '       </svg>' +
+                    '</a>',
+            };
+
+            if($('.spoiler-catalog-' + i).is('[data-spoiler-catalog-mobile-only]')) {
+                if(window.matchMedia('(min-width: 992px)').matches) {
+                    $('.spoiler-catalog-' + i).readmore('destroy');
+                }
+                else if(window.matchMedia('(max-width: 991.98px)').matches) {
+                    $('.spoiler-catalog-' + i).readmore(spoilerSettings);
+                }
+            }
+            else if($('.spoiler-catalog-' + i).is('[data-spoiler-catalog-desktop-only]')) {
+                if(window.matchMedia('(min-width: 992px)').matches) {
+                    $('.spoiler-catalog-' + i).readmore(spoilerSettings);
+                }
+                else if(window.matchMedia('(max-width: 991.98px)').matches) {
+                    $('.spoiler-catalog-' + i).readmore('destroy');
+                }
+            }
+            else {
+                $('.spoiler-catalog-' + i).readmore(spoilerSettings);
             }
         });
     }

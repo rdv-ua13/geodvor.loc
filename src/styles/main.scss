@@ -115,6 +115,11 @@
 					color: var(--gray30-color);
 				}
 			}
+
+			&.subcategory-active {
+				color: var(--text-primary);
+				font-weight: 600;
+			}
 		}
 
 		&-filter {
@@ -614,6 +619,7 @@
 			}
 
 			&-category {
+				.spoiler-trigger,
 				.cp-sidebar__list {
 					padding-left: 24px;
 				}

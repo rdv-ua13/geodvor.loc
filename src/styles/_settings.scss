@@ -2174,7 +2174,7 @@ input.disabled {
 		transition: var(--transition);
 	}
 	&[data-readmore] {
-		margin-bottom: 12px;
+		margin-bottom: 16px;
 
 		&[aria-expanded="true"] {
 			&::before {
@@ -2185,6 +2185,37 @@ input.disabled {
 	&,
 	&-content {
 		display: block;
+	}
+
+	&-catalog {
+		&::before {
+			content: none;
+		}
+
+		&-wrapper {
+			.spoiler {
+				&-trigger {
+					display: inline-flex;
+					align-items: center;
+					gap: 4px;
+					line-height: 20px;
+
+					.icon {
+						min-width: 16px;
+						width: 16px;
+						min-height: 16px;
+						height: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.spoiler {
+		&[data-readmore] {
+			margin-bottom: 12px;
+		}
 	}
 }
 
