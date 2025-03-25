@@ -126,10 +126,33 @@ application.prototype.initReadmore = function () {
         spoiler.each(function (i) {
             let currentMoreText = spoiler.eq(i).data('spoiler-more');
             let currentLessText = spoiler.eq(i).data('spoiler-less');
-            let defaultHeight = 220;
+            let defaultHeight = null;
             let defaultMoreText = 'Показать все';
             let defaultLessText = 'Свернуть';
-            let currentElemHeight = spoiler.eq(i).data('collapsed-height');
+            let currentElemHeight = null;
+            let currentElemHeightDesktop = spoiler.eq(i).data('collapsed-height-desktop');
+            let currentElemHeightMobile = spoiler.eq(i).data('collapsed-height-mobile');
+
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                defaultHeight = 224;
+
+                if (currentElemHeightDesktop) {
+                    currentElemHeight = currentElemHeightDesktop;
+                }
+                else if (currentElemHeightDesktop === '' || currentElemHeightDesktop === null || currentElemHeightDesktop === undefined) {
+                    currentElemHeight = defaultHeight;
+                }
+            }
+            else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                defaultHeight = 272;
+
+                if (currentElemHeightMobile) {
+                    currentElemHeight = currentElemHeightMobile;
+                }
+                else if (currentElemHeightMobile === '' || currentElemHeightMobile === null || currentElemHeightMobile === undefined) {
+                    currentElemHeight = defaultHeight;
+                }
+            }
 
             if (currentMoreText === '' || currentMoreText === null || currentMoreText === undefined &&
                 currentLessText === '' || currentLessText === null || currentLessText === undefined)
