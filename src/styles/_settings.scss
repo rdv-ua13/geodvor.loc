@@ -1296,6 +1296,17 @@ input.disabled {
 		&:disabled,
 		&.disabled {
 			cursor: not-allowed;
+
+			&,
+			&:hover {
+				border-color: var(--gray1-color);
+				background-color: var(--gray1-color);
+			}
+			& ~ .custom-checkbox__label-for,
+			& ~ .custom-radio__label-for {
+				color: var(--text-caption);
+				user-select: none;
+			}
 		}
 	}
 	&__label-for {
