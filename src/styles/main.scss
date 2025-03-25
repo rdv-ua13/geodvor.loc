@@ -761,6 +761,9 @@
 				}
 				&-selected {
 					order: 0;
+					display: flex;
+					flex-wrap: wrap;
+					gap: 4px;
 
 					&-item {
 						gap: 2px;
@@ -769,6 +772,7 @@
 						padding-right: 11px;
 						padding-left: 11px;
 						font-weight: 500;
+						cursor: pointer;
 
 						.cp-content__filter-selected-delete {
 							margin-right: -6px;
