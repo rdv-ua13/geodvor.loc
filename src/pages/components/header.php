@@ -56,7 +56,7 @@
 
 
 <body class="<?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'index' : ''?>
-        <?=(strpos($_SERVER["REQUEST_URI"], "card-detail.php"))? 'extended-mobile-menu-panel' : ''?>
+        <?=(strpos($_SERVER["REQUEST_URI"], "card-detail.php"))? 'extended-mobile-menu-panel card-detail-page' : ''?>
         <?=(strpos($_SERVER["REQUEST_URI"], "cart.php") || strpos($_SERVER["REQUEST_URI"], "order.php"))? 'extended-mobile-menu-panel-total' : ''?>"
 >
     <header

@@ -1,6 +1,6 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
-<div class="nav-breadcrumbs-wrapper nav-breadcrumbs-wrapper-detail">
+<div class="nav-breadcrumbs-wrapper">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/breadcrumbs.php"); ?>
 </div>
 
