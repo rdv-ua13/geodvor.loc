@@ -17,9 +17,12 @@
                 </a>
             </div>
             <div class="cp-heading__cta">
-                <button class="btn-reset btn btn-sm btn-ghost" type="button" data-favorites>
+                <button class="btn-reset btn btn-sm btn-ghost btn-icon-switch" type="button" data-favorites>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#heart"></use>
+                    </svg>
+                    <svg class="icon icon-fill selected">
+                        <use href="img/sprite.svg#filled-heart"></use>
                     </svg>
                     <span class="text-content">Добавить в избранное</span>
                 </button>
