@@ -389,12 +389,9 @@
 		pointer-events: auto;
 		user-select: auto;
 	}
-	&.menu-catalog-overflow {
-		overflow: auto;
-	}
 	&,
 	&-root,
-	&-submenu-links {
+	&-submenu {
 		&::-webkit {
 			&-scrollbar,
 			&-scrollbar-track {
@@ -410,7 +407,8 @@
 		}
 	}
 	&,
-	&-root {
+	&-root,
+	&-submenu {
 		&::-webkit {
 			&-scrollbar,
 			&-scrollbar-track,
@@ -444,7 +442,7 @@
 	}
 
 	&-root {
-		overflow: auto;
+		overflow-y: auto;
 
 		&-item {
 			display: flex;
@@ -480,6 +478,8 @@
 	}
 
 	&-submenu {
+		overflow-y: auto;
+
 		&-section {
 			&:not(.active) {
 				display: none;
@@ -1175,21 +1175,22 @@
 			display: none;
 		}
 
-		// @note
 		&:not(.header-float) {
 			& ~ .menu-catalog {
 				top: 130px;
 				right: 0;
 				left: 0;
+				min-height: calc(100vh - 130px);
+				height: calc(100vh - 130px);
 
-				&.menu-catalog-overflow {
-					min-height: calc(100vh - 185px);
-					height: calc(100vh - 185px);
+				.menu-catalog-root,
+				.menu-catalog-submenu {
+					min-height: calc(100vh - 130px);
+					height: calc(100vh - 130px);
 				}
 			}
 		}
 
-		// @note
 		&.header-float {
 			border-bottom: 1px solid var(--gray1-color);
 
@@ -1202,10 +1203,13 @@
 				top: 60px;
 				right: 0;
 				left: 0;
+				min-height: calc(100vh - 60px);
+				height: calc(100vh - 60px);
 
-				&.menu-catalog-overflow {
-					min-height: calc(100vh - 61px);
-					height: calc(100vh - 61px);
+				.menu-catalog-root,
+				.menu-catalog-submenu {
+					min-height: calc(100vh - 60px);
+					height: calc(100vh - 60px);
 				}
 			}
 		}
@@ -1214,15 +1218,12 @@
 	.menu-catalog {
 		border-top: 1px solid var(--gray1-color);
 
-		&,
-		&-root,
-		&-submenu {
-			max-height: 700px;
-		}
 		&-header {
 			display: none;
 		}
 		&-root {
+			min-width: 290px;
+			width: 290px;
 			padding: 16px 6px 0 0;
 
 			&-link {
@@ -1230,6 +1231,8 @@
 			}
 		}
 		&-submenu {
+			min-width: calc(100% - 290px);
+			width: calc(100% - 290px);
 			padding: 32px;
 			border-left: 1px solid var(--gray1-color);
 
@@ -1241,9 +1244,16 @@
 				}
 			}
 			&-links {
-				column-count: 3;
-				column-gap: 40px;
+				display: flex;
+				gap: 40px;
 
+				&__column {
+					display: flex;
+					min-width: calc((100% - 80px) / 3);
+					width: calc((100% - 80px) / 3);
+					flex-direction: column;
+					gap: 32px;
+				}
 				li {
 					display: flex;
 					flex-direction: column;
@@ -1531,10 +1541,6 @@
 		left: 0;
 		min-height: 100%;
 
-		&.menu-catalog-overflow {
-			min-height: 100%;
-			height: 100%;
-		}
 		&-container {
 			padding: 60px 0 0;
 		}

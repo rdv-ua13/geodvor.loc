@@ -18,7 +18,6 @@ application.prototype.init = function () {
     this.initBurger();
     this.initOverlay();
     this.initMenu();
-    this.setMenuHeightOverflow();
     this.initMenuCatalogSubmenu();
     this.initBasicSlider();
     this.initSliders();
@@ -444,11 +443,13 @@ application.prototype.initMenu = function () {
             catalogSpoiler.attr('aria-label', 'Открыть меню');
             catalogSpoiler.removeClass('active');
             catalog.removeClass('active');
+            return application.prototype.enableScroll();
         } else {
             catalogSpoiler.attr('aria-expanded', 'true');
             catalogSpoiler.attr('aria-label', 'Закрыть меню');
             catalogSpoiler.addClass('active');
             catalog.addClass('active');
+            return application.prototype.disableScroll();
         }
     }
 
@@ -459,6 +460,7 @@ application.prototype.initMenu = function () {
         catalog.removeClass('active');
         $('.menu-catalog-header').removeClass('submenu');
         $('.overlay-transparent').remove();
+        return application.prototype.enableScroll();
     }
 
     function setOverlay() {
@@ -474,26 +476,6 @@ application.prototype.initMenu = function () {
     }
 };
 
-// @note
-// Initialize menu height overflow
-application.prototype.setMenuHeightOverflow = function () {
-    defineMenuOverflow();
-    $(window).on('resize', function () {
-        defineMenuOverflow();
-    });
-
-    function defineMenuOverflow() {
-        let windowHeight = $(window).outerHeight();
-        let menuHeight = $('.menu-catalog').outerHeight();
-
-        if (menuHeight > windowHeight) {
-            $('.menu-catalog').addClass('menu-catalog-overflow');
-        } else {
-            $('.menu-catalog').removeClass('menu-catalog-overflow');
-        }
-    }
-};
-// @note
 // Initialize menu catalog behavior
 application.prototype.initMenuCatalogSubmenu = function () {
     const catalogSpoiler = $('[data-catalog-spoiler]');
