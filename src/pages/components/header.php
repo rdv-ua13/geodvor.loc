@@ -43,6 +43,7 @@
     <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
     <script defer src="js/popper.js"></script>                  <!-- popper -->
     <script defer src="js/readmore.js"></script>                <!-- readmore -->
+    <script defer src="js/select2.js"></script>                 <!-- select2 -->
     <script defer src="js/swiper-bundle.js"></script>           <!-- swiper -->
     <script defer src="js/tippy-bundle.umd.js"></script>        <!-- tippy -->
 

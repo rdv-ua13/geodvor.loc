@@ -117,6 +117,23 @@
                                                 </a>
                                             </div>
 
+                                            <div class="order-step-row">
+                                                <div class="titled-input">
+                                                    <div class="input-title">Сохраненные контрагенты</div>
+                                                    <div class="input-wrapper">
+                                                        <select class="input-reset input input-secondary input-select2 js-select2" name="">
+                                                            <option value="">ИП Кривицкий Сергей Олегович</option>
+                                                            <option value="">ИП Кривицкий Сергей Олегович2</option>
+                                                            <option value="">ИП Кривицкий Сергей Олегович3</option>
+                                                            <option value="">ИП Кривицкий Сергей Олегович4</option>
+                                                            <option value="">ИП Кривицкий Сергей Олегович5</option>
+                                                            <option value="">ИП Кривицкий Сергей Олегович6</option>
+                                                            <option value="">ИП Кривицкий Сергей Олегович7</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class="order-step-row order-step-row--twin">
                                                 <div class="titled-input">
                                                     <div class="input-title">Номер телефона для связи <span class="required-star">*</span></div>
@@ -207,7 +224,7 @@
                                             <div class="order-step-row">
                                                 <div class="titled-input">
                                                     <div class="input-title">Укажите адрес доставки  <span class="required-star">*</span></div>
-                                                    <div class="input-wrapper">
+                                                    <div class="input-wrapper input-wrapper-dropdown">
                                                         <input
                                                                 class="input-reset input input-secondary"
                                                                 type="text"
@@ -216,6 +233,23 @@
                                                                 placeholder="Начните вводить адрес"
                                                                 required
                                                         >
+                                                        <div class="input-dropdown">
+                                                            <div class="input-dropdown__item">
+                                                                <span class="text-content">123456, Москва, улица Ленина, дом 1</span>
+                                                            </div>
+                                                            <div class="input-dropdown__item">
+                                                                <span class="text-content">654321, Санкт-Петербург, проспект Невский, дом 10</span>
+                                                            </div>
+                                                            <div class="input-dropdown__item">
+                                                                <span class="text-content">987654, Казань, улица Баумана, дом 5</span>
+                                                            </div>
+                                                            <div class="input-dropdown__item">
+                                                                <span class="text-content">456789, Новосибирск, улица Красный проспект, дом 20</span>
+                                                            </div>
+                                                            <div class="input-dropdown__item">
+                                                                <span class="text-content">321654, Екатеринбург, улица Малышева, дом 15</span>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
