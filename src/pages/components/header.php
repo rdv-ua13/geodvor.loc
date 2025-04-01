@@ -1130,17 +1130,149 @@
                                 <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
                                 <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
                                 <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;" data-submenu-section-dropdown="0">
+                                        <span class="text-content">Геотекстиль Дорнит</span>
+                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
+                                            <use href="img/sprite.svg#chevron-right"></use>
+                                        </svg>
+                                    </a>
+                                    <ul class="list-reset menu-catalog-submenu-link-points">
+                                        <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link-points-item" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
+                                        <li>
+                                            <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                                <span class="text-content">Плотность 150</span>
+                                                <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                    <use href="img/sprite.svg#chevron-right"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                                <span class="text-content">Плотность 200</span>
+                                                <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                    <use href="img/sprite.svg#chevron-right"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                                <span class="text-content">Плотность 250</span>
+                                                <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                    <use href="img/sprite.svg#chevron-right"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                                <span class="text-content">Плотность 300</span>
+                                                <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                    <use href="img/sprite.svg#chevron-right"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
                                     <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Геотекстиль из полипропилена</span>
+                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
+                                            <use href="img/sprite.svg#chevron-right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Геотекстиль для дренажа</span>
+                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
+                                            <use href="img/sprite.svg#chevron-right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Геотекстиль для садовых дорожек</span></a></li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Геотекстиль в нарезке</span>
+                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
+                                            <use href="img/sprite.svg#chevron-right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Геотекстиль для заезда на участок</span>
+                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
+                                            <use href="img/sprite.svg#chevron-right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                        <span class="text-content">Геотекстиль под фундамент</span>
+                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
+                                            <use href="img/sprite.svg#chevron-right"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="list-reset menu-catalog-submenu-links__list">
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            </ul>
+                            <ul class="list-reset menu-catalog-submenu-links__list">
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            </ul>
+                            <ul class="list-reset menu-catalog-submenu-links__list">
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-catalog-submenu-links__column">
+                            <ul class="list-reset menu-catalog-submenu-links__list">
+                                <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
+                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
+                                <li>
+                                    <a class="menu-catalog-submenu-link" href="javascript:;" data-submenu-section-dropdown="1">
                                         <span class="text-content">Геотекстиль Дорнит</span>
                                         <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                             <use href="img/sprite.svg#chevron-right"></use>
                                         </svg>
                                     </a>
                                     <div class="menu-catalog-submenu-link-points">
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 150</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 200</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 250</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 300</a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 150</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 200</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 250</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 300</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
                                     </div>
                                 </li>
                                 <li>
@@ -1213,100 +1345,37 @@
                                 <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
                                 <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
                                 <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
+                                    <a class="menu-catalog-submenu-link" href="javascript:;" data-submenu-section-dropdown="2">
                                         <span class="text-content">Геотекстиль Дорнит</span>
                                         <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
                                             <use href="img/sprite.svg#chevron-right"></use>
                                         </svg>
                                     </a>
                                     <div class="menu-catalog-submenu-link-points">
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 150</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 200</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 250</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 300</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль из полипропилена</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для дренажа</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Геотекстиль для садовых дорожек</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль в нарезке</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль для заезда на участок</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль под фундамент</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Пункт подменю</span></a></li>
-                            </ul>
-                        </div>
-                        <div class="menu-catalog-submenu-links__column">
-                            <ul class="list-reset menu-catalog-submenu-links__list">
-                                <li class="menu-catalog-submenu-all"><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Все товары раздела</span></a></li>
-                                <li><a class="menu-catalog-submenu-link" href="javascript:;"><span class="text-content">Агроткань с разметкой</span></a></li>
-                                <li>
-                                    <a class="menu-catalog-submenu-link" href="javascript:;">
-                                        <span class="text-content">Геотекстиль Дорнит</span>
-                                        <svg class="icon icon-fill menu-catalog-submenu-link-pointer">
-                                            <use href="img/sprite.svg#chevron-right"></use>
-                                        </svg>
-                                    </a>
-                                    <div class="menu-catalog-submenu-link-points">
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 150</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 200</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 250</a>
-                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">Плотность 300</a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 150</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 200</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 250</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="javascript:;" class="menu-catalog-submenu-link-points-item">
+                                            <span class="text-content">Плотность 300</span>
+                                            <svg class="icon icon-fill menu-catalog-submenu-link-points-item-pointer">
+                                                <use href="img/sprite.svg#chevron-right"></use>
+                                            </svg>
+                                        </a>
                                     </div>
                                 </li>
                                 <li>

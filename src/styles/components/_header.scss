@@ -497,6 +497,12 @@
 		}
 		&-link {
 			font-size: 15px;
+
+			&-points {
+				&-item {
+					font-size: 15px;
+				}
+			}
 		}
 	}
 }
@@ -1282,6 +1288,21 @@
 					display: flex;
 					flex-direction: column;
 					gap: 12px;
+
+					li {
+						&:not(:last-child) {
+							margin-bottom: unset;
+						}
+					}
+					&-item {
+						display: inline-flex;
+						align-items: center;
+						gap: 8px;
+
+						&-pointer {
+							display: none;
+						}
+					}
 				}
 			}
 		}
@@ -1557,7 +1578,7 @@
 			padding: 8px 12px;
 			background-color: var(--white-color);
 
-			&:not(.submenu) {
+			&:not(.submenu, .submenu-dropdown) {
 				.menu-catalog-title-back {
 					display: none;
 				}
@@ -1635,6 +1656,55 @@
 				&__title {
 					display: none;
 				}
+
+				&.submenu-dropdown {
+					.menu-catalog-submenu-links {
+						&__list {
+							li {
+								border: unset;
+							}
+						}
+					}
+					.menu-catalog-submenu-link {
+						display: none;
+
+						&-points {
+							&.active {
+								li {
+									border-top: 1px solid var(--gray1-color);
+								}
+								.menu-catalog-submenu-link-points-item {
+									display: flex;
+									flex: 1;
+									align-items: center;
+									gap: 12px;
+									min-height: 44px;
+									height: 44px;
+									padding-right: 12px;
+									padding-left: 12px;
+
+									.text-content {
+										flex: 1;
+									}
+									.icon {
+										min-width: 16px;
+										width: 16px;
+										min-height: 16px;
+										height: 16px;
+										fill: var(--text-secondary);
+										stroke: var(--text-secondary);
+									}
+
+									&:hover,
+									&:active,
+									&.active {
+										background-color: var(--gray0-color);
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 			&-links {
 				&__list {
@@ -1676,7 +1746,18 @@
 				}
 
 				&-points {
-					display: none;
+					&:not(.active) {
+						display: none;
+					}
+					&-item {
+						display: inline-flex;
+						align-items: center;
+						gap: 8px;
+
+						&-pointer {
+							display: none;
+						}
+					}
 				}
 			}
 		}
