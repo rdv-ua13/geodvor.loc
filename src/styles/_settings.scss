@@ -2219,6 +2219,20 @@ input.disabled {
 		&[data-readmore] {
 			margin-bottom: 12px;
 		}
+		&[data-spoiler-mobile-only] {
+			&::before {
+				content: none;
+			}
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.spoiler {
+		&[data-spoiler-desktop-only] {
+			&::before {
+				content: none;
+			}
+		}
 	}
 }
 
