@@ -210,46 +210,43 @@ application.prototype.initReadmoreCatalog = function () {
         const spoiler = $('[data-spoiler-catalog]');
         let spoilerSettings = null;
 
-        spoiler.each(function (i) {
+        spoiler.each(function (i, el) {
+            let $el = $(el);
             let currentMoreText = spoiler.eq(i).data('spoiler-more');
             let currentLessText = spoiler.eq(i).data('spoiler-less');
             let currentMoreNum = spoiler.eq(i).data('spoiler-more-num');
-            let defaultHeight = null;
+            let defaultHeight = [];
+            let spoilerHeight = 0;
             let defaultMoreText = 'Еще ' + currentMoreNum;
             let defaultLessText = 'Свернуть';
             let currentElemHeight = null;
             let currentElemHeightDesktop = spoiler.eq(i).data('collapsed-height-desktop');
             let currentElemHeightMobile = spoiler.eq(i).data('collapsed-height-mobile');
 
-            if (window.matchMedia('(min-width: 992px)').matches) {
-                defaultHeight = 148;
+            $el.find('.cp-sidebar__list-item').slice(0, 5).each(function(index) {
+                defaultHeight.push($(this).outerHeight());
 
-                if (currentElemHeightDesktop) {
-                    currentElemHeight = currentElemHeightDesktop;
-                }
-                else if (currentElemHeightDesktop === '' || currentElemHeightDesktop === null || currentElemHeightDesktop === undefined) {
-                    currentElemHeight = defaultHeight;
-                }
-            }
-            else if (window.matchMedia('(max-width: 991.98px)').matches) {
-                defaultHeight = 164;
+                spoilerHeight += parseInt(defaultHeight[index]) || 0;
+            });
 
-                if (currentElemHeightMobile) {
-                    currentElemHeight = currentElemHeightMobile;
-                }
-                else if (currentElemHeightMobile === '' || currentElemHeightMobile === null || currentElemHeightMobile === undefined) {
-                    currentElemHeight = defaultHeight;
-                }
+            if (currentElemHeightDesktop) {
+                currentElemHeight = currentElemHeightDesktop;
             }
+            else if (currentElemHeightDesktop === '' || currentElemHeightDesktop === null || currentElemHeightDesktop === undefined) {
+                currentElemHeight = spoilerHeight;
+            }
+
 
             if (currentMoreText === '' || currentMoreText === null || currentMoreText === undefined &&
                 currentLessText === '' || currentLessText === null || currentLessText === undefined)
             {
                 currentMoreText = defaultMoreText;
                 currentLessText = defaultLessText;
-            } else if (currentMoreText === '' || currentMoreText === null || currentMoreText === undefined) {
+            }
+            else if (currentMoreText === '' || currentMoreText === null || currentMoreText === undefined) {
                 currentMoreText = defaultMoreText;
-            } else if (currentLessText === '' || currentLessText === null || currentLessText === undefined) {
+            }
+            else if (currentLessText === '' || currentLessText === null || currentLessText === undefined) {
                 currentLessText = defaultLessText;
             }
 

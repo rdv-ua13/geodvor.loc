@@ -28,7 +28,6 @@
                                 class="spoiler spoiler-catalog"
                                 data-spoiler-catalog
                                 data-spoiler-more-num="99"
-                                data-collapsed-height-desktop="180"
                         >
                             <div class="spoiler-content">
                                 <ul class="list-reset cp-sidebar__list">
@@ -195,7 +194,7 @@
                                                 <li class="cp-sidebar__list-item">
                                                     <span class="custom-checkbox">
                                                         <input id="csf-checkbox-14" class="custom-checkbox__input" type="checkbox" name="csf10[4]">
-                                                        <label for="csf-checkbox-14" class="custom-checkbox__label-for">Канвалан</label>
+                                                        <label for="csf-checkbox-14" class="custom-checkbox__label-for">Канвалан Канвалан Канвалан Канвалан Канвалан</label>
                                                     </span>
                                                 </li>
                                                 <li class="cp-sidebar__list-item">

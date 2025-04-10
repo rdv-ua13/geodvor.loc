@@ -86,10 +86,10 @@
 		&__list {
 			display: flex;
 			flex-direction: column;
-			gap: 16px;
 
 			&-item {
 				display: flex;
+				padding-bottom: 16px;
 				line-height: 20px;
 			}
 		}
@@ -616,7 +616,9 @@
 				font-size: 15px;
 			}
 			&__list {
-				gap: 12px;
+				&-item {
+					padding-bottom: 12px;
+				}
 			}
 			&__link {
 				.stock {
